@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T11:25:44.772Z",
+  "checkpoint": {
+    "activationKey": "M09",
+    "signature": "M09|PROCESSING_CARD:M12",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M16",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M12",
+        "cardName": "抵价交易"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M16",
+      "signature": "M16|PROCESSING_CARD:M09,PROCESSING_CARD:UNKNOWN",
+      "detailTokens": [
+        "HAND_GAIN:M09",
+        "DRAW:UNKNOWN"
+      ]
+    },
+    {
+      "activationKey": "M09",
+      "signature": "M09|PROCESSING_CARD:M12",
+      "detailTokens": [
+        "HAND_GAIN:M12"
+      ]
+    }
+  ]
+}

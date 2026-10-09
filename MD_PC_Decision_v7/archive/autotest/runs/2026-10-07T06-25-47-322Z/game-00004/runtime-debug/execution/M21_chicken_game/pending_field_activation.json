@@ -1,0 +1,474 @@
+{
+  "version": 1,
+  "id": "11:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-07T06-41-38-943Z",
+  "before": {
+    "version": 2,
+    "capturedAt": "2026-10-07T06:41:38.400Z",
+    "revision": 11,
+    "handCount": 5,
+    "cards": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M09",
+        "name": "暴发户哥布林",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M09"
+        ],
+        "index": 3
+      },
+      {
+        "index": 4,
+        "x": 732,
+        "y": 1016,
+        "id": "M12",
+        "name": "抵价交易",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2226831329439363,
+        "usable": false,
+        "yellowPixels": 348,
+        "yellowRatio": 0.010622710622710623,
+        "top3": [
+          {
+            "id": "M12",
+            "name": "抵价交易",
+            "count": 3,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.2226831329439363,
+            "rmse": 0.2756578827332862,
+            "dhash": 32
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.22707286438487656,
+            "rmse": 0.3008917054213163,
+            "dhash": 36
+          }
+        ],
+        "timingMs": {
+          "locateMs": 583.822,
+          "clickAndSettleMs": 301.543,
+          "recognizeMs": 19.015,
+          "usabilityMs": 32.476,
+          "resetMs": 180.648,
+          "totalMs": 1117.989
+        }
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "accepted": true,
+        "index": 5,
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_11\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M09",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M17",
+        "name": "闪刀起动－交闪",
+        "accepted": true,
+        "index": 4,
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      },
+      "costConsumed": [],
+      "predictedSlots": [
+        2,
+        3
+      ],
+      "recognized": [
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M08"
+          ]
+        },
+        {
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M09"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 2,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        },
+        {
+          "slot": 3,
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "decisionBefore": {
+    "graveSpellCount": 7,
+    "fieldSpell": "M21",
+    "chickenGameDrawUsed": false,
+    "chickenGameDrawPending": true,
+    "bambooSwordEquipped": true,
+    "equippedBambooId": "M19",
+    "equipSentToGraveCount": 2,
+    "engageBlockedByMainMonster": false,
+    "rayeNormalSummoned": false,
+    "normalSummonUsed": false,
+    "usedCounts": {
+      "M15": 2,
+      "M21": 2,
+      "M22": 1,
+      "M19": 1,
+      "M20": 1,
+      "M17": 1
+    },
+    "effectUsage": {
+      "M19_SEARCH": 1,
+      "KAGARI_RECOVERY": 1
+    },
+    "effectUsageMeta": {
+      "M21_DRAW": {
+        "pending": true,
+        "fieldPlacementTransaction": "4:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-07T06-39-04-185Z",
+        "source": "M21_VERIFIED_FIELD_PLACEMENT",
+        "updatedAt": "2026-10-07T06:39:09.820Z"
+      },
+      "M19_SEARCH": {
+        "resolvedCount": 1,
+        "repeatable": true,
+        "source": "FORMAL_V5_ATOMIC_MAIN",
+        "updatedAt": "2026-10-07T06:40:41.965Z"
+      }
+    },
+    "notes": "V5 runtime decision state",
+    "v5Branch": {
+      "active": false,
+      "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+      "carrierId": "E02",
+      "updatedAt": "2026-10-07T06:41:19.727Z",
+      "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+      "postE10HornetBambooDraw2": false,
+      "hornetBambooDraw2": false,
+      "reservedYotoInHand": false,
+      "hornetYotoFixedSearch": false
+    },
+    "equippedBambooCounts": {
+      "M19": 1
+    },
+    "bambooEquipResources": {
+      "byId": {
+        "M19": {
+          "deck": 0,
+          "hand": 0,
+          "field": 1,
+          "total": 2,
+          "outsideHandField": 1
+        },
+        "M20": {
+          "deck": 0,
+          "hand": 0,
+          "field": 0,
+          "total": 1,
+          "outsideHandField": 1
+        }
+      },
+      "deckCount": 0,
+      "handCount": 0,
+      "fieldCount": 1,
+      "outsideHandFieldCount": 2,
+      "replacementCountAfterLink": 0,
+      "hasReplacementAfterLink": false,
+      "fieldIdentitySource": "COMMITTED_EQUIP"
+    },
+    "bambooContinuationPlan": {
+      "shouldLink": false,
+      "shouldContinue": false,
+      "routeKind": "PRESERVE",
+      "searchId": "M14",
+      "replacementId": null,
+      "carrierId": "E02",
+      "fieldId": "M19",
+      "prepareEquipId": null,
+      "goldenDrawReady": true,
+      "fixedContinuationReady": false,
+      "goldenDrawPreferred": true,
+      "twoYotoKagari": false,
+      "firstTrueGoldenSetup": false,
+      "replacementSource": null,
+      "canReplaceEquipDeterministically": false,
+      "deferredGoldenSearch": false,
+      "convertsTrue": false,
+      "steps": [],
+      "projectedEquipSentToGraveCount": 0,
+      "projectedFieldEquipId": "M19",
+      "reason": "ORDINARY_GOLDEN_DRAW_BEFORE_SPECULATIVE_DEPARTURE",
+      "equipResources": {
+        "byId": {
+          "M19": {
+            "deck": 0,
+            "hand": 0,
+            "field": 1,
+            "total": 2,
+            "outsideHandField": 1
+          },
+          "M20": {
+            "deck": 0,
+            "hand": 0,
+            "field": 0,
+            "total": 1,
+            "outsideHandField": 1
+          }
+        },
+        "deckCount": 0,
+        "handCount": 0,
+        "fieldCount": 1,
+        "outsideHandFieldCount": 2,
+        "replacementCountAfterLink": 0,
+        "hasReplacementAfterLink": false,
+        "fieldIdentitySource": "COMMITTED_EQUIP"
+      }
+    }
+  },
+  "selectedSlot": null,
+  "attemptDir": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-07T06-41-38-943Z",
+  "fieldOnly": false,
+  "drawOnly": true,
+  "observerBefore": {
+    "version": 1,
+    "capturedAt": "2026-10-07T06:41:37.247Z",
+    "checkpoint": {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M09",
+      "signatureOccurrence": 1,
+      "activationOccurrence": 1,
+      "previousActivationKey": "M20",
+      "evidenceCards": [
+        {
+          "kind": "HAND_GAIN",
+          "cardKey": "M08",
+          "cardName": "闪术兵器－H.A.M.P."
+        },
+        {
+          "kind": "HAND_GAIN",
+          "cardKey": "M09",
+          "cardName": "暴发户哥布林"
+        }
+      ]
+    },
+    "tailBlocks": [
+      {
+        "activationKey": "M20",
+        "signature": "M20|PROCESSING_CARD:M20,PROCESSING_CARD:M19",
+        "detailTokens": [
+          "COST_TO_GRAVEYARD:M20",
+          "MOVE_TO_FIELD:M19"
+        ]
+      },
+      {
+        "activationKey": "M17",
+        "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M09",
+        "detailTokens": [
+          "HAND_GAIN:M08",
+          "HAND_GAIN:M09"
+        ]
+      }
+    ]
+  },
+  "recoveryPolicy": "SAVED_STAGE_ONLY_NO_HAND_REPLAY_NO_FULL_SCAN",
+  "beforeDraw": {
+    "version": 2,
+    "capturedAt": "2026-10-07T06:41:38.400Z",
+    "revision": 11,
+    "handCount": 5,
+    "cards": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M09",
+        "name": "暴发户哥布林",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M09"
+        ],
+        "index": 3
+      },
+      {
+        "index": 4,
+        "x": 732,
+        "y": 1016,
+        "id": "M12",
+        "name": "抵价交易",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2226831329439363,
+        "usable": false,
+        "yellowPixels": 348,
+        "yellowRatio": 0.010622710622710623,
+        "top3": [
+          {
+            "id": "M12",
+            "name": "抵价交易",
+            "count": 3,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.2226831329439363,
+            "rmse": 0.2756578827332862,
+            "dhash": 32
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.22707286438487656,
+            "rmse": 0.3008917054213163,
+            "dhash": 36
+          }
+        ],
+        "timingMs": {
+          "locateMs": 583.822,
+          "clickAndSettleMs": 301.543,
+          "recognizeMs": 19.015,
+          "usabilityMs": 32.476,
+          "resetMs": 180.648,
+          "totalMs": 1117.989
+        }
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "accepted": true,
+        "index": 5,
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_11\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M09",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M17",
+        "name": "闪刀起动－交闪",
+        "accepted": true,
+        "index": 4,
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      },
+      "costConsumed": [],
+      "predictedSlots": [
+        2,
+        3
+      ],
+      "recognized": [
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M08"
+          ]
+        },
+        {
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M09"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 2,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        },
+        {
+          "slot": 3,
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "stage": "OBSERVER_STARTED",
+  "updatedAt": "2026-10-07T06:41:45.518Z"
+}

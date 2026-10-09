@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-08T11:06:04.791Z",
+  "checkpoint": {
+    "activationKey": "M15",
+    "signature": "M15|PROCESSING_CARD:M09",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M09",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M09",
+        "cardName": "暴发户哥布林"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M09",
+      "signature": "M09|PROCESSING_CARD:M15",
+      "detailTokens": [
+        "HAND_GAIN:M15"
+      ]
+    },
+    {
+      "activationKey": "M15",
+      "signature": "M15|PROCESSING_CARD:M09",
+      "detailTokens": [
+        "HAND_GAIN:M09"
+      ]
+    }
+  ]
+}

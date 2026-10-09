@@ -1,0 +1,494 @@
+{
+  "capturedAt": "2026-10-07T12:35:19.472Z",
+  "resumeBanishPrompt": false,
+  "baselineHandCount": 7,
+  "baselineHand": [
+    {
+      "index": 1,
+      "x": 731,
+      "y": 1022,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.25299526498841174,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M02",
+          "name": "被封印的左足",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.25299526498841174,
+          "rmse": 0.3233132067382068,
+          "dhash": 34
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.25913617514607423,
+          "rmse": 0.33712533142819295,
+          "dhash": 40
+        }
+      ],
+      "timingMs": {
+        "locateMs": 546.912,
+        "clickAndSettleMs": 314.561,
+        "recognizeMs": 17.925,
+        "usabilityMs": 0.234,
+        "resetMs": 170.115,
+        "totalMs": 1050.231
+      }
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 2
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 3
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 5
+    },
+    {
+      "id": "M11",
+      "name": "万宝槌",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M11"
+      ],
+      "index": 6
+    },
+    {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M13"
+      ],
+      "index": 7
+    }
+  ],
+  "plan": {
+    "allure": {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "slot": 7,
+      "duplicateCount": 1
+    },
+    "safeBeforeActivation": {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "count": 1,
+      "originalSlot": 5
+    },
+    "priority": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣"
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P."
+      }
+    ]
+  },
+  "selected": {
+    "slot": 7,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M13",
+      "name": "暗之诱惑",
+      "mad": 0,
+      "margin": 0.1485291851368379
+    },
+    "clickReference": {
+      "x": 1430,
+      "y": 1028
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        602,
+        735,
+        873,
+        1011,
+        1143,
+        1276,
+        1430
+      ],
+      "currentCenter": {
+        "x": 1430,
+        "y": 1028
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1300,
+        "y": 856
+      },
+      "width": 86,
+      "height": 46,
+      "fillRatio": 0.4196157735085945,
+      "estimatedPixels": 1660,
+      "menuMode": "ACTIVATE_LEFT_OF_SET",
+      "expectedReference": {
+        "x": 1345,
+        "y": 868
+      },
+      "drift": 46.57252408878007,
+      "glyph": {
+        "iou": 0.9482758620689655,
+        "darkBackgroundRatio": 0.9927007299270073,
+        "offsetX": 0,
+        "offsetY": 1,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 5148,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 4,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.0632805925925926,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.07445652173913044,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.10434782608695652,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.2875,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.1766304347826087,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.21739130434782608,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.18532608695652175,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.31032608695652175,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.07554347826086956,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.20923913043478262,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.1608695652173913,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.29782608695652174,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.1592391304347826,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.06998518518518519,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.056576,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.0464,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.08227368421052632,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 216
+    }
+  },
+  "banishProof": {
+    "promptProof": {
+      "attempts": 10,
+      "headerDarkRatio": 0.8737166666666667,
+      "candidateCount": 5,
+      "points": [
+        {
+          "x": 708,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 866,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1024,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1182,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1340,
+          "y": 925,
+          "width": 118
+        }
+      ]
+    },
+    "selected": {
+      "accepted": true,
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "mad": 0,
+      "margin": 0.21446641223911356
+    },
+    "candidateIndex": 5,
+    "priorityRank": 1,
+    "plannedBeforeActivation": {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "count": 1,
+      "originalSlot": 5
+    },
+    "seen": [
+      {
+        "candidateIndex": 5,
+        "clickReference": {
+          "x": 1340,
+          "y": 925
+        },
+        "card": {
+          "accepted": true,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "mad": 0,
+          "margin": 0.21446641223911356
+        }
+      }
+    ],
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "policy": "M06_THEN_M08_DEDICATED_PROMPT"
+  }
+}

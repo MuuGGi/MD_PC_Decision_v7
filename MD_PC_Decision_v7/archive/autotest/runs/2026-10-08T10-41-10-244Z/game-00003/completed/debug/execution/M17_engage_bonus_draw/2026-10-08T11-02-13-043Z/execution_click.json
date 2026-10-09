@@ -1,0 +1,594 @@
+{
+  "capturedAt": "2026-10-08T11:02:29.573Z",
+  "branch": "BONUS_DRAW",
+  "baselineHandCount": 4,
+  "baselineHand": [
+    {
+      "index": 1,
+      "x": 733,
+      "y": 1016,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2105806004530543,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M05",
+          "name": "被封印的艾克佐迪亚",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.2105806004530543,
+          "rmse": 0.26892980017515195,
+          "dhash": 27
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.2164269951058453,
+          "rmse": 0.2874205135199747,
+          "dhash": 31
+        }
+      ],
+      "timingMs": {
+        "locateMs": 500.384,
+        "clickAndSettleMs": 305.92,
+        "recognizeMs": 15.349,
+        "usabilityMs": 0.312,
+        "resetMs": 186.087,
+        "totalMs": 1008.469
+      }
+    },
+    {
+      "index": 2,
+      "x": 867,
+      "y": 988,
+      "id": "M12",
+      "name": "抵价交易",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2226831329439363,
+      "usable": true,
+      "yellowPixels": 1720,
+      "yellowRatio": 0.052503052503052504,
+      "top3": [
+        {
+          "id": "M12",
+          "name": "抵价交易",
+          "count": 3,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.2226831329439363,
+          "rmse": 0.2756578827332862,
+          "dhash": 32
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.22707286438487656,
+          "rmse": 0.3008917054213163,
+          "dhash": 36
+        }
+      ],
+      "timingMs": {
+        "locateMs": 547.847,
+        "clickAndSettleMs": 305.452,
+        "recognizeMs": 11.874,
+        "usabilityMs": 21.287,
+        "resetMs": 170.775,
+        "totalMs": 1057.474
+      }
+    },
+    {
+      "id": "M12",
+      "name": "抵价交易",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M12"
+      ],
+      "index": 3
+    },
+    {
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "accepted": true,
+      "index": 4,
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    }
+  ],
+  "priorityPlan": {
+    "reason": "交闪目标按共享牌组账本与既定优先级排序：手持交易的八星费用不足：交闪先检索兵器，兑现已知交易抽2；稳定配对收益优先于一般零衣入口。",
+    "targets": [
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P."
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣"
+      },
+      {
+        "id": "M22",
+        "name": "闪刀机－大黄蜂无人机"
+      }
+    ],
+    "remaining": {
+      "M06": 1,
+      "M08": 2,
+      "M22": 1
+    },
+    "expectedCandidateCount": 4,
+    "totals": {
+      "M06": 2,
+      "M08": 2,
+      "M22": 1
+    },
+    "handCounts": {
+      "EXODIA_UNKNOWN": 1,
+      "M12": 2,
+      "M17": 1
+    },
+    "usedCounts": {
+      "M21": 1,
+      "M18": 1,
+      "M16": 1,
+      "M06": 1,
+      "M19": 1,
+      "M20": 1
+    },
+    "stateSource": "SHARED_DECISION_ENGINE_BUILD_DECK_STATE"
+  },
+  "selected": {
+    "slot": 4,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "mad": 0,
+      "margin": 0.2628304108410714
+    },
+    "clickReference": {
+      "x": 1234,
+      "y": 1008
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        804,
+        942,
+        1075,
+        1234
+      ],
+      "currentCenter": {
+        "x": 1234,
+        "y": 1008
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1228,
+        "y": 839
+      },
+      "width": 86,
+      "height": 48,
+      "fillRatio": 0.40988372093023256,
+      "estimatedPixels": 1692,
+      "menuMode": "ACTIVATE_ONLY_CENTERED",
+      "expectedReference": {
+        "x": 1234,
+        "y": 848
+      },
+      "drift": 10.816653826391969,
+      "glyph": {
+        "iou": 0.9316239316239316,
+        "darkBackgroundRatio": 0.9854014598540146,
+        "offsetX": 0,
+        "offsetY": 0,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 7780,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 4,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.05570370370370371,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.10380434782608695,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.10543478260869565,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.18967391304347825,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.19184782608695652,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.1625,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.13858695652173914,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.27880434782608693,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.09347826086956522,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.17771739130434783,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.14076086956521738,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.2108695652173913,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.1125,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.06322962962962964,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.048,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.04817777777777778,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.06425263157894737,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 186
+    }
+  },
+  "searchProof": {
+    "promptProof": {
+      "dialog": {
+        "calibrated": true,
+        "signature": {
+          "roi": {
+            "x": 680,
+            "y": 725,
+            "width": 690,
+            "height": 70
+          },
+          "template": "templates/ui/toon_search_header.png",
+          "maxMad": 0.085
+        },
+        "candidateRoi": {
+          "x": 620,
+          "y": 830,
+          "width": 800,
+          "height": 200
+        },
+        "candidateY": 925,
+        "candidateClickYOffset": -22,
+        "candidatePoints": [],
+        "confirmPoint": {
+          "x": 1024,
+          "y": 1082
+        }
+      },
+      "signatureMad": 0.0028626097782108013
+    },
+    "priorityPlan": {
+      "reason": "交闪目标按共享牌组账本与既定优先级排序：手持交易的八星费用不足：交闪先检索兵器，兑现已知交易抽2；稳定配对收益优先于一般零衣入口。",
+      "targets": [
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P."
+        },
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣"
+        },
+        {
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机"
+        }
+      ],
+      "remaining": {
+        "M06": 1,
+        "M08": 2,
+        "M22": 1
+      },
+      "expectedCandidateCount": 4,
+      "totals": {
+        "M06": 2,
+        "M08": 2,
+        "M22": 1
+      },
+      "handCounts": {
+        "EXODIA_UNKNOWN": 1,
+        "M12": 2,
+        "M17": 1
+      },
+      "usedCounts": {
+        "M21": 1,
+        "M18": 1,
+        "M16": 1,
+        "M06": 1,
+        "M19": 1,
+        "M20": 1
+      },
+      "stateSource": "SHARED_DECISION_ENGINE_BUILD_DECK_STATE"
+    },
+    "selected": {
+      "accepted": true,
+      "id": "M08",
+      "name": "闪术兵器－H.A.M.P.",
+      "mad": 0,
+      "margin": 0.1916140638204221
+    },
+    "candidateIndex": 2,
+    "clickReference": {
+      "x": 1103,
+      "y": 903
+    },
+    "priorityRank": 1,
+    "seen": [
+      {
+        "candidateIndex": 1,
+        "clickReference": {
+          "x": 1261,
+          "y": 903
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机",
+          "mad": 0,
+          "margin": 0.2416803902431163
+        },
+        "priorityRank": 3
+      },
+      {
+        "candidateIndex": 2,
+        "clickReference": {
+          "x": 1103,
+          "y": 903
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0,
+          "margin": 0.1916140638204221
+        },
+        "priorityRank": 1
+      }
+    ],
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "traversal": "RIGHT_TO_LEFT",
+    "positioning": "M17_DEDICATED_SEARCH_PROMPT"
+  },
+  "bonusProof": {
+    "detected": true,
+    "clicked": true,
+    "roi": {
+      "x": 1040,
+      "y": 590,
+      "width": 290,
+      "height": 80
+    },
+    "yesReference": {
+      "x": 1183,
+      "y": 630
+    },
+    "bestYellow": 3106,
+    "bestDarkRatio": 0.7410775862068966,
+    "finalYellow": 591,
+    "finalDarkRatio": 0.7412068965517241
+  }
+}

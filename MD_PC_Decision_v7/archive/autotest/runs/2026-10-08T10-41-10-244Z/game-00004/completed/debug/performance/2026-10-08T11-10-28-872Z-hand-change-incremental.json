@@ -1,0 +1,51 @@
+{
+  "name": "hand-change-incremental",
+  "startedAt": "2026-10-08T11:10:28.872Z",
+  "finishedAt": "2026-10-08T11:10:29.941Z",
+  "totalMs": 1069.5826,
+  "stagedMs": 476.1681,
+  "unattributedMs": 593.4145,
+  "stages": [
+    {
+      "name": "load_previous_state_and_log",
+      "ms": 0.742
+    },
+    {
+      "name": "observe_composite_route",
+      "ms": 7.792
+    },
+    {
+      "name": "load_recognition_templates",
+      "ms": 43.175
+    },
+    {
+      "name": "bridge_reuse",
+      "ms": 0.021
+    },
+    {
+      "name": "reuse_verified_window",
+      "ms": 1.714
+    },
+    {
+      "name": "capture_passive_hand",
+      "ms": 34.58
+    },
+    {
+      "name": "read_hand_count_fast_own",
+      "ms": 386.425
+    },
+    {
+      "name": "infer_incremental_slots",
+      "ms": 1.616
+    },
+    {
+      "name": "click_and_recognize_new_cards",
+      "ms": 0.078
+    },
+    {
+      "name": "commit_and_write_state",
+      "ms": 0.025
+    }
+  ],
+  "status": "PASS"
+}

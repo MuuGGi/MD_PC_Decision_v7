@@ -1,0 +1,145 @@
+{
+  "version": 2,
+  "id": "DUEL-eaf01a6b1381df8fdc4e9ff3-T0019",
+  "duelId": "DUEL-eaf01a6b1381df8fdc4e9ff3",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-49e5012f83583c0e77c44b02e23e7f94",
+  "intent": {
+    "cardId": "M14",
+    "slot": 7
+  },
+  "baseline": {
+    "hand": {
+      "revision": 19,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M07",
+        "M11",
+        "M14"
+      ]
+    },
+    "ledger": {
+      "revision": 19,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 2,
+        "M10": 3,
+        "M11": 1,
+        "M12": 2,
+        "M13": 1,
+        "M14": 2,
+        "M15": 2,
+        "M16": 0,
+        "M17": 2,
+        "M18": 0,
+        "M19": 2,
+        "M20": 1,
+        "M21": 1,
+        "M22": 0
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M10",
+        "signature": "M10|PROCESSING_CARD:M07",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 3,
+        "previousActivationKey": "M10",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M07",
+            "cardName": "青眼卡通龙"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+        "carrierId": "E10",
+        "updatedAt": "2026-10-07T12:35:26.746Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M06": 2,
+        "M19": 1,
+        "M20": 1,
+        "M14": 1,
+        "M17": 2,
+        "M21": 1,
+        "M09": 2,
+        "M12": 2,
+        "M08": 2,
+        "M15": 2,
+        "M13": 1,
+        "M10": 3
+      }
+    },
+    "extra": {
+      "cardId": "M14",
+      "slot": 7
+    }
+  },
+  "createdAt": "2026-10-07T12:36:14.017Z",
+  "resumed": false,
+  "status": "ABANDONED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "NO_REPLAY_PERSISTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M14",
+          "slot": 7
+        }
+      },
+      "noReplayAt": "2026-10-07T12:36:14.031Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "inputUncertain": true,
+      "lastError": {
+        "phase": "NO_REPLAY_PERSISTED",
+        "code": null,
+        "message": "V5_DUEL_TERMINAL_VICTORY",
+        "at": "2026-10-07T12:36:35.116Z"
+      }
+    }
+  ],
+  "terminalProof": {
+    "proven": true,
+    "outcome": "WIN",
+    "gameId": 2
+  },
+  "closedAt": "2026-10-07T12:36:52.544Z"
+}

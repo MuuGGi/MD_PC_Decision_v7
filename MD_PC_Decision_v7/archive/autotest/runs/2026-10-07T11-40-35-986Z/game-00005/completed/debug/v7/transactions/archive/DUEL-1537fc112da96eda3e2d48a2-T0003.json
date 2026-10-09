@@ -1,0 +1,133 @@
+{
+  "version": 2,
+  "id": "DUEL-1537fc112da96eda3e2d48a2-T0003",
+  "duelId": "DUEL-1537fc112da96eda3e2d48a2",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-f0d9ae585688419dadea1a10865c3587",
+  "intent": {
+    "node": "HORNET_TOKEN_READY"
+  },
+  "baseline": {
+    "hand": {
+      "revision": 2,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M11",
+        "M11",
+        "M19"
+      ]
+    },
+    "ledger": {
+      "revision": 2,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 0,
+        "M08": 0,
+        "M09": 0,
+        "M10": 0,
+        "M11": 2,
+        "M12": 0,
+        "M13": 0,
+        "M14": 0,
+        "M15": 0,
+        "M16": 0,
+        "M17": 1,
+        "M18": 0,
+        "M19": 1,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M22",
+        "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "TOKEN_SKY_STRIKER",
+            "cardName": "闪刀姬衍生物"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": true,
+        "currentState": "HORNET_TOKEN_READY",
+        "updatedAt": "2026-10-07T12:11:18.752Z",
+        "carrierId": "TOKEN_SKY_STRIKER",
+        "source": "FORMAL_V5_ATOMIC_MAIN"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M17": 1,
+        "M22": 1
+      }
+    },
+    "extra": {
+      "node": "HORNET_TOKEN_READY"
+    }
+  },
+  "createdAt": "2026-10-07T12:11:18.859Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "HORNET_TOKEN_READY"
+        }
+      },
+      "noReplayAt": "2026-10-07T12:11:18.877Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-1537fc112da96eda3e2d48a2-T0003",
+        "handRevision": 3,
+        "handHash": "f79addba140d58adcd15dfa2cfa3cd8f12833931a1a703168cc8d8e489129f45",
+        "ledgerHash": "d5848a12becfdd770fdf3e69caf5bd1fa68c688f59f35fa5b5acb8c52a2d86e1",
+        "runtimeHash": "6020b8a6c85f9f2f6ce741118be886a3015cb1b3c53b15d67e6f3153585650ae",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T12:11:32.172Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T12:11:32.176Z"
+    }
+  ],
+  "committedAt": "2026-10-07T12:11:32.180Z"
+}

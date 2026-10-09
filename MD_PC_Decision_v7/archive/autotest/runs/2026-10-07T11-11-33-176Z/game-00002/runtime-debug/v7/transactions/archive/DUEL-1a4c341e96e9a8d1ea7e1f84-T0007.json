@@ -1,0 +1,136 @@
+{
+  "version": 2,
+  "id": "DUEL-1a4c341e96e9a8d1ea7e1f84-T0007",
+  "duelId": "DUEL-1a4c341e96e9a8d1ea7e1f84",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-8cd68879c91e79944c2a46a83b83dac0",
+  "intent": {
+    "node": "M20_FIELD_EFFECT_ACTIVATED"
+  },
+  "baseline": {
+    "hand": {
+      "revision": 4,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M15"
+      ]
+    },
+    "ledger": {
+      "revision": 4,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 0,
+        "M08": 0,
+        "M09": 0,
+        "M10": 0,
+        "M11": 0,
+        "M12": 0,
+        "M13": 0,
+        "M14": 0,
+        "M15": 1,
+        "M16": 0,
+        "M17": 0,
+        "M18": 0,
+        "M19": 1,
+        "M20": 1,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M20",
+        "signature": "M20|PROCESSING_CARD:E04",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M19",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "E04",
+            "cardName": "闪刀姬－飒"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": true,
+        "currentState": "M20_FIELD_EFFECT_ACTIVATED",
+        "carrierId": "E04",
+        "updatedAt": "2026-10-07T11:21:20.543Z",
+        "source": "FORMAL_V5_T20_1",
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M22": 1,
+        "M19": 1,
+        "M20": 1
+      }
+    },
+    "extra": {
+      "node": "M20_FIELD_EFFECT_ACTIVATED"
+    }
+  },
+  "createdAt": "2026-10-07T11:21:20.681Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "M20_FIELD_EFFECT_ACTIVATED"
+        }
+      },
+      "noReplayAt": "2026-10-07T11:21:20.704Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-1a4c341e96e9a8d1ea7e1f84-T0007",
+        "handRevision": 4,
+        "handHash": "71279bff5a6572ec0595fa4ed9dbb3d97bc87fa3e2de753f00817c514a223d3d",
+        "ledgerHash": "c1e169a6f71bfd2daf09aed41580c9a59077cdd5c4b4bc2f9d951709dc33314c",
+        "runtimeHash": "486e645be01802c59c73e0f1b08f850be301e06426e2319cfc660e16d0171cb6",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T11:21:36.399Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T11:21:36.403Z"
+    }
+  ],
+  "committedAt": "2026-10-07T11:21:36.408Z"
+}

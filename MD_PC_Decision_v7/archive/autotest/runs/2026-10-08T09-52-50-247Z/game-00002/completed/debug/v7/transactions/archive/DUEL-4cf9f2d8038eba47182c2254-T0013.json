@@ -1,0 +1,166 @@
+{
+  "version": 2,
+  "id": "DUEL-4cf9f2d8038eba47182c2254-T0013",
+  "duelId": "DUEL-4cf9f2d8038eba47182c2254",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-20bb8bb978744775ec83df51495a3892",
+  "intent": {
+    "cardId": "M15",
+    "slot": 7,
+    "decisionBasis": {
+      "snapshotKey": "5b302c215f618273b1c9ca316c3ae3328ccbadad680e89d2634d945ec4bb4719",
+      "handRevision": 13,
+      "duelId": "DUEL-4cf9f2d8038eba47182c2254"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 13,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M07",
+        "M08",
+        "M10",
+        "M14",
+        "M14",
+        "M15"
+      ]
+    },
+    "ledger": {
+      "revision": 13,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 2,
+        "M10": 3,
+        "M11": 0,
+        "M12": 1,
+        "M13": 1,
+        "M14": 2,
+        "M15": 3,
+        "M16": 1,
+        "M17": 2,
+        "M18": 0,
+        "M19": 0,
+        "M20": 0,
+        "M21": 0,
+        "M22": 0
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M16",
+        "signature": "M16|PROCESSING_CARD:M15,PROCESSING_CARD:UNKNOWN",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M12",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M15",
+            "cardName": "无之炼狱"
+          },
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "UNKNOWN",
+            "cardName": "背面牌"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": false,
+        "currentState": "E10_EFFECT_RESOLVED",
+        "carrierId": "E10",
+        "updatedAt": "2026-10-08T09:57:28.461Z",
+        "source": "FORMAL_V5_R3"
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 2,
+        "M09": 2,
+        "M17": 2,
+        "M06": 2,
+        "M13": 1,
+        "M15": 2,
+        "M12": 1,
+        "M08": 1,
+        "M16": 1
+      }
+    },
+    "extra": {
+      "cardId": "M15",
+      "slot": 7,
+      "decisionBasis": {
+        "snapshotKey": "5b302c215f618273b1c9ca316c3ae3328ccbadad680e89d2634d945ec4bb4719",
+        "handRevision": 13,
+        "duelId": "DUEL-4cf9f2d8038eba47182c2254"
+      }
+    }
+  },
+  "createdAt": "2026-10-08T09:58:43.774Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M15",
+          "slot": 7,
+          "decisionBasis": {
+            "snapshotKey": "5b302c215f618273b1c9ca316c3ae3328ccbadad680e89d2634d945ec4bb4719",
+            "handRevision": 13,
+            "duelId": "DUEL-4cf9f2d8038eba47182c2254"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-08T09:58:43.794Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-4cf9f2d8038eba47182c2254-T0013",
+        "handRevision": 14,
+        "handHash": "2900aa4238f85fe9062d7c605cb5f2e96a20c8348908a1623cafffb2cf259ad1",
+        "ledgerHash": "473edf52132c8d732cd6e7399eb925541e84cabd1e8453a472d300dac28df7ee",
+        "runtimeHash": "4786bcdb6c20fdeff0ad90085a144a4d79568d6426a7422fe57fc15ef8379c0e",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-08T09:58:53.151Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-08T09:58:53.157Z"
+    }
+  ],
+  "committedAt": "2026-10-08T09:58:53.161Z"
+}

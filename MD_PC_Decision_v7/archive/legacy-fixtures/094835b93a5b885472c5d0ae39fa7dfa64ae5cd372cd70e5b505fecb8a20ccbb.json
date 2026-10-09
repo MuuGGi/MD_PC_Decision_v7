@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "capturedAt": "2026-10-02T15:50:30.648Z",
+  "revision": 13,
+  "handCount": 6,
+  "cards": [
+    {
+      "index": 1,
+      "x": 727,
+      "y": 992,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.25299526498841174,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M02",
+          "name": "被封印的左足",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.25299526498841174,
+          "rmse": 0.3233132067382068,
+          "dhash": 34
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.25913617514607423,
+          "rmse": 0.33712533142819295,
+          "dhash": 40
+        }
+      ],
+      "timingMs": {
+        "locateMs": 345.167,
+        "clickAndSettleMs": 262.034,
+        "recognizeMs": 13.824,
+        "usabilityMs": 0.277,
+        "resetMs": 171.512,
+        "totalMs": 793.596
+      }
+    },
+    {
+      "index": 2,
+      "x": 870,
+      "y": 983,
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.21446641223911356,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "count": 2,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E09",
+          "name": "闪刀姬－卡梅莉娅",
+          "count": 1,
+          "mad": 0.21446641223911356,
+          "rmse": 0.28261859962886526,
+          "dhash": 26
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.25269430317974007,
+          "rmse": 0.3230762076159287,
+          "dhash": 32
+        }
+      ],
+      "timingMs": {
+        "locateMs": 345.896,
+        "clickAndSettleMs": 261.109,
+        "recognizeMs": 10.741,
+        "usabilityMs": 0.088,
+        "resetMs": 161.932,
+        "totalMs": 780.224
+      }
+    },
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 3
+    },
+    {
+      "id": "M08",
+      "name": "闪术兵器－H.A.M.P.",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M08"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M11",
+      "name": "万宝槌",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M11"
+      ],
+      "index": 5
+    },
+    {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M13"
+      ],
+      "index": 6
+    }
+  ],
+  "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\debug\\hand-change-live\\revision_13\\passive_hand.png",
+  "lastOperation": {
+    "activationKey": "M14",
+    "signature": "M14|PROCESSING_CARD:M13,PROCESSING_CARD:M06",
+    "activationOccurrence": 1
+  },
+  "lastIncremental": {
+    "consumed": {
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M14"
+      ],
+      "index": 5
+    },
+    "costConsumed": [],
+    "predictedSlots": [
+      3,
+      6
+    ],
+    "recognized": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ]
+      },
+      {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ]
+      }
+    ],
+    "finalClicks": [
+      {
+        "slot": 3,
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      },
+      {
+        "slot": 6,
+        "id": "M13",
+        "name": "暗之诱惑",
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      }
+    ]
+  }
+}

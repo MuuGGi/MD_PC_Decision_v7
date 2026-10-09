@@ -1,0 +1,185 @@
+{
+  "version": 2,
+  "id": "DUEL-1537fc112da96eda3e2d48a2-T0004",
+  "duelId": "DUEL-1537fc112da96eda3e2d48a2",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-af575a1d4ebc7ab53a06520431138542",
+  "intent": {
+    "node": "M19_EQUIPPED"
+  },
+  "baseline": {
+    "hand": {
+      "revision": 3,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M11",
+        "M11"
+      ]
+    },
+    "ledger": {
+      "revision": 3,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 0,
+        "M08": 0,
+        "M09": 0,
+        "M10": 0,
+        "M11": 2,
+        "M12": 0,
+        "M13": 0,
+        "M14": 0,
+        "M15": 0,
+        "M16": 0,
+        "M17": 1,
+        "M18": 0,
+        "M19": 1,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M19",
+        "signature": "M19|",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M22",
+        "evidenceCards": []
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": true,
+        "currentState": "M19_EQUIPPED",
+        "carrierId": "TOKEN_SKY_STRIKER",
+        "updatedAt": "2026-10-07T12:11:32.246Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "plannedSwordId": "M19",
+        "kagariSwordLink": true,
+        "targetLinkId": "E02",
+        "materialCarrierId": "TOKEN_SKY_STRIKER",
+        "requiredCarrierKind": "CENTRAL_MAIN",
+        "continuation": {
+          "shouldLink": true,
+          "shouldContinue": true,
+          "routeKind": "YOTO_LINK",
+          "searchId": "M20",
+          "replacementId": "M20",
+          "carrierId": "TOKEN_SKY_STRIKER",
+          "fieldId": "M19",
+          "prepareEquipId": null,
+          "goldenDrawReady": false,
+          "fixedContinuationReady": true,
+          "goldenDrawPreferred": false,
+          "twoYotoKagari": false,
+          "firstTrueGoldenSetup": false,
+          "replacementSource": "YOTO_SEARCH",
+          "canReplaceEquipDeterministically": true,
+          "deferredGoldenSearch": false,
+          "convertsTrue": true,
+          "steps": [
+            "LINK_SEND_M19",
+            "SEARCH_M20",
+            "EQUIP_M20",
+            "SEND_M20_EQUIP_DECK_M19"
+          ],
+          "projectedEquipSentToGraveCount": 2,
+          "projectedFieldEquipId": "M19",
+          "reason": "TWO_EQUIPS_TO_GRAVE_ONE_ON_FIELD",
+          "equipResources": {
+            "byId": {
+              "M19": {
+                "deck": 1,
+                "hand": 0,
+                "field": 1,
+                "total": 2,
+                "outsideHandField": 0
+              },
+              "M20": {
+                "deck": 1,
+                "hand": 0,
+                "field": 0,
+                "total": 1,
+                "outsideHandField": 0
+              }
+            },
+            "deckCount": 2,
+            "handCount": 0,
+            "fieldCount": 1,
+            "outsideHandFieldCount": 0,
+            "replacementCountAfterLink": 2,
+            "hasReplacementAfterLink": true,
+            "fieldIdentitySource": "COMMITTED_EQUIP"
+          }
+        }
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M17": 1,
+        "M22": 1,
+        "M19": 1
+      }
+    },
+    "extra": {
+      "node": "M19_EQUIPPED"
+    }
+  },
+  "createdAt": "2026-10-07T12:11:32.276Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "M19_EQUIPPED"
+        }
+      },
+      "noReplayAt": "2026-10-07T12:11:32.307Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-1537fc112da96eda3e2d48a2-T0004",
+        "handRevision": 4,
+        "handHash": "bbb4ed0403ff320e11edac9c4b82d50da501ac30fada8832171d19815b2b2940",
+        "ledgerHash": "81e19a3512299ef4666e5ac18cec4ff256034ff11a8e76381955d7b1ccc5dd43",
+        "runtimeHash": "003a3bf0a02c62d350155be743dafd24b09bc646862709a306793f9eb71c232f",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T12:12:16.454Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T12:12:16.458Z"
+    }
+  ],
+  "committedAt": "2026-10-07T12:12:16.462Z"
+}

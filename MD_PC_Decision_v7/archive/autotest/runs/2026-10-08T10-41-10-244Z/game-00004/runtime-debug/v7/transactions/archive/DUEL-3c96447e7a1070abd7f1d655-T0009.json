@@ -1,0 +1,161 @@
+{
+  "version": 2,
+  "id": "DUEL-3c96447e7a1070abd7f1d655-T0009",
+  "duelId": "DUEL-3c96447e7a1070abd7f1d655",
+  "actionType": "UNIT:FIXED_FIELD_GAIN",
+  "instanceKey": "INST-12a95213e16fed24eefed7ef960cc687",
+  "intent": {
+    "kind": "KAGARI_LINK_BEFORE_TRUE",
+    "decisionBasis": {
+      "snapshotKey": "452e273e288ef430155a4c0e81e9306794820cedd0368f5eb6e08c3107c092d6",
+      "handRevision": 9,
+      "duelId": "DUEL-3c96447e7a1070abd7f1d655"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 9,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M08",
+        "M14",
+        "M20"
+      ]
+    },
+    "ledger": {
+      "revision": 9,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 0,
+        "M08": 1,
+        "M09": 1,
+        "M10": 0,
+        "M11": 0,
+        "M12": 0,
+        "M13": 0,
+        "M14": 1,
+        "M15": 0,
+        "M16": 0,
+        "M17": 1,
+        "M18": 0,
+        "M19": 1,
+        "M20": 1,
+        "M21": 2,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M17",
+        "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M02",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M19",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M02",
+            "cardName": "被封印的左足"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "YOTO_SEARCH_DONE",
+        "carrierId": "E04",
+        "updatedAt": "2026-10-08T11:08:38.884Z",
+        "source": "FORMAL_V5_ATOMIC_MAIN",
+        "hornetBambooDraw2": true,
+        "postE10HornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "trueBambooGainBeforeEquip": false
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M09": 1,
+        "M21": 2,
+        "M22": 1,
+        "M19": 1,
+        "M17": 1
+      }
+    },
+    "extra": {
+      "kind": "KAGARI_LINK_BEFORE_TRUE",
+      "decisionBasis": {
+        "snapshotKey": "452e273e288ef430155a4c0e81e9306794820cedd0368f5eb6e08c3107c092d6",
+        "handRevision": 9,
+        "duelId": "DUEL-3c96447e7a1070abd7f1d655"
+      }
+    }
+  },
+  "createdAt": "2026-10-08T11:08:59.922Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "kind": "KAGARI_LINK_BEFORE_TRUE",
+          "decisionBasis": {
+            "snapshotKey": "452e273e288ef430155a4c0e81e9306794820cedd0368f5eb6e08c3107c092d6",
+            "handRevision": 9,
+            "duelId": "DUEL-3c96447e7a1070abd7f1d655"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-08T11:08:59.943Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIXED_FIELD_GAIN",
+        "transactionId": "DUEL-3c96447e7a1070abd7f1d655-T0009",
+        "handRevision": 9,
+        "handHash": "9d30f16adcbfeda923657892ea916e93799b55ab00b422babfa69ed5f4ad9f11",
+        "ledgerHash": "df702f17cb907192a17c40b7e4746fe002379482947d0712669b27584325a8b4",
+        "runtimeHash": "680a25025b5e00878bd77bf91d80069edc8476343c690c669fb472bf487ef447",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-08T11:09:12.801Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-08T11:09:12.805Z"
+    }
+  ],
+  "committedAt": "2026-10-08T11:09:12.810Z"
+}

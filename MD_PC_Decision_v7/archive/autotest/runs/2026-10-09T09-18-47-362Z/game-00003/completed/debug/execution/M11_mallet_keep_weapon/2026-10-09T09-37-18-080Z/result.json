@@ -1,0 +1,859 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-09T09:37:52.898Z",
+  "target": {
+    "id": "M11",
+    "name": "万宝槌"
+  },
+  "keepIds": [],
+  "keepLabel": "无（除万宝槌自身外全部返回）",
+  "beforeHandCount": 5,
+  "afterHandCount": 4,
+  "activationProof": {
+    "status": "PASS",
+    "operation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M11",
+          "name": "万宝槌",
+          "mad": 0.10894309736725655,
+          "rawMad": 0.06827381078285308,
+          "hsvDistance": 0.3389107215366956
+        },
+        "confidenceMargin": 0.25698303107303694,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "mad": 0.10894309736725655,
+            "rawMad": 0.06827381078285308,
+            "hsvDistance": 0.3389107215366956
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "mad": 0.3659261284402935,
+            "rawMad": 0.22152924456370085,
+            "hsvDistance": 1.203307365638272
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "mad": 0.3669049465292307,
+            "rawMad": 0.26063423571514105,
+            "hsvDistance": 0.8855892567840806
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 794,
+          "mad": 0.08942063703309377
+        },
+        "box": {
+          "x": 1702,
+          "y": 951,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M11",
+      "details": [],
+      "startY": 951,
+      "endY": 1018,
+      "signature": "M11|",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    },
+    "newOperationCount": 1
+  },
+  "selectionProof": {
+    "selectedCount": 4,
+    "newlyCommittedCount": 4,
+    "alreadyCommittedIds": [],
+    "protectedRemaining": [],
+    "keptCount": 0,
+    "rows": [
+      {
+        "step": 1,
+        "card": {
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "EXODIA_UNKNOWN"
+          ],
+          "index": 1,
+          "originalSlot": 1,
+          "promptSlot": 1
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 4,
+        "clickReference": {
+          "x": 787,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "mad": 0,
+          "persistentExodia": true,
+          "candidateIds": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ]
+        },
+        "selectButton": {
+          "x": 1024,
+          "y": 1082
+        },
+        "actionLayout": "SINGLE_CENTER_ACTION",
+        "actionZones": {
+          "left": 0,
+          "center": 392,
+          "right": 0
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 2,
+        "card": {
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M14"
+          ],
+          "index": 3,
+          "originalSlot": 3,
+          "promptSlot": 2
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 3,
+        "clickReference": {
+          "x": 866,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "mad": 0
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 3,
+        "card": {
+          "id": "M19",
+          "name": "妖刀竹光",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M19"
+          ],
+          "index": 4,
+          "originalSlot": 4,
+          "promptSlot": 3
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 2,
+        "clickReference": {
+          "x": 945,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "M19",
+          "name": "妖刀竹光",
+          "mad": 0
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 4,
+        "card": {
+          "id": "M20",
+          "name": "真刀竹光",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M20"
+          ],
+          "index": 5,
+          "originalSlot": 5,
+          "promptSlot": 4
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 1,
+        "clickReference": {
+          "x": 1024,
+          "y": 925
+        },
+        "detectedCenter": {
+          "x": 1024,
+          "y": 925
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "M20",
+          "name": "真刀竹光",
+          "mad": 0
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "finalCandidateAutoCommitted": false,
+        "policy": "LAST_REMAINING_PHYSICAL_CENTER_IDENTITY_THEN_EXPLICIT_SELECT",
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      }
+    ],
+    "policy": "EDGE_ANCHORED_SINGLE_CLICK_WAIT_IDENTITY_THEN_SELECT"
+  },
+  "resolutionProof": {
+    "status": "PASS",
+    "expectedDrawCount": 4,
+    "returnBeforePrimaryDrawCount": 2,
+    "drawLabelCount": 1,
+    "drawResultCount": 4,
+    "evidence": {
+      "scope": {
+        "minY": 0,
+        "maxY": 969
+      },
+      "expectedDrawCount": 4,
+      "returnLabelCount": 2,
+      "returnRows": [
+        {
+          "x": 208,
+          "y": 251,
+          "mad": 0.006654016445287801,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.1298865973721971,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1745,
+            "y": 341,
+            "width": 47,
+            "height": 67,
+            "area": 671,
+            "visibility": "FACE_UP"
+          }
+        },
+        {
+          "x": 208,
+          "y": 712,
+          "mad": 0.009089184060721065,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.17583044917481105,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1745,
+            "y": 802,
+            "width": 47,
+            "height": 67,
+            "area": 662,
+            "visibility": "FACE_UP"
+          }
+        }
+      ],
+      "returnBeforePrimaryDrawCount": 2,
+      "returnBeforePrimaryDrawRows": [
+        {
+          "x": 208,
+          "y": 251,
+          "mad": 0.006654016445287801,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.1298865973721971,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1745,
+            "y": 341,
+            "width": 47,
+            "height": 67,
+            "area": 671,
+            "visibility": "FACE_UP"
+          }
+        },
+        {
+          "x": 208,
+          "y": 712,
+          "mad": 0.009089184060721065,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.17583044917481105,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1745,
+            "y": 802,
+            "width": 47,
+            "height": 67,
+            "area": 662,
+            "visibility": "FACE_UP"
+          }
+        }
+      ],
+      "drawLabelCount": 1,
+      "drawRows": [
+        {
+          "x": 51,
+          "y": 784,
+          "mad": 0.044876660341556004,
+          "observedCardCount": 3,
+          "resultCount": 4,
+          "inferredPitch": 58.5,
+          "rowObservedCounts": [
+            3
+          ],
+          "rowInferredCounts": [
+            4
+          ],
+          "inferredMissingSlots": [
+            {
+              "row": 1,
+              "count": 1,
+              "reason": "STABLE_DRAW_GRID_PITCH_SUPPORTS_ONE_TRAILING_SLOT"
+            }
+          ],
+          "resultRows": [
+            {
+              "rowIndex": 1,
+              "centerY": 989,
+              "observedCount": 3,
+              "inferredCount": 4,
+              "cards": [
+                {
+                  "x": 1743,
+                  "y": 954,
+                  "width": 50,
+                  "height": 72,
+                  "area": 535,
+                  "visibility": "FACE_UP"
+                },
+                {
+                  "x": 1803,
+                  "y": 953,
+                  "width": 47,
+                  "height": 68,
+                  "area": 709,
+                  "visibility": "FACE_UP"
+                },
+                {
+                  "x": 1859,
+                  "y": 954,
+                  "width": 51,
+                  "height": 72,
+                  "area": 579,
+                  "visibility": "FACE_UP"
+                }
+              ]
+            }
+          ],
+          "resultCards": [
+            {
+              "rowIndex": 1,
+              "box": {
+                "x": 1743,
+                "y": 954,
+                "width": 50,
+                "height": 72,
+                "area": 535,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.2752903887254082,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 1,
+              "box": {
+                "x": 1803,
+                "y": 953,
+                "width": 47,
+                "height": 68,
+                "area": 709,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.2190033783336306,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 1,
+              "box": {
+                "x": 1859,
+                "y": 954,
+                "width": 51,
+                "height": 72,
+                "area": 579,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.2785753211243004,
+                "visibility": "FACE_UP"
+              }
+            }
+          ],
+          "anchor": {
+            "labelPanelX": 51,
+            "labelPanelY": 784,
+            "labelMad": 0.044876660341556004,
+            "expectedDrawCount": 4,
+            "observedCardCount": 3,
+            "resultCount": 4,
+            "rowObservedCounts": [
+              3
+            ],
+            "rowInferredCounts": [
+              4
+            ],
+            "inferredMissingSlots": [
+              {
+                "row": 1,
+                "count": 1,
+                "reason": "STABLE_DRAW_GRID_PITCH_SUPPORTS_ONE_TRAILING_SLOT"
+              }
+            ],
+            "rowClientTop": 953,
+            "rowClientBottom": 1026,
+            "rowClientLeft": 1743,
+            "rowClientRight": 1910
+          }
+        }
+      ],
+      "primaryDraw": {
+        "x": 51,
+        "y": 784,
+        "mad": 0.044876660341556004,
+        "observedCardCount": 3,
+        "resultCount": 4,
+        "inferredPitch": 58.5,
+        "rowObservedCounts": [
+          3
+        ],
+        "rowInferredCounts": [
+          4
+        ],
+        "inferredMissingSlots": [
+          {
+            "row": 1,
+            "count": 1,
+            "reason": "STABLE_DRAW_GRID_PITCH_SUPPORTS_ONE_TRAILING_SLOT"
+          }
+        ],
+        "resultRows": [
+          {
+            "rowIndex": 1,
+            "centerY": 989,
+            "observedCount": 3,
+            "inferredCount": 4,
+            "cards": [
+              {
+                "x": 1743,
+                "y": 954,
+                "width": 50,
+                "height": 72,
+                "area": 535,
+                "visibility": "FACE_UP"
+              },
+              {
+                "x": 1803,
+                "y": 953,
+                "width": 47,
+                "height": 68,
+                "area": 709,
+                "visibility": "FACE_UP"
+              },
+              {
+                "x": 1859,
+                "y": 954,
+                "width": 51,
+                "height": 72,
+                "area": 579,
+                "visibility": "FACE_UP"
+              }
+            ]
+          }
+        ],
+        "resultCards": [
+          {
+            "rowIndex": 1,
+            "box": {
+              "x": 1743,
+              "y": 954,
+              "width": 50,
+              "height": 72,
+              "area": 535,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.2752903887254082,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 1,
+            "box": {
+              "x": 1803,
+              "y": 953,
+              "width": 47,
+              "height": 68,
+              "area": 709,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.2190033783336306,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 1,
+            "box": {
+              "x": 1859,
+              "y": 954,
+              "width": 51,
+              "height": 72,
+              "area": 579,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.2785753211243004,
+              "visibility": "FACE_UP"
+            }
+          }
+        ],
+        "anchor": {
+          "labelPanelX": 51,
+          "labelPanelY": 784,
+          "labelMad": 0.044876660341556004,
+          "expectedDrawCount": 4,
+          "observedCardCount": 3,
+          "resultCount": 4,
+          "rowObservedCounts": [
+            3
+          ],
+          "rowInferredCounts": [
+            4
+          ],
+          "inferredMissingSlots": [
+            {
+              "row": 1,
+              "count": 1,
+              "reason": "STABLE_DRAW_GRID_PITCH_SUPPORTS_ONE_TRAILING_SLOT"
+            }
+          ],
+          "rowClientTop": 953,
+          "rowClientBottom": 1026,
+          "rowClientLeft": 1743,
+          "rowClientRight": 1910
+        }
+      },
+      "drawResultCount": 4,
+      "fingerprint": "M11:R2:D4:E4"
+    }
+  },
+  "fullResyncProof": {
+    "status": "PASS",
+    "beforeCount": 5,
+    "afterCount": 4,
+    "delta": -1,
+    "cardIds": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M17",
+      "M19"
+    ]
+  },
+  "protectedProof": [],
+  "finalHand": [
+    {
+      "index": 1,
+      "x": 798,
+      "y": 1010,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.25299526498841174,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M02",
+          "name": "被封印的左足",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.25299526498841174,
+          "rmse": 0.3233132067382068,
+          "dhash": 34
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.25913617514607423,
+          "rmse": 0.33712533142819295,
+          "dhash": 40
+        }
+      ],
+      "timingMs": {
+        "locateMs": 524.711,
+        "clickAndSettleMs": 290.903,
+        "recognizeMs": 16.473,
+        "usabilityMs": 0.156,
+        "resetMs": 179.308,
+        "totalMs": 1172.785
+      }
+    },
+    {
+      "index": 2,
+      "x": 938,
+      "y": 1002,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.24609671268723238,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M03",
+          "name": "被封印的右腕",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "count": 3,
+          "mad": 0.24609671268723238,
+          "rmse": 0.31068570955901514,
+          "dhash": 27
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.2494728635790886,
+          "rmse": 0.31979133432050827,
+          "dhash": 31
+        }
+      ],
+      "timingMs": {
+        "locateMs": 583.997,
+        "clickAndSettleMs": 297.175,
+        "recognizeMs": 18.181,
+        "usabilityMs": 0.132,
+        "resetMs": 179.69,
+        "totalMs": 1255.737
+      }
+    },
+    {
+      "index": 3,
+      "x": 1076,
+      "y": 1000,
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2628304108410714,
+      "usable": true,
+      "yellowPixels": 4808,
+      "yellowRatio": 0.14676434676434677,
+      "top3": [
+        {
+          "id": "M17",
+          "name": "闪刀起动－交闪",
+          "count": 3,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E09",
+          "name": "闪刀姬－卡梅莉娅",
+          "count": 1,
+          "mad": 0.2628304108410714,
+          "rmse": 0.330575187185791,
+          "dhash": 33
+        },
+        {
+          "id": "E03",
+          "name": "闪刀姬－雫",
+          "count": 1,
+          "mad": 0.26284098680824364,
+          "rmse": 0.3187799115062048,
+          "dhash": 43
+        }
+      ],
+      "timingMs": {
+        "locateMs": 553.016,
+        "clickAndSettleMs": 285.687,
+        "recognizeMs": 16.368,
+        "usabilityMs": 15.221,
+        "resetMs": 175.364,
+        "totalMs": 1226.074
+      }
+    },
+    {
+      "index": 4,
+      "x": 1230,
+      "y": 1004,
+      "id": "M19",
+      "name": "妖刀竹光",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.21718655099580286,
+      "usable": true,
+      "yellowPixels": 848,
+      "yellowRatio": 0.025885225885225887,
+      "top3": [
+        {
+          "id": "M19",
+          "name": "妖刀竹光",
+          "count": 2,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E09",
+          "name": "闪刀姬－卡梅莉娅",
+          "count": 1,
+          "mad": 0.21718655099580286,
+          "rmse": 0.28504561116777016,
+          "dhash": 30
+        },
+        {
+          "id": "M13",
+          "name": "暗之诱惑",
+          "count": 1,
+          "mad": 0.22562768365166994,
+          "rmse": 0.3085913148158926,
+          "dhash": 30
+        }
+      ],
+      "timingMs": {
+        "locateMs": 613.026,
+        "clickAndSettleMs": 307.069,
+        "recognizeMs": 10.379,
+        "usabilityMs": 32.893,
+        "resetMs": 176.427,
+        "totalMs": 1280.441
+      }
+    }
+  ]
+}

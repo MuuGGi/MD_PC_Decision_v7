@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-09T08:35:12.628Z",
+  "checkpoint": {
+    "activationKey": "M17",
+    "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M14",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "E10",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M08",
+        "cardName": "闪术兵器－H.A.M.P."
+      },
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M14",
+        "cardName": "金黄色的竹光"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "E10",
+      "signature": "E10|PROCESSING_CARD:M17",
+      "detailTokens": [
+        "HAND_GAIN:M17"
+      ]
+    },
+    {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M14",
+      "detailTokens": [
+        "HAND_GAIN:M08",
+        "HAND_GAIN:M14"
+      ]
+    }
+  ]
+}

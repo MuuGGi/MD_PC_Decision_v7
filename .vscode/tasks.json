@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "V7: test 5 games", "type": "shell", "command": "${workspaceFolder}\\run-v7-autotest.cmd", "args": ["--max-games=5"], "problemMatcher": [] },
+    { "label": "V7: offline verify", "type": "shell", "command": "${workspaceFolder}\\verify-v7.cmd", "problemMatcher": [] },
+    { "label": "V7: stop safely", "type": "shell", "command": "${workspaceFolder}\\run-v7-autotest.cmd", "args": ["--stop"], "problemMatcher": [] }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-09T08:30:01.275Z",
+  "target": {
+    "id": "M15",
+    "name": "无之炼狱"
+  },
+  "baselineHandCount": 8,
+  "baselineHand": [
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 1
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 2
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 3
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 5
+    },
+    {
+      "id": "M11",
+      "name": "万宝槌",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M11"
+      ],
+      "index": 6
+    },
+    {
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M14"
+      ],
+      "index": 7
+    },
+    {
+      "id": "M15",
+      "name": "无之炼狱",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M15"
+      ],
+      "index": 8
+    }
+  ],
+  "selected": {
+    "slot": 8,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M15",
+      "name": "无之炼狱",
+      "mad": 0,
+      "rmse": 0,
+      "margin": 0.1485291851368379,
+      "top3": [
+        {
+          "id": "M15",
+          "name": "无之炼狱",
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M13",
+          "name": "暗之诱惑",
+          "mad": 0.1485291851368379,
+          "rmse": 0.22331028111151638,
+          "dhash": 23
+        },
+        {
+          "id": "E09",
+          "name": "闪刀姬－卡梅莉娅",
+          "mad": 0.18439934046254244,
+          "rmse": 0.24600890357714622,
+          "dhash": 35
+        }
+      ]
+    },
+    "clickReference": {
+      "x": 1388,
+      "y": 1008
+    },
+    "positioning": {
+      "mode": "V5_DENSE_CURRENT_SLOT_TARGET",
+      "window": "RIGHT_EDGE",
+      "currentCenter": {
+        "x": 1388,
+        "y": 1008
+      },
+      "finalKnownWindow": "RIGHT_EDGE"
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1300,
+        "y": 856
+      },
+      "width": 82,
+      "height": 48,
+      "fillRatio": 0.4380081300813008,
+      "estimatedPixels": 1724,
+      "menuMode": "ACTIVATE_LEFT_OF_SET",
+      "expectedReference": {
+        "x": 1303,
+        "y": 848
+      },
+      "drift": 8.54400374531753,
+      "glyph": {
+        "iou": 0.9416666666666667,
+        "darkBackgroundRatio": 0.9635036496350365,
+        "offsetX": 0,
+        "offsetY": 0,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 6048,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 3,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.056004740740740744,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.042391304347826085,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.1641304347826087,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.18858695652173912,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.15108695652173912,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.1342391304347826,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.14619565217391303,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.26793478260869563,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.08532608695652173,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.14565217391304347,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.05271739130434783,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.2891304347826087,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.10054347826086957,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.06388148148148148,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.048128,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.02565925925925926,
+          "pass": false,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.06981052631578948,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 215
+    }
+  },
+  "observerVerification": {
+    "logOperation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M15",
+          "name": "无之炼狱",
+          "mad": 0.11354113535313284,
+          "rawMad": 0.08120731212297932,
+          "hsvDistance": 0.2694485269179461
+        },
+        "confidenceMargin": 0.23086963241376715,
+        "top3": [
+          {
+            "id": "M15",
+            "name": "无之炼狱",
+            "mad": 0.11354113535313284,
+            "rawMad": 0.08120731212297932,
+            "hsvDistance": 0.2694485269179461
+          },
+          {
+            "id": "E09",
+            "name": "闪刀姬－卡梅莉娅",
+            "mad": 0.3444107677669,
+            "rawMad": 0.1742445989542886,
+            "hsvDistance": 1.4180514067717618
+          },
+          {
+            "id": "M13",
+            "name": "暗之诱惑",
+            "mad": 0.38923900805505607,
+            "rawMad": 0.1482040496889156,
+            "hsvDistance": 2.0086246530511707
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 630,
+          "mad": 0.016147635524798153
+        },
+        "box": {
+          "x": 1702,
+          "y": 787,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M15",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M18",
+            "name": "愚蠢的重葬",
+            "mad": 0.203533601314406,
+            "rawMad": 0.15947611694803746,
+            "hsvDistance": 0.3671457030530712
+          },
+          "confidenceMargin": 0.1458661687448395,
+          "top3": [
+            {
+              "id": "M18",
+              "name": "愚蠢的重葬",
+              "mad": 0.203533601314406,
+              "rawMad": 0.15947611694803746,
+              "hsvDistance": 0.3671457030530712
+            },
+            {
+              "id": "E08",
+              "name": "闪刀姬－阿塞蕾娅",
+              "mad": 0.3493997700592455,
+              "rawMad": 0.20693702867698727,
+              "hsvDistance": 1.187189511518819
+            },
+            {
+              "id": "M13",
+              "name": "暗之诱惑",
+              "mad": 0.41292486158168,
+              "rawMad": 0.1983204356895566,
+              "hsvDistance": 1.7883702157676953
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1745,
+            "y": 953,
+            "width": 47,
+            "height": 67,
+            "area": 711
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        }
+      ],
+      "startY": 787,
+      "endY": 1020,
+      "signature": "M15|PROCESSING_CARD:M18",
+      "relationship": {
+        "type": "INDEPENDENT_ACTIVATION_AFTER_HAND_GAIN",
+        "parentActivationKey": null,
+        "evidenceCard": {
+          "id": "M15",
+          "name": "无之炼狱",
+          "mad": 0.20267746104344847,
+          "rawMad": 0.16183334894547502,
+          "hsvDistance": 0.3403676008164454
+        }
+      }
+    },
+    "consumed": {
+      "id": "M15",
+      "name": "无之炼狱",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M15"
+      ],
+      "index": 8
+    },
+    "inserted": {
+      "slot": 8,
+      "card": {
+        "id": "M18",
+        "name": "愚蠢的重葬"
+      }
+    },
+    "beforeCount": 8,
+    "afterCount": 8,
+    "finalHand": [
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 1
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 2
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 3
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M11"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 7
+      },
+      {
+        "id": "M18",
+        "name": "愚蠢的重葬",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M18"
+        ],
+        "index": 8
+      }
+    ]
+  }
+}

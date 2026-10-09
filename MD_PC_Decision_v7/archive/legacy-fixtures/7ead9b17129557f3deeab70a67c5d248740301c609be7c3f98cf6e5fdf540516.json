@@ -1,0 +1,2616 @@
+{
+  "decision": {
+    "graveSpellCount": 7,
+    "fieldSpell": null,
+    "chickenGameDrawUsed": false,
+    "chickenGameDrawPending": false,
+    "bambooSwordEquipped": false,
+    "engageBlockedByMainMonster": false,
+    "rayeNormalSummoned": true,
+    "normalSummonUsed": true,
+    "usedCounts": {
+      "M10": 3,
+      "M18": 1,
+      "M12": 1,
+      "M07": 1,
+      "M15": 1,
+      "M09": 1,
+      "M06": 1
+    },
+    "effectUsage": {
+      "M19_SEARCH": 0
+    },
+    "effectUsageMeta": {},
+    "notes": "V5 runtime decision state",
+    "v5Branch": {
+      "active": true,
+      "currentState": "E10_TARGET_PROMPT",
+      "carrierId": "E10",
+      "rayeOnlyMonster": true,
+      "updatedAt": "2026-10-01T13:33:40.072Z",
+      "source": "FORMAL_V5_R2",
+      "equippedYoto": false,
+      "summonMode": "RAYE_DIRECT"
+    }
+  },
+  "hand": {
+    "version": 2,
+    "capturedAt": "2026-10-01T13:31:18.115Z",
+    "revision": 9,
+    "handCount": 4,
+    "cards": [
+      {
+        "id": "M02",
+        "name": "被封印的左足",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M02"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 3
+      },
+      {
+        "index": 4,
+        "x": 1141,
+        "y": 983,
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2627693724019633,
+        "usable": true,
+        "yellowPixels": 892,
+        "yellowRatio": 0.02722832722832723,
+        "top3": [
+          {
+            "id": "M14",
+            "name": "金黄色的竹光",
+            "count": 3,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "count": 1,
+            "mad": 0.2627693724019633,
+            "rmse": 0.32389383138370903,
+            "dhash": 32
+          },
+          {
+            "id": "M10",
+            "name": "卡通目录",
+            "count": 3,
+            "mad": 0.2923922535573021,
+            "rmse": 0.38025605091527026,
+            "dhash": 24
+          }
+        ],
+        "timingMs": {
+          "locateMs": 350.952,
+          "clickAndSettleMs": 271.235,
+          "recognizeMs": 12.059,
+          "usabilityMs": 44.23,
+          "resetMs": 176.482,
+          "totalMs": 855.442
+        }
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\debug\\hand-change-live\\revision_9\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M06",
+      "signature": "M06|",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "index": 2,
+        "x": 733,
+        "y": 992,
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.21446641223911356,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E09",
+            "name": "闪刀姬－卡梅莉娅",
+            "count": 1,
+            "mad": 0.21446641223911356,
+            "rmse": 0.28261859962886526,
+            "dhash": 26
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.25269430317974007,
+            "rmse": 0.3230762076159287,
+            "dhash": 32
+          }
+        ],
+        "timingMs": {
+          "locateMs": 372.188,
+          "clickAndSettleMs": 272.759,
+          "recognizeMs": 28.313,
+          "usabilityMs": 0.257,
+          "resetMs": 171.793,
+          "totalMs": 845.992
+        }
+      },
+      "costConsumed": [],
+      "predictedSlots": [],
+      "recognized": [],
+      "finalClicks": []
+    }
+  },
+  "ledger": {
+    "version": 2,
+    "mode": "OUTSIDE_DECK_COUNT",
+    "initializedAt": "2026-10-01T10:16:48.607Z",
+    "openingBaselineCapturedAt": "2026-10-01T10:16:46.067Z",
+    "openingHand": [
+      "M06",
+      "M10",
+      "M12",
+      "M14",
+      "M18"
+    ],
+    "outsideDeckCounts": {
+      "M01": 0,
+      "M02": 1,
+      "M03": 0,
+      "M04": 0,
+      "M05": 0,
+      "M06": 2,
+      "M07": 1,
+      "M08": 0,
+      "M09": 1,
+      "M10": 3,
+      "M11": 0,
+      "M12": 2,
+      "M13": 0,
+      "M14": 1,
+      "M15": 1,
+      "M16": 0,
+      "M17": 0,
+      "M18": 1,
+      "M19": 0,
+      "M20": 0,
+      "M21": 0,
+      "M22": 0
+    },
+    "lastHandRevision": 9,
+    "lastIncrementalFingerprint": "9|M06|",
+    "processedLogEvents": [],
+    "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+    "lastUpdatedAt": "2026-10-01T13:31:18.117Z"
+  },
+  "log": {
+    "status": "OK_MAIN1_SCROLLED_OUT",
+    "match": {
+      "x": 1677,
+      "y": 179,
+      "mad": 0.1732020654111461
+    },
+    "rightPanel": {
+      "x": 1674,
+      "y": 150,
+      "width": 348,
+      "height": 886
+    },
+    "events": [
+      {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "mad": 0.23583736321768808,
+          "rawMad": 0.1977926445659178,
+          "hsvDistance": 0.3170393220980858
+        },
+        "confidenceMargin": 0.17435924412700568,
+        "top3": [
+          {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.23583736321768808,
+            "rawMad": 0.1977926445659178,
+            "hsvDistance": 0.3170393220980858
+          },
+          {
+            "id": "E09",
+            "name": "闪刀姬－卡梅莉娅",
+            "mad": 0.41019660734469376,
+            "rawMad": 0.20405069615044813,
+            "hsvDistance": 1.7178825932853805
+          },
+          {
+            "id": "M17",
+            "name": "闪刀起动－交闪",
+            "mad": 0.4187202011300962,
+            "rawMad": 0.25378040464657603,
+            "hsvDistance": 1.3744983040293353
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "SELF_ACTIVATION_COLUMN",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1702,
+          "y": 241,
+          "width": 47,
+          "height": 71,
+          "area": 1026
+        }
+      },
+      {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "mad": 0.14108239656950378,
+          "rawMad": 0.09646077776669779,
+          "hsvDistance": 0.37184682335671665
+        },
+        "confidenceMargin": 0.2628304117869476,
+        "top3": [
+          {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.14108239656950378,
+            "rawMad": 0.09646077776669779,
+            "hsvDistance": 0.37184682335671665
+          },
+          {
+            "id": "E09",
+            "name": "闪刀姬－卡梅莉娅",
+            "mad": 0.4039128083564514,
+            "rawMad": 0.19822162593912093,
+            "hsvDistance": 1.7140931868110874
+          },
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.4155464130984151,
+            "rawMad": 0.2669683335398182,
+            "hsvDistance": 1.2381506629883074
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 85,
+          "y": 199,
+          "mad": 0.05353562239375388
+        },
+        "box": {
+          "x": 1702,
+          "y": 356,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      {
+        "type": "HAND_GAIN",
+        "side": "SELF",
+        "card": {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "mad": 0.22847650286701005,
+          "rawMad": 0.18507136763371282,
+          "hsvDistance": 0.36170946027747686
+        },
+        "confidenceMargin": 0.1818257154606654,
+        "top3": [
+          {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.22847650286701005,
+            "rawMad": 0.18507136763371282,
+            "hsvDistance": 0.36170946027747686
+          },
+          {
+            "id": "E09",
+            "name": "闪刀姬－卡梅莉娅",
+            "mad": 0.41030221832767544,
+            "rawMad": 0.20270533240264957,
+            "hsvDistance": 1.7299740493752154
+          },
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.4238863132417161,
+            "rawMad": 0.26673938903141375,
+            "hsvDistance": 1.30955770175252
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "FACE_UP_RECOGNIZED",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1745,
+          "y": 507,
+          "width": 47,
+          "height": 71,
+          "area": 1012
+        }
+      },
+      {
+        "type": "SPECIAL_SUMMON",
+        "side": "SELF",
+        "card": {
+          "id": "TOKEN_SKY_STRIKER",
+          "name": "闪刀姬衍生物",
+          "mad": 0
+        },
+        "confidenceMargin": null,
+        "top3": [],
+        "source": "SEMANTIC_LABEL",
+        "box": {
+          "x": 1837,
+          "y": 668,
+          "width": 120,
+          "height": 38
+        }
+      },
+      {
+        "type": "HAND_GAIN",
+        "side": "SELF",
+        "card": {
+          "id": "E10",
+          "name": "闪刀姬－零梦",
+          "mad": 0.20995611656633262,
+          "rawMad": 0.143133326685582,
+          "hsvDistance": 0.5568565823395885
+        },
+        "confidenceMargin": 0.22076561041154863,
+        "top3": [
+          {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.20995611656633262,
+            "rawMad": 0.143133326685582,
+            "hsvDistance": 0.5568565823395885
+          },
+          {
+            "id": "E06",
+            "name": "试作闪刀姬－天津",
+            "mad": 0.43072172697788125,
+            "rawMad": 0.27309494096092235,
+            "hsvDistance": 1.3135565501413242
+          },
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.46622633955432646,
+            "rawMad": 0.267644893268346,
+            "hsvDistance": 1.6548453857165035
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "FACE_UP_RECOGNIZED",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1744,
+          "y": 670,
+          "width": 50,
+          "height": 74,
+          "area": 1489
+        }
+      },
+      {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "E10",
+          "name": "闪刀姬－零梦",
+          "mad": 0.16194241793016095,
+          "rawMad": 0.1035733674987434,
+          "hsvDistance": 0.48640875359514624
+        },
+        "confidenceMargin": 0.30320939368162936,
+        "top3": [
+          {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.16194241793016095,
+            "rawMad": 0.1035733674987434,
+            "hsvDistance": 0.48640875359514624
+          },
+          {
+            "id": "E06",
+            "name": "试作闪刀姬－天津",
+            "mad": 0.4651518116117903,
+            "rawMad": 0.27568434061866354,
+            "hsvDistance": 1.57889559160939
+          },
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.5074258116159435,
+            "rawMad": 0.27940073548297367,
+            "hsvDistance": 1.9002089677747485
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 85,
+          "y": 630,
+          "mad": 0.04762665247094313
+        },
+        "box": {
+          "x": 1702,
+          "y": 787,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      {
+        "type": "HAND_GAIN",
+        "side": "SELF",
+        "card": {
+          "id": "M17",
+          "name": "闪刀起动－交闪",
+          "mad": 0.2352472283576448,
+          "rawMad": 0.18418721677811634,
+          "hsvDistance": 0.4255000964960706
+        },
+        "confidenceMargin": 0.161400331744364,
+        "top3": [
+          {
+            "id": "M17",
+            "name": "闪刀起动－交闪",
+            "mad": 0.2352472283576448,
+            "rawMad": 0.18418721677811634,
+            "hsvDistance": 0.4255000964960706
+          },
+          {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.3966475601020088,
+            "rawMad": 0.26886123021664543,
+            "hsvDistance": 1.0648860823780282
+          },
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.40767655127150837,
+            "rawMad": 0.2899376219383841,
+            "hsvDistance": 0.9811577444427023
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "FACE_UP_RECOGNIZED",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1745,
+          "y": 953,
+          "width": 47,
+          "height": 67,
+          "area": 711
+        }
+      }
+    ],
+    "semanticLabels": [
+      {
+        "type": "ACTIVATE",
+        "x": 85,
+        "y": 199,
+        "mad": 0.05353562239375388,
+        "width": 70,
+        "height": 35
+      },
+      {
+        "type": "SPECIAL_SUMMON",
+        "x": 163,
+        "y": 518,
+        "mad": 0.10103942208462333,
+        "width": 120,
+        "height": 38
+      },
+      {
+        "type": "ACTIVATE",
+        "x": 85,
+        "y": 630,
+        "mad": 0.04762665247094313,
+        "width": 70,
+        "height": 35
+      }
+    ],
+    "fieldRowEvidence": [],
+    "observerFieldTransitions": [],
+    "bottomTailContinuity": {
+      "matched": true,
+      "previousStart": 2,
+      "overlapLength": 1,
+      "newBlockStart": 1,
+      "matchedKeys": [
+        "M06"
+      ],
+      "matchKinds": [
+        "EXACT_SIGNATURE"
+      ],
+      "hasStrictExtension": false,
+      "hasUniqueSavedAnchor": true,
+      "usedClippedFinalDetailFallback": false
+    },
+    "operationBlocks": [
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.23583736321768808,
+            "rawMad": 0.1977926445659178,
+            "hsvDistance": 0.3170393220980858
+          },
+          "confidenceMargin": 0.17435924412700568,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.23583736321768808,
+              "rawMad": 0.1977926445659178,
+              "hsvDistance": 0.3170393220980858
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.41019660734469376,
+              "rawMad": 0.20405069615044813,
+              "hsvDistance": 1.7178825932853805
+            },
+            {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.4187202011300962,
+              "rawMad": 0.25378040464657603,
+              "hsvDistance": 1.3744983040293353
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "SELF_ACTIVATION_COLUMN",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1702,
+            "y": 241,
+            "width": 47,
+            "height": 71,
+            "area": 1026
+          }
+        },
+        "activationKey": "M06",
+        "details": [],
+        "startY": 241,
+        "endY": 312,
+        "signature": "M06|",
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.14108239656950378,
+            "rawMad": 0.09646077776669779,
+            "hsvDistance": 0.37184682335671665
+          },
+          "confidenceMargin": 0.2628304117869476,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.14108239656950378,
+              "rawMad": 0.09646077776669779,
+              "hsvDistance": 0.37184682335671665
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.4039128083564514,
+              "rawMad": 0.19822162593912093,
+              "hsvDistance": 1.7140931868110874
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.4155464130984151,
+              "rawMad": 0.2669683335398182,
+              "hsvDistance": 1.2381506629883074
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 199,
+            "mad": 0.05353562239375388
+          },
+          "box": {
+            "x": 1702,
+            "y": 356,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "M06",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.22847650286701005,
+              "rawMad": 0.18507136763371282,
+              "hsvDistance": 0.36170946027747686
+            },
+            "confidenceMargin": 0.1818257154606654,
+            "top3": [
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.22847650286701005,
+                "rawMad": 0.18507136763371282,
+                "hsvDistance": 0.36170946027747686
+              },
+              {
+                "id": "E09",
+                "name": "闪刀姬－卡梅莉娅",
+                "mad": 0.41030221832767544,
+                "rawMad": 0.20270533240264957,
+                "hsvDistance": 1.7299740493752154
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.4238863132417161,
+                "rawMad": 0.26673938903141375,
+                "hsvDistance": 1.30955770175252
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 507,
+              "width": 47,
+              "height": 71,
+              "area": 1012
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "TOKEN_SKY_STRIKER",
+              "name": "闪刀姬衍生物",
+              "mad": 0
+            },
+            "confidenceMargin": null,
+            "top3": [],
+            "source": "SEMANTIC_LABEL",
+            "box": {
+              "x": 1837,
+              "y": 668,
+              "width": 120,
+              "height": 38
+            },
+            "rawType": "SPECIAL_SUMMON",
+            "role": "SUMMON_RESULT"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.20995611656633262,
+              "rawMad": 0.143133326685582,
+              "hsvDistance": 0.5568565823395885
+            },
+            "confidenceMargin": 0.22076561041154863,
+            "top3": [
+              {
+                "id": "E10",
+                "name": "闪刀姬－零梦",
+                "mad": 0.20995611656633262,
+                "rawMad": 0.143133326685582,
+                "hsvDistance": 0.5568565823395885
+              },
+              {
+                "id": "E06",
+                "name": "试作闪刀姬－天津",
+                "mad": 0.43072172697788125,
+                "rawMad": 0.27309494096092235,
+                "hsvDistance": 1.3135565501413242
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.46622633955432646,
+                "rawMad": 0.267644893268346,
+                "hsvDistance": 1.6548453857165035
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1744,
+              "y": 670,
+              "width": 50,
+              "height": 74,
+              "area": 1489
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 356,
+        "endY": 744,
+        "signature": "M06|PROCESSING_CARD:M06,PROCESSING_CARD:TOKEN_SKY_STRIKER,PROCESSING_CARD:E10",
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.16194241793016095,
+            "rawMad": 0.1035733674987434,
+            "hsvDistance": 0.48640875359514624
+          },
+          "confidenceMargin": 0.30320939368162936,
+          "top3": [
+            {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.16194241793016095,
+              "rawMad": 0.1035733674987434,
+              "hsvDistance": 0.48640875359514624
+            },
+            {
+              "id": "E06",
+              "name": "试作闪刀姬－天津",
+              "mad": 0.4651518116117903,
+              "rawMad": 0.27568434061866354,
+              "hsvDistance": 1.57889559160939
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.5074258116159435,
+              "rawMad": 0.27940073548297367,
+              "hsvDistance": 1.9002089677747485
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 630,
+            "mad": 0.04762665247094313
+          },
+          "box": {
+            "x": 1702,
+            "y": 787,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "E10",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.2352472283576448,
+              "rawMad": 0.18418721677811634,
+              "hsvDistance": 0.4255000964960706
+            },
+            "confidenceMargin": 0.161400331744364,
+            "top3": [
+              {
+                "id": "M17",
+                "name": "闪刀起动－交闪",
+                "mad": 0.2352472283576448,
+                "rawMad": 0.18418721677811634,
+                "hsvDistance": 0.4255000964960706
+              },
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.3966475601020088,
+                "rawMad": 0.26886123021664543,
+                "hsvDistance": 1.0648860823780282
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.40767655127150837,
+                "rawMad": 0.2899376219383841,
+                "hsvDistance": 0.9811577444427023
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 787,
+        "endY": 1020,
+        "signature": "E10|PROCESSING_CARD:M17",
+        "relationship": {
+          "type": "FOLLOW_UP_FROM_PREVIOUS_PROCESSING",
+          "parentActivationKey": "M06",
+          "evidenceCard": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.20995611656633262,
+            "rawMad": 0.143133326685582,
+            "hsvDistance": 0.5568565823395885
+          }
+        }
+      }
+    ],
+    "activationBlocks": [
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.23583736321768808,
+            "rawMad": 0.1977926445659178,
+            "hsvDistance": 0.3170393220980858
+          },
+          "confidenceMargin": 0.17435924412700568,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.23583736321768808,
+              "rawMad": 0.1977926445659178,
+              "hsvDistance": 0.3170393220980858
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.41019660734469376,
+              "rawMad": 0.20405069615044813,
+              "hsvDistance": 1.7178825932853805
+            },
+            {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.4187202011300962,
+              "rawMad": 0.25378040464657603,
+              "hsvDistance": 1.3744983040293353
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "SELF_ACTIVATION_COLUMN",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1702,
+            "y": 241,
+            "width": 47,
+            "height": 71,
+            "area": 1026
+          }
+        },
+        "activationKey": "M06",
+        "details": [],
+        "startY": 241,
+        "endY": 312,
+        "signature": "M06|",
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.14108239656950378,
+            "rawMad": 0.09646077776669779,
+            "hsvDistance": 0.37184682335671665
+          },
+          "confidenceMargin": 0.2628304117869476,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.14108239656950378,
+              "rawMad": 0.09646077776669779,
+              "hsvDistance": 0.37184682335671665
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.4039128083564514,
+              "rawMad": 0.19822162593912093,
+              "hsvDistance": 1.7140931868110874
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.4155464130984151,
+              "rawMad": 0.2669683335398182,
+              "hsvDistance": 1.2381506629883074
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 199,
+            "mad": 0.05353562239375388
+          },
+          "box": {
+            "x": 1702,
+            "y": 356,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "M06",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.22847650286701005,
+              "rawMad": 0.18507136763371282,
+              "hsvDistance": 0.36170946027747686
+            },
+            "confidenceMargin": 0.1818257154606654,
+            "top3": [
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.22847650286701005,
+                "rawMad": 0.18507136763371282,
+                "hsvDistance": 0.36170946027747686
+              },
+              {
+                "id": "E09",
+                "name": "闪刀姬－卡梅莉娅",
+                "mad": 0.41030221832767544,
+                "rawMad": 0.20270533240264957,
+                "hsvDistance": 1.7299740493752154
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.4238863132417161,
+                "rawMad": 0.26673938903141375,
+                "hsvDistance": 1.30955770175252
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 507,
+              "width": 47,
+              "height": 71,
+              "area": 1012
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "TOKEN_SKY_STRIKER",
+              "name": "闪刀姬衍生物",
+              "mad": 0
+            },
+            "confidenceMargin": null,
+            "top3": [],
+            "source": "SEMANTIC_LABEL",
+            "box": {
+              "x": 1837,
+              "y": 668,
+              "width": 120,
+              "height": 38
+            },
+            "rawType": "SPECIAL_SUMMON",
+            "role": "SUMMON_RESULT"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.20995611656633262,
+              "rawMad": 0.143133326685582,
+              "hsvDistance": 0.5568565823395885
+            },
+            "confidenceMargin": 0.22076561041154863,
+            "top3": [
+              {
+                "id": "E10",
+                "name": "闪刀姬－零梦",
+                "mad": 0.20995611656633262,
+                "rawMad": 0.143133326685582,
+                "hsvDistance": 0.5568565823395885
+              },
+              {
+                "id": "E06",
+                "name": "试作闪刀姬－天津",
+                "mad": 0.43072172697788125,
+                "rawMad": 0.27309494096092235,
+                "hsvDistance": 1.3135565501413242
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.46622633955432646,
+                "rawMad": 0.267644893268346,
+                "hsvDistance": 1.6548453857165035
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1744,
+              "y": 670,
+              "width": 50,
+              "height": 74,
+              "area": 1489
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 356,
+        "endY": 744,
+        "signature": "M06|PROCESSING_CARD:M06,PROCESSING_CARD:TOKEN_SKY_STRIKER,PROCESSING_CARD:E10",
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.16194241793016095,
+            "rawMad": 0.1035733674987434,
+            "hsvDistance": 0.48640875359514624
+          },
+          "confidenceMargin": 0.30320939368162936,
+          "top3": [
+            {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.16194241793016095,
+              "rawMad": 0.1035733674987434,
+              "hsvDistance": 0.48640875359514624
+            },
+            {
+              "id": "E06",
+              "name": "试作闪刀姬－天津",
+              "mad": 0.4651518116117903,
+              "rawMad": 0.27568434061866354,
+              "hsvDistance": 1.57889559160939
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.5074258116159435,
+              "rawMad": 0.27940073548297367,
+              "hsvDistance": 1.9002089677747485
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 630,
+            "mad": 0.04762665247094313
+          },
+          "box": {
+            "x": 1702,
+            "y": 787,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "E10",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.2352472283576448,
+              "rawMad": 0.18418721677811634,
+              "hsvDistance": 0.4255000964960706
+            },
+            "confidenceMargin": 0.161400331744364,
+            "top3": [
+              {
+                "id": "M17",
+                "name": "闪刀起动－交闪",
+                "mad": 0.2352472283576448,
+                "rawMad": 0.18418721677811634,
+                "hsvDistance": 0.4255000964960706
+              },
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.3966475601020088,
+                "rawMad": 0.26886123021664543,
+                "hsvDistance": 1.0648860823780282
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.40767655127150837,
+                "rawMad": 0.2899376219383841,
+                "hsvDistance": 0.9811577444427023
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 787,
+        "endY": 1020,
+        "signature": "E10|PROCESSING_CARD:M17",
+        "relationship": {
+          "type": "FOLLOW_UP_FROM_PREVIOUS_PROCESSING",
+          "parentActivationKey": "M06",
+          "evidenceCard": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.20995611656633262,
+            "rawMad": 0.143133326685582,
+            "hsvDistance": 0.5568565823395885
+          }
+        }
+      }
+    ],
+    "orphanProcessingRows": [],
+    "scrollBacktracking": {
+      "startedAtBottom": true,
+      "initialBottomConfirmed": true,
+      "initialBottomConfirmation": "VISIBLE_RAIL_ALREADY_BOTTOM",
+      "initialBottomWheelBatchCount": 0,
+      "initialBottomWheelEvents": 0,
+      "performed": false,
+      "upwardSteps": 0,
+      "wheelEventsPerStep": 3,
+      "totalUpwardWheelEvents": 0,
+      "totalRestoreWheelEvents": 0,
+      "restoredToBottom": false,
+      "restoreDeferredToHandClick": false,
+      "reachedTop": false,
+      "checkpointSource": "VISIBLE_OPERATION_BLOCK",
+      "viewports": [
+        {
+          "step": 0,
+          "direction": "BOTTOM_INITIAL",
+          "screenshot": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\debug\\duel-log-live\\latest_client.png",
+          "operationKeys": [
+            "M06",
+            "M06",
+            "E10"
+          ],
+          "checkpointProbe": null
+        }
+      ],
+      "rejectedViewports": []
+    },
+    "continuity": "CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS",
+    "previousCheckpointFound": true,
+    "matchedContinuityAnchor": {
+      "kind": "CROSS_RUN_TAIL_OVERLAP",
+      "cardKey": "M06",
+      "source": "VISIBLE_OPERATION_BLOCK",
+      "matchType": "CROSS_RUN_TAIL_OVERLAP",
+      "overlapLength": 1,
+      "matchKinds": [
+        "EXACT_SIGNATURE"
+      ]
+    },
+    "newActivationBlocks": [
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.14108239656950378,
+            "rawMad": 0.09646077776669779,
+            "hsvDistance": 0.37184682335671665
+          },
+          "confidenceMargin": 0.2628304117869476,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.14108239656950378,
+              "rawMad": 0.09646077776669779,
+              "hsvDistance": 0.37184682335671665
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.4039128083564514,
+              "rawMad": 0.19822162593912093,
+              "hsvDistance": 1.7140931868110874
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.4155464130984151,
+              "rawMad": 0.2669683335398182,
+              "hsvDistance": 1.2381506629883074
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 199,
+            "mad": 0.05353562239375388
+          },
+          "box": {
+            "x": 1702,
+            "y": 356,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "M06",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.22847650286701005,
+              "rawMad": 0.18507136763371282,
+              "hsvDistance": 0.36170946027747686
+            },
+            "confidenceMargin": 0.1818257154606654,
+            "top3": [
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.22847650286701005,
+                "rawMad": 0.18507136763371282,
+                "hsvDistance": 0.36170946027747686
+              },
+              {
+                "id": "E09",
+                "name": "闪刀姬－卡梅莉娅",
+                "mad": 0.41030221832767544,
+                "rawMad": 0.20270533240264957,
+                "hsvDistance": 1.7299740493752154
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.4238863132417161,
+                "rawMad": 0.26673938903141375,
+                "hsvDistance": 1.30955770175252
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 507,
+              "width": 47,
+              "height": 71,
+              "area": 1012
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "TOKEN_SKY_STRIKER",
+              "name": "闪刀姬衍生物",
+              "mad": 0
+            },
+            "confidenceMargin": null,
+            "top3": [],
+            "source": "SEMANTIC_LABEL",
+            "box": {
+              "x": 1837,
+              "y": 668,
+              "width": 120,
+              "height": 38
+            },
+            "rawType": "SPECIAL_SUMMON",
+            "role": "SUMMON_RESULT"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.20995611656633262,
+              "rawMad": 0.143133326685582,
+              "hsvDistance": 0.5568565823395885
+            },
+            "confidenceMargin": 0.22076561041154863,
+            "top3": [
+              {
+                "id": "E10",
+                "name": "闪刀姬－零梦",
+                "mad": 0.20995611656633262,
+                "rawMad": 0.143133326685582,
+                "hsvDistance": 0.5568565823395885
+              },
+              {
+                "id": "E06",
+                "name": "试作闪刀姬－天津",
+                "mad": 0.43072172697788125,
+                "rawMad": 0.27309494096092235,
+                "hsvDistance": 1.3135565501413242
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.46622633955432646,
+                "rawMad": 0.267644893268346,
+                "hsvDistance": 1.6548453857165035
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1744,
+              "y": 670,
+              "width": 50,
+              "height": 74,
+              "area": 1489
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 356,
+        "endY": 744,
+        "signature": "M06|PROCESSING_CARD:M06,PROCESSING_CARD:TOKEN_SKY_STRIKER,PROCESSING_CARD:E10",
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.16194241793016095,
+            "rawMad": 0.1035733674987434,
+            "hsvDistance": 0.48640875359514624
+          },
+          "confidenceMargin": 0.30320939368162936,
+          "top3": [
+            {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.16194241793016095,
+              "rawMad": 0.1035733674987434,
+              "hsvDistance": 0.48640875359514624
+            },
+            {
+              "id": "E06",
+              "name": "试作闪刀姬－天津",
+              "mad": 0.4651518116117903,
+              "rawMad": 0.27568434061866354,
+              "hsvDistance": 1.57889559160939
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.5074258116159435,
+              "rawMad": 0.27940073548297367,
+              "hsvDistance": 1.9002089677747485
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 630,
+            "mad": 0.04762665247094313
+          },
+          "box": {
+            "x": 1702,
+            "y": 787,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "E10",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.2352472283576448,
+              "rawMad": 0.18418721677811634,
+              "hsvDistance": 0.4255000964960706
+            },
+            "confidenceMargin": 0.161400331744364,
+            "top3": [
+              {
+                "id": "M17",
+                "name": "闪刀起动－交闪",
+                "mad": 0.2352472283576448,
+                "rawMad": 0.18418721677811634,
+                "hsvDistance": 0.4255000964960706
+              },
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.3966475601020088,
+                "rawMad": 0.26886123021664543,
+                "hsvDistance": 1.0648860823780282
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.40767655127150837,
+                "rawMad": 0.2899376219383841,
+                "hsvDistance": 0.9811577444427023
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 787,
+        "endY": 1020,
+        "signature": "E10|PROCESSING_CARD:M17",
+        "relationship": {
+          "type": "FOLLOW_UP_FROM_PREVIOUS_PROCESSING",
+          "parentActivationKey": "M06",
+          "evidenceCard": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.20995611656633262,
+            "rawMad": 0.143133326685582,
+            "hsvDistance": 0.5568565823395885
+          }
+        }
+      }
+    ],
+    "newOperationBlocks": [
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.14108239656950378,
+            "rawMad": 0.09646077776669779,
+            "hsvDistance": 0.37184682335671665
+          },
+          "confidenceMargin": 0.2628304117869476,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.14108239656950378,
+              "rawMad": 0.09646077776669779,
+              "hsvDistance": 0.37184682335671665
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.4039128083564514,
+              "rawMad": 0.19822162593912093,
+              "hsvDistance": 1.7140931868110874
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.4155464130984151,
+              "rawMad": 0.2669683335398182,
+              "hsvDistance": 1.2381506629883074
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 199,
+            "mad": 0.05353562239375388
+          },
+          "box": {
+            "x": 1702,
+            "y": 356,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "M06",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.22847650286701005,
+              "rawMad": 0.18507136763371282,
+              "hsvDistance": 0.36170946027747686
+            },
+            "confidenceMargin": 0.1818257154606654,
+            "top3": [
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.22847650286701005,
+                "rawMad": 0.18507136763371282,
+                "hsvDistance": 0.36170946027747686
+              },
+              {
+                "id": "E09",
+                "name": "闪刀姬－卡梅莉娅",
+                "mad": 0.41030221832767544,
+                "rawMad": 0.20270533240264957,
+                "hsvDistance": 1.7299740493752154
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.4238863132417161,
+                "rawMad": 0.26673938903141375,
+                "hsvDistance": 1.30955770175252
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 507,
+              "width": 47,
+              "height": 71,
+              "area": 1012
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "TOKEN_SKY_STRIKER",
+              "name": "闪刀姬衍生物",
+              "mad": 0
+            },
+            "confidenceMargin": null,
+            "top3": [],
+            "source": "SEMANTIC_LABEL",
+            "box": {
+              "x": 1837,
+              "y": 668,
+              "width": 120,
+              "height": 38
+            },
+            "rawType": "SPECIAL_SUMMON",
+            "role": "SUMMON_RESULT"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.20995611656633262,
+              "rawMad": 0.143133326685582,
+              "hsvDistance": 0.5568565823395885
+            },
+            "confidenceMargin": 0.22076561041154863,
+            "top3": [
+              {
+                "id": "E10",
+                "name": "闪刀姬－零梦",
+                "mad": 0.20995611656633262,
+                "rawMad": 0.143133326685582,
+                "hsvDistance": 0.5568565823395885
+              },
+              {
+                "id": "E06",
+                "name": "试作闪刀姬－天津",
+                "mad": 0.43072172697788125,
+                "rawMad": 0.27309494096092235,
+                "hsvDistance": 1.3135565501413242
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.46622633955432646,
+                "rawMad": 0.267644893268346,
+                "hsvDistance": 1.6548453857165035
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1744,
+              "y": 670,
+              "width": 50,
+              "height": 74,
+              "area": 1489
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 356,
+        "endY": 744,
+        "signature": "M06|PROCESSING_CARD:M06,PROCESSING_CARD:TOKEN_SKY_STRIKER,PROCESSING_CARD:E10",
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      {
+        "activation": {
+          "type": "ACTIVATE",
+          "side": "SELF",
+          "card": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.16194241793016095,
+            "rawMad": 0.1035733674987434,
+            "hsvDistance": 0.48640875359514624
+          },
+          "confidenceMargin": 0.30320939368162936,
+          "top3": [
+            {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.16194241793016095,
+              "rawMad": 0.1035733674987434,
+              "hsvDistance": 0.48640875359514624
+            },
+            {
+              "id": "E06",
+              "name": "试作闪刀姬－天津",
+              "mad": 0.4651518116117903,
+              "rawMad": 0.27568434061866354,
+              "hsvDistance": 1.57889559160939
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.5074258116159435,
+              "rawMad": 0.27940073548297367,
+              "hsvDistance": 1.9002089677747485
+            }
+          ],
+          "source": "SEMANTIC_LABEL",
+          "label": {
+            "x": 85,
+            "y": 630,
+            "mad": 0.04762665247094313
+          },
+          "box": {
+            "x": 1702,
+            "y": 787,
+            "width": 47,
+            "height": 67,
+            "area": null
+          }
+        },
+        "activationKey": "E10",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.2352472283576448,
+              "rawMad": 0.18418721677811634,
+              "hsvDistance": 0.4255000964960706
+            },
+            "confidenceMargin": 0.161400331744364,
+            "top3": [
+              {
+                "id": "M17",
+                "name": "闪刀起动－交闪",
+                "mad": 0.2352472283576448,
+                "rawMad": 0.18418721677811634,
+                "hsvDistance": 0.4255000964960706
+              },
+              {
+                "id": "M06",
+                "name": "闪刀姬－零衣",
+                "mad": 0.3966475601020088,
+                "rawMad": 0.26886123021664543,
+                "hsvDistance": 1.0648860823780282
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.40767655127150837,
+                "rawMad": 0.2899376219383841,
+                "hsvDistance": 0.9811577444427023
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "startY": 787,
+        "endY": 1020,
+        "signature": "E10|PROCESSING_CARD:M17",
+        "relationship": {
+          "type": "FOLLOW_UP_FROM_PREVIOUS_PROCESSING",
+          "parentActivationKey": "M06",
+          "evidenceCard": {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "mad": 0.20995611656633262,
+            "rawMad": 0.143133326685582,
+            "hsvDistance": 0.5568565823395885
+          }
+        }
+      }
+    ],
+    "extendedOperationBlocks": [],
+    "windowTitle": "masterduel",
+    "client": {
+      "x": 28,
+      "y": 99,
+      "width": 2048,
+      "height": 1152
+    },
+    "logPanelWasOpenedByScript": false,
+    "logPanelDetection": {
+      "open": true,
+      "confidence": "HIGH",
+      "reason": "VISIBLE_SCROLLBAR_RAIL",
+      "darkRatio": null,
+      "thumb": {
+        "top": 222,
+        "bottom": 1028,
+        "x": 2006,
+        "segments": [
+          {
+            "top": 222,
+            "bottom": 1028
+          }
+        ],
+        "atBottom": true,
+        "railLength": 807
+      }
+    },
+    "screenshot": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\debug\\duel-log-live\\latest_client.png"
+  },
+  "logState": {
+    "version": 1,
+    "capturedAt": "2026-10-01T13:31:17.062Z",
+    "checkpoint": {
+      "activationKey": "M06",
+      "signature": "M06|",
+      "signatureOccurrence": 1,
+      "activationOccurrence": 1,
+      "previousActivationKey": "M09",
+      "evidenceCards": []
+    },
+    "tailBlocks": [
+      {
+        "activationKey": "M15",
+        "signature": "M15|PROCESSING_CARD:M09",
+        "detailTokens": [
+          "HAND_GAIN:M09"
+        ]
+      },
+      {
+        "activationKey": "M09",
+        "signature": "M09|PROCESSING_CARD:M02",
+        "detailTokens": [
+          "HAND_GAIN:M02"
+        ]
+      },
+      {
+        "activationKey": "M06",
+        "signature": "M06|",
+        "detailTokens": []
+      }
+    ]
+  },
+  "previousIncremental": {
+    "status": "PASS",
+    "before": {
+      "version": 2,
+      "capturedAt": "2026-10-01T13:30:59.069Z",
+      "revision": 8,
+      "handCount": 5,
+      "cards": [
+        {
+          "id": "M02",
+          "name": "被封印的左足",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M02"
+          ],
+          "index": 1
+        },
+        {
+          "index": 2,
+          "x": 733,
+          "y": 992,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "accepted": true,
+          "confidence": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0,
+          "margin": 0.21446641223911356,
+          "usable": null,
+          "yellowPixels": null,
+          "yellowRatio": null,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "count": 2,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "count": 1,
+              "mad": 0.21446641223911356,
+              "rmse": 0.28261859962886526,
+              "dhash": 26
+            },
+            {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "count": 2,
+              "mad": 0.25269430317974007,
+              "rmse": 0.3230762076159287,
+              "dhash": 32
+            }
+          ],
+          "timingMs": {
+            "locateMs": 372.188,
+            "clickAndSettleMs": 272.759,
+            "recognizeMs": 28.313,
+            "usabilityMs": 0.257,
+            "resetMs": 171.793,
+            "totalMs": 845.992
+          }
+        },
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ],
+          "index": 3
+        },
+        {
+          "id": "M12",
+          "name": "抵价交易",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M12"
+          ],
+          "index": 4
+        },
+        {
+          "index": 5,
+          "x": 1141,
+          "y": 983,
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "accepted": true,
+          "confidence": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0,
+          "margin": 0.2627693724019633,
+          "usable": true,
+          "yellowPixels": 892,
+          "yellowRatio": 0.02722832722832723,
+          "top3": [
+            {
+              "id": "M14",
+              "name": "金黄色的竹光",
+              "count": 3,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0
+            },
+            {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "count": 1,
+              "mad": 0.2627693724019633,
+              "rmse": 0.32389383138370903,
+              "dhash": 32
+            },
+            {
+              "id": "M10",
+              "name": "卡通目录",
+              "count": 3,
+              "mad": 0.2923922535573021,
+              "rmse": 0.38025605091527026,
+              "dhash": 24
+            }
+          ],
+          "timingMs": {
+            "locateMs": 350.952,
+            "clickAndSettleMs": 271.235,
+            "recognizeMs": 12.059,
+            "usabilityMs": 44.23,
+            "resetMs": 176.482,
+            "totalMs": 855.442
+          }
+        }
+      ],
+      "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\debug\\hand-change-live\\revision_8\\passive_hand.png",
+      "lastOperation": {
+        "activationKey": "M09",
+        "signature": "M09|PROCESSING_CARD:M02",
+        "activationOccurrence": 1
+      },
+      "lastIncremental": {
+        "consumed": {
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M09"
+          ],
+          "index": 3
+        },
+        "costConsumed": [],
+        "predictedSlots": [
+          1
+        ],
+        "recognized": [
+          {
+            "id": "M02",
+            "name": "被封印的左足",
+            "rightLogCertain": true,
+            "candidateIds": [
+              "M02"
+            ]
+          }
+        ],
+        "finalClicks": [
+          {
+            "slot": 1,
+            "id": "M02",
+            "name": "被封印的左足",
+            "source": "RIGHT_LOG_EXACT_NO_CLICK",
+            "physicalClicksIssued": 0
+          }
+        ]
+      }
+    },
+    "after": {
+      "version": 2,
+      "capturedAt": "2026-10-01T13:31:18.115Z",
+      "revision": 9,
+      "handCount": 4,
+      "cards": [
+        {
+          "id": "M02",
+          "name": "被封印的左足",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M02"
+          ],
+          "index": 1
+        },
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ],
+          "index": 2
+        },
+        {
+          "id": "M12",
+          "name": "抵价交易",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M12"
+          ],
+          "index": 3
+        },
+        {
+          "index": 4,
+          "x": 1141,
+          "y": 983,
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "accepted": true,
+          "confidence": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0,
+          "margin": 0.2627693724019633,
+          "usable": true,
+          "yellowPixels": 892,
+          "yellowRatio": 0.02722832722832723,
+          "top3": [
+            {
+              "id": "M14",
+              "name": "金黄色的竹光",
+              "count": 3,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0
+            },
+            {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "count": 1,
+              "mad": 0.2627693724019633,
+              "rmse": 0.32389383138370903,
+              "dhash": 32
+            },
+            {
+              "id": "M10",
+              "name": "卡通目录",
+              "count": 3,
+              "mad": 0.2923922535573021,
+              "rmse": 0.38025605091527026,
+              "dhash": 24
+            }
+          ],
+          "timingMs": {
+            "locateMs": 350.952,
+            "clickAndSettleMs": 271.235,
+            "recognizeMs": 12.059,
+            "usabilityMs": 44.23,
+            "resetMs": 176.482,
+            "totalMs": 855.442
+          }
+        }
+      ],
+      "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\debug\\hand-change-live\\revision_9\\passive_hand.png",
+      "lastOperation": {
+        "activationKey": "M06",
+        "signature": "M06|",
+        "activationOccurrence": 1
+      },
+      "lastIncremental": {
+        "consumed": {
+          "index": 2,
+          "x": 733,
+          "y": 992,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "accepted": true,
+          "confidence": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0,
+          "margin": 0.21446641223911356,
+          "usable": null,
+          "yellowPixels": null,
+          "yellowRatio": null,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "count": 2,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "count": 1,
+              "mad": 0.21446641223911356,
+              "rmse": 0.28261859962886526,
+              "dhash": 26
+            },
+            {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "count": 2,
+              "mad": 0.25269430317974007,
+              "rmse": 0.3230762076159287,
+              "dhash": 32
+            }
+          ],
+          "timingMs": {
+            "locateMs": 372.188,
+            "clickAndSettleMs": 272.759,
+            "recognizeMs": 28.313,
+            "usabilityMs": 0.257,
+            "resetMs": 171.793,
+            "totalMs": 845.992
+          }
+        },
+        "costConsumed": [],
+        "predictedSlots": [],
+        "recognized": [],
+        "finalClicks": []
+      }
+    },
+    "inference": {
+      "activationKey": "M06",
+      "consumed": {
+        "index": 2,
+        "x": 733,
+        "y": 992,
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.21446641223911356,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E09",
+            "name": "闪刀姬－卡梅莉娅",
+            "count": 1,
+            "mad": 0.21446641223911356,
+            "rmse": 0.28261859962886526,
+            "dhash": 26
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.25269430317974007,
+            "rmse": 0.3230762076159287,
+            "dhash": 32
+          }
+        ],
+        "timingMs": {
+          "locateMs": 372.188,
+          "clickAndSettleMs": 272.759,
+          "recognizeMs": 28.313,
+          "usabilityMs": 0.257,
+          "resetMs": 171.793,
+          "totalMs": 845.992
+        }
+      },
+      "costConsumed": [],
+      "addedCount": 0,
+      "predictedSlots": []
+    },
+    "insertedCards": [],
+    "finalClicks": [],
+    "info": {
+      "autoHoldI": true,
+      "fastOwnOnly": true,
+      "capturedAt": "2026-10-01T13:31:17.943Z",
+      "windowTitle": "masterduel",
+      "status": "OK",
+      "own": {
+        "handCount": 4,
+        "status": "OK",
+        "confidence": 0.9513888888888888,
+        "sourceBoxes": [
+          {
+            "x": 84,
+            "y": 34,
+            "width": 23,
+            "height": 29
+          }
+        ]
+      },
+      "opponent": null,
+      "expected": {
+        "own": 4
+      },
+      "sideValidation": "OK",
+      "samples": 2,
+      "stableReads": 2,
+      "holdDurationMs": 167,
+      "mouseReleased": true,
+      "failSafeTriggered": false,
+      "overlayReleaseCheck": "MOUSE_UP_CONFIRMED"
+    }
+  },
+  "compositeState": {
+    "version": 9,
+    "capturedAt": "2026-10-01T13:31:17.080Z",
+    "revision": 2,
+    "turnUsage": {
+      "m19SearchUsed": false,
+      "m19SearchActivationCount": 0,
+      "m19SearchUsedAt": null,
+      "source": null
+    },
+    "current": {
+      "index": 2,
+      "phase": "MATERIAL_READY",
+      "material": {
+        "ready": true,
+        "summoned": [
+          {
+            "mode": "RAYE_NORMAL_SUMMON",
+            "producerId": "M06",
+            "producerName": "闪刀姬－零衣",
+            "cardId": "M06",
+            "cardName": "闪刀姬－零衣",
+            "source": "HAND_CONSUMPTION_PLUS_INDEPENDENT_M06_BLOCK",
+            "inferred": true
+          }
+        ]
+      },
+      "equip": {
+        "mode": "NONE",
+        "swordId": null,
+        "swordName": null,
+        "source": null
+      },
+      "exit": {
+        "mode": null,
+        "materialCount": null,
+        "resultCardId": null,
+        "resultCardName": null,
+        "inferred": false
+      },
+      "summon": {
+        "cardId": null,
+        "cardName": null,
+        "mode": null,
+        "inferred": false
+      },
+      "optionalEffect": {
+        "status": "NONE",
+        "mode": null,
+        "available": false,
+        "resolution": "NONE",
+        "candidateCount": null,
+        "poolCandidateCount": 0,
+        "selectedCandidateCount": 0,
+        "resolvedCandidateCount": 0,
+        "detector": null,
+        "resolvedAt": null,
+        "observedCount": 0,
+        "resolvedCount": 0,
+        "resolutions": [],
+        "effectSelections": [],
+        "effectResolutions": [],
+        "lastResolutionScope": null
+      },
+      "chain": {
+        "status": "NONE",
+        "links": [],
+        "currentResolvingMode": null,
+        "startedAt": null,
+        "resolvedAt": null
+      },
+      "activeEffect": {
+        "mode": null,
+        "status": "NONE",
+        "requiresTargetSelection": false,
+        "requiresResolutionSelection": false,
+        "selectedAt": null,
+        "resolvedAt": null,
+        "resolutionCounted": false,
+        "targetSelectionTiming": null
+      },
+      "targetSelection": {
+        "status": "NONE",
+        "available": false,
+        "effectMode": null,
+        "selectionTiming": null,
+        "candidateCount": null,
+        "allowedTargets": [],
+        "selectedCardId": null,
+        "selectedCardName": null,
+        "detector": null,
+        "observedAt": null,
+        "submittedAt": null,
+        "resolvedAt": null
+      },
+      "postEffects": [],
+      "effectQueue": [],
+      "trace": [
+        {
+          "kind": "MATERIAL_SOURCE",
+          "activationKey": "M06",
+          "activationName": "闪刀姬－零衣",
+          "mode": "RAYE_NORMAL_SUMMON",
+          "cardId": "M06",
+          "cardName": "闪刀姬－零衣",
+          "inferred": true
+        }
+      ]
+    },
+    "history": [
+      {
+        "index": 1,
+        "phase": "POST_SUMMON_EFFECTS",
+        "material": {
+          "ready": false,
+          "summoned": []
+        },
+        "equip": {
+          "mode": "NONE",
+          "swordId": null,
+          "swordName": null,
+          "source": null
+        },
+        "exit": {
+          "mode": null,
+          "materialCount": null,
+          "resultCardId": null,
+          "resultCardName": null,
+          "inferred": false
+        },
+        "summon": {
+          "cardId": null,
+          "cardName": null,
+          "mode": null,
+          "inferred": false
+        },
+        "optionalEffect": {
+          "status": "NONE",
+          "mode": null,
+          "available": false,
+          "resolution": "NONE",
+          "candidateCount": null,
+          "poolCandidateCount": 0,
+          "selectedCandidateCount": 0,
+          "resolvedCandidateCount": 0,
+          "detector": null,
+          "resolvedAt": null,
+          "observedCount": 0,
+          "resolvedCount": 0,
+          "resolutions": [],
+          "effectSelections": [],
+          "effectResolutions": [],
+          "lastResolutionScope": null
+        },
+        "chain": {
+          "status": "NONE",
+          "links": [],
+          "currentResolvingMode": null,
+          "startedAt": null,
+          "resolvedAt": null
+        },
+        "activeEffect": {
+          "mode": null,
+          "status": "NONE",
+          "requiresTargetSelection": false,
+          "requiresResolutionSelection": false,
+          "selectedAt": null,
+          "resolvedAt": null,
+          "resolutionCounted": false,
+          "targetSelectionTiming": null
+        },
+        "targetSelection": {
+          "status": "NONE",
+          "available": false,
+          "effectMode": null,
+          "selectionTiming": null,
+          "candidateCount": null,
+          "allowedTargets": [],
+          "selectedCardId": null,
+          "selectedCardName": null,
+          "detector": null,
+          "observedAt": null,
+          "submittedAt": null,
+          "resolvedAt": null
+        },
+        "postEffects": [
+          {
+            "key": "MONSTER_HAND_GAIN|RESOLVED|E01|M06",
+            "mode": "MONSTER_HAND_GAIN",
+            "status": "RESOLVED",
+            "sourceMonsterId": "E01",
+            "cardId": "M06",
+            "cardName": "闪刀姬－零衣"
+          }
+        ],
+        "effectQueue": [
+          {
+            "mode": "MONSTER_OPTIONAL",
+            "status": "RESOLVED",
+            "sourceCardId": "E01",
+            "sourceCardName": null,
+            "resultCardId": "M06",
+            "resultCardName": "闪刀姬－零衣"
+          }
+        ],
+        "trace": [
+          {
+            "kind": "POST_EFFECT",
+            "activationKey": "E01",
+            "activationName": "共命之翼 迦楼拉",
+            "mode": "MONSTER_HAND_GAIN",
+            "cardId": "M06",
+            "cardName": "闪刀姬－零衣",
+            "inferred": false
+          }
+        ]
+      }
+    ],
+    "seenEvents": [
+      "POST_EFFECT|1|E01|M06|MONSTER_HAND_GAIN|0|E01|PROCESSING_CARD:M06|2026-10-01T10:18:27.652Z",
+      "MATERIAL_SOURCE|0|M06|M06|RAYE_NORMAL_SUMMON||M06||2026-10-01T13:31:17.080Z"
+    ]
+  }
+}

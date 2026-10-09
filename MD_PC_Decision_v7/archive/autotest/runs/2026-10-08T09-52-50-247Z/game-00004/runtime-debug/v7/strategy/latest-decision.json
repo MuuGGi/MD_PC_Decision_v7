@@ -1,0 +1,938 @@
+{
+  "result": {
+    "state": {
+      "graveSpellCount": 4,
+      "fieldSpell": null,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M09": 2,
+        "M16": 1,
+        "M11": 1
+      },
+      "chickenGameDrawUsed": false,
+      "chickenGameDrawPending": false,
+      "equippedBambooId": null,
+      "equipSentToGraveCount": 0,
+      "engageBlockedByMainMonster": false,
+      "rayeNormalSummoned": false,
+      "normalSummonUsed": false,
+      "effectUsage": {
+        "M19_SEARCH": 0
+      },
+      "effectUsageMeta": {},
+      "notes": "V5 runtime decision state"
+    },
+    "deck": {
+      "handCounts": {
+        "EXODIA_UNKNOWN": 1,
+        "M08": 1,
+        "M14": 1,
+        "M19": 1
+      },
+      "usedCounts": {
+        "M09": 2,
+        "M16": 1,
+        "M11": 1
+      },
+      "deckRemaining": {
+        "M01": 1,
+        "M02": 1,
+        "M03": 1,
+        "M04": 1,
+        "M05": 1,
+        "M06": 2,
+        "M07": 1,
+        "M08": 1,
+        "M09": 1,
+        "M10": 3,
+        "M11": 1,
+        "M12": 3,
+        "M13": 1,
+        "M14": 2,
+        "M15": 3,
+        "M16": 0,
+        "M17": 3,
+        "M18": 1,
+        "M19": 1,
+        "M20": 1,
+        "M21": 3,
+        "M22": 1
+      },
+      "outsideDeckCounts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 0,
+        "M08": 1,
+        "M09": 2,
+        "M10": 0,
+        "M11": 1,
+        "M12": 0,
+        "M13": 0,
+        "M14": 1,
+        "M15": 0,
+        "M16": 1,
+        "M17": 0,
+        "M18": 0,
+        "M19": 1,
+        "M20": 0,
+        "M21": 0,
+        "M22": 0
+      },
+      "unknownExodiaOutsideCount": 1,
+      "mainDeckLedger": {
+        "version": 2,
+        "mode": "OUTSIDE_DECK_COUNT",
+        "initializedAt": "2026-10-08T10:05:11.239Z",
+        "openingBaselineCapturedAt": "2026-10-08T10:05:08.541Z",
+        "openingHand": [
+          "EXODIA_UNKNOWN",
+          "M06",
+          "M08",
+          "M09",
+          "M11"
+        ],
+        "outsideDeckCounts": {
+          "M01": 0,
+          "M02": 0,
+          "M03": 0,
+          "M04": 0,
+          "M05": 0,
+          "M06": 0,
+          "M07": 0,
+          "M08": 1,
+          "M09": 2,
+          "M10": 0,
+          "M11": 1,
+          "M12": 0,
+          "M13": 0,
+          "M14": 1,
+          "M15": 0,
+          "M16": 1,
+          "M17": 0,
+          "M18": 0,
+          "M19": 1,
+          "M20": 0,
+          "M21": 0,
+          "M22": 0
+        },
+        "unknownExodiaOutsideCount": 1,
+        "lastHandRevision": 1,
+        "lastIncrementalFingerprint": "1|M09|M14",
+        "processedLogEvents": [],
+        "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+        "lastUpdatedAt": "2026-10-08T10:06:14.641Z",
+        "lastMallet": {
+          "returned": [
+            "EXODIA_UNKNOWN",
+            "M06",
+            "M06",
+            "M08"
+          ],
+          "drawn": [
+            "EXODIA_UNKNOWN",
+            "M08",
+            "M09",
+            "M19"
+          ],
+          "returnedThenRedrawn": [
+            "EXODIA_UNKNOWN",
+            "M08"
+          ]
+        }
+      },
+      "bambooEquipResources": {
+        "byId": {
+          "M19": {
+            "deck": 1,
+            "hand": 1,
+            "field": 0,
+            "total": 2,
+            "outsideHandField": 0
+          },
+          "M20": {
+            "deck": 1,
+            "hand": 0,
+            "field": 0,
+            "total": 1,
+            "outsideHandField": 0
+          }
+        },
+        "deckCount": 2,
+        "handCount": 1,
+        "fieldCount": 0,
+        "outsideHandFieldCount": 0,
+        "replacementCountAfterLink": 3,
+        "hasReplacementAfterLink": true,
+        "fieldIdentitySource": "NO_FIELD_EQUIP"
+      },
+      "byId": {
+        "M01": {
+          "id": "M01",
+          "name": "被封印的右足",
+          "count": 1,
+          "template": "templates/M01_被封印的右足.png",
+          "source_screenshot": "b5f747af-eb12-4c0a-ba6d-fc0db739d74e.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M02": {
+          "id": "M02",
+          "name": "被封印的左足",
+          "count": 1,
+          "template": "templates/M02_被封印的左足.png",
+          "source_screenshot": "6c591ec2-09d0-47f7-aa88-19e36adb7d48.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M03": {
+          "id": "M03",
+          "name": "被封印的右腕",
+          "count": 1,
+          "template": "templates/M03_被封印的右腕.png",
+          "source_screenshot": "c0d6eadd-b34e-4f80-9ed8-aab7cba05b63.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M04": {
+          "id": "M04",
+          "name": "被封印的左腕",
+          "count": 1,
+          "template": "templates/M04_被封印的左腕.png",
+          "source_screenshot": "438f7782-88e7-4df0-8976-990d52f55b48.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M05": {
+          "id": "M05",
+          "name": "被封印的艾克佐迪亚",
+          "count": 1,
+          "template": "templates/M05_被封印的艾克佐迪亚.png",
+          "source_screenshot": "df73e4aa-5e68-4e64-889a-f4678214c922.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M06": {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "count": 2,
+          "template": "templates/M06_闪刀姬－零衣.png",
+          "source_screenshot": "b08a9d89-895c-4663-a665-beb0c3e7e17b.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M07": {
+          "id": "M07",
+          "name": "青眼卡通龙",
+          "count": 1,
+          "template": "templates/M07_青眼卡通龙.png",
+          "source_screenshot": "723c25f4-3576-4230-a6e1-12e05b9b74a5.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M08": {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "template": "templates/M08_闪术兵器－H.A.M.P..png",
+          "source_screenshot": "e97311e1-0f5b-4bda-9050-28ff2ecaaf31.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M09": {
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "count": 3,
+          "template": "templates/M09_暴发户哥布林.png",
+          "source_screenshot": "794db147-0698-4ed5-af58-2922bf793414.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M10": {
+          "id": "M10",
+          "name": "卡通目录",
+          "count": 3,
+          "template": "templates/M10_卡通目录.png",
+          "source_screenshot": "36fdc922-969c-4e2e-b7a3-f8e23d2b3e33.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M11": {
+          "id": "M11",
+          "name": "万宝槌",
+          "count": 2,
+          "template": "templates/M11_万宝槌.png",
+          "source_screenshot": "424a4ab8-00b1-40b0-8eb7-e52c08e698fa.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M12": {
+          "id": "M12",
+          "name": "抵价交易",
+          "count": 3,
+          "template": "templates/M12_抵价交易.png",
+          "source_screenshot": "d29387ec-feca-4c77-b3bb-3ee2b8cbb623.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M13": {
+          "id": "M13",
+          "name": "暗之诱惑",
+          "count": 1,
+          "template": "templates/M13_暗之诱惑.png",
+          "source_screenshot": "2ce304d5-f4cc-4d17-aab2-85e687135c16.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M14": {
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "count": 3,
+          "template": "templates/M14_金黄色的竹光.png",
+          "source_screenshot": "3ca037b8-394a-4c3c-a3a3-0129e96783f3.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M15": {
+          "id": "M15",
+          "name": "无之炼狱",
+          "count": 3,
+          "template": "templates/M15_无之炼狱.png",
+          "source_screenshot": "39deb91e-ce6e-4281-9159-3070ce6fc12c.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M16": {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "template": "templates/M16_暂时休战.png",
+          "source_screenshot": "6ecd059c-fa7d-4760-893f-756565fd3bce.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M17": {
+          "id": "M17",
+          "name": "闪刀起动－交闪",
+          "count": 3,
+          "template": "templates/M17_闪刀起动－交闪.png",
+          "source_screenshot": "cece8e52-9a68-4aae-9ba4-2bbb109c5121.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M18": {
+          "id": "M18",
+          "name": "愚蠢的重葬",
+          "count": 1,
+          "template": "templates/M18_愚蠢的重葬.png",
+          "source_screenshot": "5ff46748-cf53-41c2-b642-a5cbd0b947ff.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M19": {
+          "id": "M19",
+          "name": "妖刀竹光",
+          "count": 2,
+          "template": "templates/M19_妖刀竹光.png",
+          "source_screenshot": "87819acc-deae-40c9-b643-f42e9ff0a69f.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M20": {
+          "id": "M20",
+          "name": "真刀竹光",
+          "count": 1,
+          "template": "templates/M20_真刀竹光.png",
+          "source_screenshot": "9eb9d4e5-3f24-4079-b93a-00b77aa1461f.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M21": {
+          "id": "M21",
+          "name": "试胆竞速",
+          "count": 3,
+          "template": "templates/M21_试胆竞速.png",
+          "source_screenshot": "b39339ed-bf55-4192-9a28-f3e9b1cfdd41.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "M22": {
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机",
+          "count": 1,
+          "template": "templates/M22_闪刀机－大黄蜂无人机.png",
+          "source_screenshot": "3c736918-99cd-4aec-bc85-63dba6b8dbf6.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E01": {
+          "id": "E01",
+          "name": "共命之翼 迦楼拉",
+          "count": 1,
+          "template": "templates/E01_共命之翼 迦楼拉.png",
+          "source_screenshot": "9e4fa2ec-4b23-4e27-bf3b-28036141f962.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E02": {
+          "id": "E02",
+          "name": "闪刀姬－篝",
+          "count": 1,
+          "template": "templates/E02_闪刀姬－篝.png",
+          "source_screenshot": "50732ca3-54a6-403b-92bd-4a8db32274ed.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E03": {
+          "id": "E03",
+          "name": "闪刀姬－雫",
+          "count": 1,
+          "template": "templates/E03_闪刀姬－雫.png",
+          "source_screenshot": "7b0c390d-bb2e-48bc-8b51-5cbbeccd4821.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E04": {
+          "id": "E04",
+          "name": "闪刀姬－飒",
+          "count": 1,
+          "template": "templates/E04_闪刀姬－飒.png",
+          "source_screenshot": "7e561d5e-7216-4125-976b-36ded08c60b9.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E05": {
+          "id": "E05",
+          "name": "闪刀姬－腕",
+          "count": 1,
+          "template": "templates/E05_闪刀姬－腕.png",
+          "source_screenshot": "04b8f0dc-1550-432f-b568-50f2007dc36c.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E06": {
+          "id": "E06",
+          "name": "试作闪刀姬－天津",
+          "count": 1,
+          "template": "templates/E06_试作闪刀姬－天津.png",
+          "source_screenshot": "a4ad2f61-ffca-414b-84a9-8f93cfb6e112.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E07": {
+          "id": "E07",
+          "name": "闪刀姬－泽克",
+          "count": 1,
+          "template": "templates/E07_闪刀姬－泽克.png",
+          "source_screenshot": "c5784a27-c792-4af6-8ec0-fd8f62a211f4.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E08": {
+          "id": "E08",
+          "name": "闪刀姬－阿塞蕾娅",
+          "count": 1,
+          "template": "templates/E08_闪刀姬－阿塞蕾娅.png",
+          "source_screenshot": "1f97987e-c487-4939-9721-572a25a28b42.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E09": {
+          "id": "E09",
+          "name": "闪刀姬－卡梅莉娅",
+          "count": 1,
+          "template": "templates/E09_闪刀姬－卡梅莉娅.png",
+          "source_screenshot": "ce03c1ed-5852-4442-9030-729993028e6f.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        },
+        "E10": {
+          "id": "E10",
+          "name": "闪刀姬－零梦",
+          "count": 1,
+          "template": "templates/E10_闪刀姬－零梦.png",
+          "source_screenshot": "f084417d-1973-432c-a1e0-41115e55339a.png",
+          "roi": {
+            "x": 62,
+            "y": 285,
+            "width": 126,
+            "height": 103
+          }
+        }
+      }
+    },
+    "actions": [],
+    "holds": [
+      {
+        "slot": 3,
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "reason": "尚未记录场上有竹光装备；为避免误判黄框，本版暂不自动使用金黄色的竹光。"
+      },
+      {
+        "slot": 4,
+        "id": "M19",
+        "name": "妖刀竹光",
+        "reason": "该牌属于尚未完成的竹光/闪刀场面联动，本版只识别状态，不自动排入简单魔法决策。"
+      }
+    ],
+    "engageTargets": [
+      {
+        "id": "M22",
+        "name": "闪刀机－大黄蜂无人机",
+        "remaining": 1
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "remaining": 1
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "remaining": 2
+      }
+    ],
+    "selected": null
+  },
+  "selected": null,
+  "runtime": {
+    "graveSpellCount": 4,
+    "fieldSpell": null,
+    "chickenGameDrawUsed": false,
+    "chickenGameDrawPending": false,
+    "bambooSwordEquipped": false,
+    "equippedBambooId": null,
+    "equipSentToGraveCount": 0,
+    "engageBlockedByMainMonster": false,
+    "rayeNormalSummoned": false,
+    "normalSummonUsed": false,
+    "usedCounts": {
+      "M09": 2,
+      "M16": 1,
+      "M11": 1
+    },
+    "effectUsage": {
+      "M19_SEARCH": 0
+    },
+    "effectUsageMeta": {},
+    "notes": "V5 runtime decision state"
+  },
+  "strategicDeadlock": {
+    "terminal": true,
+    "type": "DEADLOCK",
+    "action": "STOP",
+    "reason": "NO_REACHABLE_DRAW_OR_PRODUCTIVE_FIXED_RESOURCE_ROUTE",
+    "confidence": "HIGH",
+    "rayeCloseout": {
+      "ready": false,
+      "reason": "NO_UNUSED_RAYE_ENTRY"
+    },
+    "handIds": [
+      "EXODIA_UNKNOWN",
+      "M08",
+      "M14",
+      "M19"
+    ],
+    "deckRemaining": 32,
+    "searchable": {
+      "engage": {
+        "M06": 2,
+        "M08": 1,
+        "M22": 1
+      },
+      "toon": {
+        "M10": 3,
+        "M07": 1
+      },
+      "bamboo": {
+        "M19": 1,
+        "M20": 1
+      }
+    },
+    "legalButUnproductive": []
+  },
+  "basis": {
+    "snapshotKey": "8101b036ddacda9c8514328b9d25b9bc8e127a3c5b9e984d63d5d7a40472df7b",
+    "handRevision": 1,
+    "duelId": "DUEL-4e813b1026ae12be62dd394c"
+  },
+  "decisionTrace": {
+    "authority": "V7_SHARED_STRATEGY",
+    "zones": {
+      "hand": {
+        "status": "KNOWN",
+        "revision": 1
+      },
+      "deck": {
+        "status": "KNOWN",
+        "source": "SHARED_OUTSIDE_DECK_LEDGER"
+      },
+      "field": {
+        "status": "PARTIAL",
+        "carrierId": null,
+        "equippedBambooCounts": {},
+        "fieldSpell": null
+      },
+      "grave": {
+        "status": "PARTIAL",
+        "spellCount": 4,
+        "identities": "UNKNOWN"
+      },
+      "banished": {
+        "status": "UNKNOWN"
+      },
+      "opponent": {
+        "status": "UNKNOWN"
+      }
+    },
+    "candidates": []
+  },
+  "decisionBoundary": {
+    "priority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 4,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.051061333333333334,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.051086956521739134,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.1592391304347826,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.19728260869565217,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.15434782608695652,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.24293478260869567,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.08260869565217391,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.25869565217391305,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.07391304347826087,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.22119565217391304,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.13532608695652174,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.2418478260869565,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.1608695652173913,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.04906666666666667,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.053056,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.04847407407407407,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.07385263157894736,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 215
+    },
+    "pendingTransaction": false,
+    "baselineAligned": true
+  }
+}

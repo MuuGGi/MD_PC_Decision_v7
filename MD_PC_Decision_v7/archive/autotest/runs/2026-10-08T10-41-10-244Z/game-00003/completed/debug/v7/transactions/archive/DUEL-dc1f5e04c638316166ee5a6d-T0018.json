@@ -1,0 +1,173 @@
+{
+  "version": 2,
+  "id": "DUEL-dc1f5e04c638316166ee5a6d-T0018",
+  "duelId": "DUEL-dc1f5e04c638316166ee5a6d",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-418536b15ba4f96fbd65a17f60ebcf87",
+  "intent": {
+    "cardId": "M12",
+    "slot": 4,
+    "decisionBasis": {
+      "snapshotKey": "90b07fa1cc0d234986b7006b60131dd752a915dc4cd0f2ab72bf421ec2a07b6a",
+      "handRevision": 20,
+      "duelId": "DUEL-dc1f5e04c638316166ee5a6d"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 20,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M07",
+        "M12",
+        "M13",
+        "M14",
+        "M22"
+      ]
+    },
+    "ledger": {
+      "revision": 20,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 0,
+        "M10": 3,
+        "M11": 0,
+        "M12": 3,
+        "M13": 1,
+        "M14": 1,
+        "M15": 1,
+        "M16": 1,
+        "M17": 3,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 2,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M10",
+        "signature": "M10|PROCESSING_CARD:M07",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 3,
+        "previousActivationKey": "M10",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M07",
+            "cardName": "青眼卡通龙"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+        "updatedAt": "2026-10-08T11:03:53.523Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "carrierId": "E10",
+        "carrierEvidence": {
+          "cardId": "E10",
+          "kind": "EXTRA_LINK",
+          "proven": true,
+          "source": "CURRENT_TARGET_IDENTITY"
+        },
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M21": 2,
+        "M18": 1,
+        "M16": 1,
+        "M06": 1,
+        "M19": 1,
+        "M20": 1,
+        "M17": 3,
+        "M12": 2,
+        "M08": 2,
+        "M15": 1,
+        "M10": 3
+      }
+    },
+    "extra": {
+      "cardId": "M12",
+      "slot": 4,
+      "decisionBasis": {
+        "snapshotKey": "90b07fa1cc0d234986b7006b60131dd752a915dc4cd0f2ab72bf421ec2a07b6a",
+        "handRevision": 20,
+        "duelId": "DUEL-dc1f5e04c638316166ee5a6d"
+      }
+    }
+  },
+  "createdAt": "2026-10-08T11:04:36.696Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M12",
+          "slot": 4,
+          "decisionBasis": {
+            "snapshotKey": "90b07fa1cc0d234986b7006b60131dd752a915dc4cd0f2ab72bf421ec2a07b6a",
+            "handRevision": 20,
+            "duelId": "DUEL-dc1f5e04c638316166ee5a6d"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-08T11:04:36.715Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-dc1f5e04c638316166ee5a6d-T0018",
+        "handRevision": 21,
+        "handHash": "a998a4394db76291b0fbb2044bf5df757550e99085c198f1ff6ab4be8590e902",
+        "ledgerHash": "565aae89ec627d1b1510cb99e9bf0e260473b081892df20524d88e50a5b6243b",
+        "runtimeHash": "73333a366041615224f40180e73a15d7835e906aa4a75f885c444cf9535c78d1",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-08T11:04:49.405Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-08T11:04:49.409Z"
+    }
+  ],
+  "committedAt": "2026-10-08T11:04:49.413Z"
+}

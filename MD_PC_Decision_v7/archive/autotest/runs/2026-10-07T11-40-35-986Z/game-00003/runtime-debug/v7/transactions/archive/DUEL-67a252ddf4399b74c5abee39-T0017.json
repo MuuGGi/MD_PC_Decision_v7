@@ -1,0 +1,161 @@
+{
+  "version": 2,
+  "id": "DUEL-67a252ddf4399b74c5abee39-T0017",
+  "duelId": "DUEL-67a252ddf4399b74c5abee39",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-8ad1492014362780f95aa786476386db",
+  "intent": {
+    "cardId": "M19",
+    "slot": 7
+  },
+  "baseline": {
+    "hand": {
+      "revision": 17,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M07",
+        "M14",
+        "M16",
+        "M19"
+      ]
+    },
+    "ledger": {
+      "revision": 17,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 1,
+        "M09": 3,
+        "M10": 0,
+        "M11": 0,
+        "M12": 1,
+        "M13": 1,
+        "M14": 1,
+        "M15": 1,
+        "M16": 1,
+        "M17": 1,
+        "M18": 0,
+        "M19": 2,
+        "M20": 1,
+        "M21": 3,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M12",
+        "signature": "M12|PROCESSING_CARD:M08,PROCESSING_CARD:M05,PROCESSING_CARD:M03",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": null,
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M05",
+            "cardName": "被封印的艾克佐迪亚"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M03",
+            "cardName": "被封印的右腕"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "KAGARI_RECOVERY_DONE",
+        "carrierId": "E02",
+        "updatedAt": "2026-10-07T11:58:57.737Z",
+        "source": "FORMAL_V5_ATOMIC_MAIN",
+        "hornetBambooDraw2": false,
+        "postE10HornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "trueBambooGainBeforeEquip": true
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M09": 3,
+        "M21": 3,
+        "M15": 1,
+        "M13": 1,
+        "M06": 1,
+        "M22": 1,
+        "M20": 1,
+        "M17": 1,
+        "M12": 1,
+        "M08": 1
+      }
+    },
+    "extra": {
+      "cardId": "M19",
+      "slot": 7
+    }
+  },
+  "createdAt": "2026-10-07T12:00:22.824Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M19",
+          "slot": 7
+        }
+      },
+      "noReplayAt": "2026-10-07T12:00:22.839Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-67a252ddf4399b74c5abee39-T0017",
+        "handRevision": 18,
+        "handHash": "64b1057133ad14ba012f269daf0976966520360a6ed2bb456e10c8d3f7078eca",
+        "ledgerHash": "7f3de8a46a1a6858485ac667908195f7445f88eb24eb543725c32409ee283d54",
+        "runtimeHash": "11548a267a4978733e57513b6818355102d9df83e0940c3b32e0e68ceaa66d13",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T12:00:36.731Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T12:00:36.735Z"
+    }
+  ],
+  "committedAt": "2026-10-07T12:00:36.739Z"
+}

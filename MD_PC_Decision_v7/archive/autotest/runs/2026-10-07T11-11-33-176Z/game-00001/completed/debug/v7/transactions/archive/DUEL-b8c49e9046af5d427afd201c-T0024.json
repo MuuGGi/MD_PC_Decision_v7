@@ -1,0 +1,163 @@
+{
+  "version": 2,
+  "id": "DUEL-b8c49e9046af5d427afd201c-T0024",
+  "duelId": "DUEL-b8c49e9046af5d427afd201c",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-4174b1005c00b3c908e6da3965ac9b7a",
+  "intent": {
+    "cardId": "M21",
+    "slot": 5
+  },
+  "baseline": {
+    "hand": {
+      "revision": 9,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M14",
+        "M14",
+        "M21"
+      ]
+    },
+    "ledger": {
+      "revision": 9,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 1,
+        "M09": 2,
+        "M10": 3,
+        "M11": 2,
+        "M12": 2,
+        "M13": 0,
+        "M14": 3,
+        "M15": 3,
+        "M16": 0,
+        "M17": 2,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 3,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M12",
+        "signature": "M12|PROCESSING_CARD:M08,PROCESSING_CARD:M21,PROCESSING_CARD:M14",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M15",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M21",
+            "cardName": "试胆竞速"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M14",
+            "cardName": "金黄色的竹光"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+        "carrierId": "E02",
+        "updatedAt": "2026-10-07T11:18:49.153Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M22": 1,
+        "M19": 1,
+        "M20": 1,
+        "M17": 2,
+        "M10": 3,
+        "M11": 2,
+        "M09": 2,
+        "M15": 3,
+        "M21": 2,
+        "M18": 1,
+        "M14": 1,
+        "M12": 2,
+        "M07": 1,
+        "M08": 1
+      }
+    },
+    "extra": {
+      "cardId": "M21",
+      "slot": 5
+    }
+  },
+  "createdAt": "2026-10-07T11:18:49.235Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M21",
+          "slot": 5
+        }
+      },
+      "noReplayAt": "2026-10-07T11:18:49.249Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-b8c49e9046af5d427afd201c-T0024",
+        "handRevision": 11,
+        "handHash": "32180cb831461db7334055479bcdc1fcb06227414438e63eced151c029170f07",
+        "ledgerHash": "77b65ba41cdeaaa25361d0022d80bb31c6e7252daa1933803934c4b49bb36255",
+        "runtimeHash": "10c3f7cc4298462f2505fcffa5a8d0c6ce917802ecb13dd45182af6752d845f3",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T11:19:05.994Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T11:19:05.999Z"
+    }
+  ],
+  "committedAt": "2026-10-07T11:19:06.003Z"
+}

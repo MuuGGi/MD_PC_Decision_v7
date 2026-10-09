@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T11:46:06.842Z",
+  "checkpoint": {
+    "activationKey": "M09",
+    "signature": "M09|PROCESSING_CARD:M05",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M14",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M05",
+        "cardName": "被封印的艾克佐迪亚"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M14",
+      "signature": "M14|PROCESSING_CARD:M14,PROCESSING_CARD:M09",
+      "detailTokens": [
+        "HAND_GAIN:M14",
+        "HAND_GAIN:M09"
+      ]
+    },
+    {
+      "activationKey": "M09",
+      "signature": "M09|PROCESSING_CARD:M05",
+      "detailTokens": [
+        "HAND_GAIN:M05"
+      ]
+    }
+  ]
+}

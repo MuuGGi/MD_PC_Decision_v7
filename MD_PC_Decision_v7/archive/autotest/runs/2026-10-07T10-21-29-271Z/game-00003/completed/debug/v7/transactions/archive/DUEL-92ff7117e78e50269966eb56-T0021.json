@@ -1,0 +1,133 @@
+{
+  "version": 2,
+  "id": "DUEL-92ff7117e78e50269966eb56-T0021",
+  "duelId": "DUEL-92ff7117e78e50269966eb56",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-186d05caa2a67c19b98c9faf819c058b",
+  "intent": {
+    "cardId": "M10",
+    "slot": 3
+  },
+  "baseline": {
+    "hand": {
+      "revision": 0,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M09",
+        "M10",
+        "M15",
+        "M19"
+      ]
+    },
+    "ledger": {
+      "revision": 0,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 0,
+        "M08": 2,
+        "M09": 2,
+        "M10": 1,
+        "M11": 2,
+        "M12": 2,
+        "M13": 1,
+        "M14": 0,
+        "M15": 1,
+        "M16": 1,
+        "M17": 2,
+        "M18": 1,
+        "M19": 1,
+        "M20": 0,
+        "M21": 3,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": null
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "E10_EFFECT_RESOLVED",
+        "carrierId": "E10",
+        "updatedAt": "2026-10-07T10:38:34.205Z",
+        "source": "FORMAL_V5_R3"
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M21": 3,
+        "M22": 1,
+        "M17": 2,
+        "M13": 1,
+        "M06": 2,
+        "M09": 1,
+        "M18": 1,
+        "M16": 1,
+        "M11": 2,
+        "M12": 2,
+        "M08": 2
+      }
+    },
+    "extra": {
+      "cardId": "M10",
+      "slot": 3
+    }
+  },
+  "createdAt": "2026-10-07T10:40:20.930Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M10",
+          "slot": 3
+        }
+      },
+      "noReplayAt": "2026-10-07T10:40:20.944Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-92ff7117e78e50269966eb56-T0021",
+        "handRevision": 3,
+        "handHash": "7cb595080372ddc253f7158660cbd320455a378f4cf0f122ae2ec5d757643caa",
+        "ledgerHash": "48fed01f986fe811448ae2a9a7b838cf3976a7095cb679699b5950ece3f96b7f",
+        "runtimeHash": "bccc13c8852e487ad13ad7e3990eaa4599a7d4f101ca32b395ad8324b93d8d69",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T10:40:57.058Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T10:40:57.063Z"
+    }
+  ],
+  "committedAt": "2026-10-07T10:40:57.067Z"
+}

@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "id": "DUEL-dc1f5e04c638316166ee5a6d-T0025",
+  "duelId": "DUEL-dc1f5e04c638316166ee5a6d",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-b934b292e39b19be542c4dbd6508dc5f",
+  "intent": {
+    "cardId": "M09",
+    "slot": 5,
+    "decisionBasis": {
+      "snapshotKey": "c5cc8cb3fe02709f7bcd8656867f6c2203e11e971c40c9649aaf50d6e5d2f987",
+      "handRevision": 27,
+      "duelId": "DUEL-dc1f5e04c638316166ee5a6d"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 27,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M09",
+        "M11",
+        "M11",
+        "M21",
+        "M22"
+      ]
+    },
+    "ledger": {
+      "revision": 27,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 2,
+        "M10": 3,
+        "M11": 2,
+        "M12": 3,
+        "M13": 1,
+        "M14": 2,
+        "M15": 3,
+        "M16": 1,
+        "M17": 3,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 3,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M15",
+        "signature": "M15|PROCESSING_CARD:M09",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M09",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M09",
+            "cardName": "暴发户哥布林"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "EQUIPPED_YOTO_NO_SEARCH_TARGET",
+        "updatedAt": "2026-10-08T11:05:41.815Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "carrierId": "E10",
+        "carrierEvidence": {
+          "cardId": "E10",
+          "kind": "EXTRA_LINK",
+          "proven": true,
+          "source": "CURRENT_TARGET_IDENTITY"
+        },
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M21": 2,
+        "M18": 1,
+        "M16": 1,
+        "M06": 2,
+        "M19": 1,
+        "M20": 1,
+        "M17": 3,
+        "M12": 3,
+        "M08": 2,
+        "M15": 3,
+        "M10": 3,
+        "M07": 1,
+        "M13": 1,
+        "M14": 2,
+        "M09": 1
+      }
+    },
+    "extra": {
+      "cardId": "M09",
+      "slot": 5,
+      "decisionBasis": {
+        "snapshotKey": "c5cc8cb3fe02709f7bcd8656867f6c2203e11e971c40c9649aaf50d6e5d2f987",
+        "handRevision": 27,
+        "duelId": "DUEL-dc1f5e04c638316166ee5a6d"
+      }
+    }
+  },
+  "createdAt": "2026-10-08T11:06:06.483Z",
+  "resumed": false,
+  "status": "ACTIVE",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "NO_REPLAY_PERSISTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M09",
+          "slot": 5,
+          "decisionBasis": {
+            "snapshotKey": "c5cc8cb3fe02709f7bcd8656867f6c2203e11e971c40c9649aaf50d6e5d2f987",
+            "handRevision": 27,
+            "duelId": "DUEL-dc1f5e04c638316166ee5a6d"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-08T11:06:06.501Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "inputUncertain": true,
+      "lastError": {
+        "phase": "NO_REPLAY_PERSISTED",
+        "code": null,
+        "message": "V5_DUEL_TERMINAL_VICTORY",
+        "at": "2026-10-08T11:06:26.884Z"
+      }
+    }
+  ]
+}

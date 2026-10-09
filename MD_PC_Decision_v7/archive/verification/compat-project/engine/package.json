@@ -1,0 +1,16 @@
+{
+  "name": "md-pc-decision-v6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Master Duel V6 observer/decision runtime",
+  "scripts": {
+    "observer": "node runtime/observer/run-duel-observer.js",
+    "observer:new": "node runtime/observer/run-duel-observer.js --new",
+    "start": "node runtime/main-v6.js",
+    "verify": "node tools/verify-v6-project.js"
+  },
+  "dependencies": {
+    "pngjs": "7.0.0"
+  },
+  "main": "runtime/main-v6.js"
+}

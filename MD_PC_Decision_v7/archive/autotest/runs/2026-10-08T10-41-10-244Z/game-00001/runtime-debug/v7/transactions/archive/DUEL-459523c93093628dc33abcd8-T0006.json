@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "id": "DUEL-459523c93093628dc33abcd8-T0006",
+  "duelId": "DUEL-459523c93093628dc33abcd8",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-30d31535b7649341b7b49688c55e9bcb",
+  "intent": {
+    "cardId": "M11",
+    "slot": 6,
+    "decisionBasis": {
+      "snapshotKey": "f44218978849394aa63da49a1cc6821c80f6f145bb8349d129838527390670d1",
+      "handRevision": 7,
+      "duelId": "DUEL-459523c93093628dc33abcd8"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 7,
+      "cards": [
+        "M06",
+        "M07",
+        "M08",
+        "M08",
+        "M10",
+        "M11"
+      ]
+    },
+    "ledger": {
+      "revision": 7,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 2,
+        "M09": 1,
+        "M10": 3,
+        "M11": 1,
+        "M12": 0,
+        "M13": 0,
+        "M14": 0,
+        "M15": 1,
+        "M16": 0,
+        "M17": 1,
+        "M18": 1,
+        "M19": 0,
+        "M20": 0,
+        "M21": 0,
+        "M22": 0
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M10",
+        "signature": "M10|PROCESSING_CARD:M10",
+        "signatureOccurrence": 2,
+        "activationOccurrence": 2,
+        "previousActivationKey": "M10",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M10",
+            "cardName": "卡通目录"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": null,
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M09": 1,
+        "M18": 1,
+        "M15": 1,
+        "M17": 1,
+        "M10": 2
+      }
+    },
+    "extra": {
+      "cardId": "M11",
+      "slot": 6,
+      "decisionBasis": {
+        "snapshotKey": "f44218978849394aa63da49a1cc6821c80f6f145bb8349d129838527390670d1",
+        "handRevision": 7,
+        "duelId": "DUEL-459523c93093628dc33abcd8"
+      }
+    }
+  },
+  "createdAt": "2026-10-08T10:42:55.822Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M11",
+          "slot": 6,
+          "decisionBasis": {
+            "snapshotKey": "f44218978849394aa63da49a1cc6821c80f6f145bb8349d129838527390670d1",
+            "handRevision": 7,
+            "duelId": "DUEL-459523c93093628dc33abcd8"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-08T10:42:55.839Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-459523c93093628dc33abcd8-T0006",
+        "handRevision": 0,
+        "handHash": "8fbe9ece044715c111cfbf07983d248503f796af28562940499a2cc3dd60822f",
+        "ledgerHash": "70e1b2f7bc74e440e94416ca2c8695cfbe4f31ce19331733eaa19ba03ea48ec0",
+        "runtimeHash": "85cb0d27bad0263052834c5ee819da4c6c62f0a3e34a4e47c071cb9bd056cf26",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-08T10:43:39.319Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-08T10:43:39.322Z"
+    }
+  ],
+  "committedAt": "2026-10-08T10:43:39.326Z"
+}

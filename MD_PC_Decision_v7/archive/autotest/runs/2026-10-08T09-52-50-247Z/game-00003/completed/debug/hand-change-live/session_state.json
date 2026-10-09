@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "capturedAt": "2026-10-08T10:04:27.486Z",
+  "revision": 8,
+  "handCount": 6,
+  "cards": [
+    {
+      "index": 1,
+      "x": 733,
+      "y": 1012,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.25299526498841174,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M02",
+          "name": "被封印的左足",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.25299526498841174,
+          "rmse": 0.3233132067382068,
+          "dhash": 34
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.25913617514607423,
+          "rmse": 0.33712533142819295,
+          "dhash": 40
+        }
+      ],
+      "timingMs": {
+        "locateMs": 577.419,
+        "clickAndSettleMs": 291.852,
+        "recognizeMs": 12.251,
+        "usabilityMs": 0.295,
+        "resetMs": 173.928,
+        "totalMs": 1056.467
+      }
+    },
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 2
+    },
+    {
+      "id": "M09",
+      "name": "暴发户哥布林",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M09"
+      ],
+      "index": 3
+    },
+    {
+      "index": 4,
+      "x": 867,
+      "y": 988,
+      "id": "M12",
+      "name": "抵价交易",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2226831329439363,
+      "usable": true,
+      "yellowPixels": 1648,
+      "yellowRatio": 0.05030525030525031,
+      "top3": [
+        {
+          "id": "M12",
+          "name": "抵价交易",
+          "count": 3,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.2226831329439363,
+          "rmse": 0.2756578827332862,
+          "dhash": 32
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.22707286438487656,
+          "rmse": 0.3008917054213163,
+          "dhash": 36
+        }
+      ],
+      "timingMs": {
+        "locateMs": 524.036,
+        "clickAndSettleMs": 282.764,
+        "recognizeMs": 14.154,
+        "usabilityMs": 12.695,
+        "resetMs": 160.938,
+        "totalMs": 994.854
+      }
+    },
+    {
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M17"
+      ],
+      "index": 5
+    },
+    {
+      "id": "M19",
+      "name": "妖刀竹光",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M19"
+      ],
+      "index": 6
+    }
+  ],
+  "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_8\\passive_hand.png",
+  "lastOperation": {
+    "activationKey": "M14",
+    "signature": "M14|PROCESSING_CARD:M09,PROCESSING_CARD:M17",
+    "activationOccurrence": 1
+  },
+  "lastIncremental": {
+    "consumed": {
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M14"
+      ],
+      "index": 4
+    },
+    "costConsumed": [],
+    "predictedSlots": [
+      3,
+      5
+    ],
+    "recognized": [
+      {
+        "id": "M09",
+        "name": "暴发户哥布林",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M09"
+        ]
+      },
+      {
+        "id": "M17",
+        "name": "闪刀起动－交闪",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M17"
+        ]
+      }
+    ],
+    "finalClicks": [
+      {
+        "slot": 3,
+        "id": "M09",
+        "name": "暴发户哥布林",
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      },
+      {
+        "slot": 5,
+        "id": "M17",
+        "name": "闪刀起动－交闪",
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      }
+    ]
+  }
+}

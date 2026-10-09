@@ -1,0 +1,180 @@
+{
+  "version": 2,
+  "id": "DUEL-7bda0bc8700abd11163bac9a-T0029",
+  "duelId": "DUEL-7bda0bc8700abd11163bac9a",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-759ef193536f08ccca33864de9fd5294",
+  "intent": {
+    "cardId": "M18",
+    "slot": 7,
+    "decisionBasis": {
+      "snapshotKey": "444652d224cc90867e7d36550cc0266be03af1a1f5fea5eec5ee3786aafc0dff",
+      "handRevision": 15,
+      "duelId": "DUEL-7bda0bc8700abd11163bac9a"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 15,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M13",
+        "M14",
+        "M16",
+        "M18"
+      ]
+    },
+    "ledger": {
+      "revision": 15,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 2,
+        "M09": 3,
+        "M10": 3,
+        "M11": 1,
+        "M12": 3,
+        "M13": 1,
+        "M14": 3,
+        "M15": 3,
+        "M16": 1,
+        "M17": 3,
+        "M18": 1,
+        "M19": 1,
+        "M20": 1,
+        "M21": 2,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M14",
+        "signature": "M14|PROCESSING_CARD:M18,PROCESSING_CARD:M03",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M15",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M18",
+            "cardName": "愚蠢的重葬"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M03",
+            "cardName": "被封印的右腕"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+        "updatedAt": "2026-10-09T08:11:53.060Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "carrierId": "E10",
+        "carrierEvidence": {
+          "cardId": "E10",
+          "kind": "EXTRA_LINK",
+          "proven": true,
+          "source": "CURRENT_TARGET_IDENTITY"
+        },
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M15": 3,
+        "M22": 1,
+        "M17": 3,
+        "M06": 1,
+        "M10": 3,
+        "M11": 1,
+        "M12": 3,
+        "M07": 1,
+        "M20": 1,
+        "M08": 2,
+        "M09": 3,
+        "M21": 2,
+        "M14": 2
+      }
+    },
+    "extra": {
+      "cardId": "M18",
+      "slot": 7,
+      "decisionBasis": {
+        "snapshotKey": "444652d224cc90867e7d36550cc0266be03af1a1f5fea5eec5ee3786aafc0dff",
+        "handRevision": 15,
+        "duelId": "DUEL-7bda0bc8700abd11163bac9a"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T08:12:13.311Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M18",
+          "slot": 7,
+          "decisionBasis": {
+            "snapshotKey": "444652d224cc90867e7d36550cc0266be03af1a1f5fea5eec5ee3786aafc0dff",
+            "handRevision": 15,
+            "duelId": "DUEL-7bda0bc8700abd11163bac9a"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T08:12:13.332Z",
+      "guardEvidence": {
+        "hwnd": 396172,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-7bda0bc8700abd11163bac9a-T0029",
+        "handRevision": 17,
+        "handHash": "aaf861b70a5faa4ea93be48053f36fed1e0a8e1f1d16526baaafa6e8793a6844",
+        "ledgerHash": "930df3899fc28466baaf90d83928dd38372c320573cf5e82dea9af1b918c02f8",
+        "runtimeHash": "f225103e6bc28e6f193cf8053ee9016bd38a1002c829f128829544251b294512",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T08:12:31.649Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T08:12:31.653Z"
+    }
+  ],
+  "committedAt": "2026-10-09T08:12:31.658Z"
+}

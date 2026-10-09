@@ -1,0 +1,741 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "initialGems": 0,
+  "createdAt": "2026-10-05T02:11:41.111Z",
+  "status": "STOPPED",
+  "games": [
+    {
+      "id": 1,
+      "startedAt": "2026-10-05T02:11:46.240Z",
+      "duelStarted": true,
+      "outcome": "SURRENDER",
+      "gems": 0,
+      "resultProof": {
+        "resultConfirmedInLog": true
+      },
+      "endedAt": "2026-10-05T02:17:14.508Z",
+      "returnedToStarter": true
+    },
+    {
+      "id": 2,
+      "startedAt": "2026-10-05T02:17:19.059Z",
+      "duelStarted": true,
+      "outcome": "WIN",
+      "gems": null,
+      "resultProof": {
+        "version": 1,
+        "settlementId": "5e30eef1-c70e-4a64-8e89-52e4640eb76a",
+        "stage": "COMPLETE",
+        "source": "V6_CARD_EXECUTOR_TERMINAL_VICTORY",
+        "startedAt": "2026-10-05T02:26:10.003Z",
+        "updatedAt": "2026-10-05T02:26:21.918Z",
+        "rewardAnimationComplete": true,
+        "animationClicks": 18,
+        "animationDurationMs": 5003,
+        "gems": null,
+        "observedTotal": null,
+        "dateKey": null,
+        "rewardStatus": "UNKNOWN",
+        "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\post-duel-victory\\2026-10-05T02-26-08-554Z\\settlement\\settlement_reward_record.json",
+        "confirmedSubtotal": 0,
+        "rewardRecheckPending": false
+      },
+      "endedAt": "2026-10-05T02:26:22.121Z",
+      "returnedToStarter": true,
+      "rewardStatus": "UNKNOWN",
+      "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\post-duel-victory\\2026-10-05T02-26-08-554Z\\settlement\\settlement_reward_record.json"
+    },
+    {
+      "id": 3,
+      "startedAt": "2026-10-05T02:26:28.625Z",
+      "duelStarted": true,
+      "outcome": "SURRENDER",
+      "gems": 0,
+      "resultProof": {
+        "version": 1,
+        "executionId": "d3cbca9b-bca6-4372-805b-e783e743ddfd",
+        "stage": "COMPLETE_SURRENDER",
+        "baseline": {
+          "version": 2,
+          "capturedAt": "2026-10-05T02:28:08.171Z",
+          "revision": 8,
+          "handCount": 5,
+          "cards": [
+            {
+              "index": 1,
+              "x": 732,
+              "y": 1022,
+              "id": "EXODIA_UNKNOWN",
+              "name": "被封印组件（身份无需区分）",
+              "persistentExodia": true,
+              "candidateIds": [
+                "M01",
+                "M02",
+                "M03",
+                "M04",
+                "M05"
+              ],
+              "accepted": true,
+              "confidence": 1,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0,
+              "margin": 0.2432980096029782,
+              "usable": null,
+              "yellowPixels": null,
+              "yellowRatio": null,
+              "top3": [
+                {
+                  "id": "M01",
+                  "name": "被封印的右足",
+                  "count": 1,
+                  "mad": 0,
+                  "rmse": 0,
+                  "dhash": 0
+                },
+                {
+                  "id": "E07",
+                  "name": "闪刀姬－泽克",
+                  "count": 1,
+                  "mad": 0.2432980096029782,
+                  "rmse": 0.30784869079048205,
+                  "dhash": 30
+                },
+                {
+                  "id": "M08",
+                  "name": "闪术兵器－H.A.M.P.",
+                  "count": 2,
+                  "mad": 0.24906009868888224,
+                  "rmse": 0.3138535837044201,
+                  "dhash": 29
+                }
+              ],
+              "timingMs": {
+                "locateMs": 471.625,
+                "clickAndSettleMs": 281.005,
+                "recognizeMs": 21.561,
+                "usabilityMs": 0.191,
+                "resetMs": 179.53,
+                "totalMs": 954.396
+              }
+            },
+            {
+              "id": "EXODIA_UNKNOWN",
+              "name": "被封印组件（身份无需区分）",
+              "rightLogCertain": true,
+              "candidateIds": [
+                "EXODIA_UNKNOWN"
+              ],
+              "index": 2
+            },
+            {
+              "id": "M07",
+              "name": "青眼卡通龙",
+              "rightLogCertain": true,
+              "candidateIds": [
+                "M07"
+              ],
+              "index": 3
+            },
+            {
+              "index": 4,
+              "x": 868,
+              "y": 988,
+              "id": "M13",
+              "name": "暗之诱惑",
+              "accepted": true,
+              "confidence": 1,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0,
+              "margin": 0.1485291851368379,
+              "usable": true,
+              "yellowPixels": 5464,
+              "yellowRatio": 0.16678876678876678,
+              "top3": [
+                {
+                  "id": "M13",
+                  "name": "暗之诱惑",
+                  "count": 1,
+                  "mad": 0,
+                  "rmse": 0,
+                  "dhash": 0
+                },
+                {
+                  "id": "M15",
+                  "name": "无之炼狱",
+                  "count": 3,
+                  "mad": 0.1485291851368379,
+                  "rmse": 0.22331028111151638,
+                  "dhash": 23
+                },
+                {
+                  "id": "E09",
+                  "name": "闪刀姬－卡梅莉娅",
+                  "count": 1,
+                  "mad": 0.1775494376103552,
+                  "rmse": 0.23367740292765588,
+                  "dhash": 28
+                }
+              ],
+              "timingMs": {
+                "locateMs": 511.81,
+                "clickAndSettleMs": 298.011,
+                "recognizeMs": 14.123,
+                "usabilityMs": 20.75,
+                "resetMs": 165.319,
+                "totalMs": 1010.289
+              }
+            },
+            {
+              "index": 5,
+              "x": 1004,
+              "y": 980,
+              "id": "M14",
+              "name": "金黄色的竹光",
+              "accepted": true,
+              "confidence": 1,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0,
+              "margin": 0.2627693724019633,
+              "usable": true,
+              "yellowPixels": 692,
+              "yellowRatio": 0.021123321123321125,
+              "top3": [
+                {
+                  "id": "M14",
+                  "name": "金黄色的竹光",
+                  "count": 3,
+                  "mad": 0,
+                  "rmse": 0,
+                  "dhash": 0
+                },
+                {
+                  "id": "E10",
+                  "name": "闪刀姬－零梦",
+                  "count": 1,
+                  "mad": 0.2627693724019633,
+                  "rmse": 0.32389383138370903,
+                  "dhash": 32
+                },
+                {
+                  "id": "M10",
+                  "name": "卡通目录",
+                  "count": 3,
+                  "mad": 0.2923922535573021,
+                  "rmse": 0.38025605091527026,
+                  "dhash": 24
+                }
+              ],
+              "timingMs": {
+                "locateMs": 552.725,
+                "clickAndSettleMs": 299.595,
+                "recognizeMs": 13.224,
+                "usabilityMs": 26.612,
+                "resetMs": 180.498,
+                "totalMs": 1072.918
+              }
+            }
+          ],
+          "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_8\\passive_hand.png",
+          "lastOperation": {
+            "activationKey": "M21",
+            "signature": "M21|PROCESSING_CARD:M04",
+            "activationOccurrence": 3
+          },
+          "lastIncremental": {
+            "consumed": null,
+            "costConsumed": [],
+            "predictedSlots": [
+              2
+            ],
+            "recognized": [
+              {
+                "id": "EXODIA_UNKNOWN",
+                "name": "被封印组件（身份无需区分）",
+                "rightLogCertain": true,
+                "candidateIds": [
+                  "EXODIA_UNKNOWN"
+                ]
+              }
+            ],
+            "finalClicks": [
+              {
+                "slot": 2,
+                "id": "EXODIA_UNKNOWN",
+                "name": "被封印组件（身份无需区分）",
+                "source": "RIGHT_LOG_EXACT_NO_CLICK",
+                "physicalClicksIssued": 0
+              }
+            ]
+          },
+          "status": "PASS",
+          "v5ReusedObserverState": true
+        },
+        "slot": 4,
+        "action": {
+          "id": "M13",
+          "name": "暗之诱惑",
+          "slot": 4,
+          "tier": 1000,
+          "tierLabel": "最后尝试：暗之诱惑抽安全暗属性",
+          "reason": "普通抽牌和固定检索/回收都已走不通，牌组仍有2张零衣、2张兵器；最后发动诱惑抽2，优先除外零衣，没有零衣则除外兵器继续；两者都没有才投降。没有暗属性时整手送墓，不等待不存在的除外窗口。",
+          "details": {
+            "allureLastResort": true,
+            "surrenderIfNoSafeDark": true,
+            "rayeRemaining": 2,
+            "hampRemaining": 2
+          }
+        },
+        "selected": {
+          "slot": 4,
+          "duplicateCount": 1,
+          "selected": {
+            "accepted": true,
+            "id": "M13",
+            "name": "暗之诱惑",
+            "mad": 0,
+            "margin": 0.1485291851368379
+          },
+          "clickReference": {
+            "x": 1144,
+            "y": 1002
+          },
+          "positioning": {
+            "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+            "source": "TITLE_COMPONENTS",
+            "centers": [
+              731,
+              873,
+              1006,
+              1144,
+              1299
+            ],
+            "currentCenter": {
+              "x": 1144,
+              "y": 1002
+            }
+          }
+        },
+        "startedAt": "2026-10-05T02:28:10.605Z",
+        "updatedAt": "2026-10-05T02:28:22.074Z",
+        "activation": {
+          "activationButton": {
+            "reference": {
+              "x": 1074,
+              "y": 834
+            },
+            "width": 84,
+            "height": 48,
+            "fillRatio": 0.42757936507936506,
+            "estimatedPixels": 1724
+          },
+          "yellowPixels": 7424,
+          "probeAttempts": 1,
+          "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+          "responseBoundaryPriority": {
+            "state": "SELF_PRIORITY_BLUE",
+            "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+            "safeForRecognitionAndControl": true,
+            "votes": 4,
+            "requiredVotes": 3,
+            "medianBlueRatio": 0.04406736842105263,
+            "outerEdgeAgreement": true,
+            "glowBackedOuterEdgeAgreement": true,
+            "broadBlueAgreement": true,
+            "bottomGlow": {
+              "pass": true,
+              "passingColumns": 12,
+              "requiredPassingColumns": 6,
+              "leftEdgePassing": 3,
+              "rightEdgePassing": 3,
+              "requiredEdgeColumns": 2,
+              "minColumnRatio": 0.025,
+              "columnSamples": [
+                {
+                  "index": 0,
+                  "ratio": 0.06195652173913044,
+                  "pass": true,
+                  "roi": {
+                    "x": 0,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 1,
+                  "ratio": 0.11032608695652174,
+                  "pass": true,
+                  "roi": {
+                    "x": 91,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 2,
+                  "ratio": 0.13369565217391305,
+                  "pass": true,
+                  "roi": {
+                    "x": 183,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 3,
+                  "ratio": 0.1592391304347826,
+                  "pass": true,
+                  "roi": {
+                    "x": 275,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 4,
+                  "ratio": 0.12771739130434784,
+                  "pass": true,
+                  "roi": {
+                    "x": 366,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 5,
+                  "ratio": 0.08804347826086957,
+                  "pass": true,
+                  "roi": {
+                    "x": 458,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 6,
+                  "ratio": 0.10869565217391304,
+                  "pass": true,
+                  "roi": {
+                    "x": 550,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 7,
+                  "ratio": 0.08152173913043478,
+                  "pass": true,
+                  "roi": {
+                    "x": 641,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 8,
+                  "ratio": 0.17771739130434783,
+                  "pass": true,
+                  "roi": {
+                    "x": 733,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 9,
+                  "ratio": 0.07771739130434782,
+                  "pass": true,
+                  "roi": {
+                    "x": 825,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 10,
+                  "ratio": 0.17989130434782608,
+                  "pass": true,
+                  "roi": {
+                    "x": 916,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 11,
+                  "ratio": 0.07065217391304347,
+                  "pass": true,
+                  "roi": {
+                    "x": 1008,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                }
+              ],
+              "roi": {
+                "x": 0,
+                "y": 170,
+                "width": 1100,
+                "height": 80,
+                "columns": 12
+              }
+            },
+            "samples": [
+              {
+                "id": "OWN_LEFT",
+                "ratio": 0.052444444444444446,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_LEFT",
+                  "x": 0,
+                  "y": 0,
+                  "width": 270,
+                  "height": 250
+                }
+              },
+              {
+                "id": "OWN_MID_LEFT",
+                "ratio": 0.04064,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_MID_LEFT",
+                  "x": 270,
+                  "y": 0,
+                  "width": 250,
+                  "height": 250
+                }
+              },
+              {
+                "id": "OWN_MID_RIGHT",
+                "ratio": 0.037037037037037035,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_MID_RIGHT",
+                  "x": 640,
+                  "y": 0,
+                  "width": 270,
+                  "height": 250
+                }
+              },
+              {
+                "id": "OWN_RIGHT",
+                "ratio": 0.04749473684210526,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_RIGHT",
+                  "x": 910,
+                  "y": 0,
+                  "width": 190,
+                  "height": 250
+                }
+              }
+            ],
+            "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+            "attempts": 2,
+            "stableFrames": 2,
+            "foregroundRecoveries": 0,
+            "elapsedMs": 193
+          }
+        },
+        "failureProof": {
+          "status": "NO_SAFE_DARK_IN_PROMPT",
+          "promptProof": {
+            "attempts": 11,
+            "headerDarkRatio": 0.8041666666666667,
+            "candidateCount": 2,
+            "points": [
+              {
+                "x": 945,
+                "y": 925,
+                "width": 118
+              },
+              {
+                "x": 1103,
+                "y": 925,
+                "width": 118
+              }
+            ]
+          },
+          "seen": [
+            {
+              "candidateIndex": 2,
+              "clickReference": {
+                "x": 1103,
+                "y": 925
+              },
+              "card": {
+                "accepted": true,
+                "id": "M04",
+                "name": "被封印的左腕",
+                "mad": 0,
+                "margin": 0.22362932947360895
+              }
+            },
+            {
+              "candidateIndex": 1,
+              "clickReference": {
+                "x": 945,
+                "y": 925
+              },
+              "card": {
+                "accepted": true,
+                "id": "M01",
+                "name": "被封印的右足",
+                "mad": 0,
+                "margin": 0.2432980096029782
+              }
+            }
+          ],
+          "policy": "LAST_RESORT_M06_THEN_M08_OR_SURRENDER"
+        },
+        "result": {
+          "status": "TERMINAL_SURRENDER",
+          "surrender": {
+            "status": "SURRENDER_COMPLETE",
+            "debugDir": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\execution\\M13_last_resort\\2026-10-05T02-28-08-533Z\\surrender",
+            "afterPath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\execution\\M13_last_resort\\2026-10-05T02-28-08-533Z\\surrender\\05_after_result_confirm_full.png",
+            "surrenderReference": {
+              "x": 298,
+              "y": 1041
+            },
+            "resumedExistingConfirmation": false
+          },
+          "failureProof": {
+            "status": "NO_SAFE_DARK_IN_PROMPT",
+            "promptProof": {
+              "attempts": 11,
+              "headerDarkRatio": 0.8041666666666667,
+              "candidateCount": 2,
+              "points": [
+                {
+                  "x": 945,
+                  "y": 925,
+                  "width": 118
+                },
+                {
+                  "x": 1103,
+                  "y": 925,
+                  "width": 118
+                }
+              ]
+            },
+            "seen": [
+              {
+                "candidateIndex": 2,
+                "clickReference": {
+                  "x": 1103,
+                  "y": 925
+                },
+                "card": {
+                  "accepted": true,
+                  "id": "M04",
+                  "name": "被封印的左腕",
+                  "mad": 0,
+                  "margin": 0.22362932947360895
+                }
+              },
+              {
+                "candidateIndex": 1,
+                "clickReference": {
+                  "x": 945,
+                  "y": 925
+                },
+                "card": {
+                  "accepted": true,
+                  "id": "M01",
+                  "name": "被封印的右足",
+                  "mad": 0,
+                  "margin": 0.2432980096029782
+                }
+              }
+            ],
+            "policy": "LAST_RESORT_M06_THEN_M08_OR_SURRENDER"
+          },
+          "debugDir": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\execution\\M13_last_resort\\2026-10-05T02-28-08-533Z"
+        }
+      },
+      "endedAt": "2026-10-05T02:28:22.272Z",
+      "returnedToStarter": true
+    },
+    {
+      "id": 4,
+      "startedAt": "2026-10-05T02:28:25.653Z",
+      "duelStarted": true,
+      "outcome": "WIN",
+      "gems": null,
+      "resultProof": {
+        "version": 1,
+        "settlementId": "5e5f9ca0-977d-4128-8c7c-dadc550647bc",
+        "stage": "COMPLETE",
+        "source": "V6_CARD_EXECUTOR_TERMINAL_VICTORY",
+        "startedAt": "2026-10-05T02:35:29.416Z",
+        "updatedAt": "2026-10-05T02:35:41.832Z",
+        "rewardAnimationComplete": true,
+        "animationClicks": 18,
+        "animationDurationMs": 5002,
+        "gems": null,
+        "observedTotal": null,
+        "dateKey": null,
+        "rewardStatus": "UNKNOWN",
+        "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\post-duel-victory\\2026-10-05T02-35-27-943Z\\settlement\\settlement_reward_record.json",
+        "confirmedSubtotal": 0,
+        "rewardRecheckPending": false
+      },
+      "endedAt": "2026-10-05T02:35:41.997Z",
+      "returnedToStarter": true,
+      "rewardStatus": "UNKNOWN",
+      "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\post-duel-victory\\2026-10-05T02-35-27-943Z\\settlement\\settlement_reward_record.json"
+    },
+    {
+      "id": 5,
+      "startedAt": "2026-10-05T02:35:47.970Z",
+      "duelStarted": true,
+      "outcome": "WIN",
+      "gems": 80,
+      "resultProof": {
+        "pass": true,
+        "detector": "VICTORY_RESULT_CONFIRM_V2",
+        "buttonMode": "HOVERED",
+        "titleWhiteRatio": 0.41052964254577157,
+        "leftCrownGoldRatio": 0.14938080495356038,
+        "confirmLimeRatio": 0.16564102564102565,
+        "confirmDarkRatio": 0.7137435897435898,
+        "reference": {
+          "x": 1024,
+          "y": 1037
+        }
+      },
+      "endedAt": "2026-10-05T02:42:33.871Z",
+      "returnedToStarter": true,
+      "rewardStatus": "VERIFIED",
+      "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\runs\\2026-10-05T02-11-41-105Z\\game-00005\\victory-settlement\\settlement\\settlement_reward_record.json"
+    }
+  ],
+  "totals": {
+    "started": 5,
+    "completed": 5,
+    "wins": 3,
+    "losses": 2,
+    "surrenders": 2,
+    "interrupted": 0,
+    "unresolved": 0,
+    "errorGames": 0,
+    "gems": 80,
+    "unknownGemGames": 2
+  }
+}

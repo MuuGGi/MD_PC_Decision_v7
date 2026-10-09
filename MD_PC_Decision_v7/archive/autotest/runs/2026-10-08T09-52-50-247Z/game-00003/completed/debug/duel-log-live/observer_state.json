@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-08T10:04:26.399Z",
+  "checkpoint": {
+    "activationKey": "M14",
+    "signature": "M14|PROCESSING_CARD:M09,PROCESSING_CARD:M17",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M16",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M09",
+        "cardName": "暴发户哥布林"
+      },
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M17",
+        "cardName": "闪刀起动－交闪"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M16",
+      "signature": "M16|PROCESSING_CARD:M14,PROCESSING_CARD:UNKNOWN",
+      "detailTokens": [
+        "HAND_GAIN:M14",
+        "DRAW:UNKNOWN"
+      ]
+    },
+    {
+      "activationKey": "M14",
+      "signature": "M14|PROCESSING_CARD:M09,PROCESSING_CARD:M17",
+      "detailTokens": [
+        "HAND_GAIN:M09",
+        "HAND_GAIN:M17"
+      ]
+    }
+  ]
+}

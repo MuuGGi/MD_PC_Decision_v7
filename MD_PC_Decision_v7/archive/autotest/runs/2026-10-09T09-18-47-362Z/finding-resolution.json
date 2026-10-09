@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "status": "FIXED_OFFLINE_VERIFIED_LIVE_PENDING",
+  "resolvedAt": "2026-10-09T10:18:50Z",
+  "findingIds": [
+    "V7_E10_SINGLE_DECK_TARGET_SOURCE_2026-10-09",
+    "V7_ENDGAME_DRAW_COMBINATION_2026-10-09"
+  ],
+  "category": "strategy",
+  "authorization": "用户在只读理解后明确要求改代码；本次未授权自动实战。",
+  "changes": [
+    "牌组合法交闪目标为1且牌组交闪可用时，共同来源优先DECK；其他来源规则与实际数量门禁保留。",
+    "执行目标窗口使用共同已发布来源绑定，移除旧路线固定GRAVE覆写；来源消失/单目标规则冲突零输入拒绝，不换方案。",
+    "唯一最终仲裁按当前普通抽牌段的真实费用、条件与余量做有界组合安排，不改固定资源优先级或叠负优先级。",
+    "4余量[1,2,2]选2，4余量[1,1,2]保留正常顺序；每次结算重新取当前快照，不提交未来整段动作。",
+    "字段/费用未知、超过支持手牌能力或搜索预算时保留正常排序，不删除抽2或判死局。"
+  ],
+  "sourceBackup": "archive/development/source-before-draw-source-2026-10-09",
+  "productionHashes": {
+    "src/strategy/action-order.js": "92f10e48052b35d7249a1d33dd92281eb3a12d453d5a6de3618c44121a1af73f",
+    "src/strategy/decision.js": "e754a8807e3caac9cb97a2d95021f338d7a5cbd340c95dc07739803eb897c906",
+    "engine/lib/e10-engage-source-policy.js": "e282ec89ffe0519359e29ff464b0b5a9e1039834e5a7a5ca782943f8c32c8821",
+    "engine/execution/core/atomic-route-executor.js": "6a79a729b91f30f9187a05d6a6d0ea70e7c8f4efa27f68b36818de299e5ee022"
+  },
+  "verification": {
+    "status": "V7_OFFLINE_VERIFY_PASS",
+    "checkedAt": "2026-10-09T10:16:21.719Z",
+    "syntaxFiles": 263,
+    "endgameSourceCases": 18,
+    "unifiedStrategyCases": 47,
+    "integrationCases": 13,
+    "terminalCloseCases": 18,
+    "runtimeFiles": 235,
+    "templatesDecoded": 32,
+    "readsOutsidePackage": 0,
+    "nativeGameInputs": 0,
+    "formalBusinessWrites": 0
+  },
+  "legacyNote": "未重跑旧88兼容；既有legacy失败报告仍保留，不声称所有旧断言通过。",
+  "gameReviewPolicy": "以前已审阅对局默认继续跳过；只使用已定位T0030做故障夹具，不重分析整批。",
+  "automationStatus": "PAUSED"
+}

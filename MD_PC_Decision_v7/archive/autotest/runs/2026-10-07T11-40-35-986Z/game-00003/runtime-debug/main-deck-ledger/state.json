@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-07T11:56:12.961Z",
+  "openingBaselineCapturedAt": "2026-10-07T11:56:10.094Z",
+  "openingHand": [
+    "M07",
+    "M09",
+    "M13",
+    "M20",
+    "M21"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 2,
+    "M07": 1,
+    "M08": 2,
+    "M09": 3,
+    "M10": 3,
+    "M11": 2,
+    "M12": 3,
+    "M13": 1,
+    "M14": 3,
+    "M15": 2,
+    "M16": 1,
+    "M17": 3,
+    "M18": 1,
+    "M19": 2,
+    "M20": 1,
+    "M21": 3,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 4,
+  "lastHandRevision": 28,
+  "lastIncrementalFingerprint": "28|M10|M10",
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-07T12:03:09.164Z",
+  "lastM13Draw": {
+    "fingerprint": "2026-10-07T11:56:48.878Z|2026-10-07T11:57:01.694Z|4|5|M13|PROCESSING_CARD:M17,PROCESSING_CARD:M02,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|EXODIA_UNKNOWN,M17|M06",
+    "drawnIds": [
+      "M17",
+      "EXODIA_UNKNOWN"
+    ],
+    "banishedId": "M06",
+    "beforeRevision": 4,
+    "afterRevision": 5
+  },
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-07T11:58:01.858Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-07T11:58:01.858Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 0,
+    "outsideAfter": 1,
+    "committedAt": "2026-10-07T11:58:11.443Z"
+  },
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E02->M17+M19->M14:8->9"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E02->M17+M19->M14:8->9",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": false,
+        "activationKey": "E02"
+      },
+      {
+        "id": "M14",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 8,
+    "afterRevision": 9,
+    "committedAt": "2026-10-07T11:58:57.728Z"
+  }
+}

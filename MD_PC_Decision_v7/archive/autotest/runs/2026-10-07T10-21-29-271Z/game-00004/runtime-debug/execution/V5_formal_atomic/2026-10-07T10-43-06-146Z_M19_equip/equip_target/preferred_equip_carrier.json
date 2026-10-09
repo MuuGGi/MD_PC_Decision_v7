@@ -1,0 +1,1436 @@
+{
+  "kind": "CENTRAL_MAIN",
+  "zoneName": "中央主怪兽区",
+  "reference": {
+    "x": 1024,
+    "y": 700
+  },
+  "evidenceReference": {
+    "x": 1024,
+    "y": 700
+  },
+  "extraProbes": [
+    {
+      "anchor": {
+        "name": "左额外怪兽区",
+        "x": 835,
+        "y": 515
+      },
+      "matchedAnchor": {
+        "name": "左额外怪兽区",
+        "x": 835,
+        "y": 515
+      },
+      "probe": {
+        "visible": false,
+        "detector": "EXEC_OWN_LINK_PHYSICAL_FRAME_V1",
+        "fieldRoi": {
+          "x": 280,
+          "y": 280,
+          "width": 1220,
+          "height": 460
+        },
+        "thresholds": {
+          "blueRatio": 0.1,
+          "texture": 14,
+          "anchorMaxDrift": 180
+        },
+        "anchorReference": {
+          "name": "左额外怪兽区",
+          "x": 835,
+          "y": 515
+        },
+        "anchorDrift": null,
+        "passingWindowCount": 0,
+        "best": {
+          "x": 280,
+          "y": 460,
+          "width": 110,
+          "height": 150,
+          "centerX": 335,
+          "centerY": 535,
+          "blueRatio": 0.08096969696969697,
+          "texture": 11.37151067323472
+        },
+        "chosen": {
+          "x": 280,
+          "y": 460,
+          "width": 110,
+          "height": 150,
+          "centerX": 335,
+          "centerY": 535,
+          "blueRatio": 0.08096969696969697,
+          "texture": 11.37151067323472
+        },
+        "referenceCenter": {
+          "x": 335,
+          "y": 535
+        }
+      },
+      "anchorDrift": 500.3998401278722,
+      "accepted": false
+    },
+    {
+      "anchor": {
+        "name": "右额外怪兽区",
+        "x": 1213,
+        "y": 515
+      },
+      "matchedAnchor": {
+        "name": "左额外怪兽区",
+        "x": 835,
+        "y": 515
+      },
+      "probe": {
+        "visible": true,
+        "detector": "EXEC_OWN_LINK_PHYSICAL_FRAME_V1",
+        "fieldRoi": {
+          "x": 280,
+          "y": 280,
+          "width": 1220,
+          "height": 460
+        },
+        "thresholds": {
+          "blueRatio": 0.1,
+          "texture": 14,
+          "anchorMaxDrift": 180
+        },
+        "anchorReference": {
+          "name": "右额外怪兽区",
+          "x": 1213,
+          "y": 515
+        },
+        "anchorDrift": null,
+        "passingWindowCount": 3,
+        "best": {
+          "x": 960,
+          "y": 580,
+          "width": 110,
+          "height": 150,
+          "centerX": 1015,
+          "centerY": 655,
+          "blueRatio": 0.11684848484848485,
+          "texture": 17.623357963875208
+        },
+        "chosen": {
+          "x": 960,
+          "y": 580,
+          "width": 110,
+          "height": 150,
+          "centerX": 1015,
+          "centerY": 655,
+          "blueRatio": 0.11684848484848485,
+          "texture": 17.623357963875208
+        },
+        "referenceCenter": {
+          "x": 1015,
+          "y": 655
+        }
+      },
+      "anchorDrift": 228.0350850198276,
+      "accepted": false
+    }
+  ],
+  "centralProbe": {
+    "reference": {
+      "x": 1024,
+      "y": 700
+    },
+    "roi": {
+      "x": 909,
+      "y": 580,
+      "width": 230,
+      "height": 240
+    },
+    "yellow": {
+      "estimatedYellowPixels": 20536,
+      "yellowRatio": 0.3720289855072464,
+      "usable": true,
+      "components": [
+        {
+          "estimatedPixels": 18440,
+          "x": 12,
+          "y": 0,
+          "width": 218,
+          "height": 222,
+          "aspect": 0.9819819819819819,
+          "fillRatio": 0.3810232250599223,
+          "centerX": 126,
+          "centerY": 89
+        },
+        {
+          "estimatedPixels": 660,
+          "x": 0,
+          "y": 58,
+          "width": 20,
+          "height": 64,
+          "aspect": 0.3125,
+          "fillRatio": 0.515625,
+          "centerX": 8,
+          "centerY": 86
+        },
+        {
+          "estimatedPixels": 256,
+          "x": 140,
+          "y": 184,
+          "width": 22,
+          "height": 22,
+          "aspect": 1,
+          "fillRatio": 0.5289256198347108,
+          "centerX": 151,
+          "centerY": 193
+        },
+        {
+          "estimatedPixels": 160,
+          "x": 0,
+          "y": 42,
+          "width": 18,
+          "height": 14,
+          "aspect": 1.2857142857142858,
+          "fillRatio": 0.6349206349206349,
+          "centerX": 8,
+          "centerY": 47
+        },
+        {
+          "estimatedPixels": 140,
+          "x": 0,
+          "y": 156,
+          "width": 18,
+          "height": 26,
+          "aspect": 0.6923076923076923,
+          "fillRatio": 0.29914529914529914,
+          "centerX": 6,
+          "centerY": 170
+        },
+        {
+          "estimatedPixels": 100,
+          "x": 22,
+          "y": 178,
+          "width": 8,
+          "height": 24,
+          "aspect": 0.3333333333333333,
+          "fillRatio": 0.5208333333333334,
+          "centerX": 26,
+          "centerY": 189
+        },
+        {
+          "estimatedPixels": 60,
+          "x": 206,
+          "y": 130,
+          "width": 12,
+          "height": 10,
+          "aspect": 1.2,
+          "fillRatio": 0.5,
+          "centerX": 211,
+          "centerY": 134
+        },
+        {
+          "estimatedPixels": 56,
+          "x": 6,
+          "y": 134,
+          "width": 10,
+          "height": 10,
+          "aspect": 1,
+          "fillRatio": 0.56,
+          "centerX": 9,
+          "centerY": 137
+        },
+        {
+          "estimatedPixels": 48,
+          "x": 58,
+          "y": 128,
+          "width": 2,
+          "height": 24,
+          "aspect": 0.08333333333333333,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 139
+        },
+        {
+          "estimatedPixels": 48,
+          "x": 162,
+          "y": 204,
+          "width": 12,
+          "height": 6,
+          "aspect": 2,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 167,
+          "centerY": 207
+        },
+        {
+          "estimatedPixels": 44,
+          "x": 6,
+          "y": 20,
+          "width": 10,
+          "height": 10,
+          "aspect": 1,
+          "fillRatio": 0.44,
+          "centerX": 8,
+          "centerY": 23
+        },
+        {
+          "estimatedPixels": 36,
+          "x": 172,
+          "y": 142,
+          "width": 2,
+          "height": 18,
+          "aspect": 0.1111111111111111,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 150
+        },
+        {
+          "estimatedPixels": 32,
+          "x": 10,
+          "y": 28,
+          "width": 8,
+          "height": 8,
+          "aspect": 1,
+          "fillRatio": 0.5,
+          "centerX": 13,
+          "centerY": 32
+        },
+        {
+          "estimatedPixels": 32,
+          "x": 142,
+          "y": 72,
+          "width": 6,
+          "height": 6,
+          "aspect": 1,
+          "fillRatio": 0.8888888888888888,
+          "centerX": 144,
+          "centerY": 74
+        },
+        {
+          "estimatedPixels": 28,
+          "x": 134,
+          "y": 72,
+          "width": 6,
+          "height": 6,
+          "aspect": 1,
+          "fillRatio": 0.7777777777777778,
+          "centerX": 136,
+          "centerY": 73
+        },
+        {
+          "estimatedPixels": 24,
+          "x": 152,
+          "y": 72,
+          "width": 4,
+          "height": 6,
+          "aspect": 0.6666666666666666,
+          "fillRatio": 1,
+          "centerX": 153,
+          "centerY": 74
+        },
+        {
+          "estimatedPixels": 24,
+          "x": 160,
+          "y": 72,
+          "width": 6,
+          "height": 6,
+          "aspect": 1,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 162,
+          "centerY": 74
+        },
+        {
+          "estimatedPixels": 24,
+          "x": 58,
+          "y": 74,
+          "width": 2,
+          "height": 12,
+          "aspect": 0.16666666666666666,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 79
+        },
+        {
+          "estimatedPixels": 20,
+          "x": 58,
+          "y": 102,
+          "width": 2,
+          "height": 10,
+          "aspect": 0.2,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 106
+        },
+        {
+          "estimatedPixels": 20,
+          "x": 2,
+          "y": 210,
+          "width": 6,
+          "height": 4,
+          "aspect": 1.5,
+          "fillRatio": 0.8333333333333334,
+          "centerX": 4,
+          "centerY": 211
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 18,
+          "y": 56,
+          "width": 8,
+          "height": 4,
+          "aspect": 2,
+          "fillRatio": 0.5,
+          "centerX": 21,
+          "centerY": 57
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 58,
+          "y": 116,
+          "width": 2,
+          "height": 8,
+          "aspect": 0.25,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 119
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 4,
+          "y": 146,
+          "width": 4,
+          "height": 4,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 5,
+          "centerY": 147
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 12,
+          "y": 150,
+          "width": 4,
+          "height": 6,
+          "aspect": 0.6666666666666666,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 13,
+          "centerY": 152
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 226,
+          "y": 154,
+          "width": 4,
+          "height": 6,
+          "aspect": 0.6666666666666666,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 228,
+          "centerY": 156
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 188,
+          "y": 188,
+          "width": 6,
+          "height": 4,
+          "aspect": 1.5,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 190,
+          "centerY": 189
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 8,
+          "y": 224,
+          "width": 6,
+          "height": 4,
+          "aspect": 1.5,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 11,
+          "centerY": 226
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 108,
+          "y": 8,
+          "width": 6,
+          "height": 4,
+          "aspect": 1.5,
+          "fillRatio": 0.5,
+          "centerX": 110,
+          "centerY": 9
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 208,
+          "y": 122,
+          "width": 4,
+          "height": 4,
+          "aspect": 1,
+          "fillRatio": 0.75,
+          "centerX": 209,
+          "centerY": 123
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 172,
+          "y": 132,
+          "width": 2,
+          "height": 6,
+          "aspect": 0.3333333333333333,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 134
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 204,
+          "y": 6,
+          "width": 4,
+          "height": 2,
+          "aspect": 2,
+          "fillRatio": 1,
+          "centerX": 205,
+          "centerY": 6
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 58,
+          "y": 62,
+          "width": 2,
+          "height": 4,
+          "aspect": 0.5,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 63
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 58,
+          "y": 68,
+          "width": 2,
+          "height": 4,
+          "aspect": 0.5,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 69
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 170,
+          "y": 192,
+          "width": 2,
+          "height": 4,
+          "aspect": 0.5,
+          "fillRatio": 1,
+          "centerX": 170,
+          "centerY": 193
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 200,
+          "y": 192,
+          "width": 4,
+          "height": 2,
+          "aspect": 2,
+          "fillRatio": 1,
+          "centerX": 201,
+          "centerY": 192
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 14,
+          "y": 234,
+          "width": 4,
+          "height": 4,
+          "aspect": 1,
+          "fillRatio": 0.5,
+          "centerX": 15,
+          "centerY": 235
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 200,
+          "y": 56,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 200,
+          "centerY": 56
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 170,
+          "y": 58,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 170,
+          "centerY": 58
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 16,
+          "y": 104,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 16,
+          "centerY": 104
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 172,
+          "y": 128,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 128
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 2,
+          "y": 130,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 2,
+          "centerY": 130
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 10,
+          "y": 130,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 10,
+          "centerY": 130
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 190,
+          "y": 134,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 190,
+          "centerY": 134
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 16,
+          "y": 136,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 16,
+          "centerY": 136
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 2,
+          "y": 138,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 2,
+          "centerY": 138
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 2,
+          "y": 142,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 2,
+          "centerY": 142
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 2,
+          "y": 152,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 2,
+          "centerY": 152
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 10,
+          "y": 158,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 10,
+          "centerY": 158
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 4,
+          "y": 162,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 4,
+          "centerY": 162
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 172,
+          "y": 162,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 162
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 228,
+          "y": 162,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 228,
+          "centerY": 162
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 172,
+          "y": 188,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 188
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 202,
+          "y": 196,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 202,
+          "centerY": 196
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 224,
+          "y": 196,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 224,
+          "centerY": 196
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 176,
+          "y": 198,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 176,
+          "centerY": 198
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 192,
+          "y": 200,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 192,
+          "centerY": 200
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 26,
+          "y": 204,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 26,
+          "centerY": 204
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 26,
+          "y": 208,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 26,
+          "centerY": 208
+        }
+      ],
+      "buttonComponent": {
+        "estimatedPixels": 160,
+        "x": 0,
+        "y": 42,
+        "width": 18,
+        "height": 14,
+        "aspect": 1.2857142857142858,
+        "fillRatio": 0.6349206349206349,
+        "centerX": 8,
+        "centerY": 47
+      }
+    },
+    "accepted": true
+  },
+  "source": "CENTRAL_MAIN_SELECTABLE_YELLOW",
+  "clickPolicy": "CANONICAL_KNOWN_ZONE_CENTER",
+  "clickReference": {
+    "x": 1024,
+    "y": 700
+  },
+  "recognized": {
+    "accepted": true,
+    "id": "M06",
+    "name": "闪刀姬－零衣",
+    "mad": 0,
+    "margin": 0.21446641223911356
+  },
+  "rawRecognized": {
+    "accepted": true,
+    "id": "M06",
+    "name": "闪刀姬－零衣",
+    "mad": 0,
+    "margin": 0.21446641223911356
+  },
+  "afterIdentityMs": 1000,
+  "selectableProof": {
+    "roi": {
+      "x": 909,
+      "y": 555,
+      "width": 230,
+      "height": 290
+    },
+    "yellow": {
+      "estimatedYellowPixels": 23928,
+      "yellowRatio": 0.3587406296851574,
+      "usable": true,
+      "components": [
+        {
+          "estimatedPixels": 21932,
+          "x": 2,
+          "y": 0,
+          "width": 228,
+          "height": 244,
+          "aspect": 0.9344262295081968,
+          "fillRatio": 0.3942335346563129,
+          "centerX": 121,
+          "centerY": 91
+        },
+        {
+          "estimatedPixels": 560,
+          "x": 0,
+          "y": 88,
+          "width": 20,
+          "height": 60,
+          "aspect": 0.3333333333333333,
+          "fillRatio": 0.4666666666666667,
+          "centerX": 7,
+          "centerY": 114
+        },
+        {
+          "estimatedPixels": 292,
+          "x": 140,
+          "y": 208,
+          "width": 24,
+          "height": 24,
+          "aspect": 1,
+          "fillRatio": 0.5069444444444444,
+          "centerX": 151,
+          "centerY": 218
+        },
+        {
+          "estimatedPixels": 284,
+          "x": 0,
+          "y": 66,
+          "width": 22,
+          "height": 30,
+          "aspect": 0.7333333333333333,
+          "fillRatio": 0.4303030303030303,
+          "centerX": 10,
+          "centerY": 76
+        },
+        {
+          "estimatedPixels": 160,
+          "x": 0,
+          "y": 178,
+          "width": 18,
+          "height": 30,
+          "aspect": 0.6,
+          "fillRatio": 0.2962962962962963,
+          "centerX": 6,
+          "centerY": 194
+        },
+        {
+          "estimatedPixels": 108,
+          "x": 22,
+          "y": 204,
+          "width": 8,
+          "height": 26,
+          "aspect": 0.3076923076923077,
+          "fillRatio": 0.5192307692307693,
+          "centerX": 26,
+          "centerY": 214
+        },
+        {
+          "estimatedPixels": 52,
+          "x": 6,
+          "y": 158,
+          "width": 10,
+          "height": 10,
+          "aspect": 1,
+          "fillRatio": 0.52,
+          "centerX": 9,
+          "centerY": 162
+        },
+        {
+          "estimatedPixels": 48,
+          "x": 6,
+          "y": 44,
+          "width": 10,
+          "height": 10,
+          "aspect": 1,
+          "fillRatio": 0.48,
+          "centerX": 9,
+          "centerY": 46
+        },
+        {
+          "estimatedPixels": 44,
+          "x": 58,
+          "y": 154,
+          "width": 2,
+          "height": 22,
+          "aspect": 0.09090909090909091,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 164
+        },
+        {
+          "estimatedPixels": 32,
+          "x": 172,
+          "y": 168,
+          "width": 2,
+          "height": 16,
+          "aspect": 0.125,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 175
+        },
+        {
+          "estimatedPixels": 28,
+          "x": 58,
+          "y": 98,
+          "width": 2,
+          "height": 14,
+          "aspect": 0.14285714285714285,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 104
+        },
+        {
+          "estimatedPixels": 24,
+          "x": 2,
+          "y": 166,
+          "width": 6,
+          "height": 10,
+          "aspect": 0.6,
+          "fillRatio": 0.4,
+          "centerX": 4,
+          "centerY": 170
+        },
+        {
+          "estimatedPixels": 20,
+          "x": 66,
+          "y": 80,
+          "width": 10,
+          "height": 2,
+          "aspect": 5,
+          "fillRatio": 1,
+          "centerX": 70,
+          "centerY": 80
+        },
+        {
+          "estimatedPixels": 20,
+          "x": 142,
+          "y": 96,
+          "width": 6,
+          "height": 6,
+          "aspect": 1,
+          "fillRatio": 0.5555555555555556,
+          "centerX": 144,
+          "centerY": 98
+        },
+        {
+          "estimatedPixels": 20,
+          "x": 160,
+          "y": 96,
+          "width": 4,
+          "height": 6,
+          "aspect": 0.6666666666666666,
+          "fillRatio": 0.8333333333333334,
+          "centerX": 161,
+          "centerY": 98
+        },
+        {
+          "estimatedPixels": 20,
+          "x": 150,
+          "y": 98,
+          "width": 6,
+          "height": 6,
+          "aspect": 1,
+          "fillRatio": 0.5555555555555556,
+          "centerX": 152,
+          "centerY": 100
+        },
+        {
+          "estimatedPixels": 20,
+          "x": 226,
+          "y": 178,
+          "width": 4,
+          "height": 6,
+          "aspect": 0.6666666666666666,
+          "fillRatio": 0.8333333333333334,
+          "centerX": 227,
+          "centerY": 180
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 10,
+          "y": 54,
+          "width": 6,
+          "height": 6,
+          "aspect": 1,
+          "fillRatio": 0.4444444444444444,
+          "centerX": 12,
+          "centerY": 57
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 136,
+          "y": 80,
+          "width": 8,
+          "height": 2,
+          "aspect": 4,
+          "fillRatio": 1,
+          "centerX": 139,
+          "centerY": 80
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 134,
+          "y": 96,
+          "width": 4,
+          "height": 6,
+          "aspect": 0.6666666666666666,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 136,
+          "centerY": 98
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 58,
+          "y": 128,
+          "width": 2,
+          "height": 8,
+          "aspect": 0.25,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 131
+        },
+        {
+          "estimatedPixels": 16,
+          "x": 200,
+          "y": 216,
+          "width": 4,
+          "height": 6,
+          "aspect": 0.6666666666666666,
+          "fillRatio": 0.6666666666666666,
+          "centerX": 201,
+          "centerY": 218
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 150,
+          "y": 80,
+          "width": 6,
+          "height": 2,
+          "aspect": 3,
+          "fillRatio": 1,
+          "centerX": 152,
+          "centerY": 80
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 58,
+          "y": 86,
+          "width": 2,
+          "height": 6,
+          "aspect": 0.3333333333333333,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 88
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 58,
+          "y": 142,
+          "width": 2,
+          "height": 6,
+          "aspect": 0.3333333333333333,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 144
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 12,
+          "y": 176,
+          "width": 4,
+          "height": 4,
+          "aspect": 1,
+          "fillRatio": 0.75,
+          "centerX": 13,
+          "centerY": 177
+        },
+        {
+          "estimatedPixels": 12,
+          "x": 8,
+          "y": 250,
+          "width": 6,
+          "height": 2,
+          "aspect": 3,
+          "fillRatio": 1,
+          "centerX": 10,
+          "centerY": 250
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 170,
+          "y": 80,
+          "width": 2,
+          "height": 4,
+          "aspect": 0.5,
+          "fillRatio": 1,
+          "centerX": 170,
+          "centerY": 81
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 58,
+          "y": 116,
+          "width": 2,
+          "height": 4,
+          "aspect": 0.5,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 117
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 172,
+          "y": 158,
+          "width": 2,
+          "height": 4,
+          "aspect": 0.5,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 159
+        },
+        {
+          "estimatedPixels": 8,
+          "x": 172,
+          "y": 186,
+          "width": 2,
+          "height": 4,
+          "aspect": 0.5,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 187
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 94,
+          "y": 40,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 94,
+          "centerY": 40
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 96,
+          "y": 80,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 96,
+          "centerY": 80
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 216,
+          "y": 92,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 216,
+          "centerY": 92
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 58,
+          "y": 94,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 94
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 2,
+          "y": 130,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 2,
+          "centerY": 130
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 16,
+          "y": 130,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 16,
+          "centerY": 130
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 208,
+          "y": 148,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 208,
+          "centerY": 148
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 172,
+          "y": 152,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 152
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 16,
+          "y": 160,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 16,
+          "centerY": 160
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 222,
+          "y": 168,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 222,
+          "centerY": 168
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 226,
+          "y": 172,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 226,
+          "centerY": 172
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 8,
+          "y": 178,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 8,
+          "centerY": 178
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 20,
+          "y": 178,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 20,
+          "centerY": 178
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 58,
+          "y": 184,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 58,
+          "centerY": 184
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 24,
+          "y": 192,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 24,
+          "centerY": 192
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 28,
+          "y": 202,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 28,
+          "centerY": 202
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 170,
+          "y": 210,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 170,
+          "centerY": 210
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 170,
+          "y": 214,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 170,
+          "centerY": 214
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 192,
+          "y": 216,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 192,
+          "centerY": 216
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 166,
+          "y": 228,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 166,
+          "centerY": 228
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 26,
+          "y": 234,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 26,
+          "centerY": 234
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 14,
+          "y": 262,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 14,
+          "centerY": 262
+        },
+        {
+          "estimatedPixels": 4,
+          "x": 172,
+          "y": 282,
+          "width": 2,
+          "height": 2,
+          "aspect": 1,
+          "fillRatio": 1,
+          "centerX": 172,
+          "centerY": 282
+        }
+      ],
+      "buttonComponent": null
+    },
+    "lastYellow": 23928,
+    "stableFrames": 2
+  }
+}

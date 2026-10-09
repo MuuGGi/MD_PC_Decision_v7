@@ -1,0 +1,14 @@
+{
+  "name": "md-pc-decision-v7",
+  "version": "7.0.0",
+  "private": true,
+  "description": "High-robustness migration core for MD_PC_Decision V7 over proven V6 UI/observer leaves.",
+  "main": "src/runtime/main-v7.js",
+  "scripts": {
+    "test": "node test/run.js",
+    "audit": "node src/runtime/main-v7.js --audit",
+    "shadow": "node src/runtime/main-v7.js --shadow",
+    "verify": "node tools/verify-v7.js --allow-host-version"
+  },
+  "engines": { "node": "20.11.1" }
+}

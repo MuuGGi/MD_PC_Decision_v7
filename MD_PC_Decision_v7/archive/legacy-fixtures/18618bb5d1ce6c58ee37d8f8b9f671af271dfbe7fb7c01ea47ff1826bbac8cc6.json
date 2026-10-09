@@ -1,0 +1,324 @@
+{
+  "status": "PASS",
+  "before": {
+    "version": 2,
+    "capturedAt": "2026-10-04T10:17:02.621Z",
+    "revision": 15,
+    "handCount": 6,
+    "cards": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M11"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M16",
+        "name": "暂时休战",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M16"
+        ],
+        "index": 6
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_15\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M21",
+      "signature": "M21|PROCESSING_CARD:M06",
+      "activationOccurrence": 2
+    },
+    "lastIncremental": {
+      "consumed": null,
+      "costConsumed": [],
+      "predictedSlots": [
+        2
+      ],
+      "recognized": [
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 2,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "after": {
+    "version": 2,
+    "capturedAt": "2026-10-04T10:17:15.607Z",
+    "revision": 16,
+    "handCount": 6,
+    "cards": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M11"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M16",
+        "name": "暂时休战",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M16"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 6
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_16\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M13",
+      "signature": "M13|PROCESSING_CARD:M21,PROCESSING_CARD:M12,PROCESSING_CARD:M06,PROCESSING_CARD:M06",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ],
+        "index": 5
+      },
+      "costConsumed": [
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ],
+          "index": 1
+        }
+      ],
+      "predictedSlots": [
+        4,
+        6
+      ],
+      "recognized": [
+        {
+          "id": "M12",
+          "name": "抵价交易",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M12"
+          ]
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M21"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 4,
+          "id": "M12",
+          "name": "抵价交易",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        },
+        {
+          "slot": 6,
+          "id": "M21",
+          "name": "试胆竞速",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "inference": {
+    "activationKey": "M13",
+    "consumed": {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M13"
+      ],
+      "index": 5
+    },
+    "costConsumed": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 1
+      }
+    ],
+    "addedCount": 2,
+    "predictedSlots": [
+      4,
+      6
+    ]
+  },
+  "insertedCards": [
+    {
+      "slot": 4,
+      "card": {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ]
+      }
+    },
+    {
+      "slot": 6,
+      "card": {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ]
+      }
+    }
+  ],
+  "finalClicks": [
+    {
+      "slot": 4,
+      "id": "M12",
+      "name": "抵价交易",
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    },
+    {
+      "slot": 6,
+      "id": "M21",
+      "name": "试胆竞速",
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    }
+  ],
+  "info": {
+    "autoHoldI": true,
+    "fastOwnOnly": true,
+    "capturedAt": "2026-10-04T10:17:15.434Z",
+    "windowTitle": "masterduel",
+    "status": "OK",
+    "own": {
+      "handCount": 6,
+      "status": "OK",
+      "confidence": 0.9067460317460317,
+      "sourceBoxes": [
+        {
+          "x": 84,
+          "y": 33,
+          "width": 23,
+          "height": 30
+        }
+      ]
+    },
+    "opponent": null,
+    "expected": {
+      "own": 6
+    },
+    "sideValidation": "OK",
+    "samples": 2,
+    "stableReads": 2,
+    "holdDurationMs": 158,
+    "mouseReleased": true,
+    "failSafeTriggered": false,
+    "overlayReleaseCheck": "MOUSE_UP_CONFIRMED"
+  }
+}

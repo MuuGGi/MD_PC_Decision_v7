@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "id": "DUEL-eaf01a6b1381df8fdc4e9ff3-T0014",
+  "duelId": "DUEL-eaf01a6b1381df8fdc4e9ff3",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-e421893ff295a2061e32e763d768bc3e",
+  "intent": {
+    "cardId": "M15",
+    "slot": 7
+  },
+  "baseline": {
+    "hand": {
+      "revision": 12,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M11",
+        "M15"
+      ]
+    },
+    "ledger": {
+      "revision": 12,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 0,
+        "M08": 2,
+        "M09": 1,
+        "M10": 0,
+        "M11": 1,
+        "M12": 2,
+        "M13": 0,
+        "M14": 1,
+        "M15": 1,
+        "M16": 0,
+        "M17": 2,
+        "M18": 0,
+        "M19": 2,
+        "M20": 1,
+        "M21": 1,
+        "M22": 0
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M12",
+        "signature": "M12|PROCESSING_CARD:M08,PROCESSING_CARD:M15,PROCESSING_CARD:M05",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": null,
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M15",
+            "cardName": "无之炼狱"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M05",
+            "cardName": "被封印的艾克佐迪亚"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "EQUIPPED_YOTO_NO_SEARCH_TARGET",
+        "carrierId": "E10",
+        "updatedAt": "2026-10-07T12:33:13.385Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M06": 1,
+        "M19": 1,
+        "M20": 1,
+        "M14": 1,
+        "M17": 2,
+        "M21": 1,
+        "M09": 1,
+        "M12": 2,
+        "M08": 2
+      }
+    },
+    "extra": {
+      "cardId": "M15",
+      "slot": 7
+    }
+  },
+  "createdAt": "2026-10-07T12:34:51.070Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M15",
+          "slot": 7
+        }
+      },
+      "noReplayAt": "2026-10-07T12:34:51.084Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-eaf01a6b1381df8fdc4e9ff3-T0014",
+        "handRevision": 13,
+        "handHash": "0576f191d18f698e9fa0beadb740cf55a804678311ee494336c9253d26acc7a2",
+        "ledgerHash": "2b3560a94a1eb0ee37d72ebd3205927ac5ba81a7aef59ba4e85b852952918b07",
+        "runtimeHash": "916180bb541b9700efac7f17ec1e839bfeaf7a35a645bee5b3b231cd5fd1127a",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T12:35:00.769Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T12:35:00.773Z"
+    }
+  ],
+  "committedAt": "2026-10-07T12:35:00.778Z"
+}

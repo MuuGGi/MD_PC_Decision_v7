@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T12:30:35.684Z",
+  "checkpoint": {
+    "activationKey": "M17",
+    "signature": "M17|PROCESSING_CARD:M06,PROCESSING_CARD:M05",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "E10",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M06",
+        "cardName": "闪刀姬－零衣"
+      },
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M05",
+        "cardName": "被封印的艾克佐迪亚"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "E10",
+      "signature": "E10|PROCESSING_CARD:E04,PROCESSING_CARD:E10",
+      "detailTokens": [
+        "SEND_TO_GRAVEYARD:E04",
+        "LINK_SUMMON:E10"
+      ]
+    },
+    {
+      "activationKey": "E10",
+      "signature": "E10|PROCESSING_CARD:M17",
+      "detailTokens": [
+        "HAND_GAIN:M17"
+      ]
+    },
+    {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M06,PROCESSING_CARD:M05",
+      "detailTokens": [
+        "HAND_GAIN:M06",
+        "HAND_GAIN:M05"
+      ]
+    }
+  ]
+}

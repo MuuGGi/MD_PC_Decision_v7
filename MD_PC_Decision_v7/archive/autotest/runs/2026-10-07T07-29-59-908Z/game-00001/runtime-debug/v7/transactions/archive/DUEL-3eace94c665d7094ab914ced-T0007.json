@@ -1,0 +1,136 @@
+{
+  "version": 2,
+  "id": "DUEL-3eace94c665d7094ab914ced-T0007",
+  "duelId": "DUEL-3eace94c665d7094ab914ced",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-5fc0e55f9891db694cfeb8b50a7496b5",
+  "intent": {
+    "node": "KAGARI_RECOVERY_PROMPT"
+  },
+  "baseline": {
+    "hand": {
+      "revision": 4,
+      "cards": [
+        "M06",
+        "M07",
+        "M10",
+        "M17"
+      ]
+    },
+    "ledger": {
+      "revision": 4,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 0,
+        "M09": 0,
+        "M10": 3,
+        "M11": 1,
+        "M12": 0,
+        "M13": 0,
+        "M14": 0,
+        "M15": 0,
+        "M16": 0,
+        "M17": 2,
+        "M18": 0,
+        "M19": 0,
+        "M20": 0,
+        "M21": 1,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M22",
+        "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "TOKEN_SKY_STRIKER",
+            "cardName": "闪刀姬衍生物"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": true,
+        "currentState": "KAGARI_RECOVERY_PROMPT",
+        "updatedAt": "2026-10-07T07:32:31.426Z",
+        "carrierId": "E02",
+        "source": "FORMAL_V5_H2"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M21": 1,
+        "M11": 1,
+        "M10": 2,
+        "M17": 1,
+        "M22": 1
+      }
+    },
+    "extra": {
+      "node": "KAGARI_RECOVERY_PROMPT"
+    }
+  },
+  "createdAt": "2026-10-07T07:32:31.553Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "KAGARI_RECOVERY_PROMPT"
+        }
+      },
+      "noReplayAt": "2026-10-07T07:32:31.572Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-3eace94c665d7094ab914ced-T0007",
+        "handRevision": 5,
+        "handHash": "84a588e6e9cddaed6431f62437d2b592c2b60fbfa6aa6a08adf69412e90caca9",
+        "ledgerHash": "7c1f1a7498cb5542c7e260f1006c92f7620a80a8671cad4a6d593f35c9533d25",
+        "runtimeHash": "60afab36f8d46a55c70ac038e0f587e1c1972428ae8d76d36378347d805b5e43",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T07:32:38.771Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T07:32:38.775Z"
+    }
+  ],
+  "committedAt": "2026-10-07T07:32:38.780Z"
+}

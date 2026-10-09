@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "commitId": "DUEL-b1420cd8db71df9e29b99216-T0005_EQUIP_STATE",
+  "status": "COMMITTED",
+  "createdAt": "2026-10-07T07:14:07.144Z",
+  "operations": [
+    {
+      "operationKey": "SUBMITTED_EQUIP_RUNTIME",
+      "targetPath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\decision-state.json",
+      "allowCreate": false,
+      "beforeHash": "cfa719c79023b574110a6f85972eb2f02b34b3cc42bfaa59246003409b280bb6",
+      "afterHash": "04e180c4eafe701a4b360707a080f032573f26ec59e8b97e467ba694b471da40",
+      "afterValue": {
+        "graveSpellCount": 2,
+        "fieldSpell": "M21",
+        "chickenGameDrawUsed": true,
+        "chickenGameDrawPending": false,
+        "bambooSwordEquipped": true,
+        "equippedBambooId": "M19",
+        "equipSentToGraveCount": 0,
+        "engageBlockedByMainMonster": false,
+        "rayeNormalSummoned": true,
+        "normalSummonUsed": true,
+        "usedCounts": {
+          "M09": 1,
+          "M12": 1,
+          "M07": 1,
+          "M21": 1,
+          "M06": 1,
+          "M19": 1
+        },
+        "effectUsage": {
+          "M19_SEARCH": 0
+        },
+        "effectUsageMeta": {
+          "M21_DRAW": {
+            "pending": false,
+            "fieldPlacementTransaction": "2:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-07T06-42-55-023Z",
+            "source": "M21_VERIFIED_FIELD_PLACEMENT",
+            "updatedAt": "2026-10-07T06:43:11.364Z",
+            "resolved": true
+          }
+        },
+        "notes": "V5 runtime decision state",
+        "v5Branch": {
+          "active": true,
+          "currentState": "M19_EQUIPPED",
+          "carrierId": "M06",
+          "updatedAt": "2026-10-07T07:14:07.144Z",
+          "source": "FORMAL_V5_ATOMIC_MAIN"
+        },
+        "equippedBambooCounts": {
+          "M19": 1
+        },
+        "bambooEquipResources": null
+      },
+      "status": "APPLIED",
+      "appliedAt": "2026-10-07T07:14:07.163Z"
+    }
+  ],
+  "committedAt": "2026-10-07T07:14:07.167Z"
+}

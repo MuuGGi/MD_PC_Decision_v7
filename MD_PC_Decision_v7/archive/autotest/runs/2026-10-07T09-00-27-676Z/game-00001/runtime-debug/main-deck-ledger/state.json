@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-07T09:00:56.437Z",
+  "openingBaselineCapturedAt": "2026-10-07T09:00:53.726Z",
+  "openingHand": [
+    "EXODIA_UNKNOWN",
+    "M15",
+    "M16",
+    "M20",
+    "M21"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 2,
+    "M07": 0,
+    "M08": 2,
+    "M09": 3,
+    "M10": 3,
+    "M11": 2,
+    "M12": 1,
+    "M13": 1,
+    "M14": 3,
+    "M15": 3,
+    "M16": 1,
+    "M17": 2,
+    "M18": 1,
+    "M19": 2,
+    "M20": 1,
+    "M21": 2,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 3,
+  "lastHandRevision": 0,
+  "lastIncrementalFingerprint": null,
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-07T09:10:02.276Z",
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-07T09:02:21.687Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-07T09:02:21.687Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 0,
+    "outsideAfter": 1,
+    "committedAt": "2026-10-07T09:02:31.849Z"
+  },
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E02->M17+M19->M14:6->7"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E02->M17+M19->M14:6->7",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": false,
+        "activationKey": "E02"
+      },
+      {
+        "id": "M14",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 6,
+    "afterRevision": 7,
+    "committedAt": "2026-10-07T09:03:20.874Z"
+  },
+  "lastMallet": {
+    "returned": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M07",
+      "M08",
+      "M08"
+    ],
+    "drawn": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M08",
+      "M08",
+      "M12",
+      "M14"
+    ],
+    "returnedThenRedrawn": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M08",
+      "M08"
+    ]
+  },
+  "lastM13Draw": {
+    "fingerprint": "2026-10-07T09:08:46.684Z|2026-10-07T09:09:06.601Z|10|11|M13|PROCESSING_CARD:M01,PROCESSING_CARD:M06,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|EXODIA_UNKNOWN,M06|M06",
+    "drawnIds": [
+      "EXODIA_UNKNOWN",
+      "M06"
+    ],
+    "banishedId": "M06",
+    "beforeRevision": 10,
+    "afterRevision": 11
+  }
+}

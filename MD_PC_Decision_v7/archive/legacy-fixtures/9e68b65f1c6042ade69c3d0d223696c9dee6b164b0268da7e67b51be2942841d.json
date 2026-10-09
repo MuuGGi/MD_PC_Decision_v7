@@ -1,0 +1,102 @@
+{
+  "graveSpellCount": 8,
+  "fieldSpell": "M21",
+  "chickenGameDrawUsed": true,
+  "chickenGameDrawPending": false,
+  "bambooSwordEquipped": false,
+  "equippedBambooId": null,
+  "equipSentToGraveCount": 1,
+  "engageBlockedByMainMonster": false,
+  "rayeNormalSummoned": false,
+  "normalSummonUsed": false,
+  "usedCounts": {
+    "M10": 3,
+    "M09": 2,
+    "M12": 1,
+    "M07": 1,
+    "M21": 1,
+    "M22": 1,
+    "M19": 1
+  },
+  "effectUsage": {
+    "M19_SEARCH": 1
+  },
+  "effectUsageMeta": {
+    "M21_DRAW": {
+      "pending": false,
+      "fieldPlacementTransaction": "5:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\execution\\M21_chicken_game\\2026-10-06T11-11-09-508Z",
+      "source": "M21_VERIFIED_FIELD_PLACEMENT",
+      "updatedAt": "2026-10-06T11:11:25.678Z",
+      "resolved": true
+    },
+    "M19_SEARCH": {
+      "resolvedCount": 1,
+      "repeatable": true,
+      "source": "FORMAL_V5_ATOMIC_MAIN",
+      "updatedAt": "2026-10-06T11:12:24.217Z"
+    }
+  },
+  "notes": "V5 runtime decision state",
+  "v5Branch": {
+    "active": false,
+    "currentState": "YOTO_SEARCH_DONE",
+    "carrierId": "E04",
+    "updatedAt": "2026-10-06T11:12:24.217Z",
+    "source": "FORMAL_V5_ATOMIC_MAIN",
+    "hornetBambooDraw2": false,
+    "postE10HornetBambooDraw2": false,
+    "reservedYotoInHand": false,
+    "trueBambooGainBeforeEquip": false
+  },
+  "bambooEquipResources": null,
+  "bambooContinuationPlan": {
+    "shouldLink": true,
+    "shouldContinue": true,
+    "routeKind": "YOTO_LINK",
+    "searchId": "M20",
+    "replacementId": "M20",
+    "carrierId": "TOKEN_SKY_STRIKER",
+    "fieldId": "M19",
+    "prepareEquipId": null,
+    "goldenDrawReady": false,
+    "firstTrueGoldenSetup": false,
+    "replacementSource": "YOTO_SEARCH",
+    "canReplaceEquipDeterministically": true,
+    "deferredGoldenSearch": false,
+    "convertsTrue": true,
+    "steps": [
+      "LINK_SEND_M19",
+      "SEARCH_M20",
+      "EQUIP_M20",
+      "SEND_M20_EQUIP_DECK_M19"
+    ],
+    "projectedEquipSentToGraveCount": 2,
+    "projectedFieldEquipId": "M19",
+    "reason": "TWO_EQUIPS_TO_GRAVE_ONE_ON_FIELD",
+    "equipResources": {
+      "byId": {
+        "M19": {
+          "deck": 1,
+          "hand": 0,
+          "field": 1,
+          "total": 2,
+          "outsideHandField": 0
+        },
+        "M20": {
+          "deck": 1,
+          "hand": 0,
+          "field": 0,
+          "total": 1,
+          "outsideHandField": 0
+        }
+      },
+      "deckCount": 2,
+      "handCount": 0,
+      "fieldCount": 1,
+      "outsideHandFieldCount": 0,
+      "replacementCountAfterLink": 2,
+      "hasReplacementAfterLink": true,
+      "fieldIdentitySource": "COMMITTED_EQUIP"
+    }
+  }
+}

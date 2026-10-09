@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "id": "DUEL-241de93f3dfab8fa450a3d71-T0014",
+  "duelId": "DUEL-241de93f3dfab8fa450a3d71",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-0b4aa7520e46c62f7657f5bde8a7dec3",
+  "intent": {
+    "cardId": "M21",
+    "slot": 6
+  },
+  "baseline": {
+    "hand": {
+      "revision": 14,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M06",
+        "M21"
+      ]
+    },
+    "ledger": {
+      "revision": 14,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 1,
+        "M09": 0,
+        "M10": 3,
+        "M11": 0,
+        "M12": 2,
+        "M13": 0,
+        "M14": 1,
+        "M15": 0,
+        "M16": 0,
+        "M17": 1,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 1,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M12",
+        "signature": "M12|PROCESSING_CARD:M08,PROCESSING_CARD:M21,PROCESSING_CARD:M06",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "E01",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M21",
+            "cardName": "试胆竞速"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M06",
+            "cardName": "闪刀姬－零衣"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": false,
+        "currentState": "EQUIPPED_YOTO_NO_SEARCH_TARGET",
+        "carrierId": "E02",
+        "updatedAt": "2026-10-07T10:49:37.238Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M22": 1,
+        "M19": 1,
+        "M20": 1,
+        "M17": 1,
+        "M14": 1,
+        "M10": 3,
+        "M12": 2,
+        "M07": 1,
+        "M18": 1,
+        "M08": 1
+      }
+    },
+    "extra": {
+      "cardId": "M21",
+      "slot": 6
+    }
+  },
+  "createdAt": "2026-10-07T10:51:02.970Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M21",
+          "slot": 6
+        }
+      },
+      "noReplayAt": "2026-10-07T10:51:02.984Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-241de93f3dfab8fa450a3d71-T0014",
+        "handRevision": 16,
+        "handHash": "0aa54865064643f11a46ca2283afee6ebcab93f57066af13cf6c96d2fab6e21f",
+        "ledgerHash": "a04e3e0586688d6c581dbe5825f4ccff1cb5cd565ea3540b1a539e2d367322fa",
+        "runtimeHash": "318a8d94edd6cc33900f035909da07a73ff1e1071835e27360a092c82d2f5007",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T10:51:19.839Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T10:51:19.843Z"
+    }
+  ],
+  "committedAt": "2026-10-07T10:51:19.848Z"
+}

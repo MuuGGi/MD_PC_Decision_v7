@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "id": "DUEL-0a6a95288156f94d1d127c5d-T0009",
+  "duelId": "DUEL-0a6a95288156f94d1d127c5d",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-c441bbcd20d7e1e3bd3a0b7bce78054f",
+  "intent": {
+    "cardId": "M17",
+    "slot": 7,
+    "decisionBasis": {
+      "snapshotKey": "903b6cd9b7a0b127d065744e9945af4b938335f9beae5e5a509cb1529fa52bd6",
+      "handRevision": 8,
+      "duelId": "DUEL-0a6a95288156f94d1d127c5d"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 8,
+      "cards": [
+        "M07",
+        "M08",
+        "M12",
+        "M12",
+        "M14",
+        "M14",
+        "M17"
+      ]
+    },
+    "ledger": {
+      "revision": 8,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 1,
+        "M08": 1,
+        "M09": 1,
+        "M10": 3,
+        "M11": 0,
+        "M12": 2,
+        "M13": 0,
+        "M14": 2,
+        "M15": 0,
+        "M16": 0,
+        "M17": 2,
+        "M18": 0,
+        "M19": 0,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M09",
+        "signature": "M09|PROCESSING_CARD:M17",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M17",
+            "cardName": "闪刀起动－交闪"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": false,
+        "currentState": "KAGARI_RECOVERY_DONE",
+        "updatedAt": "2026-10-09T07:01:11.225Z",
+        "carrierId": "E02",
+        "source": "FORMAL_V5_H2"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M22": 1,
+        "M17": 1,
+        "M09": 1
+      }
+    },
+    "extra": {
+      "cardId": "M17",
+      "slot": 7,
+      "decisionBasis": {
+        "snapshotKey": "903b6cd9b7a0b127d065744e9945af4b938335f9beae5e5a509cb1529fa52bd6",
+        "handRevision": 8,
+        "duelId": "DUEL-0a6a95288156f94d1d127c5d"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T07:01:39.786Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M17",
+          "slot": 7,
+          "decisionBasis": {
+            "snapshotKey": "903b6cd9b7a0b127d065744e9945af4b938335f9beae5e5a509cb1529fa52bd6",
+            "handRevision": 8,
+            "duelId": "DUEL-0a6a95288156f94d1d127c5d"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T07:01:39.805Z",
+      "guardEvidence": {
+        "hwnd": 396172,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-0a6a95288156f94d1d127c5d-T0009",
+        "handRevision": 9,
+        "handHash": "820ac65ebc76d06cb4fba0450df14b9256dbeb68a24979e3a7c4a0da67f519f1",
+        "ledgerHash": "706f9fe73c0b58ed1049ea19c0f31b9c32fa954eacc47bb3a19e2e55c310db6d",
+        "runtimeHash": "7f94dfe0151adf4c9e65d5bcdac36855b58cbd463a3cac70958aeb230ac5a03a",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T07:01:58.614Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T07:01:58.619Z"
+    }
+  ],
+  "committedAt": "2026-10-09T07:01:58.623Z"
+}

@@ -1,0 +1,314 @@
+{
+  "capturedAt": "2026-09-26T13:06:16.502Z",
+  "resumeBanishPrompt": false,
+  "baselineHandCount": 5,
+  "baselineHand": [
+    {
+      "index": 1,
+      "x": 806,
+      "y": 987,
+      "id": "M05",
+      "name": "被封印的艾克佐迪亚",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2105806004530543,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M05",
+          "name": "被封印的艾克佐迪亚",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.2105806004530543,
+          "rmse": 0.26892980017515195,
+          "dhash": 27
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.2164269951058453,
+          "rmse": 0.2874205135199747,
+          "dhash": 31
+        }
+      ],
+      "timingMs": {
+        "locateMs": 345.187,
+        "clickAndSettleMs": 273.973,
+        "recognizeMs": 20.988,
+        "usabilityMs": 0.244,
+        "resetMs": 170.409,
+        "totalMs": 944.861
+      }
+    },
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 2
+    },
+    {
+      "index": 3,
+      "x": 938,
+      "y": 981,
+      "id": "M08",
+      "name": "闪术兵器－H.A.M.P.",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.1916140638204221,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E07",
+          "name": "闪刀姬－泽克",
+          "count": 1,
+          "mad": 0.1916140638204221,
+          "rmse": 0.2463075911127865,
+          "dhash": 33
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.1942569476550059,
+          "rmse": 0.24657596446284805,
+          "dhash": 30
+        }
+      ],
+      "timingMs": {
+        "locateMs": 360.487,
+        "clickAndSettleMs": 263.722,
+        "recognizeMs": 10.854,
+        "usabilityMs": 0.201,
+        "resetMs": 179.934,
+        "totalMs": 984.428
+      }
+    },
+    {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M13"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M14"
+      ],
+      "index": 5
+    }
+  ],
+  "plan": {
+    "allure": {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "slot": 4,
+      "duplicateCount": 1
+    },
+    "safeBeforeActivation": {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "count": 1,
+      "originalSlot": 2
+    },
+    "priority": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣"
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P."
+      }
+    ]
+  },
+  "selected": {
+    "slot": 4,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M13",
+      "name": "暗之诱惑",
+      "mad": 0,
+      "margin": 0.1485291851368379
+    },
+    "clickReference": {
+      "x": 1143,
+      "y": 983
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        730,
+        870,
+        1004,
+        1143,
+        1298
+      ],
+      "currentCenter": {
+        "x": 1143,
+        "y": 983
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1160,
+        "y": 834
+      },
+      "width": 88,
+      "height": 46,
+      "fillRatio": 0.41205533596837945,
+      "estimatedPixels": 1668
+    },
+    "yellowPixels": 9308,
+    "probeAttempts": 1,
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY"
+  },
+  "banishProof": {
+    "promptProof": {
+      "attempts": 12,
+      "headerDarkRatio": 0.8740666666666667,
+      "candidateCount": 7,
+      "points": [
+        {
+          "x": 585,
+          "y": 925,
+          "width": 91
+        },
+        {
+          "x": 708,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 866,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1024,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1182,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1340,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1463,
+          "y": 925,
+          "width": 93
+        }
+      ]
+    },
+    "selected": {
+      "accepted": true,
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "mad": 0,
+      "margin": 0.21446641223911356
+    },
+    "candidateIndex": 5,
+    "priorityRank": 1,
+    "plannedBeforeActivation": {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "count": 1,
+      "originalSlot": 2
+    },
+    "seen": [
+      {
+        "candidateIndex": 7,
+        "clickReference": {
+          "x": 1463,
+          "y": 925
+        },
+        "card": {
+          "accepted": false,
+          "id": "M13",
+          "name": "暗之诱惑",
+          "mad": 0.15831971048038057,
+          "margin": 0.0068363051801087205
+        }
+      },
+      {
+        "candidateIndex": 6,
+        "clickReference": {
+          "x": 1340,
+          "y": 925
+        },
+        "card": {
+          "accepted": true,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0,
+          "margin": 0.1916140638204221
+        }
+      },
+      {
+        "candidateIndex": 5,
+        "clickReference": {
+          "x": 1182,
+          "y": 925
+        },
+        "card": {
+          "accepted": true,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "mad": 0,
+          "margin": 0.21446641223911356
+        }
+      }
+    ],
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "policy": "M06_THEN_M08_DEDICATED_PROMPT"
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "version": 1,
+  "id": "27:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T07-06-21-677Z",
+  "before": {
+    "version": 2,
+    "capturedAt": "2026-10-09T07:06:20.873Z",
+    "revision": 27,
+    "handCount": 8,
+    "cards": [
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M11"
+        ],
+        "index": 3
+      },
+      {
+        "index": 4,
+        "x": 1139,
+        "y": 1002,
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2627693724019633,
+        "usable": true,
+        "yellowPixels": 928,
+        "yellowRatio": 0.028327228327228327,
+        "top3": [
+          {
+            "id": "M14",
+            "name": "金黄色的竹光",
+            "count": 3,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "count": 1,
+            "mad": 0.2627693724019633,
+            "rmse": 0.32389383138370903,
+            "dhash": 32
+          },
+          {
+            "id": "M10",
+            "name": "卡通目录",
+            "count": 3,
+            "mad": 0.2923922535573021,
+            "rmse": 0.38025605091527026,
+            "dhash": 24
+          }
+        ],
+        "timingMs": {
+          "locateMs": 634.019,
+          "clickAndSettleMs": 310.886,
+          "recognizeMs": 12.632,
+          "usabilityMs": 26.318,
+          "resetMs": 177.63,
+          "totalMs": 1161.729
+        }
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M16",
+        "name": "暂时休战",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M16"
+        ],
+        "index": 7
+      },
+      {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 8
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_27\\passive_hand.png",
+    "denseTargetedIncremental": true,
+    "lastOperation": {
+      "activationKey": "M21",
+      "signature": "M21|PROCESSING_CARD:M16",
+      "activationOccurrence": 3
+    },
+    "lastIncremental": {
+      "consumed": null,
+      "costConsumed": [],
+      "predictedSlots": [
+        7
+      ],
+      "recognized": [
+        {
+          "id": "M16",
+          "name": "暂时休战"
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 7,
+          "id": "M16",
+          "name": "暂时休战",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "decisionBefore": {
+    "graveSpellCount": 20,
+    "fieldSpell": "M21",
+    "chickenGameDrawUsed": true,
+    "chickenGameDrawPending": false,
+    "bambooSwordEquipped": true,
+    "equippedBambooId": "M19",
+    "equipSentToGraveCount": 2,
+    "engageBlockedByMainMonster": false,
+    "rayeNormalSummoned": false,
+    "normalSummonUsed": false,
+    "usedCounts": {
+      "M10": 3,
+      "M22": 1,
+      "M17": 3,
+      "M09": 3,
+      "M18": 1,
+      "M12": 3,
+      "M07": 1,
+      "M08": 2,
+      "M15": 2,
+      "M21": 2,
+      "M19": 1,
+      "M20": 1,
+      "M13": 1,
+      "M06": 1
+    },
+    "effectUsage": {
+      "M19_SEARCH": 1,
+      "KAGARI_RECOVERY": 1
+    },
+    "effectUsageMeta": {
+      "M21_DRAW": {
+        "pending": false,
+        "fieldPlacementTransaction": "25:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T07-06-03-626Z",
+        "source": "M21_VERIFIED_FIELD_PLACEMENT",
+        "updatedAt": "2026-10-09T07:06:21.026Z",
+        "resolved": true
+      },
+      "M19_SEARCH": {
+        "resolvedCount": 1,
+        "repeatable": true,
+        "source": "FORMAL_V5_ATOMIC_MAIN",
+        "updatedAt": "2026-10-09T07:05:00.967Z"
+      }
+    },
+    "notes": "V5 runtime decision state",
+    "v5Branch": {
+      "active": false,
+      "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+      "updatedAt": "2026-10-09T07:05:37.429Z",
+      "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+      "carrierId": "E04",
+      "carrierEvidence": {
+        "cardId": "E04",
+        "kind": "EXTRA_LINK",
+        "proven": true,
+        "source": "CURRENT_TARGET_IDENTITY"
+      },
+      "postE10HornetBambooDraw2": false,
+      "hornetBambooDraw2": false,
+      "reservedYotoInHand": false,
+      "hornetYotoFixedSearch": false
+    },
+    "equippedBambooCounts": {
+      "M19": 1
+    },
+    "bambooEquipResources": {
+      "byId": {
+        "M19": {
+          "deck": 0,
+          "hand": 0,
+          "field": 1,
+          "total": 2,
+          "outsideHandField": 1
+        },
+        "M20": {
+          "deck": 0,
+          "hand": 0,
+          "field": 0,
+          "total": 1,
+          "outsideHandField": 1
+        }
+      },
+      "deckCount": 0,
+      "handCount": 0,
+      "fieldCount": 1,
+      "outsideHandFieldCount": 2,
+      "replacementCountAfterLink": 0,
+      "hasReplacementAfterLink": false,
+      "fieldIdentitySource": "COMMITTED_EQUIP"
+    },
+    "bambooContinuationPlan": {
+      "shouldLink": false,
+      "shouldContinue": false,
+      "routeKind": "PRESERVE",
+      "searchId": null,
+      "replacementId": null,
+      "carrierId": "E04",
+      "fieldId": "M19",
+      "prepareEquipId": null,
+      "goldenDrawReady": true,
+      "fixedContinuationReady": false,
+      "goldenDrawPreferred": true,
+      "twoYotoKagari": false,
+      "firstTrueGoldenSetup": false,
+      "replacementSource": null,
+      "canReplaceEquipDeterministically": false,
+      "deferredGoldenSearch": false,
+      "convertsTrue": false,
+      "steps": [],
+      "projectedEquipSentToGraveCount": 0,
+      "projectedFieldEquipId": "M19",
+      "reason": "ORDINARY_GOLDEN_DRAW_BEFORE_SPECULATIVE_DEPARTURE",
+      "equipResources": {
+        "byId": {
+          "M19": {
+            "deck": 0,
+            "hand": 0,
+            "field": 1,
+            "total": 2,
+            "outsideHandField": 1
+          },
+          "M20": {
+            "deck": 0,
+            "hand": 0,
+            "field": 0,
+            "total": 1,
+            "outsideHandField": 1
+          }
+        },
+        "deckCount": 0,
+        "handCount": 0,
+        "fieldCount": 1,
+        "outsideHandFieldCount": 2,
+        "replacementCountAfterLink": 0,
+        "hasReplacementAfterLink": false,
+        "fieldIdentitySource": "COMMITTED_EQUIP"
+      }
+    },
+    "lastM13Accounting": {
+      "fingerprint": "2026-10-09T07:05:15.485Z|2026-10-09T07:05:51.764Z|23|24|M13|PROCESSING_CARD:M15,PROCESSING_CARD:M21,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|M15,M21|M06",
+      "banishedId": "M06",
+      "beforeRevision": 23,
+      "afterRevision": 24
+    }
+  },
+  "selectedSlot": 8,
+  "attemptDir": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T07-06-21-677Z",
+  "fieldOnly": false,
+  "drawOnly": false,
+  "observerBefore": {
+    "version": 1,
+    "capturedAt": "2026-10-09T07:06:19.789Z",
+    "checkpoint": {
+      "activationKey": "M21",
+      "signature": "M21|PROCESSING_CARD:M16",
+      "signatureOccurrence": 1,
+      "activationOccurrence": 3,
+      "previousActivationKey": "M21",
+      "evidenceCards": [
+        {
+          "kind": "HAND_GAIN",
+          "cardKey": "M16",
+          "cardName": "暂时休战"
+        }
+      ]
+    },
+    "tailBlocks": [
+      {
+        "activationKey": "M21",
+        "signature": "M21|",
+        "detailTokens": []
+      },
+      {
+        "activationKey": "M21",
+        "signature": "M21|",
+        "detailTokens": []
+      },
+      {
+        "activationKey": "M21",
+        "signature": "M21|PROCESSING_CARD:M16",
+        "detailTokens": [
+          "HAND_GAIN:M16"
+        ]
+      }
+    ]
+  },
+  "recoveryPolicy": "SAVED_STAGE_ONLY_NO_HAND_REPLAY_NO_FULL_SCAN",
+  "stage": "COMPLETE",
+  "updatedAt": "2026-10-09T07:06:38.951Z",
+  "beforeDraw": {
+    "version": 2,
+    "capturedAt": "2026-10-09T07:06:28.940Z",
+    "revision": 28,
+    "handCount": 7,
+    "cards": [
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M11"
+        ],
+        "index": 3
+      },
+      {
+        "index": 4,
+        "x": 1139,
+        "y": 1002,
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2627693724019633,
+        "usable": true,
+        "yellowPixels": 928,
+        "yellowRatio": 0.028327228327228327,
+        "top3": [
+          {
+            "id": "M14",
+            "name": "金黄色的竹光",
+            "count": 3,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "count": 1,
+            "mad": 0.2627693724019633,
+            "rmse": 0.32389383138370903,
+            "dhash": 32
+          },
+          {
+            "id": "M10",
+            "name": "卡通目录",
+            "count": 3,
+            "mad": 0.2923922535573021,
+            "rmse": 0.38025605091527026,
+            "dhash": 24
+          }
+        ],
+        "timingMs": {
+          "locateMs": 634.019,
+          "clickAndSettleMs": 310.886,
+          "recognizeMs": 12.632,
+          "usabilityMs": 26.318,
+          "resetMs": 177.63,
+          "totalMs": 1161.729
+        }
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M16",
+        "name": "暂时休战",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M16"
+        ],
+        "index": 7
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_27\\passive_hand.png",
+    "denseTargetedIncremental": true,
+    "lastOperation": {
+      "activationKey": "M21",
+      "signature": "M21|",
+      "activationOccurrence": null
+    },
+    "lastIncremental": {
+      "mode": "M21_FIELD_ACTIVATION_KNOWN_CONSUMPTION",
+      "consumed": {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 8
+      },
+      "costConsumed": [],
+      "predictedSlots": [],
+      "recognized": [],
+      "finalClicks": []
+    }
+  },
+  "fieldCardProof": {
+    "reference": {
+      "x": 476,
+      "y": 727
+    },
+    "recognized": {
+      "accepted": true,
+      "id": "M21",
+      "name": "试胆竞速",
+      "mad": 0,
+      "margin": 0.19835548746647166
+    }
+  },
+  "fieldEffectProof": {
+    "reference": {
+      "x": 555,
+      "y": 564
+    },
+    "glyphProof": {
+      "chosen": {
+        "estimatedPixels": 1648,
+        "x": 24,
+        "y": 36,
+        "width": 84,
+        "height": 48,
+        "aspect": 1.75,
+        "fillRatio": 0.4087301587301587,
+        "centerX": 65,
+        "centerY": 64,
+        "glyph": {
+          "iou": 0.9411764705882353,
+          "darkBackgroundRatio": 0.9708029197080292,
+          "offsetX": -1,
+          "offsetY": 0,
+          "pass": true,
+          "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+        },
+        "drift": 7
+      },
+      "candidates": [
+        {
+          "estimatedPixels": 1648,
+          "x": 24,
+          "y": 36,
+          "width": 84,
+          "height": 48,
+          "aspect": 1.75,
+          "fillRatio": 0.4087301587301587,
+          "centerX": 65,
+          "centerY": 64,
+          "glyph": {
+            "iou": 0.9411764705882353,
+            "darkBackgroundRatio": 0.9708029197080292,
+            "offsetX": -1,
+            "offsetY": 0,
+            "pass": true,
+            "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+          },
+          "drift": 7
+        }
+      ],
+      "expectedReference": {
+        "x": 555,
+        "y": 571
+      },
+      "detector": "FIELD_EXPECTED_LOCAL_ACTIVATE_GLYPH_V1"
+    },
+    "yellowPixels": 3464,
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 2,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.03891536842105263,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.051086956521739134,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.0891304347826087,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.1298913043478261,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.11304347826086956,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.12282608695652174,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.08967391304347826,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.08586956521739131,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.059782608695652176,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.13641304347826086,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.07554347826086956,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.17173913043478262,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.0391304347826087,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.052088888888888886,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.033536,
+          "pass": false,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.02897777777777778,
+          "pass": false,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.04429473684210526,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 239
+    }
+  },
+  "drawConfirmProof": {
+    "darkRatio": 0.8200791458224446,
+    "okYellowPixels": 668,
+    "drawOneProof": {
+      "selected": true,
+      "selectedTab": 1,
+      "tabStripProven": true,
+      "underlineRatios": [
+        1,
+        1,
+        1
+      ],
+      "tabLimeRatios": [
+        0.9753246753246754,
+        0,
+        0
+      ],
+      "detector": "M21_FIRST_DRAW_TAB_SELECTED_V1"
+    },
+    "finalDrawOneProof": {
+      "selected": true,
+      "selectedTab": 1,
+      "tabStripProven": true,
+      "underlineRatios": [
+        1,
+        1,
+        1
+      ],
+      "tabLimeRatios": [
+        0.9753246753246754,
+        0,
+        0
+      ],
+      "detector": "M21_FIRST_DRAW_TAB_SELECTED_V1"
+    },
+    "confirmPoint": {
+      "x": 1024,
+      "y": 790
+    },
+    "policy": "DEFAULT_DRAW1_FIXED_OK"
+  },
+  "completedAt": "2026-10-09T07:06:38.951Z"
+}

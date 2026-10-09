@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-09T00:59:31.534Z",
+  "checkpoint": {
+    "activationKey": "M22",
+    "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M17",
+    "evidenceCards": [
+      {
+        "kind": "PROCESSING_CARD",
+        "cardKey": "TOKEN_SKY_STRIKER",
+        "cardName": "闪刀姬衍生物"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M22,PROCESSING_CARD:M12",
+      "detailTokens": [
+        "HAND_GAIN:M22",
+        "HAND_GAIN:M12"
+      ]
+    },
+    {
+      "activationKey": "M22",
+      "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+      "detailTokens": [
+        "SPECIAL_SUMMON:TOKEN_SKY_STRIKER"
+      ]
+    }
+  ]
+}

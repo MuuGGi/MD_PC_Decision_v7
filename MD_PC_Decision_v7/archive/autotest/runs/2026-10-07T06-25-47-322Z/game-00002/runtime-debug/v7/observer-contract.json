@@ -1,0 +1,784 @@
+{
+  "version": 2,
+  "duelId": "DUEL-c4238f4499b9a0e451e6f3d2",
+  "observationId": "OBS-2443cbb36a65351bce95b652ee09",
+  "continuity": "CONTINUOUS_EXPLICIT_ATOMIC_BOTTOM_NEW_BLOCKS",
+  "continuityAnchor": "f9148d02bae228072fd4dd7b",
+  "sequence": 3,
+  "events": [
+    {
+      "eventInstanceKey": "EV-2496946f3916b583332c81917fea",
+      "kind": "OPERATION",
+      "actionType": "M13",
+      "actor": "SELF",
+      "headerKey": "087f7b472525dfeb86632d1d66da52b6c5fcfd60829f7da5fd6d2429d0f7b0e2",
+      "occurrence": 0,
+      "sourceClass": "NEW",
+      "sourceZone": null,
+      "targetZone": null,
+      "count": null,
+      "continuityAnchor": "f9148d02bae228072fd4dd7b",
+      "reliability": "SUPPORTED",
+      "identityStatus": "TRACKED",
+      "evidence": {
+        "signature": "069082b2645b991b188e5c67a328c02ea26ef3ad825535783a91d4304b081c87",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M12",
+            "cardName": "抵价交易",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 723,
+              "width": 47,
+              "height": 67,
+              "area": 676
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M08",
+            "cardName": "闪术兵器－H.A.M.P.",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1801,
+              "y": 723,
+              "width": 51,
+              "height": 73,
+              "area": 1057
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "BANISH_SELECTION",
+            "role": "FIELD_PROCESSING",
+            "actor": "SELF",
+            "cardId": "M08",
+            "cardName": "闪术兵器－H.A.M.P.",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1743,
+              "y": 838,
+              "width": 51,
+              "height": 73,
+              "area": 983
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "BANISH_FROM_HAND",
+            "role": "HAND_BANISH_COST",
+            "actor": "SELF",
+            "cardId": "M08",
+            "cardName": "闪术兵器－H.A.M.P.",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 71,
+              "area": 997
+            }
+          }
+        ],
+        "rawDetails": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M12",
+              "name": "抵价交易",
+              "mad": 0.15746953316176251,
+              "rawMad": 0.12641584501474123,
+              "hsvDistance": 0.25878073455851064
+            },
+            "confidenceMargin": 0.16636878313965756,
+            "top3": [
+              {
+                "id": "M12",
+                "name": "抵价交易",
+                "mad": 0.15746953316176251,
+                "rawMad": 0.12641584501474123,
+                "hsvDistance": 0.25878073455851064
+              },
+              {
+                "id": "M05",
+                "name": "被封印的艾克佐迪亚",
+                "mad": 0.32383831630142007,
+                "rawMad": 0.23003594821603562,
+                "hsvDistance": 0.7816864007115372
+              },
+              {
+                "id": "M16",
+                "name": "暂时休战",
+                "mad": 0.34423480895600456,
+                "rawMad": 0.2178596861254386,
+                "hsvDistance": 1.0531260235880497
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 723,
+              "width": 47,
+              "height": 67,
+              "area": 676
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "mad": 0.1983016641261422,
+              "rawMad": 0.13231501877989588,
+              "hsvDistance": 0.5498887112187194
+            },
+            "confidenceMargin": 0.10923860871897934,
+            "top3": [
+              {
+                "id": "M08",
+                "name": "闪术兵器－H.A.M.P.",
+                "mad": 0.1983016641261422,
+                "rawMad": 0.13231501877989588,
+                "hsvDistance": 0.5498887112187194
+              },
+              {
+                "id": "M21",
+                "name": "试胆竞速",
+                "mad": 0.30754027284512153,
+                "rawMad": 0.19143256007904763,
+                "hsvDistance": 0.967564273050616
+              },
+              {
+                "id": "E07",
+                "name": "闪刀姬－泽克",
+                "mad": 0.3324079998077862,
+                "rawMad": 0.18875331506209186,
+                "hsvDistance": 1.197122372880786
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1801,
+              "y": 723,
+              "width": 51,
+              "height": 73,
+              "area": 1057
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "mad": 0.19454773733241815,
+              "rawMad": 0.1311930597481711,
+              "hsvDistance": 0.5279556465353921
+            },
+            "confidenceMargin": 0.10995644154712336,
+            "top3": [
+              {
+                "id": "M08",
+                "name": "闪术兵器－H.A.M.P.",
+                "mad": 0.19454773733241815,
+                "rawMad": 0.1311930597481711,
+                "hsvDistance": 0.5279556465353921
+              },
+              {
+                "id": "M21",
+                "name": "试胆竞速",
+                "mad": 0.3045041788795415,
+                "rawMad": 0.19114338291951052,
+                "hsvDistance": 0.944673299666925
+              },
+              {
+                "id": "E07",
+                "name": "闪刀姬－泽克",
+                "mad": 0.3272552144816381,
+                "rawMad": 0.18845487134084116,
+                "hsvDistance": 1.1566695261733075
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1743,
+              "y": 838,
+              "width": 51,
+              "height": 73,
+              "area": 983
+            },
+            "rawType": "BANISH_SELECTION",
+            "role": "FIELD_PROCESSING"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "mad": 0.18670147231244205,
+              "rawMad": 0.13293396466821192,
+              "hsvDistance": 0.4480625637019177
+            },
+            "confidenceMargin": 0.13060273215108048,
+            "top3": [
+              {
+                "id": "M08",
+                "name": "闪术兵器－H.A.M.P.",
+                "mad": 0.18670147231244205,
+                "rawMad": 0.13293396466821192,
+                "hsvDistance": 0.4480625637019177
+              },
+              {
+                "id": "M21",
+                "name": "试胆竞速",
+                "mad": 0.31730420446352253,
+                "rawMad": 0.1906574927705702,
+                "hsvDistance": 1.055389264107936
+              },
+              {
+                "id": "E07",
+                "name": "闪刀姬－泽克",
+                "mad": 0.3242250867077194,
+                "rawMad": 0.1877294607163249,
+                "hsvDistance": 1.1374635499282872
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 71,
+              "area": 997
+            },
+            "rawType": "BANISH_FROM_HAND",
+            "role": "HAND_BANISH_COST"
+          }
+        ],
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      "consumptionState": "UNCONSUMED"
+    }
+  ],
+  "history": [
+    {
+      "eventInstanceKey": "EV-1f7cd14200adbb4beb191279678e",
+      "kind": "OPERATION",
+      "actionType": "M09",
+      "actor": "SELF",
+      "headerKey": "5c065ef41b1867dfb9ec5b3e073a9cf4725d0ed67325dc0236761e13ca03b6e3",
+      "occurrence": 0,
+      "sourceClass": "NEW",
+      "sourceZone": null,
+      "targetZone": null,
+      "count": null,
+      "continuityAnchor": "e7f72cb432d0e085e5be84a4",
+      "reliability": "SUPPORTED",
+      "identityStatus": "TRACKED",
+      "evidence": {
+        "signature": "bf9eb3d77cdfcc45562832a1456338ca27fc132c571e4c37c144c0a114a510cc",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M14",
+            "cardName": "金黄色的竹光",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 864,
+              "width": 47,
+              "height": 67,
+              "area": 679
+            }
+          }
+        ],
+        "rawDetails": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M14",
+              "name": "金黄色的竹光",
+              "mad": 0.13952812631765882,
+              "rawMad": 0.11144279358633045,
+              "hsvDistance": 0.23404443942773628
+            },
+            "confidenceMargin": 0.38803153131823037,
+            "top3": [
+              {
+                "id": "M14",
+                "name": "金黄色的竹光",
+                "mad": 0.13952812631765882,
+                "rawMad": 0.11144279358633045,
+                "hsvDistance": 0.23404443942773628
+              },
+              {
+                "id": "M10",
+                "name": "卡通目录",
+                "mad": 0.5275596576358892,
+                "rawMad": 0.29415300100622804,
+                "hsvDistance": 1.9450554719138429
+              },
+              {
+                "id": "E10",
+                "name": "闪刀姬－零梦",
+                "mad": 0.5856272444212882,
+                "rawMad": 0.25803002970336003,
+                "hsvDistance": 2.7299767893160682
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 864,
+              "width": 47,
+              "height": 67,
+              "area": 679
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      "consumptionState": "UNCONSUMED"
+    },
+    {
+      "eventInstanceKey": "EV-007a53803373c0ccc9be3dc2b890",
+      "kind": "OPERATION",
+      "actionType": "M15",
+      "actor": "SELF",
+      "headerKey": "8d3c7cb1705c3da03c648c52424fbf3a091d135b7d94cdbd39688a1401da3238",
+      "occurrence": 0,
+      "sourceClass": "NEW",
+      "sourceZone": null,
+      "targetZone": null,
+      "count": null,
+      "continuityAnchor": "444b5fb605a2719cfc0032e7",
+      "reliability": "SUPPORTED",
+      "identityStatus": "TRACKED",
+      "evidence": {
+        "signature": "6c5de2ba2a9db40a839c71dfc5eaee25bec7d10af1581c9f7db7332a86bbf814",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M12",
+            "cardName": "抵价交易",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            }
+          }
+        ],
+        "rawDetails": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M12",
+              "name": "抵价交易",
+              "mad": 0.15097038680669222,
+              "rawMad": 0.11867242402174803,
+              "hsvDistance": 0.2691496898745348
+            },
+            "confidenceMargin": 0.17839438236647276,
+            "top3": [
+              {
+                "id": "M12",
+                "name": "抵价交易",
+                "mad": 0.15097038680669222,
+                "rawMad": 0.11867242402174803,
+                "hsvDistance": 0.2691496898745348
+              },
+              {
+                "id": "M05",
+                "name": "被封印的艾克佐迪亚",
+                "mad": 0.329364769173165,
+                "rawMad": 0.22920457647280382,
+                "hsvDistance": 0.8346682725030099
+              },
+              {
+                "id": "M16",
+                "name": "暂时休战",
+                "mad": 0.34947881336040443,
+                "rawMad": 0.21984051441504368,
+                "hsvDistance": 1.0803191578780065
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      "consumptionState": "UNCONSUMED"
+    },
+    {
+      "eventInstanceKey": "EV-2496946f3916b583332c81917fea",
+      "kind": "OPERATION",
+      "actionType": "M13",
+      "actor": "SELF",
+      "headerKey": "087f7b472525dfeb86632d1d66da52b6c5fcfd60829f7da5fd6d2429d0f7b0e2",
+      "occurrence": 0,
+      "sourceClass": "NEW",
+      "sourceZone": null,
+      "targetZone": null,
+      "count": null,
+      "continuityAnchor": "f9148d02bae228072fd4dd7b",
+      "reliability": "SUPPORTED",
+      "identityStatus": "TRACKED",
+      "evidence": {
+        "signature": "069082b2645b991b188e5c67a328c02ea26ef3ad825535783a91d4304b081c87",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M12",
+            "cardName": "抵价交易",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 723,
+              "width": 47,
+              "height": 67,
+              "area": 676
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M08",
+            "cardName": "闪术兵器－H.A.M.P.",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1801,
+              "y": 723,
+              "width": 51,
+              "height": 73,
+              "area": 1057
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "BANISH_SELECTION",
+            "role": "FIELD_PROCESSING",
+            "actor": "SELF",
+            "cardId": "M08",
+            "cardName": "闪术兵器－H.A.M.P.",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1743,
+              "y": 838,
+              "width": 51,
+              "height": 73,
+              "area": 983
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "BANISH_FROM_HAND",
+            "role": "HAND_BANISH_COST",
+            "actor": "SELF",
+            "cardId": "M08",
+            "cardName": "闪术兵器－H.A.M.P.",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 71,
+              "area": 997
+            }
+          }
+        ],
+        "rawDetails": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M12",
+              "name": "抵价交易",
+              "mad": 0.15746953316176251,
+              "rawMad": 0.12641584501474123,
+              "hsvDistance": 0.25878073455851064
+            },
+            "confidenceMargin": 0.16636878313965756,
+            "top3": [
+              {
+                "id": "M12",
+                "name": "抵价交易",
+                "mad": 0.15746953316176251,
+                "rawMad": 0.12641584501474123,
+                "hsvDistance": 0.25878073455851064
+              },
+              {
+                "id": "M05",
+                "name": "被封印的艾克佐迪亚",
+                "mad": 0.32383831630142007,
+                "rawMad": 0.23003594821603562,
+                "hsvDistance": 0.7816864007115372
+              },
+              {
+                "id": "M16",
+                "name": "暂时休战",
+                "mad": 0.34423480895600456,
+                "rawMad": 0.2178596861254386,
+                "hsvDistance": 1.0531260235880497
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 723,
+              "width": 47,
+              "height": 67,
+              "area": 676
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "mad": 0.1983016641261422,
+              "rawMad": 0.13231501877989588,
+              "hsvDistance": 0.5498887112187194
+            },
+            "confidenceMargin": 0.10923860871897934,
+            "top3": [
+              {
+                "id": "M08",
+                "name": "闪术兵器－H.A.M.P.",
+                "mad": 0.1983016641261422,
+                "rawMad": 0.13231501877989588,
+                "hsvDistance": 0.5498887112187194
+              },
+              {
+                "id": "M21",
+                "name": "试胆竞速",
+                "mad": 0.30754027284512153,
+                "rawMad": 0.19143256007904763,
+                "hsvDistance": 0.967564273050616
+              },
+              {
+                "id": "E07",
+                "name": "闪刀姬－泽克",
+                "mad": 0.3324079998077862,
+                "rawMad": 0.18875331506209186,
+                "hsvDistance": 1.197122372880786
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1801,
+              "y": 723,
+              "width": 51,
+              "height": 73,
+              "area": 1057
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "mad": 0.19454773733241815,
+              "rawMad": 0.1311930597481711,
+              "hsvDistance": 0.5279556465353921
+            },
+            "confidenceMargin": 0.10995644154712336,
+            "top3": [
+              {
+                "id": "M08",
+                "name": "闪术兵器－H.A.M.P.",
+                "mad": 0.19454773733241815,
+                "rawMad": 0.1311930597481711,
+                "hsvDistance": 0.5279556465353921
+              },
+              {
+                "id": "M21",
+                "name": "试胆竞速",
+                "mad": 0.3045041788795415,
+                "rawMad": 0.19114338291951052,
+                "hsvDistance": 0.944673299666925
+              },
+              {
+                "id": "E07",
+                "name": "闪刀姬－泽克",
+                "mad": 0.3272552144816381,
+                "rawMad": 0.18845487134084116,
+                "hsvDistance": 1.1566695261733075
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1743,
+              "y": 838,
+              "width": 51,
+              "height": 73,
+              "area": 983
+            },
+            "rawType": "BANISH_SELECTION",
+            "role": "FIELD_PROCESSING"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "mad": 0.18670147231244205,
+              "rawMad": 0.13293396466821192,
+              "hsvDistance": 0.4480625637019177
+            },
+            "confidenceMargin": 0.13060273215108048,
+            "top3": [
+              {
+                "id": "M08",
+                "name": "闪术兵器－H.A.M.P.",
+                "mad": 0.18670147231244205,
+                "rawMad": 0.13293396466821192,
+                "hsvDistance": 0.4480625637019177
+              },
+              {
+                "id": "M21",
+                "name": "试胆竞速",
+                "mad": 0.31730420446352253,
+                "rawMad": 0.1906574927705702,
+                "hsvDistance": 1.055389264107936
+              },
+              {
+                "id": "E07",
+                "name": "闪刀姬－泽克",
+                "mad": 0.3242250867077194,
+                "rawMad": 0.1877294607163249,
+                "hsvDistance": 1.1374635499282872
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 71,
+              "area": 997
+            },
+            "rawType": "BANISH_FROM_HAND",
+            "role": "HAND_BANISH_COST"
+          }
+        ],
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      "consumptionState": "UNCONSUMED"
+    }
+  ],
+  "source": {
+    "capturedAt": null,
+    "matchedContinuityAnchor": {
+      "kind": "EXPLICIT_ATOMIC_ACTIVATION",
+      "cardKey": "M13",
+      "source": "EXPLICIT_ATOMIC_BOTTOM",
+      "matchType": "UNIQUE_EXPECTED_ACTIVATION",
+      "previousCheckpoint": null
+    }
+  }
+}

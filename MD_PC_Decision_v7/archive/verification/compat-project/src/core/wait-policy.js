@@ -1,0 +1,5 @@
+'use strict';
+const WAIT=Object.freeze({ANIMATION:'ANIMATION',OPPONENT_THINKING:'OPPONENT_THINKING',CHAIN_RESOLUTION:'CHAIN_RESOLUTION',SELF_PENDING_WINDOW:'SELF_PENDING_WINDOW',UNKNOWN_SURFACE:'UNKNOWN_SURFACE'});
+function nextWait(state,attempt,config={}){const base={ANIMATION:180,OPPONENT_THINKING:500,CHAIN_RESOLUTION:260,SELF_PENDING_WINDOW:120,UNKNOWN_SURFACE:300}[state]||300;const cap=Number(config.maxDelayMs||1500);return Math.min(cap,Math.round(base*Math.pow(1.35,Math.max(0,Number(attempt||1)-1))));}
+async function waitUntil({classify,accept,signal,maxCycles=40,sleep=ms=>new Promise(r=>setTimeout(r,ms)),onWait=()=>{},config={}}){for(let i=1;i<=maxCycles;i++){if(signal&&signal.aborted)return{status:'INTERRUPTED',cycle:i};const obs=await classify();if(accept(obs))return{status:'READY',cycle:i,observation:obs};const reason=obs&&obs.waitState||WAIT.UNKNOWN_SURFACE;const delay=nextWait(reason,i,config);onWait({cycle:i,reason,delay,observation:obs});await sleep(delay);}return{status:'WAIT_LIMIT',reason:'NO_PROVEN_READY_SURFACE'};}
+module.exports={WAIT,nextWait,waitUntil};

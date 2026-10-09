@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "before": {
+    "version": 2,
+    "capturedAt": "2026-10-03T12:58:56.193Z",
+    "revision": 11,
+    "handCount": 3,
+    "cards": [
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M15",
+        "name": "无之炼狱",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M15"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M16",
+        "name": "暂时休战",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M16"
+        ],
+        "index": 3
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_11\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M20",
+      "signature": "M20|PROCESSING_CARD:E04",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M20",
+        "name": "真刀竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M20"
+        ],
+        "index": 4
+      },
+      "costConsumed": [],
+      "predictedSlots": [],
+      "recognized": [],
+      "finalClicks": []
+    }
+  },
+  "after": {
+    "version": 2,
+    "capturedAt": "2026-10-03T12:59:26.435Z",
+    "revision": 12,
+    "handCount": 3,
+    "cards": [
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M16",
+        "name": "暂时休战",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M16"
+        ],
+        "index": 3
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_12\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M15",
+      "signature": "M15|PROCESSING_CARD:M14",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M15",
+        "name": "无之炼狱",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M15"
+        ],
+        "index": 2
+      },
+      "costConsumed": [],
+      "predictedSlots": [
+        2
+      ],
+      "recognized": [
+        {
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M14"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 2,
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "inference": {
+    "activationKey": "M15",
+    "consumed": {
+      "id": "M15",
+      "name": "无之炼狱",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M15"
+      ],
+      "index": 2
+    },
+    "costConsumed": [],
+    "addedCount": 1,
+    "predictedSlots": [
+      2
+    ]
+  },
+  "insertedCards": [
+    {
+      "slot": 2,
+      "card": {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ]
+      }
+    }
+  ],
+  "finalClicks": [
+    {
+      "slot": 2,
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    }
+  ],
+  "info": {
+    "autoHoldI": true,
+    "fastOwnOnly": true,
+    "capturedAt": "2026-10-03T12:59:26.263Z",
+    "windowTitle": "masterduel",
+    "status": "OK",
+    "own": {
+      "handCount": 3,
+      "status": "OK",
+      "confidence": 0.9851190476190477,
+      "sourceBoxes": [
+        {
+          "x": 84,
+          "y": 33,
+          "width": 23,
+          "height": 30
+        }
+      ]
+    },
+    "opponent": null,
+    "expected": {
+      "own": 3
+    },
+    "sideValidation": "OK",
+    "samples": 2,
+    "stableReads": 2,
+    "holdDurationMs": 165,
+    "mouseReleased": true,
+    "failSafeTriggered": false,
+    "overlayReleaseCheck": "MOUSE_UP_CONFIRMED"
+  }
+}

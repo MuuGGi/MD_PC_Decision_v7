@@ -1,0 +1,148 @@
+{
+  "version": 2,
+  "id": "DUEL-92ff7117e78e50269966eb56-T0024",
+  "duelId": "DUEL-92ff7117e78e50269966eb56",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-d59a43e22d691d070f732fb0811fcfb2",
+  "intent": {
+    "cardId": "M19",
+    "slot": 4
+  },
+  "baseline": {
+    "hand": {
+      "revision": 5,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M07",
+        "M14",
+        "M19",
+        "M19"
+      ]
+    },
+    "ledger": {
+      "revision": 5,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 2,
+        "M10": 3,
+        "M11": 2,
+        "M12": 2,
+        "M13": 1,
+        "M14": 1,
+        "M15": 1,
+        "M16": 1,
+        "M17": 2,
+        "M18": 1,
+        "M19": 2,
+        "M20": 0,
+        "M21": 3,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M15",
+        "signature": "M15|PROCESSING_CARD:M19",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M09",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M19",
+            "cardName": "妖刀竹光"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "E10_EFFECT_RESOLVED",
+        "carrierId": "E10",
+        "updatedAt": "2026-10-07T10:38:34.205Z",
+        "source": "FORMAL_V5_R3"
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M21": 3,
+        "M22": 1,
+        "M17": 2,
+        "M13": 1,
+        "M06": 2,
+        "M09": 2,
+        "M18": 1,
+        "M16": 1,
+        "M11": 2,
+        "M12": 2,
+        "M08": 2,
+        "M10": 3,
+        "M15": 1
+      }
+    },
+    "extra": {
+      "cardId": "M19",
+      "slot": 4
+    }
+  },
+  "createdAt": "2026-10-07T10:41:16.489Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M19",
+          "slot": 4
+        }
+      },
+      "noReplayAt": "2026-10-07T10:41:16.503Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-92ff7117e78e50269966eb56-T0024",
+        "handRevision": 6,
+        "handHash": "9d10127bc7cbf70265cc6ac278387655868b44400989610607368738c70a5864",
+        "ledgerHash": "05dc6eaf68dd46de50404c78e2fb11693f2153cd85973022db7545506ca80d0c",
+        "runtimeHash": "6944eb89e29880ce547f5b70c840daee061ab780776c31d33a42dae12cdc80aa",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T10:41:30.827Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T10:41:30.832Z"
+    }
+  ],
+  "committedAt": "2026-10-07T10:41:30.837Z"
+}

@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-08T10:59:49.481Z",
+  "openingBaselineCapturedAt": "2026-10-08T10:59:46.803Z",
+  "openingHand": [
+    "EXODIA_UNKNOWN",
+    "M12",
+    "M16",
+    "M18",
+    "M21"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 2,
+    "M07": 1,
+    "M08": 2,
+    "M09": 2,
+    "M10": 3,
+    "M11": 2,
+    "M12": 3,
+    "M13": 1,
+    "M14": 2,
+    "M15": 3,
+    "M16": 1,
+    "M17": 3,
+    "M18": 1,
+    "M19": 2,
+    "M20": 1,
+    "M21": 3,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 4,
+  "lastHandRevision": 27,
+  "lastIncrementalFingerprint": "27|M15|M09",
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-08T11:06:05.948Z",
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E10->M17+M19->M20:7->8"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E10->M17+M19->M20:7->8",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": true,
+        "activationKey": "E10"
+      },
+      {
+        "id": "M20",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 7,
+    "afterRevision": 8,
+    "committedAt": "2026-10-08T11:01:38.243Z"
+  },
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-08T11:02:03.283Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-08T11:02:03.283Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 1,
+    "outsideAfter": 2,
+    "committedAt": "2026-10-08T11:02:12.488Z"
+  },
+  "lastM13Draw": {
+    "fingerprint": "2026-10-08T11:04:49.232Z|2026-10-08T11:05:04.366Z|21|22|M13|PROCESSING_CARD:M14,PROCESSING_CARD:M02,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|EXODIA_UNKNOWN,M14|M06",
+    "drawnIds": [
+      "M14",
+      "EXODIA_UNKNOWN"
+    ],
+    "banishedId": "M06",
+    "beforeRevision": 21,
+    "afterRevision": 22
+  }
+}

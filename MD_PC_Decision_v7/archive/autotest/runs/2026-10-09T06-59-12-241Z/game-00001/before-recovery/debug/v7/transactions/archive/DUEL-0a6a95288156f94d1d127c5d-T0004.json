@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "id": "DUEL-0a6a95288156f94d1d127c5d-T0004",
+  "duelId": "DUEL-0a6a95288156f94d1d127c5d",
+  "actionType": "UNIT:FIXED_FIELD_GAIN",
+  "instanceKey": "INST-5c4816df80e54f19f59664b18880ec70",
+  "intent": {
+    "kind": "KAGARI_LINK_BEFORE_TRUE",
+    "decisionBasis": {
+      "snapshotKey": "51910d1b151eda7a9b7e3ea059dff7939b37994d49c913ae3a726a9f386145b6",
+      "handRevision": 5,
+      "duelId": "DUEL-0a6a95288156f94d1d127c5d"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 5,
+      "cards": [
+        "M07",
+        "M12",
+        "M12",
+        "M14",
+        "M14"
+      ]
+    },
+    "ledger": {
+      "revision": 5,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 1,
+        "M08": 0,
+        "M09": 0,
+        "M10": 3,
+        "M11": 0,
+        "M12": 2,
+        "M13": 0,
+        "M14": 2,
+        "M15": 0,
+        "M16": 0,
+        "M17": 1,
+        "M18": 0,
+        "M19": 0,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M22",
+        "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "TOKEN_SKY_STRIKER",
+            "cardName": "闪刀姬衍生物"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": true,
+        "currentState": "HORNET_TOKEN_READY",
+        "updatedAt": "2026-10-09T07:00:45.812Z",
+        "carrierId": "TOKEN_SKY_STRIKER",
+        "source": "V7_HORNET_CARRIER_RECEIPT"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M17": 1,
+        "M22": 1
+      }
+    },
+    "extra": {
+      "kind": "KAGARI_LINK_BEFORE_TRUE",
+      "decisionBasis": {
+        "snapshotKey": "51910d1b151eda7a9b7e3ea059dff7939b37994d49c913ae3a726a9f386145b6",
+        "handRevision": 5,
+        "duelId": "DUEL-0a6a95288156f94d1d127c5d"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T07:00:46.149Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "kind": "KAGARI_LINK_BEFORE_TRUE",
+          "decisionBasis": {
+            "snapshotKey": "51910d1b151eda7a9b7e3ea059dff7939b37994d49c913ae3a726a9f386145b6",
+            "handRevision": 5,
+            "duelId": "DUEL-0a6a95288156f94d1d127c5d"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T07:00:46.171Z",
+      "guardEvidence": {
+        "hwnd": 396172,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIXED_FIELD_GAIN",
+        "transactionId": "DUEL-0a6a95288156f94d1d127c5d-T0004",
+        "handRevision": 5,
+        "handHash": "c2f1feac742475804ecede8eb9100f45d17e6885cfb668faf3d559c754ceec7e",
+        "ledgerHash": "c7b4d75808d2c13b26659591c4bc77185cd3ec3acb6a835db8b4a0e2be8d0ee0",
+        "runtimeHash": "a921dae8bbf36b41f7c8e6cee2520348eb4f859efd03ba60720851f74722e134",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T07:00:55.521Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T07:00:55.526Z"
+    }
+  ],
+  "committedAt": "2026-10-09T07:00:55.530Z"
+}

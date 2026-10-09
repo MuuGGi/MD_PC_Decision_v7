@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T07:52:51.660Z",
+  "checkpoint": {
+    "activationKey": "M17",
+    "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M04",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M14",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M08",
+        "cardName": "闪术兵器－H.A.M.P."
+      },
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M04",
+        "cardName": "被封印的左腕"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M14",
+      "signature": "M14|PROCESSING_CARD:M14,PROCESSING_CARD:M17",
+      "detailTokens": [
+        "HAND_GAIN:M14",
+        "HAND_GAIN:M17"
+      ]
+    },
+    {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M04",
+      "detailTokens": [
+        "HAND_GAIN:M08",
+        "HAND_GAIN:M04"
+      ]
+    }
+  ]
+}

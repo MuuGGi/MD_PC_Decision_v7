@@ -1,0 +1,161 @@
+{
+  "version": 2,
+  "id": "DUEL-0cc8861d9ec07652f40f2b05-T0014",
+  "duelId": "DUEL-0cc8861d9ec07652f40f2b05",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-acb451e75c9799d202efd5daa2686b62",
+  "intent": {
+    "cardId": "M22",
+    "slot": 5,
+    "decisionBasis": {
+      "snapshotKey": "888c7436f295603b5aea860fb398695b023b40c798b9be61f1f5b3b16f495dd2",
+      "handRevision": 1,
+      "duelId": "DUEL-0cc8861d9ec07652f40f2b05"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 1,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M19",
+        "M22"
+      ]
+    },
+    "ledger": {
+      "revision": 1,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 0,
+        "M09": 1,
+        "M10": 3,
+        "M11": 1,
+        "M12": 1,
+        "M13": 1,
+        "M14": 0,
+        "M15": 3,
+        "M16": 1,
+        "M17": 1,
+        "M18": 1,
+        "M19": 1,
+        "M20": 0,
+        "M21": 2,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M17",
+        "signature": "M17|PROCESSING_CARD:M22,PROCESSING_CARD:M04",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": null,
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M22",
+            "cardName": "闪刀机－大黄蜂无人机"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M04",
+            "cardName": "被封印的左腕"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": null,
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M21": 2,
+        "M15": 3,
+        "M18": 1,
+        "M13": 1,
+        "M06": 1,
+        "M09": 1,
+        "M12": 1,
+        "M07": 1,
+        "M16": 1,
+        "M11": 1,
+        "M17": 1
+      }
+    },
+    "extra": {
+      "cardId": "M22",
+      "slot": 5,
+      "decisionBasis": {
+        "snapshotKey": "888c7436f295603b5aea860fb398695b023b40c798b9be61f1f5b3b16f495dd2",
+        "handRevision": 1,
+        "duelId": "DUEL-0cc8861d9ec07652f40f2b05"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T09:38:13.773Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M22",
+          "slot": 5,
+          "decisionBasis": {
+            "snapshotKey": "888c7436f295603b5aea860fb398695b023b40c798b9be61f1f5b3b16f495dd2",
+            "handRevision": 1,
+            "duelId": "DUEL-0cc8861d9ec07652f40f2b05"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T09:38:13.798Z",
+      "guardEvidence": {
+        "hwnd": 396172,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-0cc8861d9ec07652f40f2b05-T0014",
+        "handRevision": 2,
+        "handHash": "ad490c8004e04b2b3003a6daf6298282d1a95607fa79d7d7aab2c137a747356e",
+        "ledgerHash": "c1fd88aed6bd0481163e17e81e6027073e79f41159f74a9fd122df4b87b7ebc0",
+        "runtimeHash": "1f9a7f293f6269d8e1f93bc256efc9b23ee80b1838b1cf94ee570f71d7e63f7b",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T09:38:23.907Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T09:38:23.912Z"
+    }
+  ],
+  "committedAt": "2026-10-09T09:38:23.918Z"
+}

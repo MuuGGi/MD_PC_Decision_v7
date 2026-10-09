@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-03T13:01:39.606Z",
+  "openingBaselineCapturedAt": "2026-10-03T13:01:36.983Z",
+  "openingHand": [
+    "EXODIA_UNKNOWN",
+    "M07",
+    "M12",
+    "M15",
+    "M22"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 1,
+    "M07": 1,
+    "M08": 2,
+    "M09": 0,
+    "M10": 2,
+    "M11": 1,
+    "M12": 2,
+    "M13": 1,
+    "M14": 0,
+    "M15": 1,
+    "M16": 1,
+    "M17": 2,
+    "M18": 1,
+    "M19": 2,
+    "M20": 1,
+    "M21": 1,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 0,
+  "lastHandRevision": 0,
+  "lastIncrementalFingerprint": null,
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-03T13:06:01.668Z",
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-03T13:03:16.159Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-03T13:03:16.159Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 0,
+    "outsideAfter": 1,
+    "committedAt": "2026-10-03T13:03:25.565Z"
+  },
+  "lastM13Draw": {
+    "fingerprint": "2026-10-03T13:05:00.390Z|2026-10-03T13:05:13.609Z|12|13|M13|PROCESSING_CARD:M11,PROCESSING_CARD:M02,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|EXODIA_UNKNOWN,M11|M06",
+    "drawnIds": [
+      "M11",
+      "EXODIA_UNKNOWN"
+    ],
+    "banishedId": "M06",
+    "beforeRevision": 12,
+    "afterRevision": 13
+  },
+  "lastMallet": {
+    "returned": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M06",
+      "M08",
+      "M14"
+    ],
+    "drawn": [
+      "M08",
+      "M10",
+      "M10",
+      "M16",
+      "M19",
+      "M21"
+    ],
+    "returnedThenRedrawn": [
+      "M08"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-07T11:26:25.348Z",
+  "openingBaselineCapturedAt": "2026-10-07T11:26:22.425Z",
+  "openingHand": [
+    "EXODIA_UNKNOWN",
+    "EXODIA_UNKNOWN",
+    "M09",
+    "M11",
+    "M20"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 1,
+    "M07": 1,
+    "M08": 2,
+    "M09": 2,
+    "M10": 0,
+    "M11": 1,
+    "M12": 0,
+    "M13": 0,
+    "M14": 0,
+    "M15": 3,
+    "M16": 0,
+    "M17": 2,
+    "M18": 0,
+    "M19": 2,
+    "M20": 1,
+    "M21": 0,
+    "M22": 0
+  },
+  "unknownExodiaOutsideCount": 2,
+  "lastHandRevision": 9,
+  "lastIncrementalFingerprint": "9|M17|M07,M08",
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-07T11:30:20.765Z",
+  "lastMallet": {
+    "returned": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M12",
+      "M20"
+    ],
+    "drawn": [
+      "EXODIA_UNKNOWN",
+      "M06",
+      "M15",
+      "M19"
+    ],
+    "returnedThenRedrawn": [
+      "EXODIA_UNKNOWN"
+    ]
+  },
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E10->M17+M19->M20:3->4"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E10->M17+M19->M20:3->4",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": true,
+        "activationKey": "E10"
+      },
+      {
+        "id": "M20",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 3,
+    "afterRevision": 4,
+    "committedAt": "2026-10-07T11:28:42.253Z"
+  },
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-07T11:29:09.559Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-07T11:29:09.559Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 1,
+    "outsideAfter": 2,
+    "committedAt": "2026-10-07T11:29:19.886Z"
+  }
+}

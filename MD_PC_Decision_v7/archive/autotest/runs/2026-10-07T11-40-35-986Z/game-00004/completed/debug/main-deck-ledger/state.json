@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-07T12:04:30.156Z",
+  "openingBaselineCapturedAt": "2026-10-07T12:04:27.352Z",
+  "openingHand": [
+    "M09",
+    "M12",
+    "M14",
+    "M19",
+    "M20"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 1,
+    "M07": 1,
+    "M08": 2,
+    "M09": 2,
+    "M10": 3,
+    "M11": 1,
+    "M12": 2,
+    "M13": 1,
+    "M14": 2,
+    "M15": 1,
+    "M16": 0,
+    "M17": 2,
+    "M18": 0,
+    "M19": 2,
+    "M20": 1,
+    "M21": 2,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 4,
+  "lastHandRevision": 21,
+  "lastIncrementalFingerprint": "21|M14|EXODIA_UNKNOWN,M11",
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-07T12:09:43.759Z",
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E02->M17+M19->M14:4->5"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E02->M17+M19->M14:4->5",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": false,
+        "activationKey": "E02"
+      },
+      {
+        "id": "M14",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 4,
+    "afterRevision": 5,
+    "committedAt": "2026-10-07T12:06:05.794Z"
+  },
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-07T12:06:33.186Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-07T12:06:33.186Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 1,
+    "outsideAfter": 2,
+    "committedAt": "2026-10-07T12:06:43.124Z"
+  },
+  "lastM13Draw": {
+    "fingerprint": "2026-10-07T12:07:15.570Z|2026-10-07T12:07:28.568Z|8|9|M13|PROCESSING_CARD:M12,PROCESSING_CARD:M17,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|M12,M17|M06",
+    "drawnIds": [
+      "M12",
+      "M17"
+    ],
+    "banishedId": "M06",
+    "beforeRevision": 8,
+    "afterRevision": 9
+  }
+}

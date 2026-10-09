@@ -1,0 +1,14 @@
+'use strict';
+const assert = require('assert');
+const fs = require('fs');
+const path = require('path');
+const ROOT = path.resolve(__dirname, '..', '..');
+for(const name of ['run-v6.cmd','verify-v6.cmd','package.json','card-library.json','live-config.js','decision-state.json']) assert.ok(fs.existsSync(path.join(ROOT,name)),`required root file missing: ${name}`);
+for(const name of ['audit-v6-state.cmd','audit-v6-storage-assets.cmd','organize-v6-workspace.cmd','prepare-v6-storage.cmd','run-duel-observer.cmd','run-v5.cmd','run-v5.js','migrate-v6-core-layout.cmd']) assert.ok(!fs.existsSync(path.join(ROOT,name)),`root clutter still present: ${name}`);
+assert.ok(!fs.existsSync(path.join(ROOT,'tools','migrate-v6-core-layout.js')),'retired Stage20 migration implementation should be removed');
+for(const name of ['audit-v6-state.cmd','audit-v6-storage-assets.cmd','organize-v6-workspace.cmd','prepare-v6-storage.cmd','run-duel-observer.cmd','cleanup-v6-root.cmd']) assert.ok(fs.existsSync(path.join(ROOT,'tools','launchers',name)),`categorized launcher missing: ${name}`);
+const observer=fs.readFileSync(path.join(ROOT,'runtime','observer','run-duel-observer.js'),'utf8').replace(/\\\\/g,'\\');
+assert.ok(observer.includes('.\\tools\\launchers\\run-duel-observer.cmd'),'observer recovery command must point at tools/launchers');
+const organizer=fs.readFileSync(path.join(ROOT,'tools','organize-v6-workspace.js'),'utf8').replace(/\\\\/g,'\\');
+assert.ok(organizer.includes('.\\tools\\launchers\\organize-v6-workspace.cmd --apply'),'organizer must print categorized launcher path');
+console.log('STAGE21_ROOT_CLEANUP_OFFLINE PASS');

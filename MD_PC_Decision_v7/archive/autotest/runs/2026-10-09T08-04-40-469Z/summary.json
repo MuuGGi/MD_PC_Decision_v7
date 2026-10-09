@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "initialGems": 0,
+  "createdAt": "2026-10-09T08:04:40.470Z",
+  "status": "INTERRUPTED",
+  "games": [
+    {
+      "id": 1,
+      "startedAt": "2026-10-09T08:04:42.912Z",
+      "duelStarted": true,
+      "outcome": "WIN",
+      "gems": null,
+      "duelId": "DUEL-7bda0bc8700abd11163bac9a",
+      "resultProof": {
+        "version": 1,
+        "settlementId": "c659dbd9-ca38-4da9-afe9-7b411b7a2e73",
+        "stage": "COMPLETE",
+        "source": "V7_CONFIRMED_VICTORY_VOID_ORDINARY_SETTLEMENT",
+        "startedAt": "2026-10-09T08:12:54.644Z",
+        "updatedAt": "2026-10-09T08:13:05.852Z",
+        "rewardAnimationComplete": true,
+        "animationClicks": 18,
+        "animationDurationMs": 5003,
+        "gems": null,
+        "observedTotal": null,
+        "dateKey": null,
+        "rewardStatus": "UNKNOWN",
+        "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-09T08-12-53-110Z\\settlement\\settlement_reward_record.json",
+        "confirmedSubtotal": 0,
+        "rewardRecheckPending": false
+      },
+      "endedAt": "2026-10-09T08:13:06.084Z",
+      "returnedToStarter": true,
+      "rewardStatus": "UNKNOWN",
+      "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-09T08-12-53-110Z\\settlement\\settlement_reward_record.json"
+    },
+    {
+      "id": 2,
+      "startedAt": "2026-10-09T08:13:10.626Z",
+      "duelStarted": false,
+      "outcome": "INTERRUPTED",
+      "gems": null,
+      "error": "Error: 使用“0”个参数调用“GuardCheck”时发生异常:“AUTOTEST_STOP:FOREGROUND_LOST”\n    at MdFastBridge._onLine (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\lib\\win-fast.js:120:25)\n    at Socket.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\lib\\win-fast.js:138:26)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)",
+      "testInterrupted": true,
+      "endedAt": "2026-10-09T08:13:11.085Z"
+    }
+  ],
+  "totals": {
+    "started": 1,
+    "completed": 1,
+    "wins": 1,
+    "losses": 0,
+    "surrenders": 0,
+    "interrupted": 1,
+    "unresolved": 0,
+    "errorGames": 1,
+    "errorSurrenders": 0,
+    "gems": 0,
+    "unknownGemGames": 1
+  }
+}

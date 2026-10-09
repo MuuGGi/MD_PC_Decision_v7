@@ -1,0 +1,835 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-09T07:03:16.789Z",
+  "target": {
+    "id": "M12",
+    "name": "抵价交易"
+  },
+  "plan": {
+    "trade": {
+      "id": "M12",
+      "name": "抵价交易",
+      "slot": 5,
+      "duplicateCount": 2
+    },
+    "cost": {
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "preference": 1,
+      "originalSlot": 2
+    },
+    "eligibleCosts": [
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 2,
+        "promptOrder": 1
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 3,
+        "promptOrder": 2
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 4,
+        "promptOrder": 3
+      }
+    ],
+    "costPolicy": {
+      "toonTablesInGrave": 3,
+      "protectToonDragon": false,
+      "priority": [
+        {
+          "id": "M07",
+          "name": "青眼卡通龙"
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P."
+        }
+      ],
+      "plannedCost": {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "preference": 1
+      },
+      "toonDragonStillProtected": false
+    }
+  },
+  "selected": {
+    "slot": 5,
+    "duplicateCount": 2,
+    "selected": {
+      "accepted": true,
+      "id": "M12",
+      "name": "抵价交易",
+      "mad": 0,
+      "rmse": 0,
+      "margin": 0.2226831329439363,
+      "top3": [
+        {
+          "id": "M12",
+          "name": "抵价交易",
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0.2226831329439363,
+          "rmse": 0.2756578827332862,
+          "dhash": 32
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "mad": 0.22707286438487656,
+          "rmse": 0.3008917054213163,
+          "dhash": 36
+        }
+      ]
+    },
+    "clickReference": {
+      "x": 1244,
+      "y": 1008
+    },
+    "positioning": {
+      "mode": "V5_DENSE_CURRENT_SLOT_TARGET",
+      "window": "LEFT_EDGE",
+      "currentCenter": {
+        "x": 1244,
+        "y": 1008
+      },
+      "finalKnownWindow": "LEFT_EDGE"
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1264,
+        "y": 842
+      },
+      "width": 82,
+      "height": 46,
+      "fillRatio": 0.440084835630965,
+      "estimatedPixels": 1660,
+      "menuMode": "ACTIVATE_ONLY_CENTERED",
+      "expectedReference": {
+        "x": 1244,
+        "y": 848
+      },
+      "drift": 20.8806130178211,
+      "glyph": {
+        "iou": 0.9411764705882353,
+        "darkBackgroundRatio": 0.9708029197080292,
+        "offsetX": -1,
+        "offsetY": -1,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 7464,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 3,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.038554074074074074,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.04891304347826087,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.10326086956521739,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.1625,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.12880434782608696,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.13206521739130433,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.10326086956521739,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.14673913043478262,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.05489130434782609,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.1266304347826087,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.1309782608695652,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.1842391304347826,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.05652173913043478,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.03614814814814815,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.04096,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.03425185185185185,
+          "pass": false,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.05338947368421053,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 206
+    }
+  },
+  "costProof": {
+    "selected": {
+      "accepted": true,
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "mad": 0.03026177029603643,
+      "margin": 0.257908758613118
+    },
+    "candidateIndex": 1,
+    "candidateCount": 3,
+    "clickReference": {
+      "x": 866,
+      "y": 925
+    },
+    "promptProof": {
+      "attempts": 9,
+      "titleDarkRatio": 0.9310077519379845,
+      "bodyDarkRatio": 0.5115740740740741,
+      "expectedCandidateCount": 3,
+      "references": [
+        {
+          "x": 866,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1024,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1182,
+          "y": 925,
+          "width": 118
+        }
+      ]
+    },
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "scanned": [
+      {
+        "candidateIndex": 1,
+        "clickReference": {
+          "x": 866,
+          "y": 925
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M07",
+          "name": "青眼卡通龙",
+          "mad": 0.03026177029603643,
+          "margin": 0.257908758613118
+        }
+      }
+    ],
+    "traversal": "LEFT_TO_RIGHT",
+    "positioning": "M12_DEDICATED_COST_PROMPT"
+  },
+  "observerVerification": {
+    "beforeCount": 9,
+    "afterCount": 9,
+    "paidCost": {
+      "id": "M07",
+      "name": "青眼卡通龙"
+    },
+    "drawn": [
+      {
+        "id": "M13",
+        "name": "暗之诱惑"
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌"
+      }
+    ],
+    "insertedCards": [
+      {
+        "slot": 4,
+        "card": {
+          "id": "M11",
+          "name": "万宝槌"
+        }
+      },
+      {
+        "slot": 6,
+        "card": {
+          "id": "M13",
+          "name": "暗之诱惑"
+        }
+      }
+    ],
+    "finalHand": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M11"
+        ],
+        "index": 4
+      },
+      {
+        "index": 5,
+        "x": 1008,
+        "y": 980,
+        "id": "M12",
+        "name": "抵价交易",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2226831329439363,
+        "usable": true,
+        "yellowPixels": 872,
+        "yellowRatio": 0.026617826617826617,
+        "top3": [
+          {
+            "id": "M12",
+            "name": "抵价交易",
+            "count": 3,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.2226831329439363,
+            "rmse": 0.2756578827332862,
+            "dhash": 32
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.22707286438487656,
+            "rmse": 0.3008917054213163,
+            "dhash": 36
+          }
+        ],
+        "timingMs": {
+          "locateMs": 535.738,
+          "clickAndSettleMs": 299.642,
+          "recognizeMs": 11.9,
+          "usabilityMs": 22.894,
+          "resetMs": 171,
+          "totalMs": 1041.508
+        }
+      },
+      {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ],
+        "index": 6
+      },
+      {
+        "index": 7,
+        "x": 1139,
+        "y": 1002,
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2627693724019633,
+        "usable": true,
+        "yellowPixels": 928,
+        "yellowRatio": 0.028327228327228327,
+        "top3": [
+          {
+            "id": "M14",
+            "name": "金黄色的竹光",
+            "count": 3,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E10",
+            "name": "闪刀姬－零梦",
+            "count": 1,
+            "mad": 0.2627693724019633,
+            "rmse": 0.32389383138370903,
+            "dhash": 32
+          },
+          {
+            "id": "M10",
+            "name": "卡通目录",
+            "count": 3,
+            "mad": 0.2923922535573021,
+            "rmse": 0.38025605091527026,
+            "dhash": 24
+          }
+        ],
+        "timingMs": {
+          "locateMs": 634.019,
+          "clickAndSettleMs": 310.886,
+          "recognizeMs": 12.632,
+          "usabilityMs": 26.318,
+          "resetMs": 177.63,
+          "totalMs": 1161.729
+        }
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 8
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 9
+      }
+    ],
+    "operation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M12",
+          "name": "抵价交易",
+          "mad": 0.08106740248514419,
+          "rawMad": 0.05771617528708724,
+          "hsvDistance": 0.19459355998380792
+        },
+        "confidenceMargin": 0.23588933599703923,
+        "top3": [
+          {
+            "id": "M12",
+            "name": "抵价交易",
+            "mad": 0.08106740248514419,
+            "rawMad": 0.05771617528708724,
+            "hsvDistance": 0.19459355998380792
+          },
+          {
+            "id": "M05",
+            "name": "被封印的艾克佐迪亚",
+            "mad": 0.3169567384821834,
+            "rawMad": 0.22621933347233264,
+            "hsvDistance": 0.7561450417487567
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "mad": 0.34285845625235456,
+            "rawMad": 0.22116402116402004,
+            "hsvDistance": 1.0141202924027874
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 444,
+          "mad": 0.08802058379913051
+        },
+        "box": {
+          "x": 1702,
+          "y": 601,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M12",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M07",
+            "name": "青眼卡通龙",
+            "mad": 0.2959062543024029,
+            "rawMad": 0.2433983302058683,
+            "hsvDistance": 0.43756603413778855
+          },
+          "confidenceMargin": 0.13161281103407502,
+          "top3": [
+            {
+              "id": "M07",
+              "name": "青眼卡通龙",
+              "mad": 0.2959062543024029,
+              "rawMad": 0.2433983302058683,
+              "hsvDistance": 0.43756603413778855
+            },
+            {
+              "id": "E06",
+              "name": "试作闪刀姬－天津",
+              "mad": 0.42751906533647793,
+              "rawMad": 0.2837088808914433,
+              "hsvDistance": 1.198418203708622
+            },
+            {
+              "id": "M22",
+              "name": "闪刀机－大黄蜂无人机",
+              "mad": 0.43940155292903427,
+              "rawMad": 0.2813490300830853,
+              "hsvDistance": 1.3171043570495746
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1745,
+            "y": 753,
+            "width": 47,
+            "height": 71,
+            "area": 1014
+          },
+          "rawType": "COST_TO_GRAVEYARD",
+          "role": "HAND_COST"
+        },
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M13",
+            "name": "暗之诱惑",
+            "mad": 0.08282351404915043,
+            "rawMad": 0.06206440864731351,
+            "hsvDistance": 0.17299254501530772
+          },
+          "confidenceMargin": 0.3368992072564509,
+          "top3": [
+            {
+              "id": "M13",
+              "name": "暗之诱惑",
+              "mad": 0.08282351404915043,
+              "rawMad": 0.06206440864731351,
+              "hsvDistance": 0.17299254501530772
+            },
+            {
+              "id": "M15",
+              "name": "无之炼狱",
+              "mad": 0.41972272130560134,
+              "rawMad": 0.16081624307400072,
+              "hsvDistance": 2.1575539852633385
+            },
+            {
+              "id": "E08",
+              "name": "闪刀姬－阿塞蕾娅",
+              "mad": 0.42584105737431555,
+              "rawMad": 0.20328489540368455,
+              "hsvDistance": 1.8546346830885918
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1745,
+            "y": 953,
+            "width": 47,
+            "height": 68,
+            "area": 706
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        },
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M11",
+            "name": "万宝槌",
+            "mad": 0.21141713288715422,
+            "rawMad": 0.16470628524692843,
+            "hsvDistance": 0.3892570636685483
+          },
+          "confidenceMargin": 0.14839951411512844,
+          "top3": [
+            {
+              "id": "M11",
+              "name": "万宝槌",
+              "mad": 0.21141713288715422,
+              "rawMad": 0.16470628524692843,
+              "hsvDistance": 0.3892570636685483
+            },
+            {
+              "id": "E02",
+              "name": "闪刀姬－篝",
+              "mad": 0.35981664700228266,
+              "rawMad": 0.21669008487969083,
+              "hsvDistance": 1.1927213510215984
+            },
+            {
+              "id": "M05",
+              "name": "被封印的艾克佐迪亚",
+              "mad": 0.3748362725513831,
+              "rawMad": 0.25642459788661953,
+              "hsvDistance": 0.986763955539696
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1803,
+            "y": 953,
+            "width": 47,
+            "height": 68,
+            "area": 712
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        }
+      ],
+      "startY": 601,
+      "endY": 1021,
+      "signature": "M12|PROCESSING_CARD:M07,PROCESSING_CARD:M13,PROCESSING_CARD:M11",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    }
+  }
+}

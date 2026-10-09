@@ -1,0 +1,208 @@
+{
+  "capturedAt": "2026-09-26T12:53:19.956Z",
+  "resumeBanishPrompt": false,
+  "baselineHandCount": 5,
+  "baselineHand": [
+    {
+      "id": "M01",
+      "name": "被封印的右足",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M01"
+      ],
+      "index": 1
+    },
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 2
+    },
+    {
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M07"
+      ],
+      "index": 3
+    },
+    {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M13"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M16",
+      "name": "暂时休战",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M16"
+      ],
+      "index": 5
+    }
+  ],
+  "plan": {
+    "allure": {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "slot": 4,
+      "duplicateCount": 1
+    },
+    "safeBeforeActivation": {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "count": 1,
+      "originalSlot": 2
+    },
+    "priority": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣"
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P."
+      }
+    ]
+  },
+  "selected": {
+    "slot": 4,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M13",
+      "name": "暗之诱惑",
+      "mad": 0,
+      "margin": 0.1485291851368379
+    },
+    "clickReference": {
+      "x": 1142,
+      "y": 983
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        730,
+        874,
+        1006,
+        1142,
+        1297
+      ],
+      "currentCenter": {
+        "x": 1142,
+        "y": 983
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1074,
+        "y": 834
+      },
+      "width": 86,
+      "height": 46,
+      "fillRatio": 0.42163801820020225,
+      "estimatedPixels": 1668
+    },
+    "yellowPixels": 8728,
+    "probeAttempts": 1,
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY"
+  },
+  "banishProof": {
+    "promptProof": {
+      "attempts": 12,
+      "headerDarkRatio": 0.80415,
+      "candidateCount": 5,
+      "points": [
+        {
+          "x": 609,
+          "y": 925,
+          "width": 139
+        },
+        {
+          "x": 866,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1024,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1182,
+          "y": 925,
+          "width": 118
+        },
+        {
+          "x": 1439,
+          "y": 925,
+          "width": 141
+        }
+      ]
+    },
+    "selected": {
+      "accepted": true,
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "mad": 0,
+      "margin": 0.21446641223911356
+    },
+    "candidateIndex": 4,
+    "priorityRank": 1,
+    "plannedBeforeActivation": {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "count": 1,
+      "originalSlot": 2
+    },
+    "seen": [
+      {
+        "candidateIndex": 5,
+        "clickReference": {
+          "x": 1439,
+          "y": 925
+        },
+        "card": {
+          "accepted": false,
+          "id": "M13",
+          "name": "暗之诱惑",
+          "mad": 0.15505163590067456,
+          "margin": 0.010867662419156793
+        }
+      },
+      {
+        "candidateIndex": 4,
+        "clickReference": {
+          "x": 1182,
+          "y": 925
+        },
+        "card": {
+          "accepted": true,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "mad": 0,
+          "margin": 0.21446641223911356
+        }
+      }
+    ],
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "policy": "M06_THEN_M08_DEDICATED_PROMPT"
+  }
+}

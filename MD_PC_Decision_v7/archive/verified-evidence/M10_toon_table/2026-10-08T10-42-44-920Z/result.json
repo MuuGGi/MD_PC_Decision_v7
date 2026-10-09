@@ -1,0 +1,768 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-08T10:42:55.451Z",
+  "target": {
+    "id": "M10",
+    "name": "卡通目录"
+  },
+  "baselineHandCount": 6,
+  "baselineHand": [
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 1
+    },
+    {
+      "index": 2,
+      "x": 731,
+      "y": 1000,
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "accepted": true,
+      "confidence": 0.9704282863810753,
+      "mad": 0.029571713618924737,
+      "rmse": 0.03576164047874817,
+      "dhash": 2,
+      "margin": 0.25759168104494584,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M07",
+          "name": "青眼卡通龙",
+          "count": 1,
+          "mad": 0.029571713618924737,
+          "rmse": 0.03576164047874817,
+          "dhash": 2
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "count": 3,
+          "mad": 0.2871633946638706,
+          "rmse": 0.35223608309416404,
+          "dhash": 25
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.2882607771623572,
+          "rmse": 0.35029985243815365,
+          "dhash": 31
+        }
+      ],
+      "timingMs": {
+        "locateMs": 499.35,
+        "clickAndSettleMs": 268.497,
+        "recognizeMs": 16.177,
+        "usabilityMs": 0.274,
+        "resetMs": 167.583,
+        "totalMs": 952.321
+      }
+    },
+    {
+      "id": "M08",
+      "name": "闪术兵器－H.A.M.P.",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M08"
+      ],
+      "index": 3
+    },
+    {
+      "id": "M08",
+      "name": "闪术兵器－H.A.M.P.",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M08"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M10",
+      "name": "卡通目录",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M10"
+      ],
+      "index": 5
+    },
+    {
+      "index": 6,
+      "x": 1006,
+      "y": 982,
+      "id": "M11",
+      "name": "万宝槌",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2310635293311859,
+      "usable": true,
+      "yellowPixels": 4648,
+      "yellowRatio": 0.14188034188034188,
+      "top3": [
+        {
+          "id": "M11",
+          "name": "万宝槌",
+          "count": 2,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E02",
+          "name": "闪刀姬－篝",
+          "count": 1,
+          "mad": 0.2310635293311859,
+          "rmse": 0.3035595610523306,
+          "dhash": 30
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "count": 3,
+          "mad": 0.24489407413450817,
+          "rmse": 0.3097596472406572,
+          "dhash": 37
+        }
+      ],
+      "timingMs": {
+        "locateMs": 517.683,
+        "clickAndSettleMs": 308.438,
+        "recognizeMs": 12.192,
+        "usabilityMs": 20.044,
+        "resetMs": 167.905,
+        "totalMs": 1026.569
+      }
+    }
+  ],
+  "selected": {
+    "slot": 5,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M10",
+      "name": "卡通目录",
+      "mad": 0,
+      "margin": 0.24795395324616723
+    },
+    "clickReference": {
+      "x": 1211,
+      "y": 1006
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        668,
+        804,
+        942,
+        1075,
+        1211,
+        1366
+      ],
+      "currentCenter": {
+        "x": 1211,
+        "y": 1006
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1228,
+        "y": 839
+      },
+      "width": 84,
+      "height": 46,
+      "fillRatio": 0.4409937888198758,
+      "estimatedPixels": 1704,
+      "menuMode": "ACTIVATE_ONLY_CENTERED",
+      "expectedReference": {
+        "x": 1211,
+        "y": 846
+      },
+      "drift": 18.38477631085024,
+      "glyph": {
+        "iou": 1,
+        "darkBackgroundRatio": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 7264,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 4,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.05565866666666667,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.06467391304347826,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.175,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.21521739130434783,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.21521739130434783,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.16576086956521738,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.16358695652173913,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.15217391304347827,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.16956521739130434,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.14293478260869566,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.175,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.2440217391304348,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.14945652173913043,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.051081481481481485,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.057984,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.05333333333333334,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.07225263157894737,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 212
+    }
+  },
+  "searchProof": {
+    "promptProof": {
+      "dialog": {
+        "calibrated": true,
+        "signature": {
+          "roi": {
+            "x": 680,
+            "y": 725,
+            "width": 690,
+            "height": 70
+          },
+          "template": "templates/ui/toon_search_header.png",
+          "maxMad": 0.085
+        },
+        "candidateRoi": {
+          "x": 620,
+          "y": 830,
+          "width": 800,
+          "height": 200
+        },
+        "candidateY": 925,
+        "candidateClickYOffset": -22,
+        "candidatePoints": [],
+        "confirmPoint": {
+          "x": 1024,
+          "y": 1082
+        }
+      },
+      "signatureMad": 0.0023193818590238027
+    },
+    "selected": {
+      "accepted": true,
+      "id": "M10",
+      "name": "卡通目录",
+      "mad": 0,
+      "margin": 0.24795395324616723
+    },
+    "candidateIndex": 1,
+    "clickReference": {
+      "x": 1024,
+      "y": 903
+    },
+    "priorityRank": 1,
+    "selectionReason": "PRIORITY_M10_AVAILABLE",
+    "seen": [
+      {
+        "candidateIndex": 1,
+        "clickReference": {
+          "x": 1024,
+          "y": 903
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M10",
+          "name": "卡通目录",
+          "mad": 0,
+          "margin": 0.24795395324616723
+        }
+      }
+    ],
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "traversal": "RIGHT_TO_LEFT",
+    "positioning": "M10_DEDICATED_SEARCH_PROMPT"
+  },
+  "observerVerification": {
+    "beforeCount": 6,
+    "afterCount": 6,
+    "gained": {
+      "id": "M10",
+      "name": "卡通目录"
+    },
+    "insertedCards": [
+      {
+        "slot": 5,
+        "card": {
+          "id": "M10",
+          "name": "卡通目录",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M10"
+          ]
+        }
+      }
+    ],
+    "finalHand": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 1
+      },
+      {
+        "index": 2,
+        "x": 731,
+        "y": 1000,
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "accepted": true,
+        "confidence": 0.9704282863810753,
+        "mad": 0.029571713618924737,
+        "rmse": 0.03576164047874817,
+        "dhash": 2,
+        "margin": 0.25759168104494584,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M07",
+            "name": "青眼卡通龙",
+            "count": 1,
+            "mad": 0.029571713618924737,
+            "rmse": 0.03576164047874817,
+            "dhash": 2
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.2871633946638706,
+            "rmse": 0.35223608309416404,
+            "dhash": 25
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.2882607771623572,
+            "rmse": 0.35029985243815365,
+            "dhash": 31
+          }
+        ],
+        "timingMs": {
+          "locateMs": 499.35,
+          "clickAndSettleMs": 268.497,
+          "recognizeMs": 16.177,
+          "usabilityMs": 0.274,
+          "resetMs": 167.583,
+          "totalMs": 952.321
+        }
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M10",
+        "name": "卡通目录",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M10"
+        ],
+        "index": 5
+      },
+      {
+        "index": 6,
+        "x": 1006,
+        "y": 982,
+        "id": "M11",
+        "name": "万宝槌",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2310635293311859,
+        "usable": true,
+        "yellowPixels": 4648,
+        "yellowRatio": 0.14188034188034188,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "count": 1,
+            "mad": 0.2310635293311859,
+            "rmse": 0.3035595610523306,
+            "dhash": 30
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.24489407413450817,
+            "rmse": 0.3097596472406572,
+            "dhash": 37
+          }
+        ],
+        "timingMs": {
+          "locateMs": 517.683,
+          "clickAndSettleMs": 308.438,
+          "recognizeMs": 12.192,
+          "usabilityMs": 20.044,
+          "resetMs": 167.905,
+          "totalMs": 1026.569
+        }
+      }
+    ],
+    "operation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M10",
+          "name": "卡通目录",
+          "mad": 0.12710876958515577,
+          "rawMad": 0.08650133911889063,
+          "hsvDistance": 0.33839525388554276
+        },
+        "confidenceMargin": 0.3570545219357912,
+        "top3": [
+          {
+            "id": "M10",
+            "name": "卡通目录",
+            "mad": 0.12710876958515577,
+            "rawMad": 0.08650133911889063,
+            "hsvDistance": 0.33839525388554276
+          },
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "mad": 0.48416329152094695,
+            "rawMad": 0.27205839545454946,
+            "hsvDistance": 1.7675408005533126
+          },
+          {
+            "id": "E07",
+            "name": "闪刀姬－泽克",
+            "mad": 0.5020146806661449,
+            "rawMad": 0.2791994899362117,
+            "hsvDistance": 1.8567932560827765
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 630,
+          "mad": 0.016147635524798153
+        },
+        "box": {
+          "x": 1702,
+          "y": 787,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M10",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M10",
+            "name": "卡通目录",
+            "mad": 0.21468097547600914,
+            "rawMad": 0.1665129626104309,
+            "hsvDistance": 0.40140010721315217
+          },
+          "confidenceMargin": 0.25373842163526017,
+          "top3": [
+            {
+              "id": "M10",
+              "name": "卡通目录",
+              "mad": 0.21468097547600914,
+              "rawMad": 0.1665129626104309,
+              "hsvDistance": 0.40140010721315217
+            },
+            {
+              "id": "M11",
+              "name": "万宝槌",
+              "mad": 0.46841939711126934,
+              "rawMad": 0.2685791037018901,
+              "hsvDistance": 1.6653357784114942
+            },
+            {
+              "id": "E07",
+              "name": "闪刀姬－泽克",
+              "mad": 0.4956850423953362,
+              "rawMad": 0.27965405507762275,
+              "hsvDistance": 1.800258227647612
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1745,
+            "y": 953,
+            "width": 47,
+            "height": 67,
+            "area": 710
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        }
+      ],
+      "startY": 787,
+      "endY": 1020,
+      "signature": "M10|PROCESSING_CARD:M10",
+      "relationship": {
+        "type": "INDEPENDENT_ACTIVATION_AFTER_HAND_GAIN",
+        "parentActivationKey": null,
+        "evidenceCard": {
+          "id": "M10",
+          "name": "卡通目录",
+          "mad": 0.23536199364569446,
+          "rawMad": 0.1859530004018864,
+          "hsvDistance": 0.4117416103650673
+        }
+      }
+    }
+  }
+}

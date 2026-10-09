@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "initialGems": 0,
+  "createdAt": "2026-10-07T12:25:23.703Z",
+  "status": "INTERRUPTED",
+  "games": [
+    {
+      "id": 1,
+      "startedAt": "2026-10-07T12:25:26.068Z",
+      "duelStarted": true,
+      "outcome": "SURRENDER",
+      "gems": 0,
+      "duelId": "DUEL-09b4c86a4ef5cc34bfe8f195",
+      "resultProof": {
+        "resultConfirmedInLog": true
+      },
+      "endedAt": "2026-10-07T12:30:45.766Z",
+      "returnedToStarter": true
+    },
+    {
+      "id": 2,
+      "startedAt": "2026-10-07T12:30:48.630Z",
+      "duelStarted": true,
+      "outcome": "WIN",
+      "gems": 119,
+      "duelId": "DUEL-eaf01a6b1381df8fdc4e9ff3",
+      "resultProof": {
+        "version": 1,
+        "settlementId": "adabe237-16bf-4bcd-85c9-79f5f0a7993b",
+        "stage": "COMPLETE",
+        "source": "V7_CONFIRMED_VICTORY_VOID_ORDINARY_SETTLEMENT",
+        "startedAt": "2026-10-07T12:36:36.751Z",
+        "updatedAt": "2026-10-07T12:36:48.566Z",
+        "rewardAnimationComplete": true,
+        "animationClicks": 18,
+        "animationDurationMs": 5011,
+        "gems": 119,
+        "observedTotal": 119,
+        "dateKey": "2026-10-07",
+        "rewardStatus": "VERIFIED",
+        "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-07T12-36-35-122Z\\settlement\\settlement_reward_record.json",
+        "confirmedSubtotal": 119,
+        "rewardRecheckPending": false
+      },
+      "endedAt": "2026-10-07T12:36:48.785Z",
+      "returnedToStarter": true,
+      "rewardStatus": "VERIFIED",
+      "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-07T12-36-35-122Z\\settlement\\settlement_reward_record.json"
+    },
+    {
+      "id": 3,
+      "startedAt": "2026-10-07T12:36:52.759Z",
+      "duelStarted": true,
+      "outcome": "WIN",
+      "gems": 91,
+      "duelId": "DUEL-7257c5d246980d4e0d3e0db2",
+      "resultProof": {
+        "pass": true,
+        "detector": "VICTORY_RESULT_CONFIRM_V2",
+        "buttonMode": "NORMAL",
+        "titleWhiteRatio": 0.4106102877070619,
+        "leftCrownGoldRatio": 0.14894736842105263,
+        "confirmLimeRatio": 0.041435897435897436,
+        "confirmDarkRatio": 0.8691282051282051,
+        "reference": {
+          "x": 1024,
+          "y": 1037
+        }
+      },
+      "endedAt": "2026-10-07T12:45:17.667Z",
+      "returnedToStarter": true,
+      "rewardStatus": "VERIFIED",
+      "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\autotest\\runs\\2026-10-07T12-25-23-701Z\\game-00003\\victory-settlement\\settlement\\settlement_reward_record.json"
+    },
+    {
+      "id": 4,
+      "startedAt": "2026-10-07T12:45:35.768Z",
+      "duelStarted": false,
+      "outcome": "INTERRUPTED",
+      "gems": null,
+      "error": "Error: 使用“0”个参数调用“GuardCheck”时发生异常:“AUTOTEST_STOP:FOREGROUND_LOST”\n    at MdFastBridge._onLine (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\lib\\win-fast.js:120:25)\n    at Socket.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\lib\\win-fast.js:138:26)\n    at Socket.emit (node:events:518:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)\n    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)",
+      "testInterrupted": true,
+      "endedAt": "2026-10-07T12:45:36.160Z"
+    }
+  ],
+  "totals": {
+    "started": 3,
+    "completed": 3,
+    "wins": 2,
+    "losses": 1,
+    "surrenders": 1,
+    "interrupted": 1,
+    "unresolved": 0,
+    "errorGames": 1,
+    "errorSurrenders": 0,
+    "gems": 210,
+    "unknownGemGames": 0
+  }
+}

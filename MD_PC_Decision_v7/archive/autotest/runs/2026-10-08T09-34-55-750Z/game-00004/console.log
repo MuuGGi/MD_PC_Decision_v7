@@ -1,0 +1,103 @@
+V7规范化主循环：成熟识别/策略 + 持久事务边界；不开启新的策略路线。
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0519; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=256ms。
+
+============================================================
+执行前当前局面基线：完全复用 V1 已验证 observer 手牌读取
+1~7张 = TITLE_COMPONENTS 完整扫描；8~12张 = DENSE 分段完整扫描。
+这里只建立当前状态，不执行任何卡牌操作。
+============================================================
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+当前我方 INFO 权威手牌数=5
+============================================================
+Independent live hand scan: expected OWN=5
+The program activates and verifies Master Duel by itself; no manual window switching is needed.
+The program holds i once, releases it, then selects each hand slot only for recognition.
+It never clicks an activation button, drags a card, or continues to another hand-count round.
+============================================================
+Master Duel activated and verified: masterduel
+复用本次已释放鼠标的INFO权威数量；不再第二次按i，扫描现有手牌图仍核对数量。
+低手牌中性复位点: 对手魔法/陷阱区域安全点=(856,195); 仅用于清选择/复位，不替代真实目标点击。
+标题块估算手牌数: 5 centers=[730, 867, 1001, 1150, 1299]
+
+手牌数量候选：
+  N= 1  min=0.66  mean=0.66  ----  slots=[0.66]
+  N= 2  min=0.69  mean=0.74  PASS  slots=[0.79, 0.69]
+  N= 3  min=0.66  mean=0.79  PASS  slots=[0.79, 0.66, 0.92]
+  N= 4  min=0.69  mean=0.80  PASS  slots=[0.77, 0.79, 0.69, 0.93]
+  N= 5  min=0.66  mean=0.83  PASS  slots=[0.85, 0.79, 0.66, 0.92, 0.93]
+  N= 6  min=0.63  mean=0.78  PASS  slots=[0.83, 0.82, 0.79, 0.63, 0.93, 0.64]
+  N= 7  min=0.50  mean=0.76  ----  slots=[0.50, 0.76, 0.79, 0.66, 0.97, 1.00, 0.65]
+  N= 8  min=0.38  mean=0.79  ----  slots=[0.38, 0.78, 0.96, 0.90, 0.59, 0.93, 1.00, 0.76]
+  N= 9  min=0.37  mean=0.77  ----  slots=[0.37, 0.86, 0.77, 0.78, 0.66, 0.97, 0.95, 0.69, 0.88]
+  N=10  min=0.36  mean=0.75  ----  slots=[0.36, 0.40, 0.78, 0.95, 0.91, 0.59, 0.93, 1.00, 0.75, 0.80]
+  N=11  min=0.37  mean=0.74  ----  slots=[0.53, 0.37, 0.86, 0.77, 0.78, 0.66, 0.97, 0.95, 0.69, 0.88, 0.72]
+  N=12  min=0.36  mean=0.79  ----  slots=[1.00, 0.36, 0.40, 0.78, 0.95, 0.91, 0.59, 0.93, 1.00, 0.75, 0.80, 1.00]
+
+=> INFO 权威手牌数 = 5（扇形视觉候选=5）
+手牌点击位置来源: TITLE_COMPONENTS
+
+------------------------------------------------------------
+手牌 1/5
+实时位置来源: TITLE_COMPONENTS, x=731, titleY=1022
+    Top1: 被封印的左足  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 闪术兵器－H.A.M.P.  MAD=0.2530  RMSE=0.3233  dHash=34
+    Top3: 暂时休战  MAD=0.2591  RMSE=0.3371  dHash=40
+  => 被封印的左足 [M02]
+     怪兽卡：本阶段不做“魔法黄框可用性”判断
+     点击到完成: 950.5 ms（定位=483.7, 点击等待=281.5, 识别=15.3, 可用性=0.2）
+
+------------------------------------------------------------
+手牌 2/5
+实时位置来源: TITLE_COMPONENTS, x=867, titleY=1010
+    Top1: 被封印的右腕  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 试胆竞速  MAD=0.2461  RMSE=0.3107  dHash=27
+    Top3: 闪术兵器－H.A.M.P.  MAD=0.2495  RMSE=0.3198  dHash=31
+  => 被封印的右腕 [M03]
+     怪兽卡：本阶段不做“魔法黄框可用性”判断
+     点击到完成: 1001.7 ms（定位=505.6, 点击等待=311.2, 识别=10.8, 可用性=0.0）
+
+------------------------------------------------------------
+手牌 3/5
+实时位置来源: TITLE_COMPONENTS, x=1004, titleY=1000
+    Top1: 被封印的左腕  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 暂时休战  MAD=0.2236  RMSE=0.3010  dHash=31
+    Top3: 闪刀姬－腕  MAD=0.2410  RMSE=0.3178  dHash=27
+  => 被封印的左腕 [M04]
+     怪兽卡：本阶段不做“魔法黄框可用性”判断
+     点击到完成: 1000.3 ms（定位=509.5, 点击等待=306.6, 识别=12.6, 可用性=0.0）
+
+------------------------------------------------------------
+手牌 4/5
+实时位置来源: TITLE_COMPONENTS, x=1149, titleY=996
+    Top1: 闪刀姬－零衣  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 闪刀姬－卡梅莉娅  MAD=0.2145  RMSE=0.2826  dHash=26
+    Top3: 闪术兵器－H.A.M.P.  MAD=0.2527  RMSE=0.3231  dHash=32
+  => 闪刀姬－零衣 [M06]
+     怪兽卡：本阶段不做“魔法黄框可用性”判断
+     点击到完成: 1003.8 ms（定位=508.0, 点击等待=308.5, 识别=12.8, 可用性=0.0）
+
+------------------------------------------------------------
+手牌 5/5
+实时位置来源: TITLE_COMPONENTS, x=1299, titleY=1010
+    Top1: 闪术兵器－H.A.M.P.  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 闪刀姬－泽克  MAD=0.1916  RMSE=0.2463  dHash=33
+    Top3: 暂时休战  MAD=0.1943  RMSE=0.2466  dHash=30
+  => 闪术兵器－H.A.M.P. [M08]
+     怪兽卡：本阶段不做“魔法黄框可用性”判断
+     点击到完成: 998.4 ms（定位=523.3, 点击等待=289.0, 识别=11.3, 可用性=0.0）
+调配后初始扫描成功: 手牌=5
+初始手牌: 被封印组件（身份无需区分）[EXODIA_UNKNOWN] | 被封印组件（身份无需区分）[EXODIA_UNKNOWN] | 被封印组件（身份无需区分）[EXODIA_UNKNOWN] | 闪刀姬－零衣[M06] | 闪术兵器－H.A.M.P.[M08]
+已重建增量手牌基线；接下来将打开右侧信息栏并建立日志检查点。
+完整详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\scan-state-live\prepared\result.json
+右栏面板检测: 未打开; 依据=BRIGHT_RIGHT_SIDE; 置信度=HIGH; darkRatio=0.161
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=655-1028（已到底）；无需滚轮。
+万宝槌 FULL RESYNC 后右栏已重建 baseline: 当前底部操作=无; checkpoint=EMPTY。
+不会再向上追万宝槌发动前的旧 checkpoint；下一轮只识别此 baseline 之后的新操作。
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=2521.5ms; bridge_reuse=0.0ms; reuse_verified_window=1.9ms; foreground_recheck=1.2ms; initial_client_capture=491.6ms; open_panel_and_recapture=1151.4ms; load_recognition_templates=65.5ms; recognize_right_log_pixels=795.1ms; group_and_reconcile_events=0.6ms
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0486; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=278ms。
+V7启动/执行失败: Error: STRATEGY_HAND_NOT_SNAPSHOT_HAND
+    at createDecisionContext (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\strategy\decision-context.js:22:11)
+    at Object.buildDecisionSuggestion (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\runtime\mature-driver.js:1123:19)
+    at Object.run (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\runtime\duel-loop.js:103:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

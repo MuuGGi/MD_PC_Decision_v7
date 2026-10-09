@@ -1,0 +1,530 @@
+{
+  "status": "PASS",
+  "before": {
+    "version": 2,
+    "capturedAt": "2026-10-06T11:02:35.506Z",
+    "revision": 10,
+    "handCount": 7,
+    "cards": [
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 1
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 2
+      },
+      {
+        "index": 3,
+        "x": 867,
+        "y": 988,
+        "id": "M11",
+        "name": "万宝槌",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2310635293311859,
+        "usable": true,
+        "yellowPixels": 5180,
+        "yellowRatio": 0.1581196581196581,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "count": 1,
+            "mad": 0.2310635293311859,
+            "rmse": 0.3035595610523306,
+            "dhash": 30
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.24489407413450817,
+            "rmse": 0.3097596472406572,
+            "dhash": 37
+          }
+        ],
+        "timingMs": {
+          "locateMs": 582.036,
+          "clickAndSettleMs": 286.706,
+          "recognizeMs": 16.577,
+          "usabilityMs": 22.366,
+          "resetMs": 179.135,
+          "totalMs": 1087.124
+        }
+      },
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 6
+      },
+      {
+        "index": 7,
+        "x": 1142,
+        "y": 1002,
+        "id": "M16",
+        "name": "暂时休战",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.1942569476550059,
+        "usable": true,
+        "yellowPixels": 5024,
+        "yellowRatio": 0.15335775335775337,
+        "top3": [
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.1942569476550059,
+            "rmse": 0.24657596446284805,
+            "dhash": 30
+          },
+          {
+            "id": "M13",
+            "name": "暗之诱惑",
+            "count": 1,
+            "mad": 0.20090046806209,
+            "rmse": 0.27173690327801164,
+            "dhash": 32
+          }
+        ],
+        "timingMs": {
+          "locateMs": 532.242,
+          "clickAndSettleMs": 300.024,
+          "recognizeMs": 15.033,
+          "usabilityMs": 25.53,
+          "resetMs": 174.244,
+          "totalMs": 1047.468
+        }
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_10\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M06,PROCESSING_CARD:M14",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M17",
+        "name": "闪刀起动－交闪",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M17"
+        ],
+        "index": 6
+      },
+      "costConsumed": [],
+      "predictedSlots": [
+        2,
+        6
+      ],
+      "recognized": [
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ]
+        },
+        {
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M14"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 2,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        },
+        {
+          "slot": 6,
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "after": {
+    "version": 2,
+    "capturedAt": "2026-10-06T11:02:48.842Z",
+    "revision": 11,
+    "handCount": 7,
+    "cards": [
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 1
+      },
+      {
+        "index": 2,
+        "x": 867,
+        "y": 988,
+        "id": "M11",
+        "name": "万宝槌",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2310635293311859,
+        "usable": true,
+        "yellowPixels": 5180,
+        "yellowRatio": 0.1581196581196581,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "count": 1,
+            "mad": 0.2310635293311859,
+            "rmse": 0.3035595610523306,
+            "dhash": 30
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.24489407413450817,
+            "rmse": 0.3097596472406572,
+            "dhash": 37
+          }
+        ],
+        "timingMs": {
+          "locateMs": 582.036,
+          "clickAndSettleMs": 286.706,
+          "recognizeMs": 16.577,
+          "usabilityMs": 22.366,
+          "resetMs": 179.135,
+          "totalMs": 1087.124
+        }
+      },
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 4
+      },
+      {
+        "index": 5,
+        "x": 1142,
+        "y": 1002,
+        "id": "M16",
+        "name": "暂时休战",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.1942569476550059,
+        "usable": true,
+        "yellowPixels": 5024,
+        "yellowRatio": 0.15335775335775337,
+        "top3": [
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.1942569476550059,
+            "rmse": 0.24657596446284805,
+            "dhash": 30
+          },
+          {
+            "id": "M13",
+            "name": "暗之诱惑",
+            "count": 1,
+            "mad": 0.20090046806209,
+            "rmse": 0.27173690327801164,
+            "dhash": 32
+          }
+        ],
+        "timingMs": {
+          "locateMs": 532.242,
+          "clickAndSettleMs": 300.024,
+          "recognizeMs": 15.033,
+          "usabilityMs": 25.53,
+          "resetMs": 174.244,
+          "totalMs": 1047.468
+        }
+      },
+      {
+        "id": "M19",
+        "name": "妖刀竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M19"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 7
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_11\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M13",
+      "signature": "M13|PROCESSING_CARD:M21,PROCESSING_CARD:M19,PROCESSING_CARD:M06,PROCESSING_CARD:M06",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ],
+        "index": 5
+      },
+      "costConsumed": [
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ],
+          "index": 2
+        }
+      ],
+      "predictedSlots": [
+        6,
+        7
+      ],
+      "recognized": [
+        {
+          "id": "M19",
+          "name": "妖刀竹光",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M19"
+          ]
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M21"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 6,
+          "id": "M19",
+          "name": "妖刀竹光",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        },
+        {
+          "slot": 7,
+          "id": "M21",
+          "name": "试胆竞速",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "inference": {
+    "activationKey": "M13",
+    "consumed": {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M13"
+      ],
+      "index": 5
+    },
+    "costConsumed": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 2
+      }
+    ],
+    "addedCount": 2,
+    "predictedSlots": [
+      6,
+      7
+    ]
+  },
+  "insertedCards": [
+    {
+      "slot": 6,
+      "card": {
+        "id": "M19",
+        "name": "妖刀竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M19"
+        ]
+      }
+    },
+    {
+      "slot": 7,
+      "card": {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ]
+      }
+    }
+  ],
+  "finalClicks": [
+    {
+      "slot": 6,
+      "id": "M19",
+      "name": "妖刀竹光",
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    },
+    {
+      "slot": 7,
+      "id": "M21",
+      "name": "试胆竞速",
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    }
+  ],
+  "info": {
+    "autoHoldI": true,
+    "fastOwnOnly": true,
+    "capturedAt": "2026-10-06T11:02:48.669Z",
+    "windowTitle": "masterduel",
+    "status": "OK",
+    "own": {
+      "handCount": 7,
+      "status": "OK",
+      "confidence": 0.9702380952380952,
+      "sourceBoxes": [
+        {
+          "x": 84,
+          "y": 34,
+          "width": 23,
+          "height": 29
+        }
+      ]
+    },
+    "opponent": null,
+    "expected": {
+      "own": 7
+    },
+    "sideValidation": "OK",
+    "samples": 2,
+    "stableReads": 2,
+    "holdDurationMs": 160,
+    "mouseReleased": true,
+    "failSafeTriggered": false,
+    "overlayReleaseCheck": "MOUSE_UP_CONFIRMED"
+  }
+}

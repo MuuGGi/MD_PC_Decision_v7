@@ -1,0 +1,61 @@
+M21延后抽1续跑：试胆竞速已经在场，本次绝不重新发动手牌M21。
+只执行：确认场上M21 -> 发动效果 -> 默认抽1 -> OK -> observer。
+续跑前内部手牌=5张。
+============================================================
+场上试胆竞速固定位置: MD参考坐标=(476,727)；沿用此前现场实测场地区。
+场地固定位置卡名确认: 试胆竞速[M21] PASS
+场上M21已精确认：纯等待1000ms后再点“发动效果”。
+试胆竞速“发动效果”预期位置与图案检查: yellowPixels=3524; reference=(555,571)
+试胆竞速场上“发动效果”: 已点击局部真实图标 (555,564)
+我方底部淡蓝光晕 PASS: AFTER_M21_FIELD_EFFECT_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0742; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=225ms。
+场上“发动效果”已点击：现在只截图等待抽1选项窗口，不发送其他输入。
+试胆竞速抽1选项窗口: PASS; darkRatio=0.821; okYellowPixels=668
+试胆竞速抽1默认项保持不动：纯等待1000ms后再点击OK。
+试胆竞速抽1: 已点击 OK @(1024,790)；随后纯等待1200ms。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0759; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=307ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=547.1ms; classify_from_shared_frame=92.0ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=201-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M21; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M17; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 试胆竞速 [M21] -> HAND_GAIN:无之炼狱
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=830.5ms; bridge_reuse=0.0ms; reuse_verified_window=2.4ms; foreground_recheck=1.8ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=77.6ms; recognize_right_log_pixels=736.9ms; group_and_reconcile_events=0.8ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=6；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 试胆竞速 [M21]
+移出手牌: 无（场上效果）
+新增数量: 1; 唯一实际槽位=6
+右栏唯一新增身份: 手牌6 无之炼狱 [M15]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=12; M06=1; M08=1; M17=2; M22=0
+增量识别成功: 当前手牌=6
+手牌序列: 闪刀姬－零衣[M06] | 闪术兵器－H.A.M.P.[M08] | 暴发户哥布林[M09] | 抵价交易[M12] | 金黄色的竹光[M14] | 无之炼狱[M15]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1128.9ms; load_previous_state_and_log=0.9ms; observe_composite_route=9.6ms; load_recognition_templates=50.4ms; bridge_reuse=0.0ms; reuse_verified_window=2.2ms; capture_passive_hand=51.3ms; read_hand_count_fast_own=389.2ms; infer_incremental_slots=1.7ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+
+M21执行测试停止: Error: M21_FINAL_RELATIONSHIP_INVALID:INDEPENDENT_OR_ORIGIN_NOT_VISIBLE
+    at validateFinalDraw (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\execution\core\m21-chicken-game-route.js:457:11)
+    at runDrawOnly (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\execution\live\run-m21-chicken-game.js:203:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async main (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\execution\live\run-m21-chicken-game.js:391:5)
+延后抽1续跑失败：不会重新点场上M21，不会自动改做其他手牌；保持现场。
+V7启动/执行失败: Error: V5_M21_DRAW_CONTINUATION_FAILED:exit=1
+    at Object.runPendingM21DrawExecutor (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\runtime\mature-driver.js:1645:19)
+    at Object.execute (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\runtime\duel-loop.js:86:126)
+    at Object.executeLegacy (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\integration\production-bindings.js:35:36)
+    at runUnlocked (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\core\transaction-engine.js:96:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async withFileLock (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\core\file-lock.js:32:85)
+    at async Object.handler (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\integration\production-bindings.js:62:20)
+    at async Object.run (D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\src\runtime\duel-loop.js:86:22)

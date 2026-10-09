@@ -1,0 +1,355 @@
+{
+  "version": 2,
+  "id": "DUEL-2b754151c2019cefdbeb33c4-T0007",
+  "duelId": "DUEL-2b754151c2019cefdbeb33c4",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-4f9159bd8b6c882ce59370af3cf82711",
+  "intent": {
+    "node": "HORNET_TOKEN_READY",
+    "decisionBasis": {
+      "snapshotKey": "10c0802fe83a8be0763cc556c6d6a1942f902fedf67eb9d043d4c770bf6bdc8a",
+      "handRevision": 8,
+      "duelId": "DUEL-2b754151c2019cefdbeb33c4"
+    },
+    "fieldIntent": {
+      "node": "HORNET_TOKEN_READY",
+      "fieldIntent": "TOKEN_SWORD_PREPARATION",
+      "kagariPreparation": {
+        "plannedSwordId": "M19",
+        "kagariSwordLink": true,
+        "targetLinkId": "E02",
+        "materialCarrierId": "TOKEN_SKY_STRIKER",
+        "requiredCarrierKind": "CENTRAL_MAIN",
+        "continuation": {
+          "shouldLink": true,
+          "shouldContinue": true,
+          "routeKind": "YOTO_LINK",
+          "searchId": "M20",
+          "replacementId": "M20",
+          "carrierId": "TOKEN_SKY_STRIKER",
+          "fieldId": "M19",
+          "prepareEquipId": null,
+          "goldenDrawReady": true,
+          "fixedContinuationReady": true,
+          "goldenDrawPreferred": false,
+          "twoYotoKagari": false,
+          "firstTrueGoldenSetup": false,
+          "replacementSource": "YOTO_SEARCH",
+          "canReplaceEquipDeterministically": true,
+          "deferredGoldenSearch": false,
+          "convertsTrue": true,
+          "steps": [
+            "LINK_SEND_M19",
+            "SEARCH_M20",
+            "EQUIP_M20",
+            "SEND_M20_EQUIP_DECK_M19"
+          ],
+          "projectedEquipSentToGraveCount": 2,
+          "projectedFieldEquipId": "M19",
+          "reason": "FIXED_CHAIN_BEFORE_ORDINARY_GOLDEN_DRAW",
+          "equipResources": {
+            "byId": {
+              "M19": {
+                "deck": 1,
+                "hand": 0,
+                "field": 1,
+                "total": 2,
+                "outsideHandField": 0
+              },
+              "M20": {
+                "deck": 1,
+                "hand": 0,
+                "field": 0,
+                "total": 1,
+                "outsideHandField": 0
+              }
+            },
+            "deckCount": 2,
+            "handCount": 0,
+            "fieldCount": 1,
+            "outsideHandFieldCount": 0,
+            "replacementCountAfterLink": 2,
+            "hasReplacementAfterLink": true,
+            "fieldIdentitySource": "COMMITTED_EQUIP"
+          }
+        }
+      },
+      "additionalHandCosts": {
+        "M19": 1
+      }
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 8,
+      "cards": [
+        "M11",
+        "M13",
+        "M14",
+        "M18",
+        "M19"
+      ]
+    },
+    "ledger": {
+      "revision": 8,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 1,
+        "M08": 0,
+        "M09": 1,
+        "M10": 3,
+        "M11": 1,
+        "M12": 1,
+        "M13": 1,
+        "M14": 1,
+        "M15": 1,
+        "M16": 0,
+        "M17": 1,
+        "M18": 1,
+        "M19": 1,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M22",
+        "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "TOKEN_SKY_STRIKER",
+            "cardName": "闪刀姬衍生物"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": true,
+        "currentState": "HORNET_TOKEN_READY",
+        "updatedAt": "2026-10-08T11:16:05.723Z",
+        "carrierId": "TOKEN_SKY_STRIKER",
+        "source": "FORMAL_V5_ATOMIC_MAIN"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M15": 1,
+        "M09": 1,
+        "M12": 1,
+        "M07": 1,
+        "M17": 1,
+        "M22": 1
+      }
+    },
+    "extra": {
+      "node": "HORNET_TOKEN_READY",
+      "decisionBasis": {
+        "snapshotKey": "10c0802fe83a8be0763cc556c6d6a1942f902fedf67eb9d043d4c770bf6bdc8a",
+        "handRevision": 8,
+        "duelId": "DUEL-2b754151c2019cefdbeb33c4"
+      },
+      "fieldIntent": {
+        "node": "HORNET_TOKEN_READY",
+        "fieldIntent": "TOKEN_SWORD_PREPARATION",
+        "kagariPreparation": {
+          "plannedSwordId": "M19",
+          "kagariSwordLink": true,
+          "targetLinkId": "E02",
+          "materialCarrierId": "TOKEN_SKY_STRIKER",
+          "requiredCarrierKind": "CENTRAL_MAIN",
+          "continuation": {
+            "shouldLink": true,
+            "shouldContinue": true,
+            "routeKind": "YOTO_LINK",
+            "searchId": "M20",
+            "replacementId": "M20",
+            "carrierId": "TOKEN_SKY_STRIKER",
+            "fieldId": "M19",
+            "prepareEquipId": null,
+            "goldenDrawReady": true,
+            "fixedContinuationReady": true,
+            "goldenDrawPreferred": false,
+            "twoYotoKagari": false,
+            "firstTrueGoldenSetup": false,
+            "replacementSource": "YOTO_SEARCH",
+            "canReplaceEquipDeterministically": true,
+            "deferredGoldenSearch": false,
+            "convertsTrue": true,
+            "steps": [
+              "LINK_SEND_M19",
+              "SEARCH_M20",
+              "EQUIP_M20",
+              "SEND_M20_EQUIP_DECK_M19"
+            ],
+            "projectedEquipSentToGraveCount": 2,
+            "projectedFieldEquipId": "M19",
+            "reason": "FIXED_CHAIN_BEFORE_ORDINARY_GOLDEN_DRAW",
+            "equipResources": {
+              "byId": {
+                "M19": {
+                  "deck": 1,
+                  "hand": 0,
+                  "field": 1,
+                  "total": 2,
+                  "outsideHandField": 0
+                },
+                "M20": {
+                  "deck": 1,
+                  "hand": 0,
+                  "field": 0,
+                  "total": 1,
+                  "outsideHandField": 0
+                }
+              },
+              "deckCount": 2,
+              "handCount": 0,
+              "fieldCount": 1,
+              "outsideHandFieldCount": 0,
+              "replacementCountAfterLink": 2,
+              "hasReplacementAfterLink": true,
+              "fieldIdentitySource": "COMMITTED_EQUIP"
+            }
+          }
+        },
+        "additionalHandCosts": {
+          "M19": 1
+        }
+      }
+    }
+  },
+  "createdAt": "2026-10-08T11:16:06.127Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "HORNET_TOKEN_READY",
+          "decisionBasis": {
+            "snapshotKey": "10c0802fe83a8be0763cc556c6d6a1942f902fedf67eb9d043d4c770bf6bdc8a",
+            "handRevision": 8,
+            "duelId": "DUEL-2b754151c2019cefdbeb33c4"
+          },
+          "fieldIntent": {
+            "node": "HORNET_TOKEN_READY",
+            "fieldIntent": "TOKEN_SWORD_PREPARATION",
+            "kagariPreparation": {
+              "plannedSwordId": "M19",
+              "kagariSwordLink": true,
+              "targetLinkId": "E02",
+              "materialCarrierId": "TOKEN_SKY_STRIKER",
+              "requiredCarrierKind": "CENTRAL_MAIN",
+              "continuation": {
+                "shouldLink": true,
+                "shouldContinue": true,
+                "routeKind": "YOTO_LINK",
+                "searchId": "M20",
+                "replacementId": "M20",
+                "carrierId": "TOKEN_SKY_STRIKER",
+                "fieldId": "M19",
+                "prepareEquipId": null,
+                "goldenDrawReady": true,
+                "fixedContinuationReady": true,
+                "goldenDrawPreferred": false,
+                "twoYotoKagari": false,
+                "firstTrueGoldenSetup": false,
+                "replacementSource": "YOTO_SEARCH",
+                "canReplaceEquipDeterministically": true,
+                "deferredGoldenSearch": false,
+                "convertsTrue": true,
+                "steps": [
+                  "LINK_SEND_M19",
+                  "SEARCH_M20",
+                  "EQUIP_M20",
+                  "SEND_M20_EQUIP_DECK_M19"
+                ],
+                "projectedEquipSentToGraveCount": 2,
+                "projectedFieldEquipId": "M19",
+                "reason": "FIXED_CHAIN_BEFORE_ORDINARY_GOLDEN_DRAW",
+                "equipResources": {
+                  "byId": {
+                    "M19": {
+                      "deck": 1,
+                      "hand": 0,
+                      "field": 1,
+                      "total": 2,
+                      "outsideHandField": 0
+                    },
+                    "M20": {
+                      "deck": 1,
+                      "hand": 0,
+                      "field": 0,
+                      "total": 1,
+                      "outsideHandField": 0
+                    }
+                  },
+                  "deckCount": 2,
+                  "handCount": 0,
+                  "fieldCount": 1,
+                  "outsideHandFieldCount": 0,
+                  "replacementCountAfterLink": 2,
+                  "hasReplacementAfterLink": true,
+                  "fieldIdentitySource": "COMMITTED_EQUIP"
+                }
+              }
+            },
+            "additionalHandCosts": {
+              "M19": 1
+            }
+          }
+        }
+      },
+      "noReplayAt": "2026-10-08T11:16:06.147Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-2b754151c2019cefdbeb33c4-T0007",
+        "handRevision": 9,
+        "handHash": "f9d4c75e75b7ffe66b60157516e1b9112db0f5d04860179cb26daa3f2af6275d",
+        "ledgerHash": "a09d747d8c61194011dcd91452d1ada190969cf3fb41423c648c2aa5ac407a3f",
+        "runtimeHash": "46b93eacc9c1546c8e52fdc3a9ab46c49e5c18b39503ec0b5f4133e163c1ddf3",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-08T11:16:18.460Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-08T11:16:18.465Z"
+    }
+  ],
+  "committedAt": "2026-10-08T11:16:18.470Z"
+}

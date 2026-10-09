@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "id": "DUEL-a1af98740e1fdfeff7074f8f-T0011",
+  "duelId": "DUEL-a1af98740e1fdfeff7074f8f",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-74564cebdc8c35fd61d133fc1a55219c",
+  "intent": {
+    "cardId": "M10",
+    "slot": 5,
+    "decisionBasis": {
+      "snapshotKey": "5b88d5c520be7ac60fcf84414cb7edd467ff2bbdc3329f9cb477e04b33b045d0",
+      "handRevision": 10,
+      "duelId": "DUEL-a1af98740e1fdfeff7074f8f"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 10,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M07",
+        "M08",
+        "M10",
+        "M12",
+        "M15"
+      ]
+    },
+    "ledger": {
+      "revision": 10,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 2,
+        "M09": 1,
+        "M10": 1,
+        "M11": 0,
+        "M12": 2,
+        "M13": 0,
+        "M14": 0,
+        "M15": 2,
+        "M16": 1,
+        "M17": 1,
+        "M18": 0,
+        "M19": 0,
+        "M20": 0,
+        "M21": 1,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M09",
+        "signature": "M09|PROCESSING_CARD:M10",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M10",
+            "cardName": "卡通目录"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "KAGARI_RECOVERY_DONE",
+        "updatedAt": "2026-10-08T10:52:07.220Z",
+        "carrierId": "E02",
+        "source": "FORMAL_V5_H2"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M12": 1,
+        "M08": 1,
+        "M15": 1,
+        "M21": 1,
+        "M16": 1,
+        "M22": 1,
+        "M17": 1,
+        "M09": 1
+      }
+    },
+    "extra": {
+      "cardId": "M10",
+      "slot": 5,
+      "decisionBasis": {
+        "snapshotKey": "5b88d5c520be7ac60fcf84414cb7edd467ff2bbdc3329f9cb477e04b33b045d0",
+        "handRevision": 10,
+        "duelId": "DUEL-a1af98740e1fdfeff7074f8f"
+      }
+    }
+  },
+  "createdAt": "2026-10-08T10:52:35.086Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M10",
+          "slot": 5,
+          "decisionBasis": {
+            "snapshotKey": "5b88d5c520be7ac60fcf84414cb7edd467ff2bbdc3329f9cb477e04b33b045d0",
+            "handRevision": 10,
+            "duelId": "DUEL-a1af98740e1fdfeff7074f8f"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-08T10:52:35.107Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-a1af98740e1fdfeff7074f8f-T0011",
+        "handRevision": 12,
+        "handHash": "854e15c9c1ef4f93404ed7e1b568c751cec6bd24e1cd5c73b689dc5a847db63c",
+        "ledgerHash": "1319c1c1ce9449461549cd32ab7608b23ceb2dfc998ef51233a96fa6adbb65ab",
+        "runtimeHash": "a2e1226cfd0af23d9a0ca4592864c44d572101c92844a01d412204fd9a591892",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-08T10:52:56.899Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-08T10:52:56.904Z"
+    }
+  ],
+  "committedAt": "2026-10-08T10:52:56.908Z"
+}

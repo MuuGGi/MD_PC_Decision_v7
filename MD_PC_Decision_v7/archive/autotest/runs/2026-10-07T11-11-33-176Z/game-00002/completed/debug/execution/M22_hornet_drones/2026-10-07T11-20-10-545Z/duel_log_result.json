@@ -1,0 +1,490 @@
+{
+  "status": "OK_MAIN1_SCROLLED_OUT",
+  "rightPanel": {
+    "x": 1674,
+    "y": 150,
+    "width": 348,
+    "height": 886
+  },
+  "atomicBottomFastPath": true,
+  "visibleMain1Boundary": {
+    "x": 4,
+    "y": 524,
+    "mad": 0,
+    "startY": 699,
+    "detector": "NARROW_PHASE_LABEL_FULL_PIXEL_PROOF"
+  },
+  "events": [
+    {
+      "type": "ACTIVATE",
+      "side": "SELF",
+      "card": {
+        "id": "M22",
+        "name": "闪刀机－大黄蜂无人机",
+        "mad": 0.2575367451283294,
+        "rawMad": 0.21371451133491853,
+        "hsvDistance": 0.36518528161175745
+      },
+      "confidenceMargin": 0.09201095676812626,
+      "top3": [
+        {
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机",
+          "mad": 0.2575367451283294,
+          "rawMad": 0.21371451133491853,
+          "hsvDistance": 0.36518528161175745
+        },
+        {
+          "id": "E06",
+          "name": "试作闪刀姬－天津",
+          "mad": 0.3495477018964557,
+          "rawMad": 0.2487476544015664,
+          "hsvDistance": 0.8400003957907439
+        },
+        {
+          "id": "M17",
+          "name": "闪刀起动－交闪",
+          "mad": 0.41338103567321477,
+          "rawMad": 0.26829314969425366,
+          "hsvDistance": 1.2090657164913425
+        }
+      ],
+      "visibility": "FACE_UP",
+      "sideEvidence": "SELF_ACTIVATION_COLUMN",
+      "actionEvidence": null,
+      "handGainIconMad": null,
+      "box": {
+        "x": 1702,
+        "y": 734,
+        "width": 47,
+        "height": 67,
+        "area": 689
+      }
+    },
+    {
+      "type": "SPECIAL_SUMMON",
+      "side": "SELF",
+      "card": {
+        "id": "TOKEN_SKY_STRIKER",
+        "name": "闪刀姬衍生物",
+        "mad": 0
+      },
+      "confidenceMargin": null,
+      "top3": [],
+      "source": "SEMANTIC_LABEL",
+      "box": {
+        "x": 1802,
+        "y": 894,
+        "width": 120,
+        "height": 38
+      }
+    }
+  ],
+  "semanticLabels": [
+    {
+      "type": "SPECIAL_SUMMON",
+      "x": 128,
+      "y": 744,
+      "mad": 0.11469721362229102,
+      "width": 120,
+      "height": 38
+    }
+  ],
+  "fieldRowEvidence": [],
+  "observerFieldTransitions": [],
+  "bottomTailContinuity": {
+    "matched": false,
+    "reason": "NO_SAVED_TAIL"
+  },
+  "operationBlocks": [
+    {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机",
+          "mad": 0.2575367451283294,
+          "rawMad": 0.21371451133491853,
+          "hsvDistance": 0.36518528161175745
+        },
+        "confidenceMargin": 0.09201095676812626,
+        "top3": [
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.2575367451283294,
+            "rawMad": 0.21371451133491853,
+            "hsvDistance": 0.36518528161175745
+          },
+          {
+            "id": "E06",
+            "name": "试作闪刀姬－天津",
+            "mad": 0.3495477018964557,
+            "rawMad": 0.2487476544015664,
+            "hsvDistance": 0.8400003957907439
+          },
+          {
+            "id": "M17",
+            "name": "闪刀起动－交闪",
+            "mad": 0.41338103567321477,
+            "rawMad": 0.26829314969425366,
+            "hsvDistance": 1.2090657164913425
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "SELF_ACTIVATION_COLUMN",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1702,
+          "y": 734,
+          "width": 47,
+          "height": 67,
+          "area": 689
+        }
+      },
+      "activationKey": "M22",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "TOKEN_SKY_STRIKER",
+            "name": "闪刀姬衍生物",
+            "mad": 0
+          },
+          "confidenceMargin": null,
+          "top3": [],
+          "source": "SEMANTIC_LABEL",
+          "box": {
+            "x": 1802,
+            "y": 894,
+            "width": 120,
+            "height": 38
+          },
+          "rawType": "SPECIAL_SUMMON",
+          "role": "SUMMON_RESULT"
+        }
+      ],
+      "startY": 734,
+      "endY": 932,
+      "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    }
+  ],
+  "activationBlocks": [
+    {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机",
+          "mad": 0.2575367451283294,
+          "rawMad": 0.21371451133491853,
+          "hsvDistance": 0.36518528161175745
+        },
+        "confidenceMargin": 0.09201095676812626,
+        "top3": [
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.2575367451283294,
+            "rawMad": 0.21371451133491853,
+            "hsvDistance": 0.36518528161175745
+          },
+          {
+            "id": "E06",
+            "name": "试作闪刀姬－天津",
+            "mad": 0.3495477018964557,
+            "rawMad": 0.2487476544015664,
+            "hsvDistance": 0.8400003957907439
+          },
+          {
+            "id": "M17",
+            "name": "闪刀起动－交闪",
+            "mad": 0.41338103567321477,
+            "rawMad": 0.26829314969425366,
+            "hsvDistance": 1.2090657164913425
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "SELF_ACTIVATION_COLUMN",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1702,
+          "y": 734,
+          "width": 47,
+          "height": 67,
+          "area": 689
+        }
+      },
+      "activationKey": "M22",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "TOKEN_SKY_STRIKER",
+            "name": "闪刀姬衍生物",
+            "mad": 0
+          },
+          "confidenceMargin": null,
+          "top3": [],
+          "source": "SEMANTIC_LABEL",
+          "box": {
+            "x": 1802,
+            "y": 894,
+            "width": 120,
+            "height": 38
+          },
+          "rawType": "SPECIAL_SUMMON",
+          "role": "SUMMON_RESULT"
+        }
+      ],
+      "startY": 734,
+      "endY": 932,
+      "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    }
+  ],
+  "orphanProcessingRows": [],
+  "scrollBacktracking": {
+    "startedAtBottom": true,
+    "initialBottomConfirmed": true,
+    "initialBottomConfirmation": "VISIBLE_RAIL_ALREADY_BOTTOM",
+    "initialBottomWheelBatchCount": 0,
+    "initialBottomWheelEvents": 0,
+    "performed": false,
+    "upwardSteps": 0,
+    "wheelEventsPerStep": 3,
+    "totalUpwardWheelEvents": 0,
+    "totalRestoreWheelEvents": 0,
+    "restoredToBottom": false,
+    "restoreDeferredToHandClick": false,
+    "reachedTop": false,
+    "checkpointSource": "EXPLICIT_ATOMIC_BOTTOM",
+    "viewports": [
+      {
+        "step": 0,
+        "direction": "BOTTOM_INITIAL",
+        "screenshot": null,
+        "operationKeys": [
+          "M22"
+        ],
+        "checkpointProbe": null
+      }
+    ],
+    "rejectedViewports": []
+  },
+  "continuity": "CONTINUOUS_EXPLICIT_ATOMIC_BOTTOM_NEW_BLOCKS",
+  "previousCheckpointFound": true,
+  "matchedContinuityAnchor": {
+    "kind": "EXPLICIT_ATOMIC_ACTIVATION",
+    "cardKey": "M22",
+    "source": "EXPLICIT_ATOMIC_BOTTOM",
+    "matchType": "UNIQUE_EXPECTED_ACTIVATION",
+    "previousCheckpoint": null
+  },
+  "newActivationBlocks": [
+    {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机",
+          "mad": 0.2575367451283294,
+          "rawMad": 0.21371451133491853,
+          "hsvDistance": 0.36518528161175745
+        },
+        "confidenceMargin": 0.09201095676812626,
+        "top3": [
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.2575367451283294,
+            "rawMad": 0.21371451133491853,
+            "hsvDistance": 0.36518528161175745
+          },
+          {
+            "id": "E06",
+            "name": "试作闪刀姬－天津",
+            "mad": 0.3495477018964557,
+            "rawMad": 0.2487476544015664,
+            "hsvDistance": 0.8400003957907439
+          },
+          {
+            "id": "M17",
+            "name": "闪刀起动－交闪",
+            "mad": 0.41338103567321477,
+            "rawMad": 0.26829314969425366,
+            "hsvDistance": 1.2090657164913425
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "SELF_ACTIVATION_COLUMN",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1702,
+          "y": 734,
+          "width": 47,
+          "height": 67,
+          "area": 689
+        }
+      },
+      "activationKey": "M22",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "TOKEN_SKY_STRIKER",
+            "name": "闪刀姬衍生物",
+            "mad": 0
+          },
+          "confidenceMargin": null,
+          "top3": [],
+          "source": "SEMANTIC_LABEL",
+          "box": {
+            "x": 1802,
+            "y": 894,
+            "width": 120,
+            "height": 38
+          },
+          "rawType": "SPECIAL_SUMMON",
+          "role": "SUMMON_RESULT"
+        }
+      ],
+      "startY": 734,
+      "endY": 932,
+      "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    }
+  ],
+  "newOperationBlocks": [
+    {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M22",
+          "name": "闪刀机－大黄蜂无人机",
+          "mad": 0.2575367451283294,
+          "rawMad": 0.21371451133491853,
+          "hsvDistance": 0.36518528161175745
+        },
+        "confidenceMargin": 0.09201095676812626,
+        "top3": [
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.2575367451283294,
+            "rawMad": 0.21371451133491853,
+            "hsvDistance": 0.36518528161175745
+          },
+          {
+            "id": "E06",
+            "name": "试作闪刀姬－天津",
+            "mad": 0.3495477018964557,
+            "rawMad": 0.2487476544015664,
+            "hsvDistance": 0.8400003957907439
+          },
+          {
+            "id": "M17",
+            "name": "闪刀起动－交闪",
+            "mad": 0.41338103567321477,
+            "rawMad": 0.26829314969425366,
+            "hsvDistance": 1.2090657164913425
+          }
+        ],
+        "visibility": "FACE_UP",
+        "sideEvidence": "SELF_ACTIVATION_COLUMN",
+        "actionEvidence": null,
+        "handGainIconMad": null,
+        "box": {
+          "x": 1702,
+          "y": 734,
+          "width": 47,
+          "height": 67,
+          "area": 689
+        }
+      },
+      "activationKey": "M22",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "TOKEN_SKY_STRIKER",
+            "name": "闪刀姬衍生物",
+            "mad": 0
+          },
+          "confidenceMargin": null,
+          "top3": [],
+          "source": "SEMANTIC_LABEL",
+          "box": {
+            "x": 1802,
+            "y": 894,
+            "width": 120,
+            "height": 38
+          },
+          "rawType": "SPECIAL_SUMMON",
+          "role": "SUMMON_RESULT"
+        }
+      ],
+      "startY": 734,
+      "endY": 932,
+      "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    }
+  ],
+  "extendedOperationBlocks": [],
+  "windowTitle": "masterduel",
+  "client": {
+    "x": 28,
+    "y": 99,
+    "width": 2048,
+    "height": 1152
+  },
+  "logPanelWasOpenedByScript": false,
+  "logPanelDetection": {
+    "open": true,
+    "confidence": "HIGH",
+    "reason": "VISIBLE_SCROLLBAR_RAIL",
+    "darkRatio": null,
+    "thumb": {
+      "top": 484,
+      "bottom": 1028,
+      "x": 2006,
+      "segments": [
+        {
+          "top": 484,
+          "bottom": 1028
+        }
+      ],
+      "atBottom": true,
+      "railLength": 545
+    }
+  },
+  "screenshot": null
+}

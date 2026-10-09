@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-07T06:38:28.527Z",
+  "openingBaselineCapturedAt": "2026-10-07T06:38:25.437Z",
+  "openingHand": [
+    "M12",
+    "M15",
+    "M19",
+    "M21",
+    "M21"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 1,
+    "M07": 0,
+    "M08": 1,
+    "M09": 1,
+    "M10": 0,
+    "M11": 0,
+    "M12": 1,
+    "M13": 0,
+    "M14": 1,
+    "M15": 3,
+    "M16": 0,
+    "M17": 1,
+    "M18": 0,
+    "M19": 2,
+    "M20": 1,
+    "M21": 2,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 0,
+  "lastHandRevision": 12,
+  "lastIncrementalFingerprint": "12|M21|M15",
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-07T06:41:49.428Z",
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E02->M17+M19->M14:8->9"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E02->M17+M19->M14:8->9",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": false,
+        "activationKey": "E02"
+      },
+      {
+        "id": "M14",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 8,
+    "afterRevision": 9,
+    "committedAt": "2026-10-07T06:40:41.956Z"
+  },
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-07T06:41:09.581Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-07T06:41:09.581Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 1,
+    "outsideAfter": 2,
+    "committedAt": "2026-10-07T06:41:19.700Z"
+  }
+}

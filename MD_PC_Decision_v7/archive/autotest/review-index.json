@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "policy": "后续分析先查此索引；用户或助手明确已审阅的对局记录具体run/game，默认跳过，不重复复盘；只有用户明确要求重新查看才重开审阅。不能根据本条把未看过的历史批次统统标记已审阅。",
+  "runs": [
+    {
+      "version": 1,
+      "runId": "2026-10-09T08-04-40-469Z",
+      "runPath": "archive/autotest/runs/2026-10-09T08-04-40-469Z",
+      "recordedAt": "2026-10-09T08:14:38Z",
+      "timezone": "Asia/Shanghai",
+      "reviewStatus": "USER_REVIEWED_NO_ISSUES",
+      "reviewedBy": "USER",
+      "userStatement": "我终止了，这次没有问题，你也记录一下，就是看过的对局，你之后就不要分析了",
+      "skipFutureAnalysis": true,
+      "reopenOnlyOnExplicitUserRequest": true,
+      "scope": "本次手动测试；第1局已观看确认没有问题，第2条记录在开局前人工停止，未实际进入对局。",
+      "games": [
+        {
+          "id": 1,
+          "duelId": "DUEL-7bda0bc8700abd11163bac9a",
+          "outcome": "WIN",
+          "duelStarted": true,
+          "reviewStatus": "USER_REVIEWED_NO_ISSUES",
+          "skipFutureAnalysis": true
+        },
+        {
+          "id": 2,
+          "outcome": "INTERRUPTED",
+          "duelStarted": false,
+          "reviewStatus": "USER_STOP_BEFORE_DUEL",
+          "skipFutureAnalysis": true,
+          "countsAsExecutionBug": false
+        }
+      ],
+      "resultSummary": {
+        "actualDuelsStarted": 1,
+        "completed": 1,
+        "wins": 1,
+        "userStopBeforeNextDuel": 1,
+        "executionBugsAsserted": 0
+      },
+      "evidenceSource": "Only latest-run.json and run summary/events used for identification/counting; no gameplay/strategy/recognition re-analysis.",
+      "limits": "用户本局验收不是全分支/真人/手机验证；奖励UNKNOWN保留原始记录，不推测。",
+      "automationStatus": "PAUSED"
+    },
+    {
+      "version": 1,
+      "runId": "2026-10-09T08-22-33-595Z",
+      "runPath": "archive/autotest/runs/2026-10-09T08-22-33-595Z",
+      "recordedAt": "2026-10-09T08:52:37Z",
+      "reviewStatus": "ASSISTANT_REVIEWED_FIX_OFFLINE_VERIFIED",
+      "reviewedBy": "ASSISTANT",
+      "skipFutureAnalysis": true,
+      "reopenOnlyOnExplicitUserRequest": true,
+      "reportPath": "archive/autotest/runs/2026-10-09T08-22-33-595Z/analysis-report.json",
+      "findings": [
+        "V7_TERMINAL_TRANSACTION_NOT_CLOSED_2026-10-09"
+      ],
+      "games": [
+        {
+          "id": 1,
+          "outcome": "WIN",
+          "reviewStatus": "REVIEWED_TRANSACTION_FIX_OFFLINE_VERIFIED",
+          "skipFutureAnalysis": true
+        },
+        {
+          "id": 2,
+          "outcome": "SURRENDER",
+          "reviewStatus": "REVIEWED_NO_CONFIRMED_GAMEPLAY_ISSUE",
+          "skipFutureAnalysis": true
+        },
+        {
+          "id": 3,
+          "outcome": "SURRENDER",
+          "reviewStatus": "REVIEWED_NO_CONFIRMED_GAMEPLAY_ISSUE",
+          "skipFutureAnalysis": true
+        }
+      ],
+      "automationStatus": "PAUSED",
+      "findingResolution": {
+        "status": "FIXED_OFFLINE_VERIFIED_LIVE_PENDING",
+        "path": "archive/autotest/runs/2026-10-09T08-22-33-595Z/finding-resolution.json"
+      }
+    },
+    {
+      "version": 1,
+      "runId": "2026-10-09T09-18-47-362Z",
+      "runPath": "archive/autotest/runs/2026-10-09T09-18-47-362Z",
+      "reviewedBy": "ASSISTANT",
+      "reviewStatus": "ASSISTANT_REVIEWED_STRATEGY_FIX_OFFLINE_VERIFIED",
+      "skipFutureAnalysis": true,
+      "reopenOnlyOnExplicitUserRequest": true,
+      "reportPath": "archive/autotest/runs/2026-10-09T09-18-47-362Z/analysis-report.json",
+      "findings": [
+        "V7_E10_SINGLE_DECK_TARGET_SOURCE_2026-10-09",
+        "V7_ENDGAME_DRAW_COMBINATION_2026-10-09"
+      ],
+      "games": [
+        {
+          "id": 1,
+          "outcome": "WIN",
+          "skipFutureAnalysis": true
+        },
+        {
+          "id": 2,
+          "outcome": "WIN",
+          "skipFutureAnalysis": true
+        },
+        {
+          "id": 3,
+          "outcome": "WIN",
+          "skipFutureAnalysis": true
+        }
+      ],
+      "automationStatus": "PAUSED",
+      "findingResolution": {
+        "status": "FIXED_OFFLINE_VERIFIED_LIVE_PENDING",
+        "path": "archive/autotest/runs/2026-10-09T09-18-47-362Z/finding-resolution.json"
+      }
+    }
+  ]
+}

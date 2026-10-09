@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "mode": "FLOW_STATE_SIDECAR",
+  "appliedEvents": 0,
+  "events": [],
+  "summary": {
+    "phase": "POST_SUMMON_EFFECTS",
+    "material": [],
+    "materialSources": [],
+    "equip": "NONE",
+    "exit": "NONE",
+    "summon": "NONE",
+    "optionalEffect": "NONE",
+    "optionalCandidateCount": null,
+    "optionalPoolCandidateCount": 0,
+    "optionalSelectedCandidateCount": 0,
+    "optionalResolvedCandidateCount": 0,
+    "optionalPromptObservedCount": 0,
+    "optionalPromptResolvedCount": 0,
+    "chain": null,
+    "activeEffect": null,
+    "targetSelection": null,
+    "effectQueue": [
+      {
+        "mode": "MONSTER_OPTIONAL",
+        "status": "RESOLVED",
+        "sourceCardId": "E01",
+        "sourceCardName": null
+      }
+    ],
+    "pendingEffects": [],
+    "resolvedEffects": [
+      {
+        "mode": "MONSTER_OPTIONAL",
+        "status": "RESOLVED",
+        "sourceCardId": "E01",
+        "sourceCardName": null
+      }
+    ],
+    "postEffects": [
+      "MONSTER_HAND_GAIN:金黄色的竹光"
+    ],
+    "turnUsage": {
+      "m19SearchUsed": false,
+      "m19SearchActivationCount": 0,
+      "m19SearchUsedAt": null,
+      "source": null
+    }
+  },
+  "state": {
+    "version": 9,
+    "capturedAt": "2026-10-07T09:23:44.552Z",
+    "revision": 1,
+    "turnUsage": {
+      "m19SearchUsed": false,
+      "m19SearchActivationCount": 0,
+      "m19SearchUsedAt": null,
+      "source": null
+    },
+    "current": {
+      "index": 1,
+      "phase": "POST_SUMMON_EFFECTS",
+      "material": {
+        "ready": false,
+        "summoned": []
+      },
+      "equip": {
+        "mode": "NONE",
+        "swordId": null,
+        "swordName": null,
+        "source": null
+      },
+      "exit": {
+        "mode": null,
+        "materialCount": null,
+        "resultCardId": null,
+        "resultCardName": null,
+        "inferred": false
+      },
+      "summon": {
+        "cardId": null,
+        "cardName": null,
+        "mode": null,
+        "inferred": false
+      },
+      "optionalEffect": {
+        "status": "NONE",
+        "mode": null,
+        "available": false,
+        "resolution": "NONE",
+        "candidateCount": null,
+        "poolCandidateCount": 0,
+        "selectedCandidateCount": 0,
+        "resolvedCandidateCount": 0,
+        "detector": null,
+        "resolvedAt": null,
+        "observedCount": 0,
+        "resolvedCount": 0,
+        "resolutions": [],
+        "effectSelections": [],
+        "effectResolutions": [],
+        "lastResolutionScope": null
+      },
+      "chain": {
+        "status": "NONE",
+        "links": [],
+        "currentResolvingMode": null,
+        "startedAt": null,
+        "resolvedAt": null
+      },
+      "activeEffect": {
+        "mode": null,
+        "status": "NONE",
+        "requiresTargetSelection": false,
+        "requiresResolutionSelection": false,
+        "selectedAt": null,
+        "resolvedAt": null,
+        "resolutionCounted": false,
+        "targetSelectionTiming": null
+      },
+      "targetSelection": {
+        "status": "NONE",
+        "available": false,
+        "effectMode": null,
+        "selectionTiming": null,
+        "candidateCount": null,
+        "allowedTargets": [],
+        "selectedCardId": null,
+        "selectedCardName": null,
+        "detector": null,
+        "observedAt": null,
+        "submittedAt": null,
+        "resolvedAt": null
+      },
+      "postEffects": [
+        {
+          "key": "MONSTER_HAND_GAIN|RESOLVED|E01|M14",
+          "mode": "MONSTER_HAND_GAIN",
+          "status": "RESOLVED",
+          "sourceMonsterId": "E01",
+          "cardId": "M14",
+          "cardName": "金黄色的竹光"
+        }
+      ],
+      "effectQueue": [
+        {
+          "mode": "MONSTER_OPTIONAL",
+          "status": "RESOLVED",
+          "sourceCardId": "E01",
+          "sourceCardName": null,
+          "resultCardId": "M14",
+          "resultCardName": "金黄色的竹光"
+        }
+      ],
+      "trace": [
+        {
+          "kind": "POST_EFFECT",
+          "activationKey": "E01",
+          "activationName": "共命之翼 迦楼拉",
+          "mode": "MONSTER_HAND_GAIN",
+          "cardId": "M14",
+          "cardName": "金黄色的竹光",
+          "inferred": false
+        }
+      ]
+    },
+    "history": [],
+    "seenEvents": [
+      "POST_EFFECT|1|E01|M14|MONSTER_HAND_GAIN|0|E01|PROCESSING_CARD:M14|2026-10-07T09:23:33.133Z"
+    ]
+  },
+  "sourceLogCapturedAt": null,
+  "semanticInput": {
+    "newOperationBlocks": 1,
+    "extendedOperationBlocks": 0,
+    "recoveryBlocks": 0
+  }
+}

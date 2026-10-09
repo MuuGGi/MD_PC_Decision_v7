@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "findingId": "V7_TERMINAL_TRANSACTION_NOT_CLOSED_2026-10-09",
+  "category": "transaction/recovery",
+  "status": "FIXED_OFFLINE_VERIFIED_LIVE_PENDING",
+  "resolvedAt": "2026-10-09T09:13:44Z",
+  "authorization": "用户要求改公共终局收口；未授权恢复自动实战。",
+  "productionHashes": {
+    "src/runtime/duel-loop.js": "3e6345b32e32c53d10ffa7ceb9793b2b239d977904025c31c9224e1b4a2f50a1",
+    "src/core/transaction-journal.js": "1d2c4e5fc731f85f7f5e5cfe9a92e9d82f1268fbbde5322a2b61606481ed810c",
+    "src/core/transaction-engine.js": "561bbb95fecbafc33edd03678bade96dc8c2b1488fe5aae922158ce8e1d02057"
+  },
+  "sourceBackup": "archive/development/source-before-terminal-close-2026-10-09",
+  "verification": {
+    "status": "V7_OFFLINE_VERIFY_PASS",
+    "checkedAt": "2026-10-09T09:12:51.695Z",
+    "syntaxFiles": 262,
+    "terminalClosureCases": 18,
+    "integrationCases": 13,
+    "unifiedStrategyCases": 47,
+    "nativeGameInputs": 0,
+    "formalBusinessStateWrites": 0
+  },
+  "details": [
+    "本局严格胜利、时间和duelId验证后才收口；未完成事务ABANDONED归档，不创建单卡PASS、不改手牌/账本。",
+    "奖励处理暂停或中断仍封闭已终局普通动作；先持久终局标记再归档，可重试且不重放。",
+    "终局事务再执行/换意图/普通恢复拒绝；ABANDONED不能伪装ALREADY_COMMITTED。",
+    "实际原主循环与实际registry/journal测试覆盖持久结果；原始实战ACTIVE证据只读保留。",
+    "主离线PASS不代表新实战验收；旧legacy21项既有失败未在本次重跑或冒称通过。"
+  ],
+  "automationStatus": "PAUSED"
+}

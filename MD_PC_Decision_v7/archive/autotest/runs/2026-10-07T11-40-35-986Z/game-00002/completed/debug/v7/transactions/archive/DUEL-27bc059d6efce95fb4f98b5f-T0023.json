@@ -1,0 +1,167 @@
+{
+  "version": 2,
+  "id": "DUEL-27bc059d6efce95fb4f98b5f-T0023",
+  "duelId": "DUEL-27bc059d6efce95fb4f98b5f",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-858771d5c97113591ee76d91d791ae6d",
+  "intent": {
+    "cardId": "M09",
+    "slot": 4
+  },
+  "baseline": {
+    "hand": {
+      "revision": 22,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M08",
+        "M09",
+        "M11",
+        "M14",
+        "M14",
+        "M15",
+        "M19"
+      ]
+    },
+    "ledger": {
+      "revision": 22,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 2,
+        "M10": 3,
+        "M11": 1,
+        "M12": 2,
+        "M13": 1,
+        "M14": 2,
+        "M15": 2,
+        "M16": 0,
+        "M17": 3,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 1,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M13",
+        "signature": "M13|PROCESSING_CARD:M15,PROCESSING_CARD:M09,PROCESSING_CARD:M06,PROCESSING_CARD:M06",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M15",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M15",
+            "cardName": "无之炼狱"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M09",
+            "cardName": "暴发户哥布林"
+          },
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "M06",
+            "cardName": "闪刀姬－零衣"
+          },
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "M06",
+            "cardName": "闪刀姬－零衣"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "E10_EFFECT_RESOLVED",
+        "carrierId": "E10",
+        "updatedAt": "2026-10-07T11:51:46.550Z",
+        "source": "FORMAL_V5_R3"
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M22": 1,
+        "M20": 1,
+        "M17": 3,
+        "M21": 1,
+        "M18": 1,
+        "M12": 2,
+        "M07": 1,
+        "M06": 2,
+        "M08": 1,
+        "M09": 1,
+        "M15": 1,
+        "M13": 1
+      }
+    },
+    "extra": {
+      "cardId": "M09",
+      "slot": 4
+    }
+  },
+  "createdAt": "2026-10-07T11:53:20.890Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M09",
+          "slot": 4
+        }
+      },
+      "noReplayAt": "2026-10-07T11:53:20.909Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-27bc059d6efce95fb4f98b5f-T0023",
+        "handRevision": 23,
+        "handHash": "10ca5ed4ab2b0e9cff6a8d8cc96fac26198c267ff73fa350974eca5c02147cef",
+        "ledgerHash": "c36bf4b0e8f2e8253cb38cef2d1d569eaa63065e2423be5580405c6446051813",
+        "runtimeHash": "4cdaa676b76d3f39113c48b3eb5ebff3e30ecfa00b2bd3b9a5a431da2d0116e4",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T11:53:32.085Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T11:53:32.090Z"
+    }
+  ],
+  "committedAt": "2026-10-07T11:53:32.094Z"
+}

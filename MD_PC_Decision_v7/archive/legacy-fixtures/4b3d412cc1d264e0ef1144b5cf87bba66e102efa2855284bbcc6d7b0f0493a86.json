@@ -1,0 +1,493 @@
+{
+  "status": "PASS",
+  "mode": "DENSE_HIGH_COUNT_TARGETED_INCREMENTAL",
+  "before": {
+    "version": 2,
+    "capturedAt": "2026-10-04T08:19:08.483Z",
+    "revision": 9,
+    "handCount": 8,
+    "cards": [
+      {
+        "index": 1,
+        "x": 732,
+        "y": 1022,
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "persistentExodia": true,
+        "candidateIds": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05"
+        ],
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.25299526498841174,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M02",
+            "name": "被封印的左足",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.25299526498841174,
+            "rmse": 0.3233132067382068,
+            "dhash": 34
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.25913617514607423,
+            "rmse": 0.33712533142819295,
+            "dhash": 40
+          }
+        ],
+        "timingMs": {
+          "locateMs": 610.673,
+          "clickAndSettleMs": 303.614,
+          "recognizeMs": 10.767,
+          "usabilityMs": 0.175,
+          "resetMs": 162.211,
+          "totalMs": 1087.949
+        }
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 2
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 7
+      },
+      {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ],
+        "index": 8
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_9\\passive_hand.png",
+    "denseTargetedIncremental": true,
+    "lastOperation": {
+      "activationKey": "M16",
+      "signature": "M16|PROCESSING_CARD:M13,PROCESSING_CARD:UNKNOWN",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "index": 8,
+        "x": 1300,
+        "y": 1014,
+        "id": "M16",
+        "name": "暂时休战",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.1942569476550059,
+        "usable": true,
+        "yellowPixels": 4720,
+        "yellowRatio": 0.14407814407814407,
+        "top3": [
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.1942569476550059,
+            "rmse": 0.24657596446284805,
+            "dhash": 30
+          },
+          {
+            "id": "M13",
+            "name": "暗之诱惑",
+            "count": 1,
+            "mad": 0.20090046806209,
+            "rmse": 0.27173690327801164,
+            "dhash": 32
+          }
+        ],
+        "timingMs": {
+          "locateMs": 566.522,
+          "clickAndSettleMs": 298.352,
+          "recognizeMs": 22.057,
+          "usabilityMs": 24.286,
+          "resetMs": 169.344,
+          "totalMs": 1080.866
+        }
+      },
+      "costConsumed": [],
+      "predictedSlots": [
+        8
+      ],
+      "recognized": [
+        {
+          "id": "M13",
+          "name": "暗之诱惑"
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 8,
+          "id": "M13",
+          "name": "暗之诱惑",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "after": {
+    "version": 2,
+    "capturedAt": "2026-10-04T08:19:22.850Z",
+    "revision": 10,
+    "handCount": 8,
+    "cards": [
+      {
+        "index": 1,
+        "x": 732,
+        "y": 1022,
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "persistentExodia": true,
+        "candidateIds": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05"
+        ],
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.25299526498841174,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M02",
+            "name": "被封印的左足",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.25299526498841174,
+            "rmse": 0.3233132067382068,
+            "dhash": 34
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.25913617514607423,
+            "rmse": 0.33712533142819295,
+            "dhash": 40
+          }
+        ],
+        "timingMs": {
+          "locateMs": 610.673,
+          "clickAndSettleMs": 303.614,
+          "recognizeMs": 10.767,
+          "usabilityMs": 0.175,
+          "resetMs": 162.211,
+          "totalMs": 1087.949
+        }
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 2
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 3
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 7
+      },
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 8
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v6\\autotest\\engine\\debug\\hand-change-live\\revision_10\\passive_hand.png",
+    "denseTargetedIncremental": true,
+    "lastOperation": {
+      "activationKey": "M13",
+      "signature": "M13|PROCESSING_CARD:M12,PROCESSING_CARD:M05,PROCESSING_CARD:M06,PROCESSING_CARD:M06",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M13",
+        "name": "暗之诱惑",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M13"
+        ],
+        "index": 8
+      },
+      "costConsumed": [
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ],
+          "index": 4
+        }
+      ],
+      "predictedSlots": [
+        4,
+        8
+      ],
+      "recognized": [
+        {
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）"
+        },
+        {
+          "id": "M12",
+          "name": "抵价交易"
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 4,
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        },
+        {
+          "slot": 8,
+          "id": "M12",
+          "name": "抵价交易",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "inference": {
+    "activationKey": "M13",
+    "consumed": {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M13"
+      ],
+      "index": 8
+    },
+    "costConsumed": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 4
+      }
+    ],
+    "addedCount": 2,
+    "predictedSlots": [
+      4,
+      8
+    ]
+  },
+  "insertedCards": [
+    {
+      "slot": 4,
+      "card": {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）"
+      }
+    },
+    {
+      "slot": 8,
+      "card": {
+        "id": "M12",
+        "name": "抵价交易"
+      }
+    }
+  ],
+  "finalClicks": [
+    {
+      "slot": 4,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    },
+    {
+      "slot": 8,
+      "id": "M12",
+      "name": "抵价交易",
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    }
+  ],
+  "targetedPlan": {
+    "handCount": 8,
+    "targetSlots": [],
+    "windows": []
+  },
+  "info": {
+    "autoHoldI": true,
+    "fastOwnOnly": true,
+    "capturedAt": "2026-10-04T08:19:20.901Z",
+    "windowTitle": "masterduel",
+    "status": "OK",
+    "own": {
+      "handCount": 8,
+      "status": "OK",
+      "confidence": 0.9404761904761905,
+      "sourceBoxes": [
+        {
+          "x": 84,
+          "y": 33,
+          "width": 23,
+          "height": 30
+        }
+      ]
+    },
+    "opponent": null,
+    "expected": {},
+    "sideValidation": "OK",
+    "samples": 2,
+    "stableReads": 2,
+    "holdDurationMs": 183,
+    "mouseReleased": true,
+    "failSafeTriggered": false,
+    "overlayReleaseCheck": "MOUSE_UP_CONFIRMED"
+  }
+}

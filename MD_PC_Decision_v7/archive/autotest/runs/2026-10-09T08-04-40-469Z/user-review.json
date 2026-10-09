@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "runId": "2026-10-09T08-04-40-469Z",
+  "runPath": "archive/autotest/runs/2026-10-09T08-04-40-469Z",
+  "recordedAt": "2026-10-09T08:14:38Z",
+  "timezone": "Asia/Shanghai",
+  "reviewStatus": "USER_REVIEWED_NO_ISSUES",
+  "reviewedBy": "USER",
+  "userStatement": "我终止了，这次没有问题，你也记录一下，就是看过的对局，你之后就不要分析了",
+  "skipFutureAnalysis": true,
+  "reopenOnlyOnExplicitUserRequest": true,
+  "scope": "本次手动测试；第1局已观看确认没有问题，第2条记录在开局前人工停止，未实际进入对局。",
+  "games": [
+    {
+      "id": 1,
+      "duelId": "DUEL-7bda0bc8700abd11163bac9a",
+      "outcome": "WIN",
+      "duelStarted": true,
+      "reviewStatus": "USER_REVIEWED_NO_ISSUES",
+      "skipFutureAnalysis": true
+    },
+    {
+      "id": 2,
+      "outcome": "INTERRUPTED",
+      "duelStarted": false,
+      "reviewStatus": "USER_STOP_BEFORE_DUEL",
+      "skipFutureAnalysis": true,
+      "countsAsExecutionBug": false
+    }
+  ],
+  "resultSummary": {
+    "actualDuelsStarted": 1,
+    "completed": 1,
+    "wins": 1,
+    "userStopBeforeNextDuel": 1,
+    "executionBugsAsserted": 0
+  },
+  "evidenceSource": "Only latest-run.json and run summary/events used for identification/counting; no gameplay/strategy/recognition re-analysis.",
+  "limits": "用户本局验收不是全分支/真人/手机验证；奖励UNKNOWN保留原始记录，不推测。",
+  "automationStatus": "PAUSED"
+}

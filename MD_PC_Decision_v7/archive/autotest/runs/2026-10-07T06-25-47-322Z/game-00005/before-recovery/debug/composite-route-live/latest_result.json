@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "mode": "FLOW_STATE_SIDECAR",
+  "appliedEvents": 1,
+  "events": [
+    {
+      "kind": "MATERIAL_SOURCE",
+      "blockIndex": 0,
+      "activationKey": "M06",
+      "activationName": "闪刀姬－零衣",
+      "signature": "M06|",
+      "mode": "RAYE_NORMAL_SUMMON",
+      "producerId": "M06",
+      "producerName": "闪刀姬－零衣",
+      "cardId": "M06",
+      "cardName": "闪刀姬－零衣",
+      "rawType": null,
+      "inferred": true,
+      "inference": "INDEPENDENT_M06_BLOCK_CONSUMES_KNOWN_HAND_AS_NORMAL_SUMMON",
+      "source": "HAND_CONSUMPTION_PLUS_INDEPENDENT_M06_BLOCK",
+      "observationId": "2026-10-07T06:43:19.613Z"
+    }
+  ],
+  "summary": {
+    "phase": "MATERIAL_READY",
+    "material": [
+      "闪刀姬－零衣"
+    ],
+    "materialSources": [
+      "RAYE_NORMAL_SUMMON"
+    ],
+    "equip": "NONE",
+    "exit": "NONE",
+    "summon": "NONE",
+    "optionalEffect": "NONE",
+    "optionalCandidateCount": null,
+    "optionalPoolCandidateCount": 0,
+    "optionalSelectedCandidateCount": 0,
+    "optionalResolvedCandidateCount": 0,
+    "optionalPromptObservedCount": 0,
+    "optionalPromptResolvedCount": 0,
+    "chain": null,
+    "activeEffect": null,
+    "targetSelection": null,
+    "effectQueue": [],
+    "pendingEffects": [],
+    "resolvedEffects": [],
+    "postEffects": [],
+    "turnUsage": {
+      "m19SearchUsed": false,
+      "m19SearchActivationCount": 0,
+      "m19SearchUsedAt": null,
+      "source": null
+    }
+  },
+  "state": {
+    "version": 9,
+    "capturedAt": "2026-10-07T06:43:19.613Z",
+    "revision": 1,
+    "turnUsage": {
+      "m19SearchUsed": false,
+      "m19SearchActivationCount": 0,
+      "m19SearchUsedAt": null,
+      "source": null
+    },
+    "current": {
+      "index": 1,
+      "phase": "MATERIAL_READY",
+      "material": {
+        "ready": true,
+        "summoned": [
+          {
+            "mode": "RAYE_NORMAL_SUMMON",
+            "producerId": "M06",
+            "producerName": "闪刀姬－零衣",
+            "cardId": "M06",
+            "cardName": "闪刀姬－零衣",
+            "source": "HAND_CONSUMPTION_PLUS_INDEPENDENT_M06_BLOCK",
+            "inferred": true
+          }
+        ]
+      },
+      "equip": {
+        "mode": "NONE",
+        "swordId": null,
+        "swordName": null,
+        "source": null
+      },
+      "exit": {
+        "mode": null,
+        "materialCount": null,
+        "resultCardId": null,
+        "resultCardName": null,
+        "inferred": false
+      },
+      "summon": {
+        "cardId": null,
+        "cardName": null,
+        "mode": null,
+        "inferred": false
+      },
+      "optionalEffect": {
+        "status": "NONE",
+        "mode": null,
+        "available": false,
+        "resolution": "NONE",
+        "candidateCount": null,
+        "poolCandidateCount": 0,
+        "selectedCandidateCount": 0,
+        "resolvedCandidateCount": 0,
+        "detector": null,
+        "resolvedAt": null,
+        "observedCount": 0,
+        "resolvedCount": 0,
+        "resolutions": [],
+        "effectSelections": [],
+        "effectResolutions": [],
+        "lastResolutionScope": null
+      },
+      "chain": {
+        "status": "NONE",
+        "links": [],
+        "currentResolvingMode": null,
+        "startedAt": null,
+        "resolvedAt": null
+      },
+      "activeEffect": {
+        "mode": null,
+        "status": "NONE",
+        "requiresTargetSelection": false,
+        "requiresResolutionSelection": false,
+        "selectedAt": null,
+        "resolvedAt": null,
+        "resolutionCounted": false,
+        "targetSelectionTiming": null
+      },
+      "targetSelection": {
+        "status": "NONE",
+        "available": false,
+        "effectMode": null,
+        "selectionTiming": null,
+        "candidateCount": null,
+        "allowedTargets": [],
+        "selectedCardId": null,
+        "selectedCardName": null,
+        "detector": null,
+        "observedAt": null,
+        "submittedAt": null,
+        "resolvedAt": null
+      },
+      "postEffects": [],
+      "effectQueue": [],
+      "trace": [
+        {
+          "kind": "MATERIAL_SOURCE",
+          "activationKey": "M06",
+          "activationName": "闪刀姬－零衣",
+          "mode": "RAYE_NORMAL_SUMMON",
+          "cardId": "M06",
+          "cardName": "闪刀姬－零衣",
+          "inferred": true
+        }
+      ]
+    },
+    "history": [],
+    "seenEvents": [
+      "MATERIAL_SOURCE|0|M06|M06|RAYE_NORMAL_SUMMON||M06||2026-10-07T06:43:19.613Z"
+    ]
+  },
+  "sourceLogCapturedAt": null,
+  "semanticInput": {
+    "newOperationBlocks": 1,
+    "extendedOperationBlocks": 0,
+    "recoveryBlocks": 0
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "version": 2,
+  "duelId": "DUEL-e3f44be8f576906f83e71f49",
+  "observationId": "OBS-9566c2cc8b6da19e47e3364caa35",
+  "continuity": "CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS",
+  "continuityAnchor": "9d9d7e9c7d198b9c9e251a6c",
+  "sequence": 2,
+  "events": [
+    {
+      "eventInstanceKey": "EV-f8336e8c31c7c241512acd212675",
+      "kind": "OPERATION",
+      "actionType": "M15",
+      "actor": "SELF",
+      "headerKey": "8d3c7cb1705c3da03c648c52424fbf3a091d135b7d94cdbd39688a1401da3238",
+      "occurrence": 0,
+      "sourceClass": "NEW",
+      "sourceZone": null,
+      "targetZone": null,
+      "count": null,
+      "continuityAnchor": "9d9d7e9c7d198b9c9e251a6c",
+      "reliability": "SUPPORTED",
+      "identityStatus": "TRACKED",
+      "evidence": {
+        "signature": "6c5de2ba2a9db40a839c71dfc5eaee25bec7d10af1581c9f7db7332a86bbf814",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M12",
+            "cardName": "抵价交易",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            }
+          }
+        ],
+        "rawDetails": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M12",
+              "name": "抵价交易",
+              "mad": 0.15097038680669222,
+              "rawMad": 0.11867242402174803,
+              "hsvDistance": 0.2691496898745348
+            },
+            "confidenceMargin": 0.17839438236647276,
+            "top3": [
+              {
+                "id": "M12",
+                "name": "抵价交易",
+                "mad": 0.15097038680669222,
+                "rawMad": 0.11867242402174803,
+                "hsvDistance": 0.2691496898745348
+              },
+              {
+                "id": "M05",
+                "name": "被封印的艾克佐迪亚",
+                "mad": 0.329364769173165,
+                "rawMad": 0.22920457647280382,
+                "hsvDistance": 0.8346682725030099
+              },
+              {
+                "id": "M16",
+                "name": "暂时休战",
+                "mad": 0.34947881336040443,
+                "rawMad": 0.21984051441504368,
+                "hsvDistance": 1.0803191578780065
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "relationship": {
+          "type": "INDEPENDENT_ACTIVATION_AFTER_HAND_GAIN",
+          "parentActivationKey": null,
+          "evidenceCard": {
+            "id": "M15",
+            "name": "无之炼狱",
+            "mad": 0.20267746104344847,
+            "rawMad": 0.16183334894547502,
+            "hsvDistance": 0.3403676008164454
+          }
+        }
+      },
+      "consumptionState": "UNCONSUMED"
+    }
+  ],
+  "history": [
+    {
+      "eventInstanceKey": "EV-5a9e5b366299b265e422c1023215",
+      "kind": "OPERATION",
+      "actionType": "M12",
+      "actor": "SELF",
+      "headerKey": "17c9444679bf81a57c7d8279a9f53af43be38820ea03ae73f04a6a2abc3a6f5f",
+      "occurrence": 0,
+      "sourceClass": "NEW",
+      "sourceZone": null,
+      "targetZone": null,
+      "count": null,
+      "continuityAnchor": "f418bfe389da5322985dd09f",
+      "reliability": "SUPPORTED",
+      "identityStatus": "TRACKED",
+      "evidence": {
+        "signature": "f7397a78757c507462096a836081b21ed71f557671619fef598ed909e0ca6d2a",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "COST_TO_GRAVEYARD",
+            "role": "HAND_COST",
+            "actor": "SELF",
+            "cardId": "M07",
+            "cardName": "青眼卡通龙",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 753,
+              "width": 47,
+              "height": 71,
+              "area": 1014
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M15",
+            "cardName": "无之炼狱",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 68,
+              "area": 707
+            }
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M02",
+            "cardName": "被封印的左足",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1801,
+              "y": 954,
+              "width": 51,
+              "height": 72,
+              "area": 564
+            }
+          }
+        ],
+        "rawDetails": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M07",
+              "name": "青眼卡通龙",
+              "mad": 0.29696987723614227,
+              "rawMad": 0.24343237474781276,
+              "hsvDistance": 0.4461458540694125
+            },
+            "confidenceMargin": 0.1305602676849929,
+            "top3": [
+              {
+                "id": "M07",
+                "name": "青眼卡通龙",
+                "mad": 0.29696987723614227,
+                "rawMad": 0.24343237474781276,
+                "hsvDistance": 0.4461458540694125
+              },
+              {
+                "id": "E06",
+                "name": "试作闪刀姬－天津",
+                "mad": 0.42753014492113517,
+                "rawMad": 0.28371996047610054,
+                "hsvDistance": 1.198418203708622
+              },
+              {
+                "id": "M22",
+                "name": "闪刀机－大黄蜂无人机",
+                "mad": 0.43966439410331004,
+                "rawMad": 0.28135950532676174,
+                "hsvDistance": 1.319207406471236
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 753,
+              "width": 47,
+              "height": 71,
+              "area": 1014
+            },
+            "rawType": "COST_TO_GRAVEYARD",
+            "role": "HAND_COST"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M15",
+              "name": "无之炼狱",
+              "mad": 0.1844502724806061,
+              "rawMad": 0.1484672401862579,
+              "hsvDistance": 0.2998586024529017
+            },
+            "confidenceMargin": 0.1567608517644318,
+            "top3": [
+              {
+                "id": "M15",
+                "name": "无之炼狱",
+                "mad": 0.1844502724806061,
+                "rawMad": 0.1484672401862579,
+                "hsvDistance": 0.2998586024529017
+              },
+              {
+                "id": "E09",
+                "name": "闪刀姬－卡梅莉娅",
+                "mad": 0.3412111242450379,
+                "rawMad": 0.17857570932004574,
+                "hsvDistance": 1.3552951243749347
+              },
+              {
+                "id": "M13",
+                "name": "暗之诱惑",
+                "mad": 0.40235359669511783,
+                "rawMad": 0.16297696352902855,
+                "hsvDistance": 1.9948052763840778
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 68,
+              "area": 707
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          },
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M02",
+              "name": "被封印的左足",
+              "mad": 0.2833669107220914,
+              "rawMad": 0.2300080478074018,
+              "hsvDistance": 0.4446571909557467
+            },
+            "confidenceMargin": 0.07240844534544116,
+            "top3": [
+              {
+                "id": "M02",
+                "name": "被封印的左足",
+                "mad": 0.2833669107220914,
+                "rawMad": 0.2300080478074018,
+                "hsvDistance": 0.4446571909557467
+              },
+              {
+                "id": "M01",
+                "name": "被封印的右足",
+                "mad": 0.3557753560675326,
+                "rawMad": 0.3036746953366028,
+                "hsvDistance": 0.4341721727577482
+              },
+              {
+                "id": "M05",
+                "name": "被封印的艾克佐迪亚",
+                "mad": 0.36153558274704195,
+                "rawMad": 0.2590770504534078,
+                "hsvDistance": 0.8538211024469514
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1801,
+              "y": 954,
+              "width": 51,
+              "height": 72,
+              "area": 564
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "relationship": {
+          "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+          "parentActivationKey": null,
+          "evidenceCard": null
+        }
+      },
+      "consumptionState": "UNCONSUMED"
+    },
+    {
+      "eventInstanceKey": "EV-f8336e8c31c7c241512acd212675",
+      "kind": "OPERATION",
+      "actionType": "M15",
+      "actor": "SELF",
+      "headerKey": "8d3c7cb1705c3da03c648c52424fbf3a091d135b7d94cdbd39688a1401da3238",
+      "occurrence": 0,
+      "sourceClass": "NEW",
+      "sourceZone": null,
+      "targetZone": null,
+      "count": null,
+      "continuityAnchor": "9d9d7e9c7d198b9c9e251a6c",
+      "reliability": "SUPPORTED",
+      "identityStatus": "TRACKED",
+      "evidence": {
+        "signature": "6c5de2ba2a9db40a839c71dfc5eaee25bec7d10af1581c9f7db7332a86bbf814",
+        "details": [
+          {
+            "type": "PROCESSING_CARD",
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE",
+            "actor": "SELF",
+            "cardId": "M12",
+            "cardName": "抵价交易",
+            "source": null,
+            "inferred": false,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            }
+          }
+        ],
+        "rawDetails": [
+          {
+            "type": "PROCESSING_CARD",
+            "side": "SELF",
+            "card": {
+              "id": "M12",
+              "name": "抵价交易",
+              "mad": 0.15097038680669222,
+              "rawMad": 0.11867242402174803,
+              "hsvDistance": 0.2691496898745348
+            },
+            "confidenceMargin": 0.17839438236647276,
+            "top3": [
+              {
+                "id": "M12",
+                "name": "抵价交易",
+                "mad": 0.15097038680669222,
+                "rawMad": 0.11867242402174803,
+                "hsvDistance": 0.2691496898745348
+              },
+              {
+                "id": "M05",
+                "name": "被封印的艾克佐迪亚",
+                "mad": 0.329364769173165,
+                "rawMad": 0.22920457647280382,
+                "hsvDistance": 0.8346682725030099
+              },
+              {
+                "id": "M16",
+                "name": "暂时休战",
+                "mad": 0.34947881336040443,
+                "rawMad": 0.21984051441504368,
+                "hsvDistance": 1.0803191578780065
+              }
+            ],
+            "visibility": "FACE_UP",
+            "sideEvidence": "FACE_UP_RECOGNIZED",
+            "actionEvidence": null,
+            "handGainIconMad": null,
+            "box": {
+              "x": 1745,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 711
+            },
+            "rawType": "HAND_GAIN",
+            "role": "HAND_GAIN_CANDIDATE"
+          }
+        ],
+        "relationship": {
+          "type": "INDEPENDENT_ACTIVATION_AFTER_HAND_GAIN",
+          "parentActivationKey": null,
+          "evidenceCard": {
+            "id": "M15",
+            "name": "无之炼狱",
+            "mad": 0.20267746104344847,
+            "rawMad": 0.16183334894547502,
+            "hsvDistance": 0.3403676008164454
+          }
+        }
+      },
+      "consumptionState": "UNCONSUMED"
+    }
+  ],
+  "source": {
+    "capturedAt": null,
+    "matchedContinuityAnchor": {
+      "kind": "CROSS_RUN_TAIL_OVERLAP",
+      "cardKey": "M12",
+      "source": "VISIBLE_OPERATION_BLOCK",
+      "matchType": "CROSS_RUN_TAIL_OVERLAP",
+      "overlapLength": 1,
+      "matchKinds": [
+        "EXACT_SIGNATURE"
+      ]
+    }
+  }
+}

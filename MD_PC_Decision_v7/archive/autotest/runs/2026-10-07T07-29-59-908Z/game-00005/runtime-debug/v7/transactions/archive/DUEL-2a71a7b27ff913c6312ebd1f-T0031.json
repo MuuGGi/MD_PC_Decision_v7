@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "id": "DUEL-2a71a7b27ff913c6312ebd1f-T0031",
+  "duelId": "DUEL-2a71a7b27ff913c6312ebd1f",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-b51c18d7badaa24fa58f530e2e0be794",
+  "intent": {
+    "cardId": "M14",
+    "slot": 9
+  },
+  "baseline": {
+    "hand": {
+      "revision": 19,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M08",
+        "M10",
+        "M11",
+        "M14"
+      ]
+    },
+    "ledger": {
+      "revision": 19,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 3,
+        "M10": 3,
+        "M11": 2,
+        "M12": 2,
+        "M13": 1,
+        "M14": 3,
+        "M15": 3,
+        "M16": 0,
+        "M17": 3,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 3,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M17",
+        "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M04",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M14",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M04",
+            "cardName": "被封印的左腕"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+        "carrierId": "E04",
+        "updatedAt": "2026-10-07T07:52:31.580Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M10": 2,
+        "M13": 1,
+        "M06": 1,
+        "M09": 3,
+        "M15": 3,
+        "M12": 2,
+        "M07": 1,
+        "M22": 1,
+        "M17": 3,
+        "M11": 1,
+        "M19": 1,
+        "M20": 1,
+        "M18": 1,
+        "M08": 1,
+        "M21": 3,
+        "M14": 2
+      }
+    },
+    "extra": {
+      "cardId": "M14",
+      "slot": 9
+    }
+  },
+  "createdAt": "2026-10-07T07:52:53.259Z",
+  "resumed": false,
+  "status": "ABANDONED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "NO_REPLAY_PERSISTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M14",
+          "slot": 9
+        }
+      },
+      "noReplayAt": "2026-10-07T07:52:53.274Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "inputUncertain": true,
+      "lastError": {
+        "phase": "NO_REPLAY_PERSISTED",
+        "code": null,
+        "message": "V5_DUEL_TERMINAL_VICTORY",
+        "at": "2026-10-07T07:53:15.266Z"
+      }
+    }
+  ],
+  "terminalProof": {
+    "proven": true,
+    "outcome": "WIN",
+    "gameId": 5
+  },
+  "closedAt": "2026-10-07T07:53:35.089Z"
+}

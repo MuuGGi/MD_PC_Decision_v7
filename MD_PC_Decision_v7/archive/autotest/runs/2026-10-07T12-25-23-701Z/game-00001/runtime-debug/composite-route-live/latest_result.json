@@ -1,0 +1,367 @@
+{
+  "status": "PASS",
+  "mode": "FLOW_STATE_SIDECAR",
+  "appliedEvents": 0,
+  "events": [],
+  "summary": {
+    "phase": "POST_SUMMON_EFFECTS",
+    "material": [
+      "闪刀姬－零衣"
+    ],
+    "materialSources": [
+      "RAYE_NORMAL_SUMMON"
+    ],
+    "equip": "NONE",
+    "exit": "NONE",
+    "summon": "NONE",
+    "optionalEffect": "NONE",
+    "optionalCandidateCount": null,
+    "optionalPoolCandidateCount": 0,
+    "optionalSelectedCandidateCount": 0,
+    "optionalResolvedCandidateCount": 0,
+    "optionalPromptObservedCount": 0,
+    "optionalPromptResolvedCount": 0,
+    "chain": null,
+    "activeEffect": null,
+    "targetSelection": null,
+    "effectQueue": [
+      {
+        "mode": "MONSTER_OPTIONAL",
+        "status": "RESOLVED",
+        "sourceCardId": "E10",
+        "sourceCardName": null
+      }
+    ],
+    "pendingEffects": [],
+    "resolvedEffects": [
+      {
+        "mode": "MONSTER_OPTIONAL",
+        "status": "RESOLVED",
+        "sourceCardId": "E10",
+        "sourceCardName": null
+      }
+    ],
+    "postEffects": [
+      "MONSTER_HAND_GAIN:闪刀起动－交闪"
+    ],
+    "turnUsage": {
+      "m19SearchUsed": false,
+      "m19SearchActivationCount": 0,
+      "m19SearchUsedAt": null,
+      "source": null
+    }
+  },
+  "state": {
+    "version": 9,
+    "capturedAt": "2026-10-07T12:30:35.704Z",
+    "revision": 6,
+    "turnUsage": {
+      "m19SearchUsed": false,
+      "m19SearchActivationCount": 0,
+      "m19SearchUsedAt": null,
+      "source": null
+    },
+    "current": {
+      "index": 2,
+      "phase": "POST_SUMMON_EFFECTS",
+      "material": {
+        "ready": true,
+        "summoned": [
+          {
+            "mode": "RAYE_NORMAL_SUMMON",
+            "producerId": "M06",
+            "producerName": "闪刀姬－零衣",
+            "cardId": "M06",
+            "cardName": "闪刀姬－零衣",
+            "source": "HAND_CONSUMPTION_PLUS_INDEPENDENT_M06_BLOCK",
+            "inferred": true
+          }
+        ]
+      },
+      "equip": {
+        "mode": "NONE",
+        "swordId": null,
+        "swordName": null,
+        "source": null
+      },
+      "exit": {
+        "mode": null,
+        "materialCount": null,
+        "resultCardId": null,
+        "resultCardName": null,
+        "inferred": false
+      },
+      "summon": {
+        "cardId": null,
+        "cardName": null,
+        "mode": null,
+        "inferred": false
+      },
+      "optionalEffect": {
+        "status": "NONE",
+        "mode": null,
+        "available": false,
+        "resolution": "NONE",
+        "candidateCount": null,
+        "poolCandidateCount": 0,
+        "selectedCandidateCount": 0,
+        "resolvedCandidateCount": 0,
+        "detector": null,
+        "resolvedAt": null,
+        "observedCount": 0,
+        "resolvedCount": 0,
+        "resolutions": [],
+        "effectSelections": [],
+        "effectResolutions": [],
+        "lastResolutionScope": null
+      },
+      "chain": {
+        "status": "NONE",
+        "links": [],
+        "currentResolvingMode": null,
+        "startedAt": null,
+        "resolvedAt": null
+      },
+      "activeEffect": {
+        "mode": null,
+        "status": "NONE",
+        "requiresTargetSelection": false,
+        "requiresResolutionSelection": false,
+        "selectedAt": null,
+        "resolvedAt": null,
+        "resolutionCounted": false,
+        "targetSelectionTiming": null
+      },
+      "targetSelection": {
+        "status": "NONE",
+        "available": false,
+        "effectMode": null,
+        "selectionTiming": null,
+        "candidateCount": null,
+        "allowedTargets": [],
+        "selectedCardId": null,
+        "selectedCardName": null,
+        "detector": null,
+        "observedAt": null,
+        "submittedAt": null,
+        "resolvedAt": null
+      },
+      "postEffects": [
+        {
+          "key": "MONSTER_HAND_GAIN|RESOLVED|E10|M17",
+          "mode": "MONSTER_HAND_GAIN",
+          "status": "RESOLVED",
+          "sourceMonsterId": "E10",
+          "cardId": "M17",
+          "cardName": "闪刀起动－交闪"
+        }
+      ],
+      "effectQueue": [
+        {
+          "mode": "MONSTER_OPTIONAL",
+          "status": "RESOLVED",
+          "sourceCardId": "E10",
+          "sourceCardName": null,
+          "resultCardId": "M17",
+          "resultCardName": "闪刀起动－交闪"
+        }
+      ],
+      "trace": [
+        {
+          "kind": "MATERIAL_SOURCE",
+          "activationKey": "M06",
+          "activationName": "闪刀姬－零衣",
+          "mode": "RAYE_NORMAL_SUMMON",
+          "cardId": "M06",
+          "cardName": "闪刀姬－零衣",
+          "inferred": true
+        },
+        {
+          "kind": "POST_EFFECT",
+          "activationKey": "E10",
+          "activationName": "闪刀姬－零梦",
+          "mode": "MONSTER_HAND_GAIN",
+          "cardId": "M17",
+          "cardName": "闪刀起动－交闪",
+          "inferred": false
+        }
+      ]
+    },
+    "history": [
+      {
+        "index": 1,
+        "phase": "POST_SUMMON_EFFECTS",
+        "material": {
+          "ready": true,
+          "summoned": [
+            {
+              "mode": "HORNET_TOKEN",
+              "producerId": "M22",
+              "producerName": "闪刀机－大黄蜂无人机",
+              "cardId": "TOKEN_SKY_STRIKER",
+              "cardName": "闪刀姬衍生物",
+              "source": "M22_SPECIAL_SUMMON_TOKEN",
+              "inferred": false
+            }
+          ]
+        },
+        "equip": {
+          "mode": "M20_FROM_HAND",
+          "swordId": "M20",
+          "swordName": "真刀竹光",
+          "source": "HAND_ACTIVATION"
+        },
+        "exit": {
+          "mode": null,
+          "materialCount": null,
+          "resultCardId": null,
+          "resultCardName": null,
+          "inferred": false
+        },
+        "summon": {
+          "cardId": null,
+          "cardName": null,
+          "mode": null,
+          "inferred": false
+        },
+        "optionalEffect": {
+          "status": "NONE",
+          "mode": null,
+          "available": false,
+          "resolution": "NONE",
+          "candidateCount": null,
+          "poolCandidateCount": 0,
+          "selectedCandidateCount": 0,
+          "resolvedCandidateCount": 0,
+          "detector": null,
+          "resolvedAt": null,
+          "observedCount": 0,
+          "resolvedCount": 0,
+          "resolutions": [],
+          "effectSelections": [],
+          "effectResolutions": [],
+          "lastResolutionScope": null
+        },
+        "chain": {
+          "status": "NONE",
+          "links": [],
+          "currentResolvingMode": null,
+          "startedAt": null,
+          "resolvedAt": null
+        },
+        "activeEffect": {
+          "mode": null,
+          "status": "NONE",
+          "requiresTargetSelection": false,
+          "requiresResolutionSelection": false,
+          "selectedAt": null,
+          "resolvedAt": null,
+          "resolutionCounted": false,
+          "targetSelectionTiming": null
+        },
+        "targetSelection": {
+          "status": "NONE",
+          "available": false,
+          "effectMode": null,
+          "selectionTiming": null,
+          "candidateCount": null,
+          "allowedTargets": [],
+          "selectedCardId": null,
+          "selectedCardName": null,
+          "detector": null,
+          "observedAt": null,
+          "submittedAt": null,
+          "resolvedAt": null
+        },
+        "postEffects": [
+          {
+            "key": "MONSTER_RECOVER|RESOLVED|E02|M17",
+            "mode": "MONSTER_RECOVER",
+            "status": "RESOLVED",
+            "sourceMonsterId": "E02",
+            "cardId": "M17",
+            "cardName": "闪刀起动－交闪"
+          },
+          {
+            "key": "M19_SEARCH|RESOLVED||M14",
+            "mode": "M19_SEARCH",
+            "status": "RESOLVED",
+            "sourceMonsterId": null,
+            "cardId": "M14",
+            "cardName": "金黄色的竹光"
+          }
+        ],
+        "effectQueue": [
+          {
+            "mode": "MONSTER_OPTIONAL",
+            "status": "RESOLVED",
+            "sourceCardId": "E02",
+            "sourceCardName": null,
+            "resultCardId": "M17",
+            "resultCardName": "闪刀起动－交闪"
+          },
+          {
+            "mode": "M19_SEARCH",
+            "status": "RESOLVED",
+            "sourceCardId": "M19",
+            "sourceCardName": "妖刀竹光",
+            "resultCardId": "M14",
+            "resultCardName": "金黄色的竹光"
+          }
+        ],
+        "trace": [
+          {
+            "kind": "MATERIAL_SOURCE",
+            "activationKey": "M22",
+            "activationName": "闪刀机－大黄蜂无人机",
+            "mode": "HORNET_TOKEN",
+            "cardId": "TOKEN_SKY_STRIKER",
+            "cardName": "闪刀姬衍生物",
+            "inferred": false
+          },
+          {
+            "kind": "POST_EFFECT",
+            "activationKey": "E02",
+            "activationName": "闪刀姬－篝",
+            "mode": "MONSTER_RECOVER",
+            "cardId": "M17",
+            "cardName": "闪刀起动－交闪",
+            "inferred": false
+          },
+          {
+            "kind": "EQUIP",
+            "activationKey": "M20",
+            "activationName": "真刀竹光",
+            "mode": "M20_FROM_HAND",
+            "cardId": null,
+            "cardName": null,
+            "inferred": false
+          },
+          {
+            "kind": "POST_EFFECT",
+            "activationKey": "M19",
+            "activationName": "妖刀竹光",
+            "mode": "M19_SEARCH",
+            "cardId": "M14",
+            "cardName": "金黄色的竹光",
+            "inferred": false
+          }
+        ]
+      }
+    ],
+    "seenEvents": [
+      "MATERIAL_SOURCE|0|M22|TOKEN_SKY_STRIKER|HORNET_TOKEN|0|M22|PROCESSING_CARD:TOKEN_SKY_STRIKER|2026-10-07T12:27:26.912Z",
+      "POST_EFFECT|0|E02|M17|MONSTER_RECOVER|1|E02|PROCESSING_CARD:M17,PROCESSING_CARD:M17|2026-10-07T12:27:48.985Z",
+      "EQUIP|0|M20||M20_FROM_HAND||M20|PROCESSING_CARD:E02|2026-10-07T12:28:21.581Z",
+      "POST_EFFECT|0|M19|M14|M19_SEARCH||M19|PROCESSING_CARD:M14|2026-10-07T12:29:14.125Z",
+      "MATERIAL_SOURCE|0|M06|M06|RAYE_NORMAL_SUMMON||M06||2026-10-07T12:29:39.462Z",
+      "POST_EFFECT|0|E10|M17|MONSTER_HAND_GAIN|0|E10|PROCESSING_CARD:M17|2026-10-07T12:30:16.253Z"
+    ]
+  },
+  "sourceLogCapturedAt": null,
+  "semanticInput": {
+    "newOperationBlocks": 1,
+    "extendedOperationBlocks": 0,
+    "recoveryBlocks": 0
+  }
+}

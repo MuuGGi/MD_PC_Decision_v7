@@ -1,0 +1,600 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-09T09:36:35.081Z",
+  "target": {
+    "id": "M09",
+    "name": "暴发户哥布林"
+  },
+  "baselineHandCount": 5,
+  "baselineHand": [
+    {
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M07"
+      ],
+      "index": 1
+    },
+    {
+      "id": "M09",
+      "name": "暴发户哥布林",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M09"
+      ],
+      "index": 2
+    },
+    {
+      "index": 3,
+      "x": 868,
+      "y": 988,
+      "id": "M11",
+      "name": "万宝槌",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2310635293311859,
+      "usable": true,
+      "yellowPixels": 5236,
+      "yellowRatio": 0.15982905982905982,
+      "top3": [
+        {
+          "id": "M11",
+          "name": "万宝槌",
+          "count": 2,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E02",
+          "name": "闪刀姬－篝",
+          "count": 1,
+          "mad": 0.2310635293311859,
+          "rmse": 0.3035595610523306,
+          "dhash": 30
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "count": 3,
+          "mad": 0.24489407413450817,
+          "rmse": 0.3097596472406572,
+          "dhash": 37
+        }
+      ],
+      "timingMs": {
+        "locateMs": 562.213,
+        "clickAndSettleMs": 309.268,
+        "recognizeMs": 12.739,
+        "usabilityMs": 27.442,
+        "resetMs": 176.572,
+        "totalMs": 1088.475
+      }
+    },
+    {
+      "id": "M19",
+      "name": "妖刀竹光",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M19"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M21",
+      "name": "试胆竞速",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M21"
+      ],
+      "index": 5
+    }
+  ],
+  "selected": {
+    "slot": 2,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M09",
+      "name": "暴发户哥布林",
+      "mad": 0,
+      "margin": 0.201805871575527
+    },
+    "clickReference": {
+      "x": 864,
+      "y": 1006
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        732,
+        864,
+        1008,
+        1145,
+        1296
+      ],
+      "currentCenter": {
+        "x": 864,
+        "y": 1006
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 887,
+        "y": 835
+      },
+      "width": 84,
+      "height": 46,
+      "fillRatio": 0.43995859213250516,
+      "estimatedPixels": 1700,
+      "menuMode": "ACTIVATE_ONLY_CENTERED",
+      "expectedReference": {
+        "x": 864,
+        "y": 846
+      },
+      "drift": 25.495097567963924,
+      "glyph": {
+        "iou": 1,
+        "darkBackgroundRatio": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 8272,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 4,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.04939621052631579,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.075,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.09945652173913043,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.1673913043478261,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.13858695652173914,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.1391304347826087,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.1423913043478261,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.15108695652173912,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.10108695652173913,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.14891304347826087,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.09021739130434783,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.24239130434782608,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.04456521739130435,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.060148148148148145,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.044224,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.037925925925925925,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.05456842105263158,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 259
+    }
+  },
+  "observerVerification": {
+    "logOperation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "mad": 0.08010222607838802,
+          "rawMad": 0.050802514461376375,
+          "hsvDistance": 0.24416426347509698
+        },
+        "confidenceMargin": 0.34691474718504645,
+        "top3": [
+          {
+            "id": "M09",
+            "name": "暴发户哥布林",
+            "mad": 0.08010222607838802,
+            "rawMad": 0.050802514461376375,
+            "hsvDistance": 0.24416426347509698
+          },
+          {
+            "id": "E07",
+            "name": "闪刀姬－泽克",
+            "mad": 0.42701697326343446,
+            "rawMad": 0.2101931171605651,
+            "hsvDistance": 1.8068654675239118
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "mad": 0.42965689710458355,
+            "rawMad": 0.22423638998929254,
+            "hsvDistance": 1.711837559294092
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 540,
+          "mad": 0.09870641469257387
+        },
+        "box": {
+          "x": 1702,
+          "y": 697,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M09",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M12",
+            "name": "抵价交易",
+            "mad": 0.1581463232318865,
+            "rawMad": 0.12650317228653374,
+            "hsvDistance": 0.26369292454460613
+          },
+          "confidenceMargin": 0.16647898435249242,
+          "top3": [
+            {
+              "id": "M12",
+              "name": "抵价交易",
+              "mad": 0.1581463232318865,
+              "rawMad": 0.12650317228653374,
+              "hsvDistance": 0.26369292454460613
+            },
+            {
+              "id": "M05",
+              "name": "被封印的艾克佐迪亚",
+              "mad": 0.3246253075843789,
+              "rawMad": 0.22965611990930884,
+              "hsvDistance": 0.7914098972922504
+            },
+            {
+              "id": "M16",
+              "name": "暂时休战",
+              "mad": 0.3500412261272717,
+              "rawMad": 0.21844458747180945,
+              "hsvDistance": 1.0966386554621852
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1745,
+            "y": 864,
+            "width": 47,
+            "height": 67,
+            "area": 679
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        }
+      ],
+      "startY": 697,
+      "endY": 931,
+      "signature": "M09|PROCESSING_CARD:M12",
+      "relationship": {
+        "type": "INDEPENDENT_ACTIVATION_AFTER_HAND_GAIN",
+        "parentActivationKey": null,
+        "evidenceCard": {
+          "id": "M09",
+          "name": "暴发户哥布林",
+          "mad": 0.171673881915775,
+          "rawMad": 0.1182110096825494,
+          "hsvDistance": 0.44552393527688006
+        }
+      }
+    },
+    "consumed": {
+      "id": "M09",
+      "name": "暴发户哥布林",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M09"
+      ],
+      "index": 2
+    },
+    "inserted": {
+      "slot": 3,
+      "card": {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ]
+      }
+    },
+    "beforeCount": 5,
+    "afterCount": 5,
+    "finalHand": [
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 1
+      },
+      {
+        "index": 2,
+        "x": 868,
+        "y": 988,
+        "id": "M11",
+        "name": "万宝槌",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2310635293311859,
+        "usable": true,
+        "yellowPixels": 5236,
+        "yellowRatio": 0.15982905982905982,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "count": 1,
+            "mad": 0.2310635293311859,
+            "rmse": 0.3035595610523306,
+            "dhash": 30
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.24489407413450817,
+            "rmse": 0.3097596472406572,
+            "dhash": 37
+          }
+        ],
+        "timingMs": {
+          "locateMs": 562.213,
+          "clickAndSettleMs": 309.268,
+          "recognizeMs": 12.739,
+          "usabilityMs": 27.442,
+          "resetMs": 176.572,
+          "totalMs": 1088.475
+        }
+      },
+      {
+        "id": "M12",
+        "name": "抵价交易",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M12"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M19",
+        "name": "妖刀竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M19"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,1234 @@
+V7规范化主循环：成熟识别/策略 + 持久事务边界；不开启新的策略路线。
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=3/3; median=0.0360; outer=PASS_GLOW_BACKED; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=268ms。
+
+============================================================
+执行前当前局面基线：完全复用 V1 已验证 observer 手牌读取
+1~7张 = TITLE_COMPONENTS 完整扫描；8~12张 = DENSE 分段完整扫描。
+这里只建立当前状态，不执行任何卡牌操作。
+============================================================
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+当前我方 INFO 权威手牌数=5
+============================================================
+Independent live hand scan: expected OWN=5
+The program activates and verifies Master Duel by itself; no manual window switching is needed.
+The program holds i once, releases it, then selects each hand slot only for recognition.
+It never clicks an activation button, drags a card, or continues to another hand-count round.
+============================================================
+Master Duel activated and verified: masterduel
+复用本次已释放鼠标的INFO权威数量；不再第二次按i，扫描现有手牌图仍核对数量。
+低手牌中性复位点: 对手魔法/陷阱区域安全点=(856,195); 仅用于清选择/复位，不替代真实目标点击。
+标题块估算手牌数: 5 centers=[726, 866, 1005, 1145, 1298]
+
+手牌数量候选：
+  N= 1  min=0.89  mean=0.89  PASS  slots=[0.89]
+  N= 2  min=0.74  mean=0.82  PASS  slots=[0.74, 0.89]
+  N= 3  min=0.77  mean=0.82  PASS  slots=[0.77, 0.89, 0.78]
+  N= 4  min=0.73  mean=0.81  PASS  slots=[0.73, 0.74, 0.89, 0.89]
+  N= 5  min=0.77  mean=0.84  PASS  slots=[0.85, 0.77, 0.89, 0.78, 0.90]
+  N= 6  min=0.51  mean=0.76  ----  slots=[0.82, 0.77, 0.75, 0.89, 0.78, 0.51]
+  N= 7  min=0.50  mean=0.76  ----  slots=[0.50, 0.73, 0.74, 0.89, 0.85, 1.00, 0.61]
+  N= 8  min=0.34  mean=0.80  ----  slots=[0.34, 0.73, 0.96, 0.86, 0.89, 0.79, 1.00, 0.79]
+  N= 9  min=0.50  mean=0.77  ----  slots=[0.50, 0.85, 0.71, 0.74, 0.89, 0.97, 0.93, 0.50, 0.88]
+  N=10  min=0.31  mean=0.75  ----  slots=[0.37, 0.31, 0.72, 0.95, 0.87, 0.89, 0.79, 1.00, 0.81, 0.80]
+  N=11  min=0.50  mean=0.75  ----  slots=[0.53, 0.50, 0.85, 0.71, 0.74, 0.89, 0.97, 0.93, 0.50, 0.88, 0.72]
+  N=12  min=0.31  mean=0.79  ----  slots=[1.00, 0.37, 0.31, 0.72, 0.95, 0.87, 0.89, 0.79, 1.00, 0.81, 0.80, 1.00]
+
+=> INFO 权威手牌数 = 5（扇形视觉候选=5）
+手牌点击位置来源: TITLE_COMPONENTS
+
+------------------------------------------------------------
+手牌 1/5
+实时位置来源: TITLE_COMPONENTS, x=725, titleY=1018
+    Top1: 暴发户哥布林  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 真刀竹光  MAD=0.2018  RMSE=0.2508  dHash=32
+    Top3: 闪刀姬－泽克  MAD=0.2183  RMSE=0.2650  dHash=32
+  => 暴发户哥布林 [M09]
+     魔法黄框/发动按钮: 可用  yellowPixels≈4760, ratio=0.1453
+     点击到完成: 1008.7 ms（定位=511.9, 点击等待=280.0, 识别=15.9, 可用性=23.0）
+
+------------------------------------------------------------
+手牌 2/5
+实时位置来源: TITLE_COMPONENTS, x=867, titleY=988
+    Top1: 卡通目录  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 暴发户哥布林  MAD=0.2480  RMSE=0.3056  dHash=32
+    Top3: 共命之翼 迦楼拉  MAD=0.2695  RMSE=0.3362  dHash=24
+  => 卡通目录 [M10]
+     魔法黄框/发动按钮: 可用  yellowPixels≈5284, ratio=0.1613
+     点击到完成: 1040.9 ms（定位=510.0, 点击等待=314.9, 识别=9.2, 可用性=20.2）
+
+------------------------------------------------------------
+手牌 3/5
+实时位置来源: TITLE_COMPONENTS, x=1006, titleY=1000
+    Top1: 卡通目录  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 暴发户哥布林  MAD=0.2480  RMSE=0.3056  dHash=32
+    Top3: 共命之翼 迦楼拉  MAD=0.2695  RMSE=0.3362  dHash=24
+  => 卡通目录 [M10]
+     魔法黄框/发动按钮: 可用  yellowPixels≈4472, ratio=0.1365
+     点击到完成: 997.2 ms（定位=524.1, 点击等待=268.9, 识别=11.6, 可用性=19.3）
+
+------------------------------------------------------------
+手牌 4/5
+实时位置来源: TITLE_COMPONENTS, x=1141, titleY=1002
+    Top1: 金黄色的竹光  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 闪刀姬－零梦  MAD=0.2628  RMSE=0.3239  dHash=32
+    Top3: 卡通目录  MAD=0.2924  RMSE=0.3803  dHash=24
+  => 金黄色的竹光 [M14]
+     魔法黄框/发动按钮: 可用  yellowPixels≈788, ratio=0.0241
+     点击到完成: 1041.4 ms（定位=562.2, 点击等待=276.9, 识别=10.1, 可用性=25.7）
+
+------------------------------------------------------------
+手牌 5/5
+实时位置来源: TITLE_COMPONENTS, x=1301, titleY=1014
+    Top1: 闪刀起动－交闪  MAD=0.0000  RMSE=0.0000  dHash=0
+    Top2: 闪刀姬－卡梅莉娅  MAD=0.2628  RMSE=0.3306  dHash=33
+    Top3: 闪刀姬－雫  MAD=0.2628  RMSE=0.3188  dHash=43
+  => 闪刀起动－交闪 [M17]
+     魔法黄框/发动按钮: 可用  yellowPixels≈4044, ratio=0.1234
+     点击到完成: 1043.2 ms（定位=552.0, 点击等待=289.2, 识别=18.2, 可用性=13.3）
+调配后初始扫描成功: 手牌=5
+初始手牌: 暴发户哥布林[M09] | 卡通目录[M10] | 卡通目录[M10] | 金黄色的竹光[M14] | 闪刀起动－交闪[M17]
+已重建增量手牌基线；接下来将打开右侧信息栏并建立日志检查点。
+完整详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\scan-state-live\prepared\result.json
+右栏面板检测: 未打开; 依据=BRIGHT_RIGHT_SIDE; 置信度=HIGH; darkRatio=0.177
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=655-1028（已到底）；无需滚轮。
+万宝槌 FULL RESYNC 后右栏已重建 baseline: 当前底部操作=无; checkpoint=EMPTY。
+不会再向上追万宝槌发动前的旧 checkpoint；下一轮只识别此 baseline 之后的新操作。
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=2557.7ms; bridge_reuse=0.0ms; reuse_verified_window=2.0ms; foreground_recheck=1.4ms; initial_client_capture=488.4ms; open_panel_and_recapture=1166.3ms; load_recognition_templates=59.2ms; recognize_right_log_pixels=826.5ms; group_and_reconcile_events=0.5ms
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0482; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=276ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=5张（不重新逐张扫描）
+我的建议：手牌2 卡通目录[M10]；目标建议=卡通目录
+原因：卡通目录永远最高优先级；牌组仍有卡通目录，继续目录链
+回车=采用我的建议；输入数字=改用你指定的当前手牌。
+------------------------------------------------------------
+
+V6执行：手牌2 卡通目录[M10]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0407; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=258ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=5张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+卡通目录本轮计划：
+  发动: 卡通目录[M10] @手牌2
+  检索优先级: 卡通目录[M10] > 青眼卡通龙[M07]
+  检索窗口遍历: 从左向右；看到青眼先记后备，仍继续确认是否存在卡通目录。
+
+============================================================
+准备自动操作：卡通目录[M10]
+普通发动完全复用已封板M09/M15：observer基线 -> observer真实位置 -> 发动。
+特殊部分直接移植旧M10实战PASS检索窗口：M10优先，无M10才M07。
+候选选中并精确认后，统一多等600ms再点击“选择/确认”。
+============================================================
+V5当前槽位确认: 手牌2 卡通目录[M10] @(866,988); 本次为正式执行前的目标确认。
+发动前卡名确认: 卡通目录[M10] PASS @手牌2（同名2张，取最左）
+发动按钮确认: 卡通目录[M10] reference=(801,835); component=84x48; yellowPixels=9484
+我方底部淡蓝光晕 PASS: AFTER_M10_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=3/3; median=0.0423; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=208ms。
+已点击“发动”：卡通目录[M10]；零输入等待专用检索窗口出现。
+卡通目录检索窗口: PASS; signatureMad=0.0024
+卡通目录实时候选中心（从右向左）: (1103,925), (945,925)
+卡通目录检索候选1: 卡通目录[M10] PASS
+检索优先级命中: 卡通目录[M10]；保持选中，不再扫描低优先级候选。
+卡通目录检索目标: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+卡通目录检索目标: 已点击底部“选择/确认”；yellowPixels=716
+卡通目录检索确认完成: 卡通目录[M10]；纯等待1600ms让检索动画稳定。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0511; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=277ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=551.8ms; classify_from_shared_frame=79.5ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=484-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M10; 跳过Main1全栏搜索，直接识别当前底部视口。
+右栏快速路径可见Main1边界已证明: startY=699; 忽略其上方开局/旧回合记录。
+底部原子边界已确认: expected=M10; 唯一当前激活块即本次新事务起点；不要求旧 checkpoint 可见，不向上滚动。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_EXPLICIT_ATOMIC_BOTTOM_NEW_BLOCKS; 可见操作=1; 新操作=1
+  新操作1: 卡通目录 [M10] -> HAND_GAIN:卡通目录
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=599.4ms; bridge_reuse=0.0ms; reuse_verified_window=2.2ms; foreground_recheck=2.1ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=71.1ms; recognize_right_log_pixels=512.6ms; group_and_reconcile_events=0.8ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=5；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 卡通目录 [M10]
+移出手牌: 卡通目录@手牌2
+新增数量: 1; 唯一实际槽位=3
+右栏唯一新增身份: 手牌3 卡通目录 [M10]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=1; M06=2; M08=2; M17=2; M22=1
+增量识别成功: 当前手牌=5
+手牌序列: 暴发户哥布林[M09] | 卡通目录[M10] | 卡通目录[M10] | 金黄色的竹光[M14] | 闪刀起动－交闪[M17]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1091.6ms; load_previous_state_and_log=0.6ms; observe_composite_route=8.5ms; load_recognition_templates=50.4ms; bridge_reuse=0.0ms; reuse_verified_window=2.4ms; capture_passive_hand=35.4ms; read_hand_count_fast_own=395.5ms; infer_incremental_slots=1.3ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 卡通目录[M10] = PASS_LIVE
+
+============================================================
+M10执行测试 PASS: 卡通目录
+实际检索: 卡通目录[M10]
+选择依据: PRIORITY_M10_AVAILABLE
+手牌数: 5 -> 5
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M10_toon_table\2026-10-08T09-55-50-130Z
+============================================================
+
+操作完成：卡通目录[M10]；observer当前手牌=5张。
+
+卡通目录自动续链 1: 手牌2 卡通目录[M10]；目标=青眼卡通龙[M07]。
+
+V6执行：手牌2 卡通目录[M10]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0489; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=279ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=5张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+卡通目录本轮计划：
+  发动: 卡通目录[M10] @手牌2
+  检索优先级: 卡通目录[M10] > 青眼卡通龙[M07]
+  检索窗口遍历: 从左向右；看到青眼先记后备，仍继续确认是否存在卡通目录。
+
+============================================================
+准备自动操作：卡通目录[M10]
+普通发动完全复用已封板M09/M15：observer基线 -> observer真实位置 -> 发动。
+特殊部分直接移植旧M10实战PASS检索窗口：M10优先，无M10才M07。
+候选选中并精确认后，统一多等600ms再点击“选择/确认”。
+============================================================
+V5当前槽位确认: 手牌2 卡通目录[M10] @(867,988); 本次为正式执行前的目标确认。
+发动前卡名确认: 卡通目录[M10] PASS @手牌2（同名2张，取最左）
+发动按钮确认: 卡通目录[M10] reference=(801,835); component=86x48; yellowPixels=8912
+我方底部淡蓝光晕 PASS: AFTER_M10_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0464; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=214ms。
+已点击“发动”：卡通目录[M10]；零输入等待专用检索窗口出现。
+卡通目录检索窗口: PASS; signatureMad=0.0025
+卡通目录实时候选中心（从右向左）: (1024,925)
+卡通目录检索候选1: 青眼卡通龙[M07] PASS
+已发现青眼卡通龙[M07]，暂存为后备；继续向左确认是否还有卡通目录[M10]。
+全部候选中未发现卡通目录[M10]；按成熟规则使用青眼卡通龙[M07]。
+后备目标青眼卡通龙[M07]仍保持选中；不再重复点击候选，直接进入提交。
+卡通目录检索目标: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+卡通目录检索目标: 已点击底部“选择/确认”；yellowPixels=716
+卡通目录检索确认完成: 青眼卡通龙[M07]；纯等待1600ms让检索动画稳定。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0529; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=265ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=477.4ms; classify_from_shared_frame=87.3ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=400-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M10; 跳过Main1全栏搜索，直接识别当前底部视口。
+右栏快速路径可见Main1边界已证明: startY=473; 忽略其上方开局/旧回合记录。
+底部尾部连续性已确认: overlap=M10; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 卡通目录 [M10] -> HAND_GAIN:青眼卡通龙
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=691.1ms; bridge_reuse=0.0ms; reuse_verified_window=2.2ms; foreground_recheck=1.5ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=77.6ms; recognize_right_log_pixels=600.2ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=5；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 卡通目录 [M10]
+移出手牌: 卡通目录@手牌2
+新增数量: 1; 唯一实际槽位=1
+右栏唯一新增身份: 手牌1 青眼卡通龙 [M07]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=2; M06=2; M08=2; M17=2; M22=1
+增量识别成功: 当前手牌=5
+手牌序列: 青眼卡通龙[M07] | 暴发户哥布林[M09] | 卡通目录[M10] | 金黄色的竹光[M14] | 闪刀起动－交闪[M17]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1089.8ms; load_previous_state_and_log=0.7ms; observe_composite_route=9.2ms; load_recognition_templates=48.9ms; bridge_reuse=0.0ms; reuse_verified_window=2.0ms; capture_passive_hand=34.8ms; read_hand_count_fast_own=387.6ms; infer_incremental_slots=1.2ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 卡通目录[M10] = PASS_LIVE
+
+============================================================
+M10执行测试 PASS: 卡通目录
+实际检索: 青眼卡通龙[M07]
+选择依据: NO_M10_FALLBACK_M07
+手牌数: 5 -> 5
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M10_toon_table\2026-10-08T09-56-00-936Z
+============================================================
+卡通目录自动续链结束：额外自动结算1张目录；牌组已无下一张可检索目录，回到正常决策。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0521; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=233ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=5张（不重新逐张扫描）
+我的建议：手牌2 暴发户哥布林[M09]
+原因：暴发户哥布林属于抽1动作；按当前规则优先于所有抽2。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌2 暴发户哥布林[M09]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0522; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=252ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=5张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+============================================================
+准备自动操作：暴发户哥布林[M09]
+目标定位完全复用 observer：1~7 当前 TITLE_COMPONENTS；8~12 当前 DENSE 窗口。
+目标牌只点击1次；发动后纯等待，不追加任何输入。
+============================================================
+V5当前槽位确认: 手牌2 暴发户哥布林[M09] @(867,1004); 本次为正式执行前的目标确认。
+发动前卡名确认: 暴发户哥布林[M09] PASS @手牌2
+发动按钮确认: 暴发户哥布林[M09] reference=(801,835); component=86x48; yellowPixels=7792
+我方底部淡蓝光晕 PASS: AFTER_M09_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0532; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=208ms。
+已点击“发动”：暴发户哥布林[M09]；现在纯等待抽卡结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0532; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=270ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=431.1ms; classify_from_shared_frame=73.6ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=338-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M09; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M10; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 暴发户哥布林 [M09] -> HAND_GAIN:闪刀姬－零衣
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=645.7ms; bridge_reuse=0.0ms; reuse_verified_window=2.6ms; foreground_recheck=1.5ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=66.1ms; recognize_right_log_pixels=563.3ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=5；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 暴发户哥布林 [M09]
+移出手牌: 暴发户哥布林@手牌2
+新增数量: 1; 唯一实际槽位=1
+右栏唯一新增身份: 手牌1 闪刀姬－零衣 [M06]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=3; M06=1; M08=2; M17=2; M22=1
+增量识别成功: 当前手牌=5
+手牌序列: 闪刀姬－零衣[M06] | 青眼卡通龙[M07] | 卡通目录[M10] | 金黄色的竹光[M14] | 闪刀起动－交闪[M17]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1098.7ms; load_previous_state_and_log=0.7ms; observe_composite_route=8.6ms; load_recognition_templates=46.8ms; bridge_reuse=0.0ms; reuse_verified_window=1.9ms; capture_passive_hand=49.9ms; read_hand_count_fast_own=367.6ms; infer_incremental_slots=1.6ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+
+============================================================
+M09执行测试 PASS: 暴发户哥布林
+手牌数: 5 -> 5
+实际抽到: 闪刀姬－零衣[M06] @手牌1
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M09_upstart_goblin\2026-10-08T09-56-12-035Z
+============================================================
+
+操作完成：暴发户哥布林[M09]；observer当前手牌=5张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0502; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=219ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=5张（不重新逐张扫描）
+我的建议：手牌5 闪刀起动－交闪[M17]；目标建议=闪术兵器－H.A.M.P.
+原因：墓地魔法=3，已满足三魔法；交闪可检索并获得额外抽牌。若当前没有“大黄蜂→篝回收交闪→竹光”等更确定的资源链，则优先处理交闪。
+回车=采用我的建议；输入数字=改用你指定的当前手牌。
+------------------------------------------------------------
+交闪自动分支：墓地魔法=3，默认追加抽1。
+
+V6执行：手牌5 闪刀起动－交闪[M17]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0551; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=254ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=5张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+交闪共享牌组账本: source=lib/decision-engine.buildDeckState; 零衣=1/2; H.A.M.P.=2/2; 大黄蜂=1/1; expectedCandidates=4
+
+交闪本轮计划：
+  发动: 闪刀起动－交闪[M17] @手牌5
+  本轮分支: 检索1 + 追加抽1
+  检索策略: 交闪目标按共享牌组账本与既定优先级排序：手牌已有零衣或本回合通招已使用；一般检索优先兵器，不再优先零衣；大黄蜂会卡住后续交闪，只作末位备用
+  检索优先级: 闪术兵器－H.A.M.P.[M08] > 闪刀姬－零衣[M06] > 闪刀机－大黄蜂无人机[M22]
+  专用检索窗口仍从左向右逐候选精确认；普通部分与刚刚PASS的无追加抽1分支完全一致。
+
+============================================================
+准备自动操作：闪刀起动－交闪[M17]（追加抽1分支）
+前半段完全复用刚刚PASS的M17无追加抽1：observer基线 -> 实测位置发动 -> 同一检索策略。
+唯一新增阶段：必须稳定识别追加抽1确认框 -> 等650ms复核 -> 点击“是”。
+如果“是”未响应，只允许补点“是”1次；绝不重新点击检索候选。
+确认后纯等待，再由正式observer验证“检索1 + 额外抽1”，最终手牌 +1。
+============================================================
+V5当前槽位确认: 手牌5 闪刀起动－交闪[M17] @(1298,1014); 本次为正式执行前的目标确认。
+发动前卡名确认: 闪刀起动－交闪[M17] PASS @手牌5
+发动按钮确认: 闪刀起动－交闪[M17] reference=(1210,845); component=86x46; yellowPixels=7152
+我方底部淡蓝光晕 PASS: AFTER_M17_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0582; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=206ms。
+已点击“发动”：闪刀起动－交闪[M17]；零输入等待专用检索窗口。
+交闪检索窗口: PASS; signatureMad=0.0025
+交闪候选稳定采样: samples=13; chosenCount=4; repeated=5; elapsed=2450ms
+交闪实时候选中心（从右向左）: (1261,925), (1103,925), (945,925), (787,925)
+交闪检索候选1: 闪刀机－大黄蜂无人机[M22] PASS
+  候选1不是最终目标：同点恢复为未选中。
+交闪检索候选2: 闪术兵器－H.A.M.P.[M08] PASS
+交闪检索优先级命中: 闪术兵器－H.A.M.P.[M08]；保持选中，不再扫描低优先级候选。
+交闪检索目标: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+交闪检索目标: 已点击底部“选择/确认”；yellowPixels=716
+交闪检索确认完成: 闪术兵器－H.A.M.P.[M08]；现在只截图等待追加抽1确认框。
+交闪追加抽1确认框: PASS；已点击“是”；yellow=591; darkRatio=0.741
+交闪追加抽1确认框已关闭：随后只等待检索牌+额外抽1结算。
+追加抽1已确认；纯等待1500ms让检索牌和额外抽牌全部结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0416; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=302ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=564.3ms; classify_from_shared_frame=90.8ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=299-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M17; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M09; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 闪刀起动－交闪 [M17] -> HAND_GAIN:闪术兵器－H.A.M.P. / HAND_GAIN:暴发户哥布林
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=729.5ms; bridge_reuse=0.0ms; reuse_verified_window=2.8ms; foreground_recheck=1.7ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=91.1ms; recognize_right_log_pixels=622.7ms; group_and_reconcile_events=0.7ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=6；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 闪刀起动－交闪 [M17]
+移出手牌: 闪刀起动－交闪@手牌5
+新增数量: 2; 唯一实际槽位=3,4
+已知效果数量确认: 闪刀起动－交闪：检索1+追加抽1；最终实际手牌=6，因此本轮按新增2张处理。
+右栏唯一新增身份: 手牌3 闪术兵器－H.A.M.P. [M08]，直接记入状态，不点击新牌。
+右栏唯一新增身份: 手牌4 暴发户哥布林 [M09]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=4; M06=1; M08=1; M17=2; M22=1
+增量识别成功: 当前手牌=6
+手牌序列: 闪刀姬－零衣[M06] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 暴发户哥布林[M09] | 卡通目录[M10] | 金黄色的竹光[M14]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1094.0ms; load_previous_state_and_log=0.7ms; observe_composite_route=8.2ms; load_recognition_templates=50.3ms; bridge_reuse=0.0ms; reuse_verified_window=1.8ms; capture_passive_hand=34.5ms; read_hand_count_fast_own=391.3ms; infer_incremental_slots=1.9ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行分支已标记: 闪刀起动－交闪[M17] / BONUS_DRAW = PASS_LIVE
+工程执行整卡已封板: 闪刀起动－交闪[M17] = PASS_LIVE / SEALED；分支=NO_BONUS_DRAW + BONUS_DRAW
+
+============================================================
+M17执行测试 PASS: 闪刀起动－交闪（追加抽1）
+实际检索: 闪术兵器－H.A.M.P.[M08]
+额外抽到: 暴发户哥布林[M09]
+手牌数: 5 -> 6
+observer新增: 闪术兵器－H.A.M.P.[M08]@手牌3 / 暴发户哥布林[M09]@手牌4
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M17_engage_bonus_draw\2026-10-08T09-56-20-813Z
+如果此前NO_BONUS_DRAW分支已在本工程PASS，本次会同时把M17整卡标记为SEALED。
+============================================================
+
+操作完成：闪刀起动－交闪[M17]；observer当前手牌=6张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=3/3; median=0.0352; outer=PASS_GLOW_BACKED; glowColumns=11/6; glowEdges=2+3; attempts=2; elapsed=216ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=6张（不重新逐张扫描）
+我的建议：手牌4 暴发户哥布林[M09]
+原因：暴发户哥布林属于抽1动作；按当前规则优先于所有抽2。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌4 暴发户哥布林[M09]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=3/3; median=0.0384; outer=PASS_GLOW_BACKED; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=269ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=6张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+============================================================
+准备自动操作：暴发户哥布林[M09]
+目标定位完全复用 observer：1~7 当前 TITLE_COMPONENTS；8~12 当前 DENSE 窗口。
+目标牌只点击1次；发动后纯等待，不追加任何输入。
+============================================================
+V5当前槽位确认: 手牌4 暴发户哥布林[M09] @(1075,1000); 本次为正式执行前的目标确认。
+发动前卡名确认: 暴发户哥布林[M09] PASS @手牌4
+发动按钮确认: 暴发户哥布林[M09] reference=(1006,831); component=86x46; yellowPixels=7256
+我方底部淡蓝光晕 PASS: AFTER_M09_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0432; outer=PASS; glowColumns=11/6; glowEdges=2+3; attempts=2; elapsed=216ms。
+已点击“发动”：暴发户哥布林[M09]；现在纯等待抽卡结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=3/3; median=0.0421; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=269ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=445.2ms; classify_from_shared_frame=80.6ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=275-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M09; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M17; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 暴发户哥布林 [M09] -> HAND_GAIN:闪刀姬－零衣
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=675.4ms; bridge_reuse=0.0ms; reuse_verified_window=2.7ms; foreground_recheck=1.9ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=70.1ms; recognize_right_log_pixels=589.9ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=6；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 暴发户哥布林 [M09]
+移出手牌: 暴发户哥布林@手牌4
+新增数量: 1; 唯一实际槽位=2
+右栏唯一新增身份: 手牌2 闪刀姬－零衣 [M06]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=5; M06=0; M08=1; M17=2; M22=1
+增量识别成功: 当前手牌=6
+手牌序列: 闪刀姬－零衣[M06] | 闪刀姬－零衣[M06] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 金黄色的竹光[M14]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1114.4ms; load_previous_state_and_log=0.7ms; observe_composite_route=7.9ms; load_recognition_templates=47.6ms; bridge_reuse=0.0ms; reuse_verified_window=1.7ms; capture_passive_hand=55.2ms; read_hand_count_fast_own=388.3ms; infer_incremental_slots=1.3ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+
+============================================================
+M09执行测试 PASS: 暴发户哥布林
+手牌数: 6 -> 6
+实际抽到: 闪刀姬－零衣[M06] @手牌2
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M09_upstart_goblin\2026-10-08T09-56-41-889Z
+============================================================
+
+操作完成：暴发户哥布林[M09]；observer当前手牌=6张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0415; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=222ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=6张（不重新逐张扫描）
+我的建议：手牌1 闪刀姬－零衣[M06]
+原因：无刀且未确认刀送墓，不因检索零衣立即通招；现有收益和洗牌先做，仅保留已证明合法的资源收尾后备；零衣须为唯一主怪兽再发动自身效果。
+回车=采用我的建议；输入数字=改用你指定的当前手牌。
+------------------------------------------------------------
+
+正式V6原子节点：手牌1 闪刀姬－零衣[M06] -> 仅通常召唤 -> 回决策层。
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0455; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=261ms。
+V5 Link当前槽位确认: 手牌1 闪刀姬－零衣[M06] @(659,1026); 使用当前真实TITLE组件，不再要求历史x/y。
+通常召唤按钮确认: 闪刀姬－零衣[M06]; detector=NORMAL_SUMMON_PAIRED_BLUE_COMPONENT_V3; newBlue=11052; reference=(597,849); 已拒绝右侧设置=(771,862)
+我方底部淡蓝光晕 PASS: AFTER_M06_NORMAL_SUMMON_RESPONSE_BOUNDARY; stable=2; votes=3/3; median=0.0462; outer=PASS_GLOW_BACKED; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=220ms。
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=2/3; median=0.0395; outer=PASS_GLOW_BACKED; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=272ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=433.6ms; classify_from_shared_frame=73.0ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=269-1028（已到底）；无需滚轮。
+底部尾部连续性已确认: overlap=M17>M09; 匹配=EXACT_SIGNATURE+EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=3; 新操作=1
+  新操作1: 闪刀姬－零衣 [M06]
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=1279.5ms; bridge_reuse=0.0ms; reuse_verified_window=2.3ms; foreground_recheck=1.3ms; reuse_initial_client_capture=0.0ms; save_latest_client_debug=318.9ms; load_recognition_templates=67.8ms; recognize_right_log_pixels=878.0ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+复合支线观察: phase=MATERIAL_READY; 素材来源=RAYE_NORMAL_SUMMON; 素材=闪刀姬－零衣; 装刀=NONE; 离场=NONE; 新怪兽=NONE; 后处理=无
+复合支线详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\composite-route-live\latest_result.json
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=5；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 闪刀姬－零衣 [M06]
+移出手牌: 闪刀姬－零衣@手牌1
+新增数量: 0; 唯一实际槽位=
+MAIN DECK LEDGER COMMIT: revision=6; M06=0; M08=1; M17=2; M22=1
+增量识别成功: 当前手牌=5
+手牌序列: 闪刀姬－零衣[M06] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 金黄色的竹光[M14]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1102.7ms; load_previous_state_and_log=0.6ms; observe_composite_route=8.9ms; load_recognition_templates=49.1ms; bridge_reuse=0.0ms; reuse_verified_window=1.9ms; capture_passive_hand=49.4ms; read_hand_count_fast_own=378.9ms; infer_incremental_slots=1.6ms; click_and_recognize_new_cards=0.0ms; commit_and_write_state=0.0ms
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0494; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=211ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=5张（不重新逐张扫描）
+我的建议：使用已在场的零衣效果，进入已证明可行的零梦资源入口
+原因：当前普通收益优先；无其它可用动作时，零衣作为直出零梦的收尾入口；零衣须为唯一主怪兽再发动自身效果。
+场上续行：输入 f = R1：只发动零衣自身效果并直出零梦；停在零梦效果池
+------------------------------------------------------------
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0498; outer=PASS; glowColumns=11/6; glowEdges=2+3; attempts=2; elapsed=243ms。
+
+============================================================
+V6原子节点 R1：零衣发动自身效果 -> 直出零梦 -> 停在零梦单效果池。
+本节点不发动妖刀/零梦的可选效果。
+============================================================
+场上零衣精确认: 闪刀姬－零衣[M06]; 实际探测中心≈(1024,705)
+零衣发动按钮确认: (1024,555); detector=FIELD_EXPECTED_LOCAL_ACTIVATE_GLYPH_V1; stable=2; yellow=34648
+Link候选窗口仍在动画: 暂检测到1个合并宽块(width=790)，继续纯等待，不点击。
+Link候选窗口稳定等待: observed=1; centers=[(1236,910)]; stable=1/3
+Link候选窗口稳定等待: observed=4; centers=[(812,910), (920,910), (1078,910), (1236,910)]; stable=1/3
+Link召唤候选窗口: PASS_STABLE; candidates=4; centers=[(812,910), (920,910), (1078,910), (1236,910)]; physicalFrames=4/4; stableSamples=3
+Link候选1实际点击点: reference=(812,910); detector=LINK_CANDIDATE_REAL_BLUE_FRAME_V1; frame=PASS
+Link候选1: 闪刀姬－篝[E02] 识别
+Link候选1: 闪刀姬－篝[E02] 当前游戏可召唤，但被当前路线策略排除；同点恢复未选中后继续检查其它候选。
+Link候选2实际点击点: reference=(920,910); detector=LINK_CANDIDATE_REAL_BLUE_FRAME_V1; frame=PASS
+Link候选2: 闪刀姬－飒[E04] 识别
+Link候选2: 闪刀姬－飒[E04] 当前游戏可召唤，但被当前路线策略排除；同点恢复未选中后继续检查其它候选。
+Link候选3实际点击点: reference=(1078,910); detector=LINK_CANDIDATE_REAL_BLUE_FRAME_V1; frame=PASS
+Link候选3: 闪刀姬－腕[E05] 识别
+Link候选3: 闪刀姬－腕[E05] 当前游戏可召唤，但被当前路线策略排除；同点恢复未选中后继续检查其它候选。
+Link候选4实际点击点: reference=(1236,910); detector=LINK_CANDIDATE_REAL_BLUE_FRAME_V1; frame=PASS
+Link候选4: 闪刀姬－零梦[E10] 识别
+本次Link结果选择: 闪刀姬－零梦[E10] PASS；候选窗口与卡名均已稳定证明，纯等待250ms后进入提交按钮检测。
+零衣额外选择已提交: (1024,1089); 未重复点击零梦
+我方底部淡蓝光晕 PASS: AFTER_RAYE_EXTRA_SUMMON_RESOLUTION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0487; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=198ms。
+Link后可选效果池: PASS; candidates=1; detector=GENERIC_OPTIONAL_EFFECT_POOL_V2
+R1 PASS: 零衣直出零梦完成；optional=1; 以当前可选效果池为原子提交证明，不再让后置右栏读取否定已经完成的召唤。
+STATE COMMIT: E10_OPTIONAL_PENDING
+同一响应区间自动续行：RAYE_NORMAL_SUMMONED>E10_OPTIONAL_PENDING; Raye effect resolution -> activate landed Zeke effect。下一步仍须先由其输入门证明我方底部淡蓝光晕。
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=1/3; median=0.0289; outer=PASS_GLOW_BACKED; glowColumns=7/6; glowEdges=3+2; attempts=5; elapsed=641ms。
+
+============================================================
+V6原子节点 R2：当前零梦单效果池 -> 发动零梦 -> 停在目标窗口。
+本节点不选择目标。
+============================================================
+可选效果固定候选中心: (1024,925)
+可选效果候选1: 闪刀姬－零梦[E10] PASS
+可选效果目标命中: 闪刀姬－零梦[E10]；保持选中，不再点击候选。
+可选效果: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+闪刀姬－零梦效果“选择”按钮: PASS; yellow=720; reference=(1187,1087)
+我方底部淡蓝光晕 PASS: AFTER_E10_OPTIONAL_EFFECT_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0399; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=190ms。
+R2提交完成：按零梦效果动画时长先纯等待3000ms，再检查目标窗口。
+零梦实际候选稳定等待: attempt=1; count=4; (797,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (955,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1113,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1271,925;E10_TARGET_GREEN_SPELL_FRAME_V3)
+零梦实际候选稳定等待: attempt=2; count=4; (797,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (955,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1113,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1271,925;E10_TARGET_GREEN_SPELL_FRAME_V3)
+零梦实际候选稳定等待: attempt=3; count=4; (797,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (955,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1113,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1271,925;E10_TARGET_GREEN_SPELL_FRAME_V3)
+零梦实际候选卡框: PASS_STABLE; count=4; source=GREEN_SPELL_FRAMES; centers=[(797,925), (955,925), (1113,925), (1271,925)]
+R2 PASS: 零梦效果已发动；目标窗口稳定，physical=4；未选择目标。
+STATE COMMIT: E10_TARGET_PROMPT
+同一响应区间自动续行：E10_OPTIONAL_PENDING>E10_TARGET_PROMPT; activate Zeke effect -> submit its activation target。下一步仍须先由其输入门证明我方底部淡蓝光晕。
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0973; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=227ms。
+
+============================================================
+V6原子节点 R3：当前零梦目标窗口 -> 选择实际目标 -> 提交 -> observer验收入手。
+============================================================
+零梦交闪来源策略: DECK; 手牌+牌组交闪目标=4（手牌2/牌组2）；目标充足，优先牌组交闪。
+零梦检索/回收窗口 PASS: candidates=4
+零梦实际候选稳定等待: attempt=1; count=4; (797,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (955,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1113,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1271,925;E10_TARGET_GREEN_SPELL_FRAME_V3)
+零梦实际候选稳定等待: attempt=2; count=4; (797,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (955,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1113,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1271,925;E10_TARGET_GREEN_SPELL_FRAME_V3)
+零梦实际候选稳定等待: attempt=3; count=4; (797,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (955,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1113,925;E10_TARGET_GREEN_SPELL_FRAME_V3), (1271,925;E10_TARGET_GREEN_SPELL_FRAME_V3)
+零梦实际候选卡框: PASS_STABLE; count=4; source=GREEN_SPELL_FRAMES; centers=[(797,925), (955,925), (1113,925), (1271,925)]
+零梦检索候选1: 闪刀起动－交闪[M17] PASS
+  零梦候选1不是最终优先目标：不再同点反点，直接检查下一真实候选。
+零梦检索候选2: 闪刀起动－交闪[M17] PASS
+  零梦候选2不是最终优先目标：不再同点反点，直接检查下一真实候选。
+零梦检索候选3: 闪刀起动－交闪[M17] PASS
+  零梦候选3不是最终优先目标：不再同点反点，直接检查下一真实候选。
+零梦检索候选4: 闪刀机－大黄蜂无人机[M22] PASS
+  零梦候选4不是最终优先目标：不再同点反点，直接检查下一真实候选。
+零梦回到已确认的闪刀起动－交闪[M17]。
+零梦检索目标: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+零梦检索目标: 已点击底部“选择/确认”；yellowPixels=716
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0467; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=277ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=485.1ms; classify_from_shared_frame=72.7ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=242-1028（已到底）；无需滚轮。
+底部尾部连续性已确认: overlap=M06; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=3; 新操作=2
+  新操作1: 闪刀姬－零衣 [M06] -> HAND_GAIN:闪刀姬－零衣 / SPECIAL_SUMMON:闪刀姬衍生物 / HAND_GAIN:闪刀姬－零梦
+  新操作2: 闪刀姬－零梦 [E10] -> HAND_GAIN:闪刀起动－交闪
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=1297.5ms; bridge_reuse=0.0ms; reuse_verified_window=2.4ms; foreground_recheck=2.0ms; reuse_initial_client_capture=0.0ms; save_latest_client_debug=315.1ms; load_recognition_templates=67.3ms; recognize_right_log_pixels=899.6ms; group_and_reconcile_events=0.8ms
+
+===== observe-hand-change-incremental-live.js =====
+复合支线观察: phase=POST_SUMMON_EFFECTS; 素材来源=RAYE_NORMAL_SUMMON; 素材=闪刀姬－零衣; 装刀=NONE; 离场=RAYE_EFFECT; 新怪兽=闪刀姬－零梦; 后处理=MONSTER_HAND_GAIN:闪刀起动－交闪
+复合支线详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\composite-route-live\latest_result.json
+检测到 2 个新增蓝色顶格块：按手牌影响证据忽略 1 个场面过程块（闪刀姬－零衣[M06]）；处理 闪刀姬－零梦[E10]。
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=6；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 闪刀姬－零梦 [E10]
+操作类型: 额外卡组怪兽场上效果回收（不从手牌消耗发动卡）
+移出手牌: 无（场上效果）
+新增数量: 1; 唯一实际槽位=6
+右栏唯一新增身份: 手牌6 闪刀起动－交闪 [M17]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=7; M06=0; M08=1; M17=1; M22=1
+增量识别成功: 当前手牌=6
+手牌序列: 闪刀姬－零衣[M06] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 金黄色的竹光[M14] | 闪刀起动－交闪[M17]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1094.3ms; load_previous_state_and_log=0.7ms; observe_composite_route=9.3ms; load_recognition_templates=45.9ms; bridge_reuse=0.0ms; reuse_verified_window=1.9ms; capture_passive_hand=33.6ms; read_hand_count_fast_own=391.7ms; infer_incremental_slots=1.5ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+R3 PASS: observer手牌 5->6; 零梦目标=M17。
+STATE COMMIT: E10_EFFECT_RESOLVED (decision-safe)
+响应边界已到达：E10_TARGET_PROMPT -> E10_EFFECT_RESOLVED；停下等待下一次我方底部淡蓝光晕与用户决策。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0494; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=221ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=6张（不重新逐张扫描）
+我的建议：手牌6 闪刀起动－交闪[M17]；目标建议=闪术兵器－H.A.M.P.
+原因：墓地魔法=5，已满足三魔法；交闪可检索并获得额外抽牌。若当前没有“大黄蜂→篝回收交闪→竹光”等更确定的资源链，则优先处理交闪。
+回车=采用我的建议；输入数字=改用你指定的当前手牌。
+------------------------------------------------------------
+交闪自动分支：墓地魔法=5，默认追加抽1。
+
+V6执行：手牌6 闪刀起动－交闪[M17]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0428; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=269ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=6张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+交闪共享牌组账本: source=lib/decision-engine.buildDeckState; 零衣=0/2; H.A.M.P.=1/2; 大黄蜂=1/1; expectedCandidates=2
+
+交闪本轮计划：
+  发动: 闪刀起动－交闪[M17] @手牌6
+  本轮分支: 检索1 + 追加抽1
+  检索策略: 交闪目标按共享牌组账本与既定优先级排序：手牌已有零衣或本回合通招已使用；一般检索优先兵器，不再优先零衣；大黄蜂会卡住后续交闪，只作末位备用
+  检索优先级: 闪术兵器－H.A.M.P.[M08] > 闪刀机－大黄蜂无人机[M22]
+  专用检索窗口仍从左向右逐候选精确认；普通部分与刚刚PASS的无追加抽1分支完全一致。
+
+============================================================
+准备自动操作：闪刀起动－交闪[M17]（追加抽1分支）
+前半段完全复用刚刚PASS的M17无追加抽1：observer基线 -> 实测位置发动 -> 同一检索策略。
+唯一新增阶段：必须稳定识别追加抽1确认框 -> 等650ms复核 -> 点击“是”。
+如果“是”未响应，只允许补点“是”1次；绝不重新点击检索候选。
+确认后纯等待，再由正式observer验证“检索1 + 额外抽1”，最终手牌 +1。
+============================================================
+V5当前槽位确认: 手牌6 闪刀起动－交闪[M17] @(1370,1022); 本次为正式执行前的目标确认。
+发动前卡名确认: 闪刀起动－交闪[M17] PASS @手牌6
+发动按钮确认: 闪刀起动－交闪[M17] reference=(1278,853); component=86x46; yellowPixels=6056
+我方底部淡蓝光晕 PASS: AFTER_M17_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0471; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=211ms。
+已点击“发动”：闪刀起动－交闪[M17]；零输入等待专用检索窗口。
+交闪检索窗口: PASS; signatureMad=0.0027
+交闪候选稳定采样: samples=14; chosenCount=2; repeated=6; elapsed=2552ms
+交闪实时候选中心（从右向左）: (1103,925), (945,925)
+交闪检索候选1: 闪刀机－大黄蜂无人机[M22] PASS
+  候选1不是最终目标：同点恢复为未选中。
+交闪检索候选2: 闪术兵器－H.A.M.P.[M08] PASS
+交闪检索优先级命中: 闪术兵器－H.A.M.P.[M08]；保持选中，不再扫描低优先级候选。
+交闪检索目标: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+交闪检索目标: 已点击底部“选择/确认”；yellowPixels=716
+交闪检索确认完成: 闪术兵器－H.A.M.P.[M08]；现在只截图等待追加抽1确认框。
+交闪追加抽1确认框: PASS；已点击“是”；yellow=591; darkRatio=0.741
+交闪追加抽1确认框已关闭：随后只等待检索牌+额外抽1结算。
+追加抽1已确认；纯等待1500ms让检索牌和额外抽牌全部结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0642; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=267ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=544.5ms; classify_from_shared_frame=79.3ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=232-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M17; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=E10; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 闪刀起动－交闪 [M17] -> HAND_GAIN:闪术兵器－H.A.M.P. / HAND_GAIN:暗之诱惑
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=676.7ms; bridge_reuse=0.0ms; reuse_verified_window=2.3ms; foreground_recheck=1.8ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=73.9ms; recognize_right_log_pixels=588.0ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=7；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 闪刀起动－交闪 [M17]
+移出手牌: 闪刀起动－交闪@手牌6
+新增数量: 2; 唯一实际槽位=4,6
+已知效果数量确认: 闪刀起动－交闪：检索1+追加抽1；最终实际手牌=7，因此本轮按新增2张处理。
+右栏唯一新增身份: 手牌4 闪术兵器－H.A.M.P. [M08]，直接记入状态，不点击新牌。
+右栏唯一新增身份: 手牌6 暗之诱惑 [M13]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=8; M06=0; M08=0; M17=1; M22=1
+增量识别成功: 当前手牌=7
+手牌序列: 闪刀姬－零衣[M06] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 暗之诱惑[M13] | 金黄色的竹光[M14]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1129.1ms; load_previous_state_and_log=0.6ms; observe_composite_route=8.4ms; load_recognition_templates=50.4ms; bridge_reuse=0.0ms; reuse_verified_window=2.2ms; capture_passive_hand=39.2ms; read_hand_count_fast_own=385.3ms; infer_incremental_slots=1.8ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行分支已标记: 闪刀起动－交闪[M17] / BONUS_DRAW = PASS_LIVE
+工程执行整卡已封板: 闪刀起动－交闪[M17] = PASS_LIVE / SEALED；分支=NO_BONUS_DRAW + BONUS_DRAW
+
+============================================================
+M17执行测试 PASS: 闪刀起动－交闪（追加抽1）
+实际检索: 闪术兵器－H.A.M.P.[M08]
+额外抽到: 暗之诱惑[M13]
+手牌数: 6 -> 7
+observer新增: 闪术兵器－H.A.M.P.[M08]@手牌4 / 暗之诱惑[M13]@手牌6
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M17_engage_bonus_draw\2026-10-08T09-57-28-972Z
+如果此前NO_BONUS_DRAW分支已在本工程PASS，本次会同时把M17整卡标记为SEALED。
+============================================================
+
+操作完成：闪刀起动－交闪[M17]；observer当前手牌=7张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0700; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=239ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=7张（不重新逐张扫描）
+我的建议：手牌6 暗之诱惑[M13]；除外建议=闪刀姬－零衣
+原因：手里有零衣可安全除外，暗之诱惑按正常抽2处理；固定检索和普通抽1先做，但先于暂时休战及普通万宝槌。优先除外零衣，不牺牲组件。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌6 暗之诱惑[M13]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0726; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=269ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=7张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+暗之诱惑本轮计划：
+  发动: 暗之诱惑[M13] @手牌6
+  除外优先级: 闪刀姬－零衣[M06] > 闪术兵器－H.A.M.P.[M08]
+  发动前安全目标: 闪刀姬－零衣[M06] @原手牌1
+
+============================================================
+准备自动操作：暗之诱惑[M13]
+普通部分沿用已封板M09/M15：observer基线 -> observer真实定位 -> 发动。
+特殊部分只处理暗之诱惑专用除外窗口：逐候选精确认 -> M06优先/M08后备 -> 选择/确认。
+抽2和最终结算动画期间不按i、不拖手牌、不点其他区域。
+============================================================
+V5当前槽位确认: 手牌6 暗之诱惑[M13] @(1281,1012); 本次为正式执行前的目标确认。
+发动前卡名确认: 暗之诱惑[M13] PASS @手牌6
+发动按钮确认: 暗之诱惑[M13] reference=(1210,845); component=84x46; yellowPixels=6772
+我方底部淡蓝光晕 PASS: AFTER_M13_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0824; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=213ms。
+已点击“发动”：暗之诱惑[M13]；现在零输入等待抽2并出现除外窗口。
+暗之诱惑除外窗口: PASS; headerDark=0.804; candidates=3
+暗之诱惑合法除外候选中心: (866,925), (1024,925), (1182,925)
+暗之诱惑候选3: 闪术兵器－H.A.M.P.[M08] PASS
+  候选3不是最终目标：同点恢复为未选中。
+暗之诱惑候选2: 闪术兵器－H.A.M.P.[M08] PASS
+  候选2不是最终目标：同点恢复为未选中。
+暗之诱惑候选1: 闪刀姬－零衣[M06] PASS
+除外优先级命中: 闪刀姬－零衣[M06]；保持选中，不再扫描低优先级候选。
+暗之诱惑除外目标: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+暗之诱惑除外目标: 已点击底部“选择/确认”；yellowPixels=716
+暗之诱惑除外确认完成: 闪刀姬－零衣[M06]；纯等待1800ms让最终动画稳定。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0736; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=269ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=513.0ms; classify_from_shared_frame=90.9ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=222-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M13; 跳过Main1全栏搜索，直接识别当前底部视口。
+观察器底部已通过上一步入手牌衔接: M17 -> M13（FIRST_VISIBLE_ACTIVATION_WAS_CHECKPOINT_HAND_GAIN）；当前底部全部视为新操作，无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_CHECKPOINT_GAIN_HANDOFF_NEW_BLOCKS; 可见操作=1; 新操作=1
+  新操作1: 暗之诱惑 [M13] -> HAND_GAIN:无之炼狱 / HAND_GAIN:抵价交易 / BANISH_SELECTION:闪刀姬－零衣 / BANISH_FROM_HAND:闪刀姬－零衣
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=688.0ms; bridge_reuse=0.0ms; reuse_verified_window=2.5ms; foreground_recheck=1.6ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=73.2ms; recognize_right_log_pixels=599.8ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=7；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 暗之诱惑 [M13]
+移出手牌: 暗之诱惑@手牌6
+额外移出手牌: 闪刀姬－零衣@手牌1
+新增数量: 2; 唯一实际槽位=5,7
+右栏唯一新增身份: 手牌5 抵价交易 [M12]，直接记入状态，不点击新牌。
+右栏唯一新增身份: 手牌7 无之炼狱 [M15]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=9; M06=0; M08=0; M17=1; M22=1
+增量识别成功: 当前手牌=7
+手牌序列: 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 抵价交易[M12] | 金黄色的竹光[M14] | 无之炼狱[M15]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1074.4ms; load_previous_state_and_log=0.7ms; observe_composite_route=8.5ms; load_recognition_templates=46.3ms; bridge_reuse=0.0ms; reuse_verified_window=1.9ms; capture_passive_hand=32.4ms; read_hand_count_fast_own=392.7ms; infer_incremental_slots=2.3ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 暗之诱惑[M13] = PASS_LIVE
+
+============================================================
+M13执行测试 PASS: 暗之诱惑
+实际除外: 闪刀姬－零衣[M06]
+右栏抽到: M15[M15] / M12[M12]
+手牌数: 7 -> 7
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M13_allure_of_darkness\2026-10-08T09-57-48-162Z
+============================================================
+
+操作完成：暗之诱惑[M13]；observer当前手牌=7张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0740; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=220ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=7张（不重新逐张扫描）
+我的建议：手牌7 无之炼狱[M15]
+原因：无之炼狱属于抽1动作；按当前规则优先于所有抽2。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌7 无之炼狱[M15]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0642; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=264ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=7张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+============================================================
+准备自动操作：无之炼狱[M15]
+完全沿用已实战PASS的暴发户执行骨架：observer基线 -> observer真实定位 -> 发动 -> 纯等待 -> observer验收。
+============================================================
+V5当前槽位确认: 手牌7 无之炼狱[M15] @(1430,1014); 本次为正式执行前的目标确认。
+发动前卡名确认: 无之炼狱[M15] PASS @手牌7
+发动按钮确认: 无之炼狱[M15] reference=(1300,856); component=86x46; yellowPixels=5380
+我方底部淡蓝光晕 PASS: AFTER_M15_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0676; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=215ms。
+已点击“发动”：无之炼狱[M15]；现在纯等待抽1结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0651; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=274ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=457.5ms; classify_from_shared_frame=80.8ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=217-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M15; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M13; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 无之炼狱 [M15] -> HAND_GAIN:无之炼狱
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=704.6ms; bridge_reuse=0.0ms; reuse_verified_window=2.3ms; foreground_recheck=1.6ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=68.4ms; recognize_right_log_pixels=620.5ms; group_and_reconcile_events=0.9ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=7；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 无之炼狱 [M15]
+移出手牌: 无之炼狱@手牌7
+新增数量: 1; 唯一实际槽位=7
+右栏唯一新增身份: 手牌7 无之炼狱 [M15]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=10; M06=0; M08=0; M17=1; M22=1
+增量识别成功: 当前手牌=7
+手牌序列: 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 抵价交易[M12] | 金黄色的竹光[M14] | 无之炼狱[M15]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1101.7ms; load_previous_state_and_log=0.7ms; observe_composite_route=8.2ms; load_recognition_templates=47.5ms; bridge_reuse=0.0ms; reuse_verified_window=1.8ms; capture_passive_hand=57.8ms; read_hand_count_fast_own=369.3ms; infer_incremental_slots=2.2ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 无之炼狱[M15] = PASS_LIVE
+
+============================================================
+M15执行测试 PASS: 无之炼狱
+手牌数: 7 -> 7
+实际抽到: 无之炼狱[M15] @手牌7
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M15_into_the_void\2026-10-08T09-58-01-810Z
+============================================================
+
+操作完成：无之炼狱[M15]；observer当前手牌=7张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0643; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=217ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=7张（不重新逐张扫描）
+我的建议：手牌7 无之炼狱[M15]
+原因：无之炼狱属于抽1动作；按当前规则优先于所有抽2。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌7 无之炼狱[M15]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0610; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=287ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=7张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+============================================================
+准备自动操作：无之炼狱[M15]
+完全沿用已实战PASS的暴发户执行骨架：observer基线 -> observer真实定位 -> 发动 -> 纯等待 -> observer验收。
+============================================================
+V5当前槽位确认: 手牌7 无之炼狱[M15] @(1430,1014); 本次为正式执行前的目标确认。
+发动前卡名确认: 无之炼狱[M15] PASS @手牌7
+发动按钮确认: 无之炼狱[M15] reference=(1300,856); component=86x46; yellowPixels=5312
+我方底部淡蓝光晕 PASS: AFTER_M15_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0510; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=215ms。
+已点击“发动”：无之炼狱[M15]；现在纯等待抽1结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0574; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=276ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=512.5ms; classify_from_shared_frame=81.2ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=213-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M15; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M15; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 无之炼狱 [M15] -> HAND_GAIN:金黄色的竹光
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=737.1ms; bridge_reuse=0.0ms; reuse_verified_window=2.0ms; foreground_recheck=1.3ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=72.1ms; recognize_right_log_pixels=651.0ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=7；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 无之炼狱 [M15]
+移出手牌: 无之炼狱@手牌7
+新增数量: 1; 唯一实际槽位=7
+右栏唯一新增身份: 手牌7 金黄色的竹光 [M14]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=11; M06=0; M08=0; M17=1; M22=1
+增量识别成功: 当前手牌=7
+手牌序列: 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 抵价交易[M12] | 金黄色的竹光[M14] | 金黄色的竹光[M14]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1100.8ms; load_previous_state_and_log=0.7ms; observe_composite_route=8.8ms; load_recognition_templates=49.5ms; bridge_reuse=0.0ms; reuse_verified_window=2.0ms; capture_passive_hand=51.8ms; read_hand_count_fast_own=379.3ms; infer_incremental_slots=1.5ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 无之炼狱[M15] = PASS_LIVE
+
+============================================================
+M15执行测试 PASS: 无之炼狱
+手牌数: 7 -> 7
+实际抽到: 金黄色的竹光[M14] @手牌7
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M15_into_the_void\2026-10-08T09-58-10-963Z
+============================================================
+
+操作完成：无之炼狱[M15]；observer当前手牌=7张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0452; outer=PASS; glowColumns=11/6; glowEdges=2+3; attempts=2; elapsed=219ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=7张（不重新逐张扫描）
+我的建议：手牌5 抵价交易[M12]；代价建议=闪术兵器－H.A.M.P.
+原因：抵价交易为抽2，排在所有普通抽1之后；卡通目录入墓=2/3；目录链尚未完成，本轮用H.A.M.P.支付并保护青眼卡通龙；本轮费用=闪术兵器－H.A.M.P.。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌5 抵价交易[M12]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0428; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=266ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=7张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+抵价交易本轮计划：
+  发动: 抵价交易[M12] @手牌5
+  费用优先级: 闪术兵器－H.A.M.P.[M08] > 青眼卡通龙[M07]
+  卡通目录入墓: 2/3；未全部入墓，优先保护青眼卡通龙
+  计划费用: 闪术兵器－H.A.M.P.[M08] @原手牌2
+  专用窗口候选顺序模型: 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 闪术兵器－H.A.M.P.[M08]
+
+============================================================
+准备自动操作：抵价交易[M12]
+普通部分完全复用封板M09/M15：observer基线 -> observer真实定位 -> 发动。
+特殊部分沿用旧M12专用费用窗口，只把选择方式统一成从左向右逐候选精确认。
+费用确认后纯等待抽2，再由正式observer验收。
+============================================================
+V5当前槽位确认: 手牌5 抵价交易[M12] @(1142,998); 本次为正式执行前的目标确认。
+发动前卡名确认: 抵价交易[M12] PASS @手牌5
+发动按钮确认: 抵价交易[M12] reference=(1074,834); component=84x48; yellowPixels=8000
+我方底部淡蓝光晕 PASS: AFTER_M12_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0419; outer=PASS; glowColumns=11/6; glowEdges=2+3; attempts=2; elapsed=211ms。
+已点击“发动”：抵价交易[M12]；零输入等待8星费用专用窗口出现。
+抵价交易费用窗口: PASS; titleDark=0.931; bodyDark=0.494(仅诊断); stableCandidates=3
+抵价交易合法费用候选中心（从左向右）: (866,925), (1024,925), (1182,925)
+费用优先级目标: 闪术兵器－H.A.M.P.[M08]；本轮从左向右逐候选精确认。
+抵价交易候选1: 青眼卡通龙[M07] 非目标
+  候选1不是最终费用：同点恢复为未选中，继续向右。
+抵价交易候选2: 闪术兵器－H.A.M.P.[M08] PASS
+费用优先级命中: 闪术兵器－H.A.M.P.[M08]；保持选中，不再遍历后续候选。
+抵价交易费用目标: 候选已确认，纯等待1000ms后再点击“选择/确认”。
+抵价交易费用目标: 已点击底部“选择/确认”；yellowPixels=716
+抵价交易费用确认完成: 闪术兵器－H.A.M.P.[M08]；纯等待3000ms让抽2动画稳定。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0463; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=261ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=498.8ms; classify_from_shared_frame=80.2ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=208-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M12; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M15; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 抵价交易 [M12] -> COST_TO_GRAVEYARD:闪术兵器－H.A.M.P. / HAND_GAIN:暂时休战 / HAND_GAIN:被封印的左足
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=752.5ms; bridge_reuse=0.0ms; reuse_verified_window=2.3ms; foreground_recheck=1.7ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=73.6ms; recognize_right_log_pixels=664.2ms; group_and_reconcile_events=0.8ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=7；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 抵价交易 [M12]
+移出手牌: 抵价交易@手牌5
+额外移出手牌: 闪术兵器－H.A.M.P.@手牌2
+新增数量: 2; 唯一实际槽位=1,7
+已知效果数量确认: 抵价交易：发动卡+8星cost离手后抽2；最终实际手牌=7，因此本轮按新增2张处理。
+右栏唯一新增身份: 手牌1 被封印组件（身份无需区分） [EXODIA_UNKNOWN]，直接记入状态，不点击新牌。
+右栏唯一新增身份: 手牌7 暂时休战 [M16]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=12; M06=0; M08=0; M17=1; M22=1
+增量识别成功: 当前手牌=7
+手牌序列: 被封印组件（身份无需区分）[EXODIA_UNKNOWN] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 金黄色的竹光[M14] | 金黄色的竹光[M14] | 暂时休战[M16]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1086.6ms; load_previous_state_and_log=0.9ms; observe_composite_route=8.1ms; load_recognition_templates=45.1ms; bridge_reuse=0.0ms; reuse_verified_window=1.7ms; capture_passive_hand=36.5ms; read_hand_count_fast_own=398.9ms; infer_incremental_slots=1.7ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 抵价交易[M12] = PASS_LIVE
+
+============================================================
+M12执行测试 PASS: 抵价交易
+实际支付: 闪术兵器－H.A.M.P.[M08]
+手牌数: 7 -> 7
+实际抽到: 暂时休战[M16] / 被封印组件（身份无需区分）[EXODIA_UNKNOWN]
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M12_trade_in\2026-10-08T09-58-20-302Z
+============================================================
+
+操作完成：抵价交易[M12]；observer当前手牌=7张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0470; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=208ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=7张（不重新逐张扫描）
+我的建议：手牌7 暂时休战[M16]
+原因：暂时休战优先级很低：安全的普通抽1、正常抽2/2换2和确定资源路线先做；但如果抵价交易只能牺牲未完成目录链的青眼卡通龙，或交闪尚未满3魔法，则先休战保留这些资源。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌7 暂时休战[M16]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0506; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=267ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=7张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+============================================================
+准备自动操作：暂时休战[M16]
+完全沿用已实战PASS的暴发户执行骨架：observer基线 -> observer真实定位 -> 发动 -> 纯等待 -> observer验收。
+============================================================
+V5当前槽位确认: 手牌7 暂时休战[M16] @(1431,1028); 本次为正式执行前的目标确认。
+发动前卡名确认: 暂时休战[M16] PASS @手牌7
+发动按钮确认: 暂时休战[M16] reference=(1300,856); component=86x46; yellowPixels=5016
+我方底部淡蓝光晕 PASS: AFTER_M16_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0474; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=216ms。
+已点击“发动”：暂时休战[M16]；现在纯等待抽1结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0529; outer=PASS; glowColumns=11/6; glowEdges=2+3; attempts=2; elapsed=260ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=433.1ms; classify_from_shared_frame=73.2ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=204-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M16; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M12; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 暂时休战 [M16] -> HAND_GAIN:无之炼狱 / DRAW:背面牌
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=1088.5ms; bridge_reuse=0.0ms; reuse_verified_window=1.8ms; foreground_recheck=1.3ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=69.8ms; recognize_right_log_pixels=1005.5ms; group_and_reconcile_events=0.6ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=7；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 暂时休战 [M16]
+移出手牌: 暂时休战@手牌7
+新增数量: 1; 唯一实际槽位=7
+右栏唯一新增身份: 手牌7 无之炼狱 [M15]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=13; M06=0; M08=0; M17=1; M22=1
+增量识别成功: 当前手牌=7
+手牌序列: 被封印组件（身份无需区分）[EXODIA_UNKNOWN] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 金黄色的竹光[M14] | 金黄色的竹光[M14] | 无之炼狱[M15]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1085.3ms; load_previous_state_and_log=0.9ms; observe_composite_route=8.2ms; load_recognition_templates=47.8ms; bridge_reuse=0.0ms; reuse_verified_window=1.8ms; capture_passive_hand=53.7ms; read_hand_count_fast_own=381.7ms; infer_incremental_slots=1.5ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 暂时休战[M16] = PASS_LIVE
+
+============================================================
+M16执行测试 PASS: 暂时休战
+手牌数: 7 -> 7
+实际抽到: 无之炼狱[M15] @手牌7
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M16_one_day_of_peace\2026-10-08T09-58-33-871Z
+============================================================
+
+操作完成：暂时休战[M16]；observer当前手牌=7张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0627; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=245ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=7张（不重新逐张扫描）
+我的建议：手牌7 无之炼狱[M15]
+原因：无之炼狱属于抽1动作；按当前规则优先于所有抽2。
+简单抽牌自动接续：按现有优先级执行，完成验收后再判断下一张。
+------------------------------------------------------------
+
+V6执行：手牌7 无之炼狱[M15]
+Node运行时: v20.11.1 PASS
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0558; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=298ms。
+
+============================================================
+V5快速接续：复用上一动作正式observer维护的当前手牌状态。
+当前内部手牌=7张；本次不重新逐张扫描、不重建右栏baseline。
+真正执行目标时仍由成熟 hand-target 重新确认当前物理位置和目标卡名。
+============================================================
+
+============================================================
+准备自动操作：无之炼狱[M15]
+完全沿用已实战PASS的暴发户执行骨架：observer基线 -> observer真实定位 -> 发动 -> 纯等待 -> observer验收。
+============================================================
+V5当前槽位确认: 手牌7 无之炼狱[M15] @(1431,1014); 本次为正式执行前的目标确认。
+发动前卡名确认: 无之炼狱[M15] PASS @手牌7
+发动按钮确认: 无之炼狱[M15] reference=(1300,856); component=86x46; yellowPixels=5440
+我方底部淡蓝光晕 PASS: AFTER_M15_ACTIVATION_RESPONSE_BOUNDARY; stable=2; votes=4/3; median=0.0443; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=223ms。
+已点击“发动”：无之炼狱[M15]；现在纯等待抽1结算。
+
+===== runtime/observer/run-live-incremental.js =====
+我方底部淡蓝光晕 PASS: AFTER_MASTER_DUEL_ACTIVATION; stable=2; votes=4/3; median=0.0499; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=272ms。
+
+===== duel-outcome-live =====
+TIMING duel-outcome-live: shared_client_capture=508.6ms; classify_from_shared_frame=88.9ms
+
+===== test-duel-log-live.js =====
+底部验收模式: 定位本次发动并只读其结算; 全局禁止向上滚动追旧 checkpoint。
+右栏面板检测: 已打开; 依据=VISIBLE_SCROLLBAR_RAIL; 置信度=HIGH
+回到底部 BEFORE_RECOGNITION: 初始滚动位置=202-1028（已到底）；无需滚轮。
+右栏原子快速路径: expected=M15; 跳过Main1全栏搜索，直接识别当前底部视口。
+底部尾部连续性已确认: overlap=M16; 匹配=EXACT_SIGNATURE; 无需上滑。
+右侧信息栏: OK_MAIN1_SCROLLED_OUT; 连续性=CONTINUOUS_VIA_BOTTOM_TAIL_NEW_BLOCKS; 可见操作=2; 新操作=1
+  新操作1: 无之炼狱 [M15] -> HAND_GAIN:被封印的艾克佐迪亚
+完整识别详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\duel-log-live\latest_result.json
+TIMING duel-log-live: total=1139.8ms; bridge_reuse=0.0ms; reuse_verified_window=2.0ms; foreground_recheck=1.5ms; reuse_initial_client_capture=0.0ms; load_recognition_templates=76.9ms; recognize_right_log_pixels=1048.3ms; group_and_reconcile_events=0.5ms
+
+===== observe-hand-change-incremental-live.js =====
+FAST OWN INFO: hold i and read only our hand-count ROI; opponent hand is ignored.
+我方 INFO 权威手牌数=7；读取模式=FAST_OWN_INFO；采样=2
+本次操作: 无之炼狱 [M15]
+移出手牌: 无之炼狱@手牌7
+新增数量: 1; 唯一实际槽位=2
+右栏唯一新增身份: 手牌2 被封印组件（身份无需区分） [EXODIA_UNKNOWN]，直接记入状态，不点击新牌。
+MAIN DECK LEDGER COMMIT: revision=14; M06=0; M08=0; M17=1; M22=1
+增量识别成功: 当前手牌=7
+手牌序列: 被封印组件（身份无需区分）[EXODIA_UNKNOWN] | 被封印组件（身份无需区分）[EXODIA_UNKNOWN] | 青眼卡通龙[M07] | 闪术兵器－H.A.M.P.[M08] | 卡通目录[M10] | 金黄色的竹光[M14] | 金黄色的竹光[M14]
+本次新增牌点击: 无
+完整增量详情: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\hand-change-live\latest_incremental_result.json
+TIMING hand-change-incremental: total=1094.4ms; load_previous_state_and_log=0.6ms; observe_composite_route=8.4ms; load_recognition_templates=46.2ms; bridge_reuse=0.0ms; reuse_verified_window=1.9ms; capture_passive_hand=53.3ms; read_hand_count_fast_own=388.0ms; infer_incremental_slots=1.6ms; click_and_recognize_new_cards=0.1ms; commit_and_write_state=0.0ms
+工程执行状态已标记: 无之炼狱[M15] = PASS_LIVE
+
+============================================================
+M15执行测试 PASS: 无之炼狱
+手牌数: 7 -> 7
+实际抽到: 被封印组件（身份无需区分）[EXODIA_UNKNOWN] @手牌2
+测试记录: D:\02_Entertainment\md脚本\MD_PC_Decision_v7\MD_PC_Decision_v7\engine\debug\execution\M15_into_the_void\2026-10-08T09-58-43-956Z
+============================================================
+
+操作完成：无之炼狱[M15]；observer当前手牌=7张。
+我方底部淡蓝光晕 PASS: V7_NEW_STRATEGIC_DECISION_BOUNDARY; stable=2; votes=4/3; median=0.0462; outer=PASS; glowColumns=12/6; glowEdges=3+3; attempts=2; elapsed=231ms。
+
+------------------------------------------------------------
+V7决策点：当前内部手牌=7张（不重新逐张扫描）
+必定死局：所有当前合法动作及固定检索/回收路线都无法再产生抽牌资源。
+  主卡组剩余=18；手牌没有可结算的抽牌动作。
+  交闪牌组目标：零衣=0, H.A.M.P.=0, 大黄蜂=1。
+  目录牌组目标：卡通目录=0, 青眼卡通龙=0。
+  竹光牌组目标：妖刀=2, 真刀=1。
+输入 x 一次即可投降并确认结果页；输入 q 退出V6。
+------------------------------------------------------------
+投降按钮识别 PASS: headerDark=0.6800; red=0.2721; reference=(298,1041)
+投降确认框 PASS: alertRed=0.1060; yesLime=0.0344; reference=(1218,697)
+BRANCH PURE WAIT: SURRENDER_AFTER_YES; 4000ms; no capture, recognition or input.
+投降结果页 PASS: titleWhite=0.3258; confirmLime=0.0414; reference=(1024,1037)
+状态: SURRENDER_COMPLETE
+V7本局执行退出，监督器负责已证明的终局与返回Starter。

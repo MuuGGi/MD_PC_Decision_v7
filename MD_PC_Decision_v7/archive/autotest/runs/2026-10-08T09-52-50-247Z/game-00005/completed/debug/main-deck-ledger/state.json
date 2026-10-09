@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-08T10:06:51.443Z",
+  "openingBaselineCapturedAt": "2026-10-08T10:06:48.710Z",
+  "openingHand": [
+    "EXODIA_UNKNOWN",
+    "M10",
+    "M12",
+    "M17",
+    "M19"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 1,
+    "M07": 1,
+    "M08": 2,
+    "M09": 3,
+    "M10": 3,
+    "M11": 1,
+    "M12": 2,
+    "M13": 0,
+    "M14": 0,
+    "M15": 0,
+    "M16": 1,
+    "M17": 3,
+    "M18": 0,
+    "M19": 2,
+    "M20": 1,
+    "M21": 2,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 4,
+  "lastHandRevision": 8,
+  "lastIncrementalFingerprint": "8|M12|EXODIA_UNKNOWN,M09",
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-08T10:12:31.100Z",
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E02->M17+M19->M20:6->7"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E02->M17+M19->M20:6->7",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": false,
+        "activationKey": "E02"
+      },
+      {
+        "id": "M20",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 6,
+    "afterRevision": 7,
+    "committedAt": "2026-10-08T10:08:50.170Z"
+  },
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-08T10:09:15.701Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-08T10:09:15.701Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 1,
+    "outsideAfter": 2,
+    "committedAt": "2026-10-08T10:09:24.847Z"
+  },
+  "lastMallet": {
+    "returned": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M06",
+      "M11"
+    ],
+    "drawn": [
+      "EXODIA_UNKNOWN",
+      "M08",
+      "M17",
+      "M21",
+      "M21"
+    ],
+    "returnedThenRedrawn": [
+      "EXODIA_UNKNOWN"
+    ]
+  }
+}

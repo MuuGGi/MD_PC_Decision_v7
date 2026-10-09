@@ -1,0 +1,621 @@
+{
+  "createdAt": "2026-10-09T07:42:21.184Z",
+  "tests": [
+    {
+      "name": "test-allure-last-resort-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "ALLURE_LAST_RESORT_OFFLINE_PASS; raye/HAMP=CONTINUE; noSafeDark=SURRENDER; noDark=INFO0; unknown=STOP; currentPromptRepair=NO_REACTIVATION\n"
+    },
+    {
+      "name": "test-allure-policy-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "ALLURE_POLICY_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-automatic-no-progress-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "PASS automated no-progress: unsupported/in-flight stage stops after one dispatch; no repeated Enter/action; manual no-op preserved; observer-only success accepted; current state unchanged, no game input.\n"
+    },
+    {
+      "name": "test-bamboo-continuation-plan-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n\r\nnull !== 'M19'\r\n\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-bamboo-continuation-plan-offline.js:94:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: null,\r\n  expected: 'M19',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-bamboo-modal-boundary-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "Error: ENOENT: no such file or directory, open 'D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\debug\\hand-change-live\\session_state.json'\n    at Object.readFileSync (node:fs:453:20)\n    at fs.readFileSync (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\development\\tools\\legacy-offline-preload.js:62:47)\n    at readJson (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\lib\\runtime-files.js:11:24)\n    at Object.selectBambooSearchTarget (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\core\\m19-search-execution.js:359:34)\n    at async test (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-bamboo-modal-boundary-offline.js:158:20) {\n  errno: -4058,\n  code: 'ENOENT',\n  syscall: 'open',\n  path: 'D:\\\\02_Entertainment\\\\md脚本\\\\MD_PC_Decision_v7\\\\MD_PC_Decision_v7\\\\archive\\\\verification\\\\compat-project\\\\engine\\\\debug\\\\hand-change-live\\\\session_state.json'\n}\n"
+    },
+    {
+      "name": "test-bamboo-search-policy-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "BAMBOO_SEARCH_POLICY_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-chicken-game-choice-evidence-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "PASS Chicken Game evidence: actual field Activate glyph; same-frame body/OK/selected Draw1; final tab recheck replaces redundant OK capture; other/changed effect zero input; no added normal capture count or wait, no game/state writes.\n"
+    },
+    {
+      "name": "test-component-identity-boundaries-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "COMPONENT_IDENTITY_BOUNDARIES_OFFLINE_PASS; 6x6 class pairs/strict ordinary+unknown guards; actual selected pixels; resume cardClicks0/select1; return6/keepM17; class multiset; stateWrites0/gameInputs0\n"
+    },
+    {
+      "name": "test-current-hand-target-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "CURRENT_HAND_TARGET_OFFLINE_PASS; 36 actual production selections on 4 passive failure frames; grey/white/occluded rims; wrong identity stops; blank frame no target click; nativeInputs=0\n"
+    },
+    {
+      "name": "test-current-true-conversion-entry-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: IDLE/E04: current resources, not acquisition label\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-current-true-conversion-entry-offline.js:32:12)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'E02',\r\n  expected: 'M20',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-deadlock-one-key-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DEADLOCK_ONE_KEY_OFFLINE_PASS; actual rev12=terminal; reachable searches kept; x=executor1/question0; failures no replay; stateWrites0/gameInputs0\n"
+    },
+    {
+      "name": "test-deadlock-surrender-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DEADLOCK SURRENDER OFFLINE PASS; gear=0.1798; settingsDark=0.7914; red=0.2720; button=(298,1041); confirmRed=0.1060; yesLime=0.0344; defeatWhite=0.3380; resultConfirm=0.0414\n"
+    },
+    {
+      "name": "test-deferred-golden-current-resume-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(setup)\n\n    at run (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-deferred-golden-current-resume-offline.js:129:10) {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: undefined,\n  expected: true,\n  operator: '=='\n}\n"
+    },
+    {
+      "name": "test-deferred-yoto-deadlock-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DEFERRED_YOTO_DEADLOCK_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-dense-lifted-endpoint-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DENSE_REAL_FRAME dense-hover-failure: 176ms; queries=1; target={\"x\":1235,\"y\":1008}\nDENSE_REAL_FRAME user-hover: 221ms; queries=1; target={\"x\":1396,\"y\":980}\nDENSE_REAL_FRAME user-selected: 324ms; queries=1; target={\"x\":1381,\"y\":954}\nPASS test-dense-lifted-endpoint-offline; real images; gameInputs=0; stateWrites=0\n"
+    },
+    {
+      "name": "test-draw-executor-terminal-handoff-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DRAW_TERMINAL_HANDOFF_OFFLINE_PASS; M09/M14 original settlement/error restored; parent confirms strict WIN THEN voids final ordinary PASS/FAIL, not action PASS; exit0/exit1 no accounting; unconfirmed outcomes stay valid/fail-closed; hand/ledger unchanged; nativeInputs=0/diskWrites=0\n"
+    },
+    {
+      "name": "test-duel-log-fast-path-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DUEL_LOG_FAST_PATH_OFFLINE_PASS labels=3; events=6\n"
+    },
+    {
+      "name": "test-duel-result-confirm-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DUEL RESULT CONFIRM OFFLINE PASS; victoryWhite=0.4106; leftCrown=0.1498; confirm=0.0414; defeatRejected=PASS\n"
+    },
+    {
+      "name": "test-duel-settlement-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "DUEL SETTLEMENT OFFLINE PASS; gems=79; realMultiSlot=106+10=116; confidence=1.000,1.000; syntheticSlots=2; page=PASS; victoryRejected=PASS; ledger=PASS; formalIntegration=ON\n"
+    },
+    {
+      "name": "test-engage-target-priority-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\r\n+ actual - expected\r\n\r\n  [\r\n+   'M22',\r\n-   'M08',\r\n    'M06',\r\n+   'M08'\r\n-   'M22'\r\n  ]\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-engage-target-priority-offline.js:69:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: [ 'M22', 'M06', 'M08' ],\r\n  expected: [ 'M08', 'M06', 'M22' ],\r\n  operator: 'deepStrictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-exodia-count-only-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "EXODIA_COUNT_ONLY_OFFLINE_PASS; ISSUE-112 weak M09 draw -> EXODIA_UNKNOWN@slot1; no exact head/arm/leg dependency; clicks0; ledger aggregate1; conditional Mallet protection; five-count terminal gate\n"
+    },
+    {
+      "name": "test-exodia-incremental-slot-order-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "EXODIA_INCREMENTAL_SLOT_ORDER_OFFLINE_PASS; ISSUE-113 real M21->M18@5; production insert clicks0; old-order invariant; equivalent component class/count layouts accepted\n"
+    },
+    {
+      "name": "test-exodia-right-log-no-click-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "EXODIA_RIGHT_LOG_NO_CLICK_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-explicit-atomic-bottom-boundary-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "EXPLICIT_ATOMIC_BOTTOM_BOUNDARY_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-first-true-golden-priority-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'CURRENT_RESOURCE_TRUE_EQUIP'\n- 'FIRST_TRUE_GOLDEN_FIXED_EQUIP'\n    at run (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-first-true-golden-priority-offline.js:81:10)\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-first-true-golden-priority-offline.js:128:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49 {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: 'CURRENT_RESOURCE_TRUE_EQUIP',\n  expected: 'FIRST_TRUE_GOLDEN_FIXED_EQUIP',\n  operator: 'strictEqual'\n}\n"
+    },
+    {
+      "name": "test-golden-ordinary-draw-order-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: fixed search/replacement precedes ordinary draw-2\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-golden-ordinary-draw-order-offline.js:47:10)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 0.5,\r\n  expected: -1,\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-golden-ready-priority-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-golden-ready-priority-offline.js:34\r\nassert.strictEqual(withToon.v5GoldenBambooReadyPolicy.forcedGolden, false);\r\n                                                      ^\r\n\r\nTypeError: Cannot read properties of undefined (reading 'forcedGolden')\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-golden-ready-priority-offline.js:34:55)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-guard-diagnostics-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "GUARD_DIAGNOSTICS_OFFLINE_PASS; latest child frame replaces stale opening; ROI writes0/no added captures; one rolling artifact; archive after stop inputs0; bridge native first cause; M06 no Hornet mislabel; liveStateWrites0\n"
+    },
+    {
+      "name": "test-hand-normal-summon-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "{\n  \"status\": \"PASS\",\n  \"detector\": \"NORMAL_SUMMON_PAIRED_BLUE_COMPONENT_V3\",\n  \"historicalAttempt\": \"D:\\\\02_Entertainment\\\\md脚本\\\\MD_PC_Decision_v7\\\\MD_PC_Decision_v7\\\\archive\\\\verification\\\\compat-project\\\\engine\\\\material\\\\verified\\\\evidence\\\\M06_raye_normal_summon\\\\2026-09-11T09-09-13-490Z\",\n  \"summon\": {\n    \"dx\": -68.33543417366947,\n    \"dy\": -153.32422969187675\n  },\n  \"rejectedSet\": {\n    \"dx\": 105.4541457286432,\n    \"dy\": -139.85489949748742\n  }\n}\n"
+    },
+    {
+      "name": "test-hand-spell-activation-geometry-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "PASS hand local icon: real M20; real shifted solo; larger nearby rectangle rejected; missing/ambiguous icons zero input; normal path one ROI, no added wait.\n"
+    },
+    {
+      "name": "test-hand-title-contract-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "HAND_TITLE_CONTRACT_FRAME seven-HAMP: 40ms; one supplied ROI, no additional capture\nHAND_TITLE_CONTRACT_FRAME two-grass: 27ms; one supplied ROI, no additional capture\nHAND_TITLE_CONTRACT_FRAME seven-Mallet-grey: 72ms; one supplied ROI, no additional capture\nHAND_TITLE_CONTRACT_OFFLINE_PASS; public selections=11; actual full-scan slots=9; stale index/no old XY guarded; long-name/rim/grass/grey evidence; wrong identity/blank/bad baseline stopped; nativeInputs=0/diskWrites=0\n"
+    },
+    {
+      "name": "test-hornet-kagari-field-contract-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "HORNET_KAGARI_FIELD_CONTRACT_OFFLINE_PASS; actual H1 old recognized/false failure -> shared extension + physical commit; all continuity paths; self/unique/fresh guards; no replay after response/unknown; effect not precommitted; nativeInputs=0/liveWrites=0\n"
+    },
+    {
+      "name": "test-hornet-special-summon-label-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "HORNET_SPECIAL_SUMMON_LABEL_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-hornet-yoto-search-before-draw-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n\r\n0.5 !== -2\r\n\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-hornet-yoto-search-before-draw-offline.js:24:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 0.5,\r\n  expected: -2,\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-immediate-kagari-and-fixed-golden-order-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n+ actual - expected\r\n\r\n+ 'CURRENT_RESOURCE_TRUE_EQUIP'\r\n- 'POST_YOTO_SEARCH_TRUE_EQUIP'\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-immediate-kagari-and-fixed-golden-order-offline.js:30:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'CURRENT_RESOURCE_TRUE_EQUIP',\r\n  expected: 'POST_YOTO_SEARCH_TRUE_EQUIP',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-incremental-observer-transaction-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "INCREMENTAL_OBSERVER_TRANSACTION_OFFLINE_PASS; normal M12 class gains input=0; exact component aliases accepted; disk rollback; recovery observer-only; victory preserved\n"
+    },
+    {
+      "name": "test-input-evidence-audit-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "PASS input evidence audit: six Extra Summon + three field Activate + four Confirm originals; arbitrary colour/misplaced glyph rejects; fuzzy field centre never clicked; wrong zone/unknown auto prompt closes. No game input or state writes.\n"
+    },
+    {
+      "name": "test-issue-079-priority-boundaries-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-issue-079-priority-boundaries-offline.js:147\r\n  shouldPreferPostKagariYoto({ yoto: { id: 'M19' }, trueSwordInDeck: true, yotoInDeck: false }),\r\n  ^\r\n\r\nTypeError: shouldPreferPostKagariYoto is not a function\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-issue-079-priority-boundaries-offline.js:147:3)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-kagari-sword-dual-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n\r\n'M20' !== 'M19'\r\n\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-kagari-sword-dual-offline.js:27:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'M20',\r\n  expected: 'M19',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-last-equipped-yoto-guard-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\nfalse !== true\n\n    at runRayeEffectToE10OptionalAtomic (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-last-equipped-yoto-guard-offline.js:118:14)\n    at Object.executeFieldTransition (evalmachine.<anonymous>:762:11)\n    at main (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-last-equipped-yoto-guard-offline.js:211:28) {\n  generatedMessage: true,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: 'strictEqual'\n}\n"
+    },
+    {
+      "name": "test-m13-draw-banish-observer-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "诱惑已结算：保存的observer与账本核验完成；没有重新点击或识别手牌。\nM13_DRAW_BANISH_OBSERVER_OFFLINE PASS (actual ISSUE-102; 7 sealed M13 runs; fresh/old/duplicate DARK; gross Deck exits; rollback; live adapters; parent accounting; saved recovery with zero GUI/observer replay)\n"
+    },
+    {
+      "name": "test-m18-effect-window-guards-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "M18_EFFECT_WINDOW_GUARDS_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-m21-stage-and-no-new-click-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "M21_STAGE_AND_NO_NEW_CLICK_OFFLINE_PASS: actual weak gain/settled frame; no hand clicks; current field draw auto; staged resume/rollback/idempotency\n"
+    },
+    {
+      "name": "test-mallet-completion-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "ISSUE-098 saved screenshot: RETURN=3; DRAW=7; no GUI input\nPASS M11 submitted/auto-resolved recovery, strict modal, pending lock, actual pixel evidence\n"
+    },
+    {
+      "name": "test-mallet-component-protection-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "MALLET_COMPONENT_PROTECTION_OFFLINE_PASS; Deck<=5 AND components>=4; actual keep=M17/return6; generic returns/redraw ledger verified; stateWrites0/gameInputs0\n"
+    },
+    {
+      "name": "test-mallet-modal-resync-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "M11_MODAL_COMPLETION_OFFLINE_PASS; actual G3 four-protected-card window; same-frame proof; final Confirm once; closed/current-frame guard; no game input\nM11_RESYNC_OFFLINE_PASS; archived full scan premature exit reproduced; actual G5 frames plus explicit transient/permanent missing-title injection; current full scan retries recover all 7; permanent failure no guessed click; diskWrites=0/nativeInputs=0\n"
+    },
+    {
+      "name": "test-mallet-next-hand-target-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "M11_NEXT_HAND_TARGET_OFFLINE_PASS; successful real Mallet resync -> six actual failed continuation frames; archived failure reproduced; 60 production selections; both Golden ordinals; grey Engage retained; inferred/blank targets rejected; identity guard; diskWrites=0/nativeInputs=0\n"
+    },
+    {
+      "name": "test-mallet-other-resources-first-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "MALLET_OTHER_RESOURCES_FIRST_OFFLINE_PASS; actual old=M11/new=M15slot4 automatic question0; next grave3=M17 Enter; only-Engage bridge kept; Chicken graveGain0/pending kept; base+Kagari gated; restart after gains/protected cost kept; stateWrites0/gameInputs0\n"
+    },
+    {
+      "name": "test-new-duel-composite-reset-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "NEW_DUEL_COMPOSITE_RESET_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-observer-completion-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "OBSERVER_COMPLETION_OFFLINE_PASS; real M18 winning route + strict outcome; actual executor terminal branch; ordinary/stale/weak evidence closed; staged hand rollback; no ordinary seal; nativeInputs=0/diskWrites=0\n"
+    },
+    {
+      "name": "test-oct03-transaction-boundaries-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "OCT03_TRANSACTION_BOUNDARIES_OFFLINE_PASS; repeated Engage real pixels + executor append receipt + full observer/ledger; H3 real 4-title/5-card cases; stale/missing receipt and wrong INFO closed; nativeInputs=0\n"
+    },
+    {
+      "name": "test-oct05-gain-before-shuffle-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n\r\n'M17' !== 'M20'\r\n\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-oct05-gain-before-shuffle-offline.js:41:10)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'M17',\r\n  expected: 'M20',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-oct06-resource-planning-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Oct07: empty without sword uses current draw-fee demand or general Raye\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-oct06-resource-planning-offline.js:63:10)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'M22',\r\n  expected: 'M06',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-opening-info-single-read-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "OPENING_INFO_SINGLE_READ_OFFLINE_PASS; actual G2 fast5/167ms then old6274ms root; legacy positive-ROI timeout reproduced/fixed; actual baseline+scan one hold; existing current-image count guard; single-use/bridge/stale/release guards; GUI/live-state writes=0\n"
+    },
+    {
+      "name": "test-opening-log-boundary-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "OPENING_LOG_BOUNDARY_OFFLINE_PASS; actual G5 five backs -> no false activation; Allure observer+ledger+final proof; nativeInputs=0\n"
+    },
+    {
+      "name": "test-passive-hand-acceptance-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "PASSIVE_HAND_ACCEPTANCE_OFFLINE_PASS; 4 real failures reproduced by archived full observer; fixed full observer+ledger commit; INFO mismatch/blank/write rollback/human stop; deduplicated gains; nativeInputs=0; diskWrites=0\n"
+    },
+    {
+      "name": "test-post-duel-victory-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "POST_DUEL_VICTORY_OFFLINE_PASS; EnterGates=2; ordered=PASS; resume=PASS; idempotent=PASS; unknown=STOP\n"
+    },
+    {
+      "name": "test-preferred-equip-canonical-click-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "PASS preferred-equip canonical click: fuzzy evidence never becomes action coordinate.\n"
+    },
+    {
+      "name": "test-raye-double-link-engage-recovery-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "RAYE_DOUBLE_LINK_ENGAGE_RECOVERY_OFFLINE_PASS; current rev15=M06@3; E02+M06->E10; shared hand+Deck source policy and explicit grave receipt; bonus draw route; ISSUE-061 guard preserved; gameInputs0/stateWrites0\n"
+    },
+    {
+      "name": "test-raye-e10-spare-observer-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "RAYE_E10_SPARE_OBSERVER_OFFLINE PASS; actual saved scene=5; spare Raye retained; E10+1 ledger; R3 submit receipt no target replay; collector+actual M17 adapter=HAMP\n"
+    },
+    {
+      "name": "test-raye-normal-summon-wiring-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "RAYE_ACTUAL_ENTRY old=(887,898); new={\"x\":937.0958041958042,\"y\":825.9440559440559}; identityQueries=1; stateWrites=0; nativeInputs=0\nPASS test-raye-normal-summon-wiring-offline; real raw/after images; actual selector -> shared button -> response -> observer; failed gates zero action; no game input\n"
+    },
+    {
+      "name": "test-record-first-settlement-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "RECORD_FIRST_SETTLEMENT_OFFLINE_PASS; real rejected72 -> UNKNOWN record/WIN/continue; classifier unchanged; no guessed79/zero ledger; no repeated animation/click; pause/no-slot/page-change/human-stop; real state/statistics unchanged; nativeInputs=0\n"
+    },
+    {
+      "name": "test-runtime-source-freshness-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "RUNTIME_SOURCE_FRESHNESS_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-search-before-allure-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "SEARCH_BEFORE_ALLURE_OFFLINE_PASS; actualOpening=M10/slot2/targetM10; safeAllure=BEFORE_MALLET; gamble=LAST; gameInputs=0; stateWrites=0\n"
+    },
+    {
+      "name": "test-searched-true-kagari-entrance-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: True fixed conversion retains its layer when no immediate fire gain exists\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-searched-true-kagari-entrance-offline.js:34:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 0.5,\r\n  expected: -1,\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-settlement-animation-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "SETTLEMENT_ANIMATION_OFFLINE_PASS; duration=5000ms; handArea=ONLY; currentPage=REQUIRED; rewards=AFTER\n"
+    },
+    {
+      "name": "test-seven-card-unmeasured-title-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "SEVEN_CARD_TITLE_OFFLINE_PASS; actual old four-title failure reproduced; M18 plus HAMP bounded real patch; both production selectors; unmeasured synthetic/blank/wrong identity rejected; count semantics unchanged; no added capture/wait; nativeInputs=0/diskWrites=0\n"
+    },
+    {
+      "name": "test-shared-component-count-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "SHARED_COMPONENT_COUNT_OFFLINE_PASS; actual M10/M12/M13/M14/M17+/M17-/M11/M21/M18/NADIR consumers; 6x6 aliases; 0..5 quantity; real M12 twice; strict costs+ordinary+missing/extra/unknown; gameInputs0/stateWrites0\n"
+    },
+    {
+      "name": "test-simple-action-priority-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "SIMPLE_ACTION_PRIORITY_OFFLINE_PASS; current Chicken+Garura+draw1 question0; selected complex ENTER; field before Burial grave0/1/2/3/8; ordinary interactive loop; stateWrites0/gameInputs0\n"
+    },
+    {
+      "name": "test-simple-draw-continuation-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "SIMPLE_DRAW_CONTINUATION_OFFLINE_PASS; draw1/draw2=NO_QUESTION; branch=ENTER; failure=NO_REPLAY; inputs=0\n"
+    },
+    {
+      "name": "test-stage15-batch-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "STAGE15_BATCH_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-stage16-safe-layout-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "STAGE16_SAFE_LAYOUT_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-stage17-runtime-path-migration-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "STAGE17_RUNTIME_PATH_MIGRATION_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-stage18-v6-entry-layout-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "STAGE18_V6_ENTRY_LAYOUT_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-stage19-production-layout-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "STAGE19_PRODUCTION_LAYOUT_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-stage20-core-cleanup-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "STAGE20_CORE_CLEANUP_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-stage21-root-cleanup-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "STAGE21_ROOT_CLEANUP_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-strategic-deadlock-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n+ actual - expected\r\n\r\n+ 'FIXED_RESOURCE_ACTION_PENDING'\r\n- 'ENGAGE_HORNET_KAGARI_BAMBOO_UNLOCKS_GOLDEN_AND_BONUS_DRAW'\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-strategic-deadlock-offline.js:118:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'FIXED_RESOURCE_ACTION_PENDING',\r\n  expected: 'ENGAGE_HORNET_KAGARI_BAMBOO_UNLOCKS_GOLDEN_AND_BONUS_DRAW',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-terminal-observation-boundary-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "TERMINAL_OBSERVATION_BOUNDARY_OFFLINE_PASS; real game5 hand8/INFO4/strictWIN; simulated transition at actual reader input boundaries; weak/timeout closed; normal INFO8 retained; no native input/disk state writes\n"
+    },
+    {
+      "name": "test-toon-table-mallet-restart-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-toon-table-mallet-restart-offline.js:155\r\n  shouldPreferKagariMalletThirdSpell({\r\n  ^\r\n\r\nTypeError: shouldPreferKagariMalletThirdSpell is not a function\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-toon-table-mallet-restart-offline.js:155:3)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-toon-table-policy-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "TOON_TABLE_POLICY_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-trade-in-cost-policy-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "TRADE_IN_COST_POLICY_OFFLINE PASS\n"
+    },
+    {
+      "name": "test-two-swords-and-engage-pairs-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Oct07: no held sword; current Trade-In fee shortage remains the purpose\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-two-swords-and-engage-pairs-offline.js:21:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'M22',\r\n  expected: 'M08',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-user-oct06-rules-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: finish productive sword plan first\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-user-oct06-rules-offline.js:52:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: false,\r\n  code: 'ERR_ASSERTION',\r\n  actual: true,\r\n  expected: false,\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    },
+    {
+      "name": "test-y1-resolution-proof-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "Y1_RESOLUTION_PROOF_OFFLINE_PASS; single=E03/E04/E05; recovery=passive; invalid=closed; checkpoint=required; dual=preserved\n"
+    },
+    {
+      "name": "test-y3-bottom-only-observer-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "Y3_BOTTOM_ONLY_OBSERVER_OFFLINE_PASS; legacy E10/new E02/single M19 production dispatch; nativeInputs=0\n"
+    },
+    {
+      "name": "test-yoto-golden-before-mallet-offline.js",
+      "status": "PASS",
+      "exitCode": 0,
+      "error": null,
+      "output": "YOTO_GOLDEN_BEFORE_MALLET_OFFLINE_PASS\n"
+    },
+    {
+      "name": "test-yoto-repeat-search-offline.js",
+      "status": "FAIL",
+      "exitCode": 1,
+      "error": null,
+      "output": "node:assert:126\r\n  throw new AssertionError(obj);\r\n  ^\r\n\r\nAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r\n\r\n'M17' !== 'M19'\r\n\r\n    at Object.<anonymous> (D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\verification\\compat-project\\engine\\execution\\tests\\test-yoto-repeat-search-offline.js:47:8)\r\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\r\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\r\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\r\n    at Module._load (node:internal/modules/cjs/loader:1023:12)\r\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\r\n    at node:internal/main/run_main_module:28:49 {\r\n  generatedMessage: true,\r\n  code: 'ERR_ASSERTION',\r\n  actual: 'M17',\r\n  expected: 'M19',\r\n  operator: 'strictEqual'\r\n}\r\n\r\nNode.js v20.11.1\r\n"
+    }
+  ]
+}

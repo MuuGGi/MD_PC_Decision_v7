@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T12:09:42.432Z",
+  "checkpoint": {
+    "activationKey": "M14",
+    "signature": "M14|PROCESSING_CARD:M11,PROCESSING_CARD:M02",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M21",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M11",
+        "cardName": "万宝槌"
+      },
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M02",
+        "cardName": "被封印的左足"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M21",
+      "signature": "M21|PROCESSING_CARD:M05",
+      "detailTokens": [
+        "HAND_GAIN:M05"
+      ]
+    },
+    {
+      "activationKey": "M14",
+      "signature": "M14|PROCESSING_CARD:M11,PROCESSING_CARD:M02",
+      "detailTokens": [
+        "HAND_GAIN:M11",
+        "HAND_GAIN:M02"
+      ]
+    }
+  ]
+}

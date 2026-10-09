@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T11:22:06.680Z",
+  "checkpoint": {
+    "activationKey": "M17",
+    "signature": "M17|PROCESSING_CARD:M06,PROCESSING_CARD:M12",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M15",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M06",
+        "cardName": "闪刀姬－零衣"
+      },
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M12",
+        "cardName": "抵价交易"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M15",
+      "signature": "M15|PROCESSING_CARD:M17",
+      "detailTokens": [
+        "HAND_GAIN:M17"
+      ]
+    },
+    {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M06,PROCESSING_CARD:M12",
+      "detailTokens": [
+        "HAND_GAIN:M06",
+        "HAND_GAIN:M12"
+      ]
+    }
+  ]
+}

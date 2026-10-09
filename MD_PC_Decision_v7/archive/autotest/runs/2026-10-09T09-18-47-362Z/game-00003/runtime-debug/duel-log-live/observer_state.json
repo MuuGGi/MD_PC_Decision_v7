@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-09T09:43:26.294Z",
+  "checkpoint": {
+    "activationKey": "M09",
+    "signature": "M09|PROCESSING_CARD:M04",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M12",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M04",
+        "cardName": "被封印的左腕"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M12",
+      "signature": "M12|PROCESSING_CARD:M08,PROCESSING_CARD:M09,PROCESSING_CARD:M14",
+      "detailTokens": [
+        "COST_TO_GRAVEYARD:M08",
+        "HAND_GAIN:M09",
+        "HAND_GAIN:M14"
+      ]
+    },
+    {
+      "activationKey": "M09",
+      "signature": "M09|PROCESSING_CARD:M04",
+      "detailTokens": [
+        "HAND_GAIN:M04"
+      ]
+    }
+  ]
+}

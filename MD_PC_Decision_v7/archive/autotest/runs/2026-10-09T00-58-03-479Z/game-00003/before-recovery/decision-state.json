@@ -1,0 +1,125 @@
+{
+  "graveSpellCount": 4,
+  "fieldSpell": "M21",
+  "chickenGameDrawUsed": true,
+  "chickenGameDrawPending": false,
+  "bambooSwordEquipped": true,
+  "equippedBambooId": "M19",
+  "equipSentToGraveCount": 0,
+  "engageBlockedByMainMonster": false,
+  "rayeNormalSummoned": false,
+  "normalSummonUsed": false,
+  "usedCounts": {
+    "M10": 3,
+    "M21": 1,
+    "M22": 1,
+    "M19": 1
+  },
+  "effectUsage": {
+    "M19_SEARCH": 0
+  },
+  "effectUsageMeta": {
+    "M21_DRAW": {
+      "pending": false,
+      "fieldPlacementTransaction": "3:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T01-03-50-981Z",
+      "source": "M21_VERIFIED_FIELD_PLACEMENT",
+      "updatedAt": "2026-10-09T01:04:06.673Z",
+      "resolved": true
+    }
+  },
+  "notes": "V5 runtime decision state",
+  "v5Branch": {
+    "active": true,
+    "currentState": "M19_EQUIPPED",
+    "updatedAt": "2026-10-09T01:04:28.515Z",
+    "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+    "carrierId": "TOKEN_SKY_STRIKER",
+    "carrierEvidence": {
+      "cardId": "TOKEN_SKY_STRIKER",
+      "kind": "CENTRAL_MAIN",
+      "proven": true,
+      "source": "SAME_ENTITY_EQUIP_ZONE_CONTINUITY"
+    }
+  },
+  "equippedBambooCounts": {
+    "M19": 1
+  },
+  "bambooEquipResources": {
+    "byId": {
+      "M19": {
+        "deck": 1,
+        "hand": 0,
+        "field": 1,
+        "total": 2,
+        "outsideHandField": 0
+      },
+      "M20": {
+        "deck": 1,
+        "hand": 0,
+        "field": 0,
+        "total": 1,
+        "outsideHandField": 0
+      }
+    },
+    "deckCount": 2,
+    "handCount": 0,
+    "fieldCount": 1,
+    "outsideHandFieldCount": 0,
+    "replacementCountAfterLink": 2,
+    "hasReplacementAfterLink": true,
+    "fieldIdentitySource": "COMMITTED_EQUIP"
+  },
+  "bambooContinuationPlan": {
+    "shouldLink": true,
+    "shouldContinue": true,
+    "routeKind": "YOTO_LINK",
+    "searchId": "M20",
+    "replacementId": "M20",
+    "carrierId": "TOKEN_SKY_STRIKER",
+    "fieldId": "M19",
+    "prepareEquipId": null,
+    "goldenDrawReady": false,
+    "fixedContinuationReady": true,
+    "goldenDrawPreferred": false,
+    "twoYotoKagari": false,
+    "firstTrueGoldenSetup": false,
+    "replacementSource": "YOTO_SEARCH",
+    "canReplaceEquipDeterministically": true,
+    "deferredGoldenSearch": false,
+    "convertsTrue": true,
+    "steps": [
+      "LINK_SEND_M19",
+      "SEARCH_M20",
+      "EQUIP_M20",
+      "SEND_M20_EQUIP_DECK_M19"
+    ],
+    "projectedEquipSentToGraveCount": 2,
+    "projectedFieldEquipId": "M19",
+    "reason": "TWO_EQUIPS_TO_GRAVE_ONE_ON_FIELD",
+    "equipResources": {
+      "byId": {
+        "M19": {
+          "deck": 1,
+          "hand": 0,
+          "field": 1,
+          "total": 2,
+          "outsideHandField": 0
+        },
+        "M20": {
+          "deck": 1,
+          "hand": 0,
+          "field": 0,
+          "total": 1,
+          "outsideHandField": 0
+        }
+      },
+      "deckCount": 2,
+      "handCount": 0,
+      "fieldCount": 1,
+      "outsideHandFieldCount": 0,
+      "replacementCountAfterLink": 2,
+      "hasReplacementAfterLink": true,
+      "fieldIdentitySource": "COMMITTED_EQUIP"
+    }
+  }
+}

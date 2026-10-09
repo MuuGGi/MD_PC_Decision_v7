@@ -1,0 +1,133 @@
+{
+  "version": 2,
+  "id": "DUEL-1a4c341e96e9a8d1ea7e1f84-T0003",
+  "duelId": "DUEL-1a4c341e96e9a8d1ea7e1f84",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-54c3401fa67da8ae9902d420cf948ddc",
+  "intent": {
+    "node": "M19_EQUIPPED"
+  },
+  "baseline": {
+    "hand": {
+      "revision": 2,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M15"
+      ]
+    },
+    "ledger": {
+      "revision": 2,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 0,
+        "M08": 0,
+        "M09": 0,
+        "M10": 0,
+        "M11": 0,
+        "M12": 0,
+        "M13": 0,
+        "M14": 0,
+        "M15": 1,
+        "M16": 0,
+        "M17": 0,
+        "M18": 0,
+        "M19": 1,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M19",
+        "signature": "M19|",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M22",
+        "evidenceCards": []
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": true,
+        "currentState": "M19_EQUIPPED",
+        "carrierId": "TOKEN_SKY_STRIKER",
+        "updatedAt": "2026-10-07T11:20:33.235Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "plannedSwordId": "M19",
+        "reservedYotoInHand": false,
+        "hornetBambooDraw2": false,
+        "hornetYotoFixedSearch": true,
+        "targetLinkId": null,
+        "trueSwordInDeck": 1,
+        "route": "YOTO_LINK_SEARCH_TRUE_FIXED_RESOURCE"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M22": 1,
+        "M19": 1
+      }
+    },
+    "extra": {
+      "node": "M19_EQUIPPED"
+    }
+  },
+  "createdAt": "2026-10-07T11:20:33.263Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "M19_EQUIPPED"
+        }
+      },
+      "noReplayAt": "2026-10-07T11:20:33.276Z",
+      "guardEvidence": {
+        "hwnd": 133796,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-1a4c341e96e9a8d1ea7e1f84-T0003",
+        "handRevision": 2,
+        "handHash": "bfe578e859553273b0b0efdb20aad166fe4bc3cb990ece8bf54723daf633781c",
+        "ledgerHash": "e6fd08e0493aeae359ad7a0b27caba83dd3c26f81b905590c5ed9fdfe355b51f",
+        "runtimeHash": "1a56e457b624278d70afa97a6901eb51576824815ecf8d23481ad7ce30f4975f",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-07T11:20:48.926Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-07T11:20:48.931Z"
+    }
+  ],
+  "committedAt": "2026-10-07T11:20:48.936Z"
+}

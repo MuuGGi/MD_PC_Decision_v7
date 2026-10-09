@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "id": "DUEL-459523c93093628dc33abcd8-T0016",
+  "duelId": "DUEL-459523c93093628dc33abcd8",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-b44c5ba13009e6a920f0c5858ffae2ab",
+  "intent": {
+    "node": "YOTO_SEARCH_PROMPT"
+  },
+  "baseline": {
+    "hand": {
+      "revision": 7,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M06",
+        "M07",
+        "M08",
+        "M08",
+        "M14"
+      ]
+    },
+    "ledger": {
+      "revision": 7,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 1,
+        "M10": 3,
+        "M11": 1,
+        "M12": 0,
+        "M13": 0,
+        "M14": 1,
+        "M15": 1,
+        "M16": 0,
+        "M17": 3,
+        "M18": 1,
+        "M19": 1,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M19",
+        "signature": "M19|PROCESSING_CARD:E02",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "E02",
+            "cardName": "闪刀姬－篝"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "goldenDrawSetup": true,
+        "goldenDrawEquipId": "M19",
+        "active": true,
+        "currentState": "YOTO_SEARCH_PROMPT",
+        "updatedAt": "2026-10-08T10:45:49.780Z",
+        "source": "FORMAL_V5_Y2",
+        "carrierId": "E04",
+        "carrierEvidence": {
+          "cardId": "E02",
+          "kind": "EXTRA_LINK",
+          "proven": true,
+          "source": "CURRENT_TARGET_IDENTITY"
+        },
+        "expectedLinkId": "E04",
+        "preserveRaye": false,
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "hornetYotoFixedSearch": false,
+        "reservedYotoInHand": false
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M09": 1,
+        "M18": 1,
+        "M15": 1,
+        "M10": 3,
+        "M11": 1,
+        "M22": 1,
+        "M17": 3,
+        "M19": 1
+      }
+    },
+    "extra": {
+      "node": "YOTO_SEARCH_PROMPT"
+    }
+  },
+  "createdAt": "2026-10-08T10:45:49.927Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "YOTO_SEARCH_PROMPT"
+        }
+      },
+      "noReplayAt": "2026-10-08T10:45:49.940Z",
+      "guardEvidence": {
+        "hwnd": 68212,
+        "title": "masterduel",
+        "client": {
+          "x": 28,
+          "y": 99,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-459523c93093628dc33abcd8-T0016",
+        "handRevision": 8,
+        "handHash": "99684dc9a533b2f6f887e31427cb83c64186bd1e997cd0c2712bdd58d72e5546",
+        "ledgerHash": "d19c26c2853b382020313fdc33d8e85f15c75634206ac3e0414104677c1b24fb",
+        "runtimeHash": "3e484c6338d6e0fda29066edf9381620be202f013fbaf10a1315ce7cb7a656a5",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-08T10:45:59.103Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-08T10:45:59.107Z"
+    }
+  ],
+  "committedAt": "2026-10-08T10:45:59.112Z"
+}

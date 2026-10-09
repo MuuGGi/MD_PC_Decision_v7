@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T06:33:46.237Z",
+  "checkpoint": {
+    "activationKey": "M09",
+    "signature": "M09|PROCESSING_CARD:M11",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M15",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M11",
+        "cardName": "万宝槌"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M15",
+      "signature": "M15|PROCESSING_CARD:M09",
+      "detailTokens": [
+        "HAND_GAIN:M09"
+      ]
+    },
+    {
+      "activationKey": "M09",
+      "signature": "M09|PROCESSING_CARD:M11",
+      "detailTokens": [
+        "HAND_GAIN:M11"
+      ]
+    }
+  ]
+}

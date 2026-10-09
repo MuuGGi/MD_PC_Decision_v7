@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "settlementId": "6e1e9880-bc11-4387-9441-b1b2ee85cab1",
+  "capturedAt": "2026-10-09T05:01:54.517Z",
+  "policy": "record-first",
+  "rewardStatus": "VERIFIED",
+  "gems": 96,
+  "confirmedSubtotal": 96,
+  "pageStableReads": 2,
+  "digitStableReads": 2,
+  "fingerprint": "f2d845d52c681c7231a5adc3405c9573e59e8d32011d5624b212d07ce9e732c1",
+  "page": {
+    "pass": true,
+    "detector": "DUEL_SETTLEMENT_PAGE_AND_CONTINUE_V2",
+    "headerDarkRatio": 0.7823589743589744,
+    "headerWhiteRatio": 0.03476923076923077,
+    "buttonDarkRatio": 0.8721269296740994,
+    "buttonLimeRatio": 0.03241852487135506,
+    "reference": {
+      "x": 1824,
+      "y": 1052
+    }
+  },
+  "recognition": {
+    "pass": true,
+    "reason": "PASS",
+    "rewards": [
+      {
+        "match": {
+          "x": 52,
+          "y": 32,
+          "width": 96,
+          "height": 96,
+          "mad": 0.1070871722182849
+        },
+        "roi": {
+          "x": 84,
+          "y": 124,
+          "width": 70,
+          "height": 40
+        },
+        "count": {
+          "pass": true,
+          "reason": "PASS",
+          "value": 96,
+          "text": "96",
+          "digits": [
+            {
+              "digit": 9,
+              "confidence": 0.996031746031746,
+              "margin": 0.1706349206349207,
+              "source": "SETTLEMENT_VERIFIED",
+              "accepted": true,
+              "component": {
+                "pixels": 144,
+                "x": 14,
+                "y": 11,
+                "width": 13,
+                "height": 18
+              },
+              "ranked": [
+                {
+                  "digit": 9,
+                  "confidence": 0.996031746031746,
+                  "source": "duel-settlement-02-gems-94.png"
+                },
+                {
+                  "digit": 0,
+                  "confidence": 0.8253968253968254,
+                  "source": "duel-settlement-03-gems-106-plus-10.png"
+                },
+                {
+                  "digit": 8,
+                  "confidence": 0.8075396825396826,
+                  "source": "duel-settlement-04-gems-108-plus-10.png"
+                }
+              ],
+              "legacyFallback": null,
+              "unsupportedCompetitor": null
+            },
+            {
+              "digit": 6,
+              "confidence": 0.9742063492063492,
+              "margin": 0.125,
+              "source": "SETTLEMENT_VERIFIED",
+              "accepted": true,
+              "component": {
+                "pixels": 148,
+                "x": 30,
+                "y": 11,
+                "width": 13,
+                "height": 18
+              },
+              "ranked": [
+                {
+                  "digit": 6,
+                  "confidence": 0.9742063492063492,
+                  "source": "duel-settlement-03-gems-106-plus-10.png"
+                },
+                {
+                  "digit": 8,
+                  "confidence": 0.8492063492063492,
+                  "source": "duel-settlement-04-gems-108-plus-10.png"
+                },
+                {
+                  "digit": 5,
+                  "confidence": 0.8392857142857143,
+                  "source": "duel-settlement-05-gems-115-plus-15.png"
+                }
+              ],
+              "legacyFallback": null,
+              "unsupportedCompetitor": null
+            }
+          ],
+          "components": [
+            {
+              "pixels": 144,
+              "x": 14,
+              "y": 11,
+              "width": 13,
+              "height": 18
+            },
+            {
+              "pixels": 148,
+              "x": 30,
+              "y": 11,
+              "width": 13,
+              "height": 18
+            }
+          ]
+        }
+      }
+    ],
+    "total": 96
+  },
+  "rewardPanelPath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-09T05-01-41-415Z\\settlement\\settlement_reward_panel.png"
+}

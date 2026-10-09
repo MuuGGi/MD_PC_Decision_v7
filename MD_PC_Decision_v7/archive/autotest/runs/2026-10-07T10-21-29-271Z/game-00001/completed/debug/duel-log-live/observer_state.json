@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-07T10:25:36.410Z",
+  "checkpoint": {
+    "activationKey": "M20",
+    "signature": "M20|PROCESSING_CARD:M20,PROCESSING_CARD:M19",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 2,
+    "previousActivationKey": "M20",
+    "evidenceCards": [
+      {
+        "kind": "PROCESSING_CARD",
+        "cardKey": "M20",
+        "cardName": "真刀竹光"
+      },
+      {
+        "kind": "PROCESSING_CARD",
+        "cardKey": "M19",
+        "cardName": "妖刀竹光"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M20",
+      "signature": "M20|PROCESSING_CARD:E04",
+      "detailTokens": [
+        "TARGET:E04"
+      ]
+    },
+    {
+      "activationKey": "M20",
+      "signature": "M20|PROCESSING_CARD:M20,PROCESSING_CARD:M19",
+      "detailTokens": [
+        "COST_TO_GRAVEYARD:M20",
+        "MOVE_TO_FIELD:M19"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "initialGems": 0,
+  "createdAt": "2026-10-09T08:22:33.597Z",
+  "status": "STOPPED",
+  "games": [
+    {
+      "id": 1,
+      "startedAt": "2026-10-09T08:22:36.040Z",
+      "duelStarted": true,
+      "outcome": "WIN",
+      "gems": 118,
+      "duelId": "DUEL-d99ce6f6cb2fd6ccb13abde2",
+      "resultProof": {
+        "version": 1,
+        "settlementId": "0777426e-c431-43aa-86c3-67e9aecaf92f",
+        "stage": "COMPLETE",
+        "source": "V7_CONFIRMED_VICTORY_VOID_ORDINARY_SETTLEMENT",
+        "startedAt": "2026-10-09T08:30:55.112Z",
+        "updatedAt": "2026-10-09T08:31:07.820Z",
+        "rewardAnimationComplete": true,
+        "animationClicks": 18,
+        "animationDurationMs": 5003,
+        "gems": 118,
+        "observedTotal": 118,
+        "dateKey": "2026-10-09",
+        "rewardStatus": "VERIFIED",
+        "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-09T08-30-53-324Z\\settlement\\settlement_reward_record.json",
+        "confirmedSubtotal": 118,
+        "rewardRecheckPending": false
+      },
+      "endedAt": "2026-10-09T08:31:08.017Z",
+      "returnedToStarter": true,
+      "rewardStatus": "VERIFIED",
+      "rewardEvidencePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-09T08-30-53-324Z\\settlement\\settlement_reward_record.json"
+    },
+    {
+      "id": 2,
+      "startedAt": "2026-10-09T08:31:12.668Z",
+      "duelStarted": true,
+      "outcome": "SURRENDER",
+      "gems": 0,
+      "duelId": "DUEL-263d764b639ba1a111802df9",
+      "resultProof": {
+        "resultConfirmedInLog": true
+      },
+      "endedAt": "2026-10-09T08:35:23.027Z",
+      "returnedToStarter": true
+    },
+    {
+      "id": 3,
+      "startedAt": "2026-10-09T08:35:25.450Z",
+      "duelStarted": true,
+      "outcome": "SURRENDER",
+      "gems": 0,
+      "duelId": "DUEL-c72a0db8064cf45f1badd7eb",
+      "resultProof": {
+        "version": 1,
+        "executionId": "8b8ec182-6112-48cb-a815-2bebde535ca3",
+        "stage": "COMPLETE_SURRENDER",
+        "baseline": {
+          "version": 2,
+          "capturedAt": "2026-10-09T08:37:22.052Z",
+          "revision": 6,
+          "handCount": 3,
+          "cards": [
+            {
+              "id": "M07",
+              "name": "青眼卡通龙",
+              "rightLogCertain": true,
+              "candidateIds": [
+                "M07"
+              ],
+              "index": 1
+            },
+            {
+              "id": "M10",
+              "name": "卡通目录",
+              "rightLogCertain": true,
+              "candidateIds": [
+                "M10"
+              ],
+              "index": 2
+            },
+            {
+              "index": 3,
+              "x": 1006,
+              "y": 1000,
+              "id": "M13",
+              "name": "暗之诱惑",
+              "accepted": true,
+              "confidence": 1,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0,
+              "margin": 0.1485291851368379,
+              "usable": true,
+              "yellowPixels": 4500,
+              "yellowRatio": 0.13736263736263737,
+              "top3": [
+                {
+                  "id": "M13",
+                  "name": "暗之诱惑",
+                  "count": 1,
+                  "mad": 0,
+                  "rmse": 0,
+                  "dhash": 0
+                },
+                {
+                  "id": "M15",
+                  "name": "无之炼狱",
+                  "count": 3,
+                  "mad": 0.1485291851368379,
+                  "rmse": 0.22331028111151638,
+                  "dhash": 23
+                },
+                {
+                  "id": "E09",
+                  "name": "闪刀姬－卡梅莉娅",
+                  "count": 1,
+                  "mad": 0.1775494376103552,
+                  "rmse": 0.23367740292765588,
+                  "dhash": 28
+                }
+              ],
+              "timingMs": {
+                "locateMs": 603.153,
+                "clickAndSettleMs": 300.609,
+                "recognizeMs": 10.346,
+                "usabilityMs": 22.185,
+                "resetMs": 169.585,
+                "totalMs": 1106.261
+              }
+            }
+          ],
+          "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_6\\passive_hand.png",
+          "lastOperation": {
+            "activationKey": "M20",
+            "signature": "M20|PROCESSING_CARD:E04",
+            "activationOccurrence": 1
+          },
+          "lastIncremental": {
+            "consumed": {
+              "id": "M20",
+              "name": "真刀竹光",
+              "rightLogCertain": true,
+              "candidateIds": [
+                "M20"
+              ],
+              "index": 4
+            },
+            "costConsumed": [],
+            "predictedSlots": [],
+            "recognized": [],
+            "finalClicks": []
+          },
+          "status": "PASS",
+          "v5ReusedObserverState": true
+        },
+        "slot": 3,
+        "action": {
+          "id": "M13",
+          "name": "暗之诱惑",
+          "slot": 3,
+          "tier": 1000,
+          "tierLabel": "最后尝试：暗之诱惑抽安全暗属性",
+          "reason": "普通抽牌和固定检索/回收都已走不通，牌组仍有2张零衣、2张兵器；最后发动诱惑抽2，优先除外零衣，没有零衣则除外兵器继续；两者都没有才投降。没有暗属性时整手送墓，不等待不存在的除外窗口。",
+          "details": {
+            "allureLastResort": true,
+            "surrenderIfNoSafeDark": true,
+            "rayeRemaining": 2,
+            "hampRemaining": 2
+          }
+        },
+        "selected": {
+          "slot": 3,
+          "duplicateCount": 1,
+          "selected": {
+            "accepted": true,
+            "id": "M13",
+            "name": "暗之诱惑",
+            "mad": 0,
+            "margin": 0.1485291851368379
+          },
+          "clickReference": {
+            "x": 1162,
+            "y": 986
+          },
+          "positioning": {
+            "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+            "source": "TITLE_COMPONENTS",
+            "centers": [
+              870,
+              1004,
+              1162
+            ],
+            "currentCenter": {
+              "x": 1162,
+              "y": 986
+            }
+          }
+        },
+        "startedAt": "2026-10-09T08:37:47.475Z",
+        "updatedAt": "2026-10-09T08:37:58.465Z",
+        "activation": {
+          "activationButton": {
+            "reference": {
+              "x": 1074,
+              "y": 834
+            },
+            "width": 84,
+            "height": 48,
+            "fillRatio": 0.42757936507936506,
+            "estimatedPixels": 1724,
+            "menuMode": "ACTIVATE_LEFT_OF_SET",
+            "expectedReference": {
+              "x": 1077,
+              "y": 826
+            },
+            "drift": 8.54400374531753,
+            "glyph": {
+              "iou": 0.9487179487179487,
+              "darkBackgroundRatio": 0.9781021897810219,
+              "offsetX": 0,
+              "offsetY": 0,
+              "pass": true,
+              "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+            }
+          },
+          "yellowPixels": 8480,
+          "probeAttempts": 1,
+          "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+          "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+          "responseBoundaryPriority": {
+            "state": "SELF_PRIORITY_BLUE",
+            "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+            "safeForRecognitionAndControl": true,
+            "votes": 4,
+            "requiredVotes": 3,
+            "medianBlueRatio": 0.048841481481481486,
+            "outerEdgeAgreement": true,
+            "glowBackedOuterEdgeAgreement": true,
+            "broadBlueAgreement": true,
+            "bottomGlow": {
+              "pass": true,
+              "passingColumns": 12,
+              "requiredPassingColumns": 6,
+              "leftEdgePassing": 3,
+              "rightEdgePassing": 3,
+              "requiredEdgeColumns": 2,
+              "minColumnRatio": 0.025,
+              "columnSamples": [
+                {
+                  "index": 0,
+                  "ratio": 0.04782608695652174,
+                  "pass": true,
+                  "roi": {
+                    "x": 0,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 1,
+                  "ratio": 0.1673913043478261,
+                  "pass": true,
+                  "roi": {
+                    "x": 91,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 2,
+                  "ratio": 0.2157608695652174,
+                  "pass": true,
+                  "roi": {
+                    "x": 183,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 3,
+                  "ratio": 0.18369565217391304,
+                  "pass": true,
+                  "roi": {
+                    "x": 275,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 4,
+                  "ratio": 0.11467391304347826,
+                  "pass": true,
+                  "roi": {
+                    "x": 366,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 5,
+                  "ratio": 0.09782608695652174,
+                  "pass": true,
+                  "roi": {
+                    "x": 458,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 6,
+                  "ratio": 0.26304347826086955,
+                  "pass": true,
+                  "roi": {
+                    "x": 550,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 7,
+                  "ratio": 0.1358695652173913,
+                  "pass": true,
+                  "roi": {
+                    "x": 641,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 8,
+                  "ratio": 0.15760869565217392,
+                  "pass": true,
+                  "roi": {
+                    "x": 733,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 9,
+                  "ratio": 0.12445652173913044,
+                  "pass": true,
+                  "roi": {
+                    "x": 825,
+                    "y": 170,
+                    "width": 91,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 10,
+                  "ratio": 0.2407608695652174,
+                  "pass": true,
+                  "roi": {
+                    "x": 916,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                },
+                {
+                  "index": 11,
+                  "ratio": 0.1108695652173913,
+                  "pass": true,
+                  "roi": {
+                    "x": 1008,
+                    "y": 170,
+                    "width": 92,
+                    "height": 80
+                  }
+                }
+              ],
+              "roi": {
+                "x": 0,
+                "y": 170,
+                "width": 1100,
+                "height": 80,
+                "columns": 12
+              }
+            },
+            "samples": [
+              {
+                "id": "OWN_LEFT",
+                "ratio": 0.047466666666666664,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_LEFT",
+                  "x": 0,
+                  "y": 0,
+                  "width": 270,
+                  "height": 250
+                }
+              },
+              {
+                "id": "OWN_MID_LEFT",
+                "ratio": 0.04992,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_MID_LEFT",
+                  "x": 270,
+                  "y": 0,
+                  "width": 250,
+                  "height": 250
+                }
+              },
+              {
+                "id": "OWN_MID_RIGHT",
+                "ratio": 0.047762962962962965,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_MID_RIGHT",
+                  "x": 640,
+                  "y": 0,
+                  "width": 270,
+                  "height": 250
+                }
+              },
+              {
+                "id": "OWN_RIGHT",
+                "ratio": 0.06383157894736842,
+                "pass": true,
+                "roi": {
+                  "id": "OWN_RIGHT",
+                  "x": 910,
+                  "y": 0,
+                  "width": 190,
+                  "height": 250
+                }
+              }
+            ],
+            "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+            "attempts": 2,
+            "stableFrames": 2,
+            "foregroundRecoveries": 0,
+            "elapsedMs": 222
+          }
+        },
+        "failureProof": {
+          "status": "NO_SAFE_DARK_IN_PROMPT",
+          "promptProof": {
+            "attempts": 11,
+            "headerDarkRatio": 0.8038833333333333,
+            "candidateCount": 1,
+            "points": [
+              {
+                "x": 1024,
+                "y": 925,
+                "width": 118
+              }
+            ]
+          },
+          "seen": [
+            {
+              "candidateIndex": 1,
+              "clickReference": {
+                "x": 1024,
+                "y": 925
+              },
+              "card": {
+                "accepted": true,
+                "id": "M02",
+                "name": "被封印的左足",
+                "mad": 0,
+                "margin": 0.25299526498841174
+              }
+            }
+          ],
+          "policy": "LAST_RESORT_M06_THEN_M08_OR_SURRENDER"
+        },
+        "result": {
+          "status": "TERMINAL_SURRENDER",
+          "surrender": {
+            "status": "SURRENDER_COMPLETE",
+            "debugDir": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M13_last_resort\\2026-10-09T08-37-45-357Z\\surrender",
+            "afterPath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M13_last_resort\\2026-10-09T08-37-45-357Z\\surrender\\05_after_result_confirm_full.png",
+            "surrenderReference": {
+              "x": 298,
+              "y": 1041
+            },
+            "resumedExistingConfirmation": false
+          },
+          "failureProof": {
+            "status": "NO_SAFE_DARK_IN_PROMPT",
+            "promptProof": {
+              "attempts": 11,
+              "headerDarkRatio": 0.8038833333333333,
+              "candidateCount": 1,
+              "points": [
+                {
+                  "x": 1024,
+                  "y": 925,
+                  "width": 118
+                }
+              ]
+            },
+            "seen": [
+              {
+                "candidateIndex": 1,
+                "clickReference": {
+                  "x": 1024,
+                  "y": 925
+                },
+                "card": {
+                  "accepted": true,
+                  "id": "M02",
+                  "name": "被封印的左足",
+                  "mad": 0,
+                  "margin": 0.25299526498841174
+                }
+              }
+            ],
+            "policy": "LAST_RESORT_M06_THEN_M08_OR_SURRENDER"
+          },
+          "debugDir": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M13_last_resort\\2026-10-09T08-37-45-357Z"
+        }
+      },
+      "endedAt": "2026-10-09T08:37:58.827Z",
+      "returnedToStarter": true
+    }
+  ],
+  "totals": {
+    "started": 3,
+    "completed": 3,
+    "wins": 1,
+    "losses": 2,
+    "surrenders": 2,
+    "interrupted": 0,
+    "unresolved": 0,
+    "errorGames": 0,
+    "errorSurrenders": 0,
+    "gems": 118,
+    "unknownGemGames": 0
+  }
+}
