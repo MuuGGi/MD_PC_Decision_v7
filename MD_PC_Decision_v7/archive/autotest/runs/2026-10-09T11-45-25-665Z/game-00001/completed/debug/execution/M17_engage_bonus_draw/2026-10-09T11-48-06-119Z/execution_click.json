@@ -1,0 +1,574 @@
+{
+  "capturedAt": "2026-10-09T11:48:20.350Z",
+  "branch": "BONUS_DRAW",
+  "baselineHandCount": 5,
+  "baselineHand": [
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 1
+    },
+    {
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M14"
+      ],
+      "index": 2
+    },
+    {
+      "index": 3,
+      "x": 799,
+      "y": 1010,
+      "id": "M16",
+      "name": "暂时休战",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.1942569476550059,
+      "usable": true,
+      "yellowPixels": 5136,
+      "yellowRatio": 0.15677655677655677,
+      "top3": [
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.1942569476550059,
+          "rmse": 0.24657596446284805,
+          "dhash": 30
+        },
+        {
+          "id": "M13",
+          "name": "暗之诱惑",
+          "count": 1,
+          "mad": 0.20090046806209,
+          "rmse": 0.27173690327801164,
+          "dhash": 32
+        }
+      ],
+      "timingMs": {
+        "locateMs": 523.847,
+        "clickAndSettleMs": 306.795,
+        "recognizeMs": 11.54,
+        "usabilityMs": 25.114,
+        "resetMs": 171.996,
+        "totalMs": 1172.414
+      }
+    },
+    {
+      "index": 4,
+      "x": 1075,
+      "y": 1000,
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2628304108410714,
+      "usable": true,
+      "yellowPixels": 5416,
+      "yellowRatio": 0.16532356532356532,
+      "top3": [
+        {
+          "id": "M17",
+          "name": "闪刀起动－交闪",
+          "count": 3,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E09",
+          "name": "闪刀姬－卡梅莉娅",
+          "count": 1,
+          "mad": 0.2628304108410714,
+          "rmse": 0.330575187185791,
+          "dhash": 33
+        },
+        {
+          "id": "E03",
+          "name": "闪刀姬－雫",
+          "count": 1,
+          "mad": 0.26284098680824364,
+          "rmse": 0.3187799115062048,
+          "dhash": 43
+        }
+      ],
+      "timingMs": {
+        "locateMs": 565.735,
+        "clickAndSettleMs": 309.776,
+        "recognizeMs": 15.25,
+        "usabilityMs": 12.103,
+        "resetMs": 172.514,
+        "totalMs": 1201.482
+      }
+    },
+    {
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M17"
+      ],
+      "index": 5
+    }
+  ],
+  "priorityPlan": {
+    "reason": "交闪目标按共享牌组账本与既定优先级排序：手牌已有零衣或本回合通招已使用；一般检索优先兵器，不再优先零衣；大黄蜂会卡住后续交闪，只作末位备用",
+    "targets": [
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P."
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣"
+      }
+    ],
+    "remaining": {
+      "M06": 1,
+      "M08": 2,
+      "M22": 0
+    },
+    "expectedCandidateCount": 3,
+    "totals": {
+      "M06": 2,
+      "M08": 2,
+      "M22": 1
+    },
+    "handCounts": {
+      "M06": 1,
+      "M14": 1,
+      "M16": 1,
+      "M17": 2
+    },
+    "usedCounts": {
+      "M15": 1,
+      "M21": 1,
+      "M18": 1,
+      "M11": 1,
+      "M22": 1
+    },
+    "stateSource": "SHARED_DECISION_ENGINE_BUILD_DECK_STATE"
+  },
+  "selected": {
+    "slot": 4,
+    "duplicateCount": 2,
+    "selected": {
+      "accepted": true,
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "mad": 0,
+      "margin": 0.2628304108410714
+    },
+    "clickReference": {
+      "x": 1142,
+      "y": 1002
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        737,
+        865,
+        1008,
+        1142,
+        1300
+      ],
+      "currentCenter": {
+        "x": 1142,
+        "y": 1002
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1160,
+        "y": 834
+      },
+      "width": 82,
+      "height": 48,
+      "fillRatio": 0.4349593495934959,
+      "estimatedPixels": 1712,
+      "menuMode": "ACTIVATE_ONLY_CENTERED",
+      "expectedReference": {
+        "x": 1142,
+        "y": 842
+      },
+      "drift": 19.697715603592208,
+      "glyph": {
+        "iou": 0.925,
+        "darkBackgroundRatio": 0.9635036496350365,
+        "offsetX": 0,
+        "offsetY": 0,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 8720,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 3,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.06172463157894737,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.09184782608695652,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.14293478260869566,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.17880434782608695,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.15760869565217392,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.17391304347826086,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.12717391304347825,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.18206521739130435,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.04565217391304348,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.1331521739130435,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.07771739130434782,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.28532608695652173,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.10108695652173913,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.07348148148148148,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.050944,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.031822222222222224,
+          "pass": false,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.07250526315789474,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 210
+    }
+  },
+  "searchProof": {
+    "promptProof": {
+      "dialog": {
+        "calibrated": true,
+        "signature": {
+          "roi": {
+            "x": 680,
+            "y": 725,
+            "width": 690,
+            "height": 70
+          },
+          "template": "templates/ui/toon_search_header.png",
+          "maxMad": 0.085
+        },
+        "candidateRoi": {
+          "x": 620,
+          "y": 830,
+          "width": 800,
+          "height": 200
+        },
+        "candidateY": 925,
+        "candidateClickYOffset": -22,
+        "candidatePoints": [],
+        "confirmPoint": {
+          "x": 1024,
+          "y": 1082
+        }
+      },
+      "signatureMad": 0.0010921933990987699
+    },
+    "priorityPlan": {
+      "reason": "交闪目标按共享牌组账本与既定优先级排序：手牌已有零衣或本回合通招已使用；一般检索优先兵器，不再优先零衣；大黄蜂会卡住后续交闪，只作末位备用",
+      "targets": [
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P."
+        },
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣"
+        }
+      ],
+      "remaining": {
+        "M06": 1,
+        "M08": 2,
+        "M22": 0
+      },
+      "expectedCandidateCount": 3,
+      "totals": {
+        "M06": 2,
+        "M08": 2,
+        "M22": 1
+      },
+      "handCounts": {
+        "M06": 1,
+        "M14": 1,
+        "M16": 1,
+        "M17": 2
+      },
+      "usedCounts": {
+        "M15": 1,
+        "M21": 1,
+        "M18": 1,
+        "M11": 1,
+        "M22": 1
+      },
+      "stateSource": "SHARED_DECISION_ENGINE_BUILD_DECK_STATE"
+    },
+    "selected": {
+      "accepted": true,
+      "id": "M08",
+      "name": "闪术兵器－H.A.M.P.",
+      "mad": 0,
+      "margin": 0.1916140638204221
+    },
+    "candidateIndex": 1,
+    "clickReference": {
+      "x": 1182,
+      "y": 903
+    },
+    "priorityRank": 1,
+    "seen": [
+      {
+        "candidateIndex": 1,
+        "clickReference": {
+          "x": 1182,
+          "y": 903
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0,
+          "margin": 0.1916140638204221
+        },
+        "priorityRank": 1
+      }
+    ],
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "traversal": "RIGHT_TO_LEFT",
+    "positioning": "M17_DEDICATED_SEARCH_PROMPT"
+  },
+  "bonusProof": {
+    "detected": true,
+    "clicked": true,
+    "roi": {
+      "x": 1040,
+      "y": 590,
+      "width": 290,
+      "height": 80
+    },
+    "yesReference": {
+      "x": 1183,
+      "y": 630
+    },
+    "bestYellow": 3099,
+    "bestDarkRatio": 0.7410344827586207,
+    "finalYellow": 591,
+    "finalDarkRatio": 0.7410775862068966
+  }
+}

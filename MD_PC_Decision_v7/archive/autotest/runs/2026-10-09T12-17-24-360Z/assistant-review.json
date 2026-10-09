@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09 12:36:37 UTC",
+  "reviewedBy": "ASSISTANT",
+  "reviewStatus": "REVIEWED_NO_NEW_CONFIRMED_PUBLIC_BUG",
+  "skipFutureAnalysis": true,
+  "reopenOnlyOnExplicitUserRequest": true,
+  "source": {
+    "version": 1,
+    "sourceId": "27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+    "path": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\source\\27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+    "sourceFiles": 240
+  },
+  "manifest": {
+    "checkedFiles": 445,
+    "mismatches": [],
+    "currentJsSourceMismatches": []
+  },
+  "totals": {
+    "started": 3,
+    "completed": 3,
+    "wins": 1,
+    "losses": 2,
+    "surrenders": 2,
+    "interrupted": 0,
+    "unresolved": 0,
+    "errorGames": 0,
+    "errorSurrenders": 0,
+    "gems": 100,
+    "unknownGemGames": 0
+  },
+  "actualEntry": {
+    "decisions": 40,
+    "publishedTransactions": 38,
+    "publishedCardSlotMismatches": 0,
+    "authority": "V7_SHARED_STRATEGY",
+    "transactions": 39,
+    "committed": 38,
+    "provenReceipts": 38,
+    "strictVictoryAbandoned": 1,
+    "inputRequests": 680,
+    "inputCompleted": 680,
+    "inputErrors": 0
+  },
+  "games": [
+    {
+      "id": 1,
+      "decisionCount": 8,
+      "published": 7,
+      "intentMismatches": [],
+      "transactions": 7,
+      "committed": 7,
+      "abandoned": [],
+      "receiptCount": 7,
+      "invalidReceipts": [],
+      "handRevision": 3,
+      "ledgerHandRevision": 3,
+      "costChecks": [
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-f7ea554620d569456f0b7936-T0003",
+          "present": true,
+          "protectedBlue": false
+        }
+      ],
+      "inputRequests": 147,
+      "inputComplete": 147,
+      "pngCount": 2,
+      "pngBytes": 1037395,
+      "endgame": []
+    },
+    {
+      "id": 2,
+      "decisionCount": 6,
+      "published": 5,
+      "intentMismatches": [],
+      "transactions": 5,
+      "committed": 5,
+      "abandoned": [],
+      "receiptCount": 5,
+      "invalidReceipts": [],
+      "handRevision": 1,
+      "ledgerHandRevision": 1,
+      "costChecks": [
+        {
+          "id": "M12",
+          "fee": "M07",
+          "transaction": "DUEL-4d5db03ae3e9f3c28d5fff4d-T0003",
+          "present": true,
+          "protectedBlue": false
+        }
+      ],
+      "inputRequests": 123,
+      "inputComplete": 123,
+      "pngCount": 2,
+      "pngBytes": 1037658,
+      "endgame": []
+    },
+    {
+      "id": 3,
+      "decisionCount": 26,
+      "published": 26,
+      "intentMismatches": [],
+      "transactions": 27,
+      "committed": 26,
+      "abandoned": [
+        {
+          "id": "DUEL-c6579a6322c3ef793e260be5-T0027",
+          "closedAt": "2026-10-09T12:30:43.509Z",
+          "proven": true,
+          "receiptExists": false
+        }
+      ],
+      "receiptCount": 26,
+      "invalidReceipts": [],
+      "handRevision": 29,
+      "ledgerHandRevision": 29,
+      "costChecks": [
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-c6579a6322c3ef793e260be5-T0018",
+          "present": true,
+          "protectedBlue": false
+        },
+        {
+          "id": "M12",
+          "fee": "M07",
+          "transaction": "DUEL-c6579a6322c3ef793e260be5-T0020",
+          "present": true,
+          "protectedBlue": false
+        },
+        {
+          "id": "M13",
+          "fee": "M06",
+          "transaction": "DUEL-c6579a6322c3ef793e260be5-T0021",
+          "present": true
+        },
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-c6579a6322c3ef793e260be5-T0027",
+          "present": true,
+          "protectedBlue": false
+        }
+      ],
+      "inputRequests": 410,
+      "inputComplete": 410,
+      "pngCount": 4,
+      "pngBytes": 1662935,
+      "endgame": [
+        {
+          "basis": {
+            "snapshotKey": "19ea86d90f979de0639d4f44a78d9aced0d6329f079bcf11e15bc858fd07c31e",
+            "handRevision": 29,
+            "duelId": "DUEL-c6579a6322c3ef793e260be5"
+          },
+          "id": "M12",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 3,
+            "maximumGuaranteedDraws": 3,
+            "canEmptyDeck": true,
+            "statesVisited": 3,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M12",
+                "slot": 8,
+                "drawCount": 2,
+                "reachableDraws": 3
+              },
+              {
+                "id": "M14",
+                "slot": 9,
+                "drawCount": 2,
+                "reachableDraws": 3
+              },
+              {
+                "id": "M16",
+                "slot": 10,
+                "drawCount": 1,
+                "reachableDraws": 3
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": 1,
+      "status": "NORMAL_CURRENT_RESOURCE_DEADLOCK",
+      "description": "Final component1/ToonDragon/Golden/TrueSword, no carrier or current draw/search/reset. Actual two Goblins, fee-backed Trade(HAMP), both ChickenGames, Mallet and Table chain exhausted; ToonDragon is a Trade fee, not free normal-summon carrier."
+    },
+    {
+      "id": 2,
+      "status": "NORMAL_CURRENT_RESOURCE_DEADLOCK",
+      "description": "Final component1/HAMP/Golden/Yoto, no carrier, summon, usable draw or reset. Table chain, Trade(actual ToonDragon after Table chain), Mallet, Void already resolved. HAMP has no proven summon entry in empty fields."
+    },
+    {
+      "id": 3,
+      "status": "NO_CONFIRMED_GAMEPLAY_BUG",
+      "description": "Empty-field first Engage correctly fetches Hornet despite held Allure/HAMP, equips Yoto to token and Kagari/Yoto gain before later Engage Raye. After actual sword GY, Raye normal/double Zero precedes Allure; final True converted Yoto equip preserved. Later actual Trade deficit fetches HAMP. Deck3 2/2/1 current pool all first moves guarantee3, preserves ordinary Trade. Current strict win abandons T0027 without ordinary receipt."
+    }
+  ],
+  "coverage": {
+    "emptyFieldFirstEngageHornet": "LIVE_PASS_WITH_ALLURE_AND_HAMP_HELD",
+    "postSwordZeroBeforeAllure": "LIVE_PASS_CONFIRMED_SWORD_STAGE",
+    "threeCardTwoPlusOneSchedule": "LIVE_PASS_CURRENT_COMBINATION_NORMAL_ORDER",
+    "singleTargetHandPlusDeckLessEqual2": "NOT_TRIGGERED_THIS_BATCH",
+    "forcedReorderGoblinFirstFourRemaining": "NOT_TRIGGERED_THIS_BATCH",
+    "jointYotoNormalRayeZero": "NOT_TRIGGERED_THIS_BATCH_PREVIOUS_BATCH_OBSERVED",
+    "dualYotoThreeEffects": "NOT_TRIGGERED_THIS_BATCH"
+  },
+  "productionChanges": [],
+  "noNewAuditScreenshots": true,
+  "V6Touched": false,
+  "automation": "ACTIVE",
+  "resumeSessionTotals": {
+    "completed": 9,
+    "wins": 4,
+    "normalSurrenders": 5,
+    "executionErrors": 0,
+    "interrupted": 0,
+    "gems": 370
+  },
+  "next": "Continue same verified source after fresh read-only foreground/Starter proof."
+}

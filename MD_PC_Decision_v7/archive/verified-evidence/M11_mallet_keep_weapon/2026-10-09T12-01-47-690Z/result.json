@@ -1,0 +1,1306 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-09T12:02:51.875Z",
+  "target": {
+    "id": "M11",
+    "name": "万宝槌"
+  },
+  "keepIds": [
+    "M17"
+  ],
+  "keepLabel": "闪刀起动－交闪[M17]",
+  "beforeHandCount": 9,
+  "afterHandCount": 8,
+  "activationProof": {
+    "status": "PASS",
+    "operation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M11",
+          "name": "万宝槌",
+          "mad": 0.10894309736725655,
+          "rawMad": 0.06827381078285308,
+          "hsvDistance": 0.3389107215366956
+        },
+        "confidenceMargin": 0.25698303107303694,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "mad": 0.10894309736725655,
+            "rawMad": 0.06827381078285308,
+            "hsvDistance": 0.3389107215366956
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "mad": 0.3659261284402935,
+            "rawMad": 0.22152924456370085,
+            "hsvDistance": 1.203307365638272
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "mad": 0.3669049465292307,
+            "rawMad": 0.26063423571514105,
+            "hsvDistance": 0.8855892567840806
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 794,
+          "mad": 0.08955549640670749
+        },
+        "box": {
+          "x": 1702,
+          "y": 951,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M11",
+      "details": [],
+      "startY": 951,
+      "endY": 1018,
+      "signature": "M11|",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    },
+    "newOperationCount": 1
+  },
+  "selectionProof": {
+    "selectedCount": 7,
+    "newlyCommittedCount": 7,
+    "alreadyCommittedIds": [],
+    "protectedRemaining": [
+      {
+        "id": "M17",
+        "name": "闪刀起动－交闪",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M17"
+        ],
+        "index": 9,
+        "originalSlot": 9,
+        "promptSlot": 8
+      }
+    ],
+    "keptCount": 1,
+    "rows": [
+      {
+        "step": 1,
+        "card": {
+          "index": 1,
+          "x": 732,
+          "y": 1022,
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "persistentExodia": true,
+          "candidateIds": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ],
+          "accepted": true,
+          "confidence": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0,
+          "margin": 0.25299526498841174,
+          "usable": null,
+          "yellowPixels": null,
+          "yellowRatio": null,
+          "top3": [
+            {
+              "id": "M02",
+              "name": "被封印的左足",
+              "count": 1,
+              "mad": 0,
+              "rmse": 0,
+              "dhash": 0
+            },
+            {
+              "id": "M08",
+              "name": "闪术兵器－H.A.M.P.",
+              "count": 2,
+              "mad": 0.25299526498841174,
+              "rmse": 0.3233132067382068,
+              "dhash": 34
+            },
+            {
+              "id": "M16",
+              "name": "暂时休战",
+              "count": 1,
+              "mad": 0.25913617514607423,
+              "rmse": 0.33712533142819295,
+              "dhash": 40
+            }
+          ],
+          "timingMs": {
+            "locateMs": 527.657,
+            "clickAndSettleMs": 294.273,
+            "recognizeMs": 18.257,
+            "usabilityMs": 0.237,
+            "resetMs": 183.028,
+            "totalMs": 1023.949
+          },
+          "originalSlot": 1,
+          "promptSlot": 1
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 8,
+        "clickReference": {
+          "x": 596,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": "LEFT",
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "mad": 0,
+          "persistentExodia": true,
+          "candidateIds": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ]
+        },
+        "selectButton": {
+          "x": 1024,
+          "y": 1082
+        },
+        "actionLayout": "SINGLE_CENTER_ACTION",
+        "actionZones": {
+          "left": 0,
+          "center": 392,
+          "right": 0
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 2,
+        "card": {
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "EXODIA_UNKNOWN"
+          ],
+          "index": 2,
+          "originalSlot": 2,
+          "promptSlot": 2
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 7,
+        "clickReference": {
+          "x": 596,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": "LEFT",
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "mad": 0,
+          "persistentExodia": true,
+          "candidateIds": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ]
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 3,
+        "card": {
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "EXODIA_UNKNOWN"
+          ],
+          "index": 3,
+          "originalSlot": 3,
+          "promptSlot": 3
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 6,
+        "clickReference": {
+          "x": 629,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "mad": 0,
+          "persistentExodia": true,
+          "candidateIds": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ]
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 4,
+        "card": {
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "EXODIA_UNKNOWN"
+          ],
+          "index": 4,
+          "originalSlot": 4,
+          "promptSlot": 4
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 5,
+        "clickReference": {
+          "x": 708,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "EXODIA_UNKNOWN",
+          "name": "被封印组件（身份无需区分）",
+          "mad": 0,
+          "persistentExodia": true,
+          "candidateIds": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ]
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 5,
+        "card": {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M08"
+          ],
+          "index": 5,
+          "originalSlot": 5,
+          "promptSlot": 5
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 4,
+        "clickReference": {
+          "x": 787,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 6,
+        "card": {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M08"
+          ],
+          "index": 6,
+          "originalSlot": 6,
+          "promptSlot": 6
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 3,
+        "clickReference": {
+          "x": 866,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      },
+      {
+        "step": 7,
+        "card": {
+          "id": "M11",
+          "name": "万宝槌",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M11"
+          ],
+          "index": 8,
+          "originalSlot": 8,
+          "promptSlot": 7
+        },
+        "candidateIndex": 0,
+        "currentCandidateCount": 2,
+        "clickReference": {
+          "x": 945,
+          "y": 925,
+          "width": 118,
+          "source": "PROMPT_PHYSICAL_CARD_RUN"
+        },
+        "anchoredEdge": null,
+        "selectedCardProof": {
+          "accepted": true,
+          "id": "M11",
+          "name": "万宝槌",
+          "mad": 0
+        },
+        "selectButton": {
+          "x": 1175,
+          "y": 1088
+        },
+        "actionLayout": "RIGHT_ACTION_ONLY",
+        "actionZones": {
+          "left": 0,
+          "center": 0,
+          "right": 376
+        },
+        "recoveredAlreadySelected": false,
+        "action": "CLICK_CARD_THEN_PHASE_AWARE_SELECT"
+      }
+    ],
+    "policy": "EDGE_ANCHORED_SINGLE_CLICK_WAIT_IDENTITY_THEN_SELECT"
+  },
+  "resolutionProof": {
+    "status": "PASS",
+    "expectedDrawCount": 7,
+    "returnBeforePrimaryDrawCount": 3,
+    "drawLabelCount": 1,
+    "drawResultCount": 7,
+    "evidence": {
+      "scope": {
+        "minY": 0,
+        "maxY": 969
+      },
+      "expectedDrawCount": 7,
+      "returnLabelCount": 3,
+      "returnRows": [
+        {
+          "x": 208,
+          "y": 161,
+          "mad": 0.08137096774193554,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.19350998123271315,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1743,
+            "y": 251,
+            "width": 51,
+            "height": 73,
+            "area": 1009,
+            "visibility": "FACE_UP"
+          }
+        },
+        {
+          "x": 208,
+          "y": 392,
+          "mad": 0.03843769765970903,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.19493427072003397,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1743,
+            "y": 482,
+            "width": 51,
+            "height": 73,
+            "area": 994,
+            "visibility": "FACE_UP"
+          }
+        },
+        {
+          "x": 208,
+          "y": 622,
+          "mad": 0.0761891208096141,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.2105854772041771,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1745,
+            "y": 712,
+            "width": 47,
+            "height": 67,
+            "area": 685,
+            "visibility": "FACE_UP"
+          }
+        }
+      ],
+      "returnBeforePrimaryDrawCount": 3,
+      "returnBeforePrimaryDrawRows": [
+        {
+          "x": 208,
+          "y": 161,
+          "mad": 0.08137096774193554,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.19350998123271315,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1743,
+            "y": 251,
+            "width": 51,
+            "height": 73,
+            "area": 1009,
+            "visibility": "FACE_UP"
+          }
+        },
+        {
+          "x": 208,
+          "y": 392,
+          "mad": 0.03843769765970903,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.19493427072003397,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1743,
+            "y": 482,
+            "width": 51,
+            "height": 73,
+            "area": 994,
+            "visibility": "FACE_UP"
+          }
+        },
+        {
+          "x": 208,
+          "y": 622,
+          "mad": 0.0761891208096141,
+          "card": {
+            "id": "UNKNOWN",
+            "name": "UNKNOWN",
+            "mad": 0.2105854772041771,
+            "visibility": "FACE_UP"
+          },
+          "cardBox": {
+            "x": 1745,
+            "y": 712,
+            "width": 47,
+            "height": 67,
+            "area": 685,
+            "visibility": "FACE_UP"
+          }
+        }
+      ],
+      "drawLabelCount": 1,
+      "drawRows": [
+        {
+          "x": 51,
+          "y": 694,
+          "mad": 0.04094876660341553,
+          "observedCardCount": 7,
+          "resultCount": 7,
+          "inferredPitch": 58.5,
+          "rowObservedCounts": [
+            4,
+            3
+          ],
+          "rowInferredCounts": [
+            4,
+            3
+          ],
+          "inferredMissingSlots": [],
+          "resultRows": [
+            {
+              "rowIndex": 1,
+              "centerY": 899.375,
+              "observedCount": 4,
+              "inferredCount": 4,
+              "cards": [
+                {
+                  "x": 1745,
+                  "y": 864,
+                  "width": 47,
+                  "height": 67,
+                  "area": 671,
+                  "visibility": "FACE_UP"
+                },
+                {
+                  "x": 1801,
+                  "y": 864,
+                  "width": 51,
+                  "height": 72,
+                  "area": 578,
+                  "visibility": "FACE_UP"
+                },
+                {
+                  "x": 1859,
+                  "y": 864,
+                  "width": 51,
+                  "height": 72,
+                  "area": 726,
+                  "visibility": "FACE_UP"
+                },
+                {
+                  "x": 1917,
+                  "y": 864,
+                  "width": 51,
+                  "height": 72,
+                  "area": 971,
+                  "visibility": "FACE_UP"
+                }
+              ]
+            },
+            {
+              "rowIndex": 2,
+              "centerY": 987.8333333333334,
+              "observedCount": 3,
+              "inferredCount": 3,
+              "cards": [
+                {
+                  "x": 1743,
+                  "y": 954,
+                  "width": 50,
+                  "height": 72,
+                  "area": 536,
+                  "visibility": "FACE_UP"
+                },
+                {
+                  "x": 1803,
+                  "y": 953,
+                  "width": 47,
+                  "height": 68,
+                  "area": 713,
+                  "visibility": "FACE_UP"
+                },
+                {
+                  "x": 1861,
+                  "y": 953,
+                  "width": 47,
+                  "height": 67,
+                  "area": 708,
+                  "visibility": "FACE_UP"
+                }
+              ]
+            }
+          ],
+          "resultCards": [
+            {
+              "rowIndex": 1,
+              "box": {
+                "x": 1745,
+                "y": 864,
+                "width": 47,
+                "height": 67,
+                "area": 671,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.164383508207031,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 1,
+              "box": {
+                "x": 1801,
+                "y": 864,
+                "width": 51,
+                "height": 72,
+                "area": 578,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.26971531211894206,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 1,
+              "box": {
+                "x": 1859,
+                "y": 864,
+                "width": 51,
+                "height": 72,
+                "area": 726,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.2673895168386979,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 1,
+              "box": {
+                "x": 1917,
+                "y": 864,
+                "width": 51,
+                "height": 72,
+                "area": 971,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.19928869424556045,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 2,
+              "box": {
+                "x": 1743,
+                "y": 954,
+                "width": 50,
+                "height": 72,
+                "area": 536,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.2746104358468969,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 2,
+              "box": {
+                "x": 1803,
+                "y": 953,
+                "width": 47,
+                "height": 68,
+                "area": 713,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.1329636835559083,
+                "visibility": "FACE_UP"
+              }
+            },
+            {
+              "rowIndex": 2,
+              "box": {
+                "x": 1861,
+                "y": 953,
+                "width": 47,
+                "height": 67,
+                "area": 708,
+                "visibility": "FACE_UP"
+              },
+              "card": {
+                "id": "UNKNOWN",
+                "name": "UNKNOWN",
+                "mad": 0.14983073873410852,
+                "visibility": "FACE_UP"
+              }
+            }
+          ],
+          "anchor": {
+            "labelPanelX": 51,
+            "labelPanelY": 694,
+            "labelMad": 0.04094876660341553,
+            "expectedDrawCount": 7,
+            "observedCardCount": 7,
+            "resultCount": 7,
+            "rowObservedCounts": [
+              4,
+              3
+            ],
+            "rowInferredCounts": [
+              4,
+              3
+            ],
+            "inferredMissingSlots": [],
+            "rowClientTop": 864,
+            "rowClientBottom": 1026,
+            "rowClientLeft": 1743,
+            "rowClientRight": 1968
+          }
+        }
+      ],
+      "primaryDraw": {
+        "x": 51,
+        "y": 694,
+        "mad": 0.04094876660341553,
+        "observedCardCount": 7,
+        "resultCount": 7,
+        "inferredPitch": 58.5,
+        "rowObservedCounts": [
+          4,
+          3
+        ],
+        "rowInferredCounts": [
+          4,
+          3
+        ],
+        "inferredMissingSlots": [],
+        "resultRows": [
+          {
+            "rowIndex": 1,
+            "centerY": 899.375,
+            "observedCount": 4,
+            "inferredCount": 4,
+            "cards": [
+              {
+                "x": 1745,
+                "y": 864,
+                "width": 47,
+                "height": 67,
+                "area": 671,
+                "visibility": "FACE_UP"
+              },
+              {
+                "x": 1801,
+                "y": 864,
+                "width": 51,
+                "height": 72,
+                "area": 578,
+                "visibility": "FACE_UP"
+              },
+              {
+                "x": 1859,
+                "y": 864,
+                "width": 51,
+                "height": 72,
+                "area": 726,
+                "visibility": "FACE_UP"
+              },
+              {
+                "x": 1917,
+                "y": 864,
+                "width": 51,
+                "height": 72,
+                "area": 971,
+                "visibility": "FACE_UP"
+              }
+            ]
+          },
+          {
+            "rowIndex": 2,
+            "centerY": 987.8333333333334,
+            "observedCount": 3,
+            "inferredCount": 3,
+            "cards": [
+              {
+                "x": 1743,
+                "y": 954,
+                "width": 50,
+                "height": 72,
+                "area": 536,
+                "visibility": "FACE_UP"
+              },
+              {
+                "x": 1803,
+                "y": 953,
+                "width": 47,
+                "height": 68,
+                "area": 713,
+                "visibility": "FACE_UP"
+              },
+              {
+                "x": 1861,
+                "y": 953,
+                "width": 47,
+                "height": 67,
+                "area": 708,
+                "visibility": "FACE_UP"
+              }
+            ]
+          }
+        ],
+        "resultCards": [
+          {
+            "rowIndex": 1,
+            "box": {
+              "x": 1745,
+              "y": 864,
+              "width": 47,
+              "height": 67,
+              "area": 671,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.164383508207031,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 1,
+            "box": {
+              "x": 1801,
+              "y": 864,
+              "width": 51,
+              "height": 72,
+              "area": 578,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.26971531211894206,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 1,
+            "box": {
+              "x": 1859,
+              "y": 864,
+              "width": 51,
+              "height": 72,
+              "area": 726,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.2673895168386979,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 1,
+            "box": {
+              "x": 1917,
+              "y": 864,
+              "width": 51,
+              "height": 72,
+              "area": 971,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.19928869424556045,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 2,
+            "box": {
+              "x": 1743,
+              "y": 954,
+              "width": 50,
+              "height": 72,
+              "area": 536,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.2746104358468969,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 2,
+            "box": {
+              "x": 1803,
+              "y": 953,
+              "width": 47,
+              "height": 68,
+              "area": 713,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.1329636835559083,
+              "visibility": "FACE_UP"
+            }
+          },
+          {
+            "rowIndex": 2,
+            "box": {
+              "x": 1861,
+              "y": 953,
+              "width": 47,
+              "height": 67,
+              "area": 708,
+              "visibility": "FACE_UP"
+            },
+            "card": {
+              "id": "UNKNOWN",
+              "name": "UNKNOWN",
+              "mad": 0.14983073873410852,
+              "visibility": "FACE_UP"
+            }
+          }
+        ],
+        "anchor": {
+          "labelPanelX": 51,
+          "labelPanelY": 694,
+          "labelMad": 0.04094876660341553,
+          "expectedDrawCount": 7,
+          "observedCardCount": 7,
+          "resultCount": 7,
+          "rowObservedCounts": [
+            4,
+            3
+          ],
+          "rowInferredCounts": [
+            4,
+            3
+          ],
+          "inferredMissingSlots": [],
+          "rowClientTop": 864,
+          "rowClientBottom": 1026,
+          "rowClientLeft": 1743,
+          "rowClientRight": 1968
+        }
+      },
+      "drawResultCount": 7,
+      "fingerprint": "M11:R3:D7:E7"
+    }
+  },
+  "fullResyncProof": {
+    "status": "PASS",
+    "beforeCount": 9,
+    "afterCount": 8,
+    "delta": -1,
+    "cardIds": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M08",
+      "M12",
+      "M12",
+      "M14",
+      "M17"
+    ]
+  },
+  "protectedProof": [
+    {
+      "id": "M17",
+      "before": 1,
+      "after": 1
+    }
+  ],
+  "finalHand": [
+    {
+      "index": 1,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.2432980096029782
+      },
+      "denseWitness": {
+        "window": "LEFT_EDGE",
+        "strategy": "left",
+        "ordinal": 1,
+        "clickReference": {
+          "x": 650,
+          "y": 1032
+        },
+        "targetCenterX": 650,
+        "actualCenterX": 650,
+        "inferredTitleComponent": false
+      },
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "index": 2,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.25299526498841174
+      },
+      "denseWitness": {
+        "window": "LEFT_EDGE",
+        "strategy": "left",
+        "ordinal": 2,
+        "clickReference": {
+          "x": 804,
+          "y": 1010
+        },
+        "targetCenterX": 787,
+        "actualCenterX": 804,
+        "inferredTitleComponent": false
+      },
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "index": 3,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.24609671268723238
+      },
+      "denseWitness": {
+        "window": "LEFT_EDGE",
+        "strategy": "left",
+        "ordinal": 3,
+        "clickReference": {
+          "x": 936,
+          "y": 1002
+        },
+        "targetCenterX": 921,
+        "actualCenterX": 936,
+        "inferredTitleComponent": false
+      },
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "index": 4,
+      "id": "M08",
+      "name": "闪术兵器－H.A.M.P.",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.1916140638204221
+      },
+      "denseWitness": {
+        "window": "LEFT_EDGE",
+        "strategy": "left",
+        "ordinal": 4,
+        "clickReference": {
+          "x": 1074,
+          "y": 996
+        },
+        "targetCenterX": 1057,
+        "actualCenterX": 1074,
+        "inferredTitleComponent": false
+      }
+    },
+    {
+      "index": 5,
+      "id": "M12",
+      "name": "抵价交易",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.2226831329439363
+      },
+      "denseWitness": {
+        "window": "LEFT_EDGE",
+        "strategy": "left",
+        "ordinal": 5,
+        "clickReference": {
+          "x": 1194,
+          "y": 1002
+        },
+        "targetCenterX": 1194,
+        "actualCenterX": 1194,
+        "inferredTitleComponent": false
+      }
+    },
+    {
+      "index": 6,
+      "id": "M12",
+      "name": "抵价交易",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.2226831329439363
+      },
+      "denseWitness": {
+        "window": "RIGHT_EDGE",
+        "strategy": "right",
+        "ordinal": 3,
+        "clickReference": {
+          "x": 1093,
+          "y": 984
+        },
+        "targetCenterX": 1097,
+        "actualCenterX": 1093,
+        "inferredTitleComponent": false
+      }
+    },
+    {
+      "index": 7,
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.2627693724019633
+      },
+      "denseWitness": {
+        "window": "RIGHT_EDGE",
+        "strategy": "right",
+        "ordinal": 4,
+        "clickReference": {
+          "x": 1232,
+          "y": 1008
+        },
+        "targetCenterX": 1231,
+        "actualCenterX": 1232,
+        "inferredTitleComponent": false
+      }
+    },
+    {
+      "index": 8,
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "accepted": true,
+      "denseRecognition": {
+        "mad": 0,
+        "rmse": 0,
+        "margin": 0.2628304108410714
+      },
+      "denseWitness": {
+        "window": "RIGHT_EDGE",
+        "strategy": "right",
+        "ordinal": 5,
+        "clickReference": {
+          "x": 1389,
+          "y": 1026
+        },
+        "targetCenterX": 1389,
+        "actualCenterX": 1389,
+        "inferredTitleComponent": false
+      }
+    }
+  ]
+}

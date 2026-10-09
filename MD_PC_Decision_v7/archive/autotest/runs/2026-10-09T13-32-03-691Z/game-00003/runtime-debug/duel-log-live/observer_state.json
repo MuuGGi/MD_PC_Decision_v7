@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-09T13:41:15.919Z",
+  "checkpoint": {
+    "activationKey": "M09",
+    "signature": "M09|PROCESSING_CARD:M13",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M14",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M13",
+        "cardName": "暗之诱惑"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M14",
+      "signature": "M14|PROCESSING_CARD:M09,PROCESSING_CARD:M02",
+      "detailTokens": [
+        "HAND_GAIN:M09",
+        "HAND_GAIN:M02"
+      ]
+    },
+    {
+      "activationKey": "M09",
+      "signature": "M09|PROCESSING_CARD:M13",
+      "detailTokens": [
+        "HAND_GAIN:M13"
+      ]
+    }
+  ]
+}

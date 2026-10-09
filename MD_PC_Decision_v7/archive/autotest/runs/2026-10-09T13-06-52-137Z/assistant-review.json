@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09 13:31:09 UTC",
+  "reviewedBy": "ASSISTANT",
+  "reviewStatus": "GAMEPLAY_REVIEWED_REWARD_CAPABILITY_FIX_OFFLINE_VERIFIED",
+  "skipFutureAnalysis": true,
+  "reopenOnlyOnExplicitUserRequest": true,
+  "sourceUsedForGames": {
+    "version": 1,
+    "sourceId": "27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+    "path": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\source\\27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+    "sourceFiles": 240
+  },
+  "manifest": {
+    "checkedFiles": 309,
+    "mismatches": [],
+    "currentJsSourceMismatchesAtPreFixAudit": []
+  },
+  "totals": {
+    "started": 3,
+    "completed": 3,
+    "wins": 1,
+    "losses": 2,
+    "surrenders": 2,
+    "interrupted": 0,
+    "unresolved": 0,
+    "errorGames": 0,
+    "errorSurrenders": 0,
+    "gems": 0,
+    "unknownGemGames": 1
+  },
+  "actualEntry": {
+    "decisions": 27,
+    "publishedTransactions": 25,
+    "publishedCardSlotMismatches": 0,
+    "authority": "V7_SHARED_STRATEGY",
+    "transactions": 26,
+    "committed": 25,
+    "provenReceipts": 25,
+    "strictVictoryAbandoned": 1,
+    "inputRequests": 407,
+    "inputCompleted": 407,
+    "inputErrors": 0
+  },
+  "games": [
+    {
+      "id": 1,
+      "decisionCount": 2,
+      "published": 1,
+      "intentMismatches": [],
+      "transactions": 1,
+      "committed": 1,
+      "abandoned": [],
+      "receiptCount": 1,
+      "invalidReceipts": [],
+      "handRevision": 1,
+      "ledgerHandRevision": 1,
+      "costChecks": [],
+      "inputRequests": 38,
+      "inputComplete": 38,
+      "pngCount": 2,
+      "pngBytes": 1040681
+    },
+    {
+      "id": 2,
+      "decisionCount": 5,
+      "published": 4,
+      "intentMismatches": [],
+      "transactions": 4,
+      "committed": 4,
+      "abandoned": [],
+      "receiptCount": 4,
+      "invalidReceipts": [],
+      "handRevision": 5,
+      "ledgerHandRevision": 5,
+      "costChecks": [],
+      "inputRequests": 96,
+      "inputComplete": 96,
+      "pngCount": 2,
+      "pngBytes": 1041721
+    },
+    {
+      "id": 3,
+      "decisionCount": 20,
+      "published": 20,
+      "intentMismatches": [],
+      "transactions": 21,
+      "committed": 20,
+      "abandoned": [
+        {
+          "id": "DUEL-0a0263ef15523544d87cd95b-T0021",
+          "closedAt": "2026-10-09T13:15:06.627Z",
+          "proven": true,
+          "receiptExists": false
+        }
+      ],
+      "receiptCount": 20,
+      "invalidReceipts": [],
+      "handRevision": 24,
+      "ledgerHandRevision": 24,
+      "costChecks": [
+        {
+          "id": "M12",
+          "fee": "M07",
+          "transaction": "DUEL-0a0263ef15523544d87cd95b-T0005",
+          "present": true,
+          "protectedBlue": false
+        },
+        {
+          "id": "M13",
+          "fee": "M06",
+          "transaction": "DUEL-0a0263ef15523544d87cd95b-T0015",
+          "present": true
+        },
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-0a0263ef15523544d87cd95b-T0017",
+          "present": true,
+          "protectedBlue": false
+        }
+      ],
+      "inputRequests": 273,
+      "inputComplete": 273,
+      "pngCount": 4,
+      "pngBytes": 1452157
+    }
+  ],
+  "gameplay": [
+    {
+      "id": 1,
+      "classification": "NORMAL_RESOURCE_DEADLOCK",
+      "explanation": "Only Void drew; final components3/ToonDragon/TrueSword with no free normal summon, draw, reset or equipped carrier. No confirmed missed legal gain."
+    },
+    {
+      "id": 2,
+      "classification": "NORMAL_RESOURCE_DEADLOCK_AFTER_NO_SWORD_FALLBACK",
+      "explanation": "Table current targets fetched, actual held Raye normal/effect direct Zero gets Deck Engage. No third GY spell setup available so no-bonus Engage obtains HAMP; final components1/ToonDragon/HAMP/Table/Golden, Table target quantities0, no actual equip or draw/reset. Actual legal fallback exhausted before surrender."
+    },
+    {
+      "id": 3,
+      "classification": "STRICT_VICTORY_NO_CONFIRMED_STRATEGY_BUG",
+      "explanation": "Empty-field Engage fetched Hornet; token True converted Yoto and retained current equipment for all three Goldens. Safe Allure actual Raye and actual Trade fees used. Last OneDay drew fifth component, T0021 abandoned without ordinary receipt. No additional special summon invented when current draws already suffice."
+    }
+  ],
+  "findings": [
+    {
+      "id": "V7_SETTLEMENT_ALPHABET_INCOMPLETE_2026-10-09",
+      "category": "capability",
+      "status": "CLASS_2_FIXED_OFFLINE_VERIFIED_LIVE_PENDING_CLASS_3_UNSUPPORTED",
+      "evidence": "game-00003/completed/debug/post-duel-victory/2026-10-09T13-14-53-984Z/settlement/settlement_reward_record.json",
+      "reason": "Saved current reward panel clearly shows82; same-font classifier alphabet lacked2, nearest supported9 score0.696 rejected, cross-font INFO competitor2 vetoed. Correct UNKNOWN handling, not execution failure.",
+      "fix": "Validated 2011-byte same-font normalized feature bank; source PNG remains only archive evidence; confidence0.90/margin0.04 and INFO-veto-only unchanged. Shared coverage diagnostics explicitly retain missing3.",
+      "verification": "19 dedicated pure read-only cases and full main offline264JS PASS; isolated portable runtime doctor PASS,32card templates,0outside-package reads. No current live test of new classifier yet.",
+      "historicalAccounting": "Original reward UNKNOWN/null preserved; offline replay82 stored only here, original ledger/summary/statistics/manifests not backfilled.",
+      "offlineReplayGems": 82
+    }
+  ],
+  "productionChanges": [
+    "engine/execution/core/duel-settlement.js",
+    "engine/templates/ui/settlement-glyph-bank.json",
+    "tools/doctor-v7.js"
+  ],
+  "developmentChanges": [
+    "archive/development/test/settlement-alphabet.js",
+    "archive/development/tools/verify-v7.js"
+  ],
+  "cardStrategyChanged": false,
+  "clickAndRoiChanged": false,
+  "noNewPng": true,
+  "V6Touched": false,
+  "automation": "ACTIVE",
+  "resumeSessionTotals": {
+    "completed": 15,
+    "wins": 7,
+    "normalSurrenders": 8,
+    "executionErrors": 0,
+    "interrupted": 0,
+    "verifiedGems": 458,
+    "unknownRewardGames": 2
+  },
+  "next": "Continue new verified source after fresh read-only foreground/Starter proof; compare reward classifier live without rewriting old UNKNOWN."
+}

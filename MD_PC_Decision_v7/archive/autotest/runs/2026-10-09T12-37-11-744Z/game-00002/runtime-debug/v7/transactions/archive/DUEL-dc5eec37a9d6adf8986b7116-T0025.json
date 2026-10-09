@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "id": "DUEL-dc5eec37a9d6adf8986b7116-T0025",
+  "duelId": "DUEL-dc5eec37a9d6adf8986b7116",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-bf068f1145e743d758d6d6292eb73b06",
+  "intent": {
+    "cardId": "M10",
+    "slot": 3,
+    "decisionBasis": {
+      "snapshotKey": "b1ee061c08a570ad8063b39e8860076127f6adc668b3beaca75fbdfa35fd19e0",
+      "handRevision": 0,
+      "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 0,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M09",
+        "M10",
+        "M12",
+        "M12",
+        "M14",
+        "M15",
+        "M19",
+        "M21",
+        "M21"
+      ]
+    },
+    "ledger": {
+      "revision": 0,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 0,
+        "M08": 0,
+        "M09": 3,
+        "M10": 3,
+        "M11": 1,
+        "M12": 2,
+        "M13": 1,
+        "M14": 3,
+        "M15": 3,
+        "M16": 1,
+        "M17": 3,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 2,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": null
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": false,
+        "currentState": "YOTO_SEARCH_DONE",
+        "carrierId": "E10",
+        "updatedAt": "2026-10-09T12:51:09.085Z",
+        "source": "FORMAL_V5_ATOMIC_MAIN",
+        "hornetBambooDraw2": false,
+        "postE10HornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "trueBambooGainBeforeEquip": false
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 2,
+        "M15": 2,
+        "M16": 1,
+        "M22": 1,
+        "M17": 3,
+        "M13": 1,
+        "M06": 2,
+        "M20": 1,
+        "M14": 2,
+        "M18": 1,
+        "M09": 2,
+        "M11": 1
+      }
+    },
+    "extra": {
+      "cardId": "M10",
+      "slot": 3,
+      "decisionBasis": {
+        "snapshotKey": "b1ee061c08a570ad8063b39e8860076127f6adc668b3beaca75fbdfa35fd19e0",
+        "handRevision": 0,
+        "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T12:53:27.700Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M10",
+          "slot": 3,
+          "decisionBasis": {
+            "snapshotKey": "b1ee061c08a570ad8063b39e8860076127f6adc668b3beaca75fbdfa35fd19e0",
+            "handRevision": 0,
+            "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T12:53:27.717Z",
+      "guardEvidence": {
+        "hwnd": 199696,
+        "title": "masterduel",
+        "client": {
+          "x": 500,
+          "y": 56,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-dc5eec37a9d6adf8986b7116-T0025",
+        "handRevision": 1,
+        "handHash": "ab044eac85b2a2d89b57065ca5702ae9f540cddcfbca6a2bce5e19bde077df21",
+        "ledgerHash": "765f6aa6bdfc960b753da125a4197d90e7807a7b3118e18f6f0064512884b1f4",
+        "runtimeHash": "c6ef72edafdd50f81e5103dcae1e7b82ac5553e9cd5a535f20e10c7868337539",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T12:53:40.323Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T12:53:40.327Z"
+    }
+  ],
+  "committedAt": "2026-10-09T12:53:40.331Z"
+}

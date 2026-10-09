@@ -1,0 +1,157 @@
+{
+  "version": 2,
+  "id": "DUEL-f7ea554620d569456f0b7936-T0004",
+  "duelId": "DUEL-f7ea554620d569456f0b7936",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-c65990ddb05058808762fac579f4ec23",
+  "intent": {
+    "cardId": "M21",
+    "slot": 4,
+    "decisionBasis": {
+      "snapshotKey": "bb32b4f6e451f7b8f84bdcc583c3bc4dd1e79f9be2d5b5ff175890e595744334",
+      "handRevision": 3,
+      "duelId": "DUEL-f7ea554620d569456f0b7936"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 3,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M11",
+        "M20",
+        "M21",
+        "M21"
+      ]
+    },
+    "ledger": {
+      "revision": 3,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 0,
+        "M08": 1,
+        "M09": 2,
+        "M10": 0,
+        "M11": 1,
+        "M12": 1,
+        "M13": 0,
+        "M14": 0,
+        "M15": 0,
+        "M16": 0,
+        "M17": 0,
+        "M18": 0,
+        "M19": 0,
+        "M20": 1,
+        "M21": 2,
+        "M22": 0
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M12",
+        "signature": "M12|PROCESSING_CARD:M08,PROCESSING_CARD:M21,PROCESSING_CARD:M21",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M09",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M21",
+            "cardName": "试胆竞速"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M21",
+            "cardName": "试胆竞速"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": null,
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M09": 2,
+        "M12": 1,
+        "M08": 1
+      }
+    },
+    "extra": {
+      "cardId": "M21",
+      "slot": 4,
+      "decisionBasis": {
+        "snapshotKey": "bb32b4f6e451f7b8f84bdcc583c3bc4dd1e79f9be2d5b5ff175890e595744334",
+        "handRevision": 3,
+        "duelId": "DUEL-f7ea554620d569456f0b7936"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T12:18:23.742Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M21",
+          "slot": 4,
+          "decisionBasis": {
+            "snapshotKey": "bb32b4f6e451f7b8f84bdcc583c3bc4dd1e79f9be2d5b5ff175890e595744334",
+            "handRevision": 3,
+            "duelId": "DUEL-f7ea554620d569456f0b7936"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T12:18:23.763Z",
+      "guardEvidence": {
+        "hwnd": 199696,
+        "title": "masterduel",
+        "client": {
+          "x": 500,
+          "y": 56,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-f7ea554620d569456f0b7936-T0004",
+        "handRevision": 5,
+        "handHash": "445e3896388b629736d8175432be7e5367cac66dfb4d5e16d187256fb40cca82",
+        "ledgerHash": "d2ba09917a23ef6f219d8c19c105c4dadf655c08c27657683e8c6fab1ce2eca8",
+        "runtimeHash": "305280cecd580322230a958b7c55ee68d60e44758efd149aa758b90d13e4837f",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T12:18:38.494Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T12:18:38.499Z"
+    }
+  ],
+  "committedAt": "2026-10-09T12:18:38.503Z"
+}

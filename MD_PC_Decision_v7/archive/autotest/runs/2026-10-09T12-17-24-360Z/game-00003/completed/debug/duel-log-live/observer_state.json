@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-09T12:30:01.682Z",
+  "checkpoint": {
+    "activationKey": "M17",
+    "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M11",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "M14",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M08",
+        "cardName": "闪术兵器－H.A.M.P."
+      },
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M11",
+        "cardName": "万宝槌"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "M14",
+      "signature": "M14|PROCESSING_CARD:M17,PROCESSING_CARD:M12",
+      "detailTokens": [
+        "HAND_GAIN:M17",
+        "HAND_GAIN:M12"
+      ]
+    },
+    {
+      "activationKey": "M17",
+      "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M11",
+      "detailTokens": [
+        "HAND_GAIN:M08",
+        "HAND_GAIN:M11"
+      ]
+    }
+  ]
+}

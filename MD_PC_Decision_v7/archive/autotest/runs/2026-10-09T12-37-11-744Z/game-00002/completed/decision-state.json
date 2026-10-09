@@ -1,0 +1,121 @@
+{
+  "graveSpellCount": 24,
+  "fieldSpell": "M21",
+  "chickenGameDrawUsed": true,
+  "chickenGameDrawPending": false,
+  "bambooSwordEquipped": false,
+  "equippedBambooId": null,
+  "equipSentToGraveCount": 2,
+  "engageBlockedByMainMonster": false,
+  "rayeNormalSummoned": false,
+  "normalSummonUsed": true,
+  "usedCounts": {
+    "M10": 3,
+    "M15": 3,
+    "M16": 1,
+    "M22": 1,
+    "M17": 3,
+    "M13": 1,
+    "M06": 2,
+    "M20": 1,
+    "M14": 2,
+    "M18": 1,
+    "M09": 3,
+    "M11": 1,
+    "M21": 3,
+    "M12": 1,
+    "M07": 1
+  },
+  "effectUsage": {
+    "M19_SEARCH": 1,
+    "KAGARI_RECOVERY": 1,
+    "E10_SUMMON": 1
+  },
+  "effectUsageMeta": {
+    "M19_SEARCH": {
+      "resolvedCount": 1,
+      "repeatable": true,
+      "source": "FORMAL_V5_ATOMIC_MAIN",
+      "updatedAt": "2026-10-09T12:51:09.085Z"
+    },
+    "M21_DRAW": {
+      "pending": false,
+      "fieldPlacementTransaction": "7:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T12-54-37-783Z",
+      "source": "M21_VERIFIED_FIELD_PLACEMENT",
+      "updatedAt": "2026-10-09T12:54:54.834Z",
+      "resolved": true
+    }
+  },
+  "notes": "V5 runtime decision state",
+  "v5Branch": {
+    "active": false,
+    "currentState": "YOTO_SEARCH_DONE",
+    "carrierId": "E10",
+    "updatedAt": "2026-10-09T12:51:09.085Z",
+    "source": "FORMAL_V5_ATOMIC_MAIN",
+    "hornetBambooDraw2": false,
+    "postE10HornetBambooDraw2": false,
+    "reservedYotoInHand": false,
+    "trueBambooGainBeforeEquip": false
+  },
+  "lastM13Accounting": {
+    "fingerprint": "2026-10-09T12:48:36.378Z|2026-10-09T12:48:49.052Z|9|10|M13|PROCESSING_CARD:M20,PROCESSING_CARD:M02,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|EXODIA_UNKNOWN,M20|M06",
+    "banishedId": "M06",
+    "beforeRevision": 9,
+    "afterRevision": 10
+  },
+  "equippedBambooCounts": {},
+  "bambooEquipResources": null,
+  "bambooContinuationPlan": {
+    "shouldLink": true,
+    "shouldContinue": true,
+    "routeKind": "YOTO_LINK_DEFERRED_GOLDEN",
+    "searchId": "M14",
+    "replacementId": null,
+    "carrierId": "E02",
+    "fieldId": "M19",
+    "prepareEquipId": null,
+    "goldenDrawReady": false,
+    "fixedContinuationReady": false,
+    "goldenDrawPreferred": false,
+    "twoYotoKagari": false,
+    "firstTrueGoldenSetup": false,
+    "replacementSource": null,
+    "canReplaceEquipDeterministically": false,
+    "deferredGoldenSearch": true,
+    "convertsTrue": false,
+    "steps": [
+      "LINK_SEND_M19",
+      "SEARCH_M14",
+      "WAIT_FOR_DECK_EQUIP"
+    ],
+    "projectedEquipSentToGraveCount": 1,
+    "projectedFieldEquipId": null,
+    "reason": "STOCK_GOLDEN_WAIT_FOR_REMAINING_DECK_EQUIP",
+    "equipResources": {
+      "byId": {
+        "M19": {
+          "deck": 1,
+          "hand": 0,
+          "field": 1,
+          "total": 2,
+          "outsideHandField": 0
+        },
+        "M20": {
+          "deck": 0,
+          "hand": 0,
+          "field": 0,
+          "total": 1,
+          "outsideHandField": 1
+        }
+      },
+      "deckCount": 1,
+      "handCount": 0,
+      "fieldCount": 1,
+      "outsideHandFieldCount": 1,
+      "replacementCountAfterLink": 1,
+      "hasReplacementAfterLink": true,
+      "fieldIdentitySource": "COMMITTED_EQUIP"
+    }
+  }
+}

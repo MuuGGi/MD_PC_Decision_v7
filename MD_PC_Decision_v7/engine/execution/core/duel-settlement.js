@@ -188,6 +188,40 @@ function loadDigitTemplates(rootDir = ROOT) {
   return rows;
 }
 
+// Supplemental same-font features, not a second OCR/font fallback. The bank
+// carries normalized pixels and provenance, so runtime never reads archives.
+function parseVerifiedSettlementGlyphBank(bank) {
+  if (bank?.version !== 1 || bank.font !== 'MASTER_DUEL_SETTLEMENT' ||
+      bank.normalization?.width !== 28 || bank.normalization?.height !== 36 ||
+      !Array.isArray(bank.entries) || !bank.entries.length) {
+    throw new Error('SETTLEMENT_GLYPH_BANK_INVALID');
+  }
+  return bank.entries.map(row => {
+    const proof = row?.proof;
+    if (!Number.isInteger(row?.digit) || row.digit < 0 || row.digit > 9 ||
+        row.verified !== true || typeof row.data !== 'string' ||
+        !/^[01]{1008}$/.test(row.data) ||
+        proof?.kind !== 'VISUAL_REVIEW_SAVED_REWARD_PANEL' ||
+        !/^[a-f0-9]{64}$/.test(proof.imageSha256 || '') ||
+        !/^\d{1,3}$/.test(proof.text || '') ||
+        !Number.isInteger(proof.componentIndex) || proof.componentIndex < 0 ||
+        Number(proof.text[proof.componentIndex]) !== row.digit) {
+      throw new Error('SETTLEMENT_GLYPH_BANK_ENTRY_UNPROVEN');
+    }
+    const data = Uint8Array.from(row.data, Number);
+    if (crypto.createHash('sha256').update(data).digest('hex') !== row.dataSha256) {
+      throw new Error('SETTLEMENT_GLYPH_BANK_DATA_CHANGED');
+    }
+    return { digit: row.digit, data, source: 'SETTLEMENT_GLYPH_BANK:' + row.source };
+  });
+}
+
+function describeSettlementDigitCoverage(templates) {
+  const supportedDigits = [...new Set(templates.map(row => row.digit))].sort((a, b) => a - b);
+  return { font: 'MASTER_DUEL_SETTLEMENT', supportedDigits,
+    missingDigits: Array.from({ length: 10 }, (_, n) => n).filter(n => !supportedDigits.includes(n)) };
+}
+
 function loadSettlementDigitTemplates(rootDir = ROOT) {
   const rows = [];
   for (const source of SETTLEMENT_DIGIT_TEMPLATE_SOURCES) {
@@ -211,6 +245,9 @@ function loadSettlementDigitTemplates(rootDir = ROOT) {
       });
     });
   }
+  const bankPath = path.join(rootDir, 'templates/ui/settlement-glyph-bank.json');
+  if (!fs.existsSync(bankPath)) throw new Error('SETTLEMENT_GLYPH_BANK_MISSING');
+  rows.push(...parseVerifiedSettlementGlyphBank(readJson(bankPath)));
   if (!rows.length) throw new Error('SETTLEMENT_DIGIT_TEMPLATES_MISSING');
   return rows;
 }
@@ -300,7 +337,8 @@ function recognizeGemCount(image, templates = loadSettlementDigitTemplates()) {
     value: rangeOk ? value : null,
     text,
     digits,
-    components: extracted.components
+    components: extracted.components,
+    alphabet: describeSettlementDigitCoverage(templates)
   };
 }
 
@@ -706,6 +744,8 @@ module.exports = {
   waitForSettlementPage,
   accelerateSettlementRewards,
   loadSettlementDigitTemplates,
+  parseVerifiedSettlementGlyphBank,
+  describeSettlementDigitCoverage,
   recognizeGemCount,
   findGemIconMatches,
   recognizeSettlementGemRewards,

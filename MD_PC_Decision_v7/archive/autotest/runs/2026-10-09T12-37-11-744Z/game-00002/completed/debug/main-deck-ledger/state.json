@@ -1,0 +1,113 @@
+{
+  "version": 2,
+  "mode": "OUTSIDE_DECK_COUNT",
+  "initializedAt": "2026-10-09T12:46:32.916Z",
+  "openingBaselineCapturedAt": "2026-10-09T12:46:30.303Z",
+  "openingHand": [
+    "EXODIA_UNKNOWN",
+    "M07",
+    "M10",
+    "M15",
+    "M16"
+  ],
+  "outsideDeckCounts": {
+    "M01": 0,
+    "M02": 0,
+    "M03": 0,
+    "M04": 0,
+    "M05": 0,
+    "M06": 2,
+    "M07": 1,
+    "M08": 2,
+    "M09": 3,
+    "M10": 3,
+    "M11": 1,
+    "M12": 3,
+    "M13": 1,
+    "M14": 3,
+    "M15": 3,
+    "M16": 1,
+    "M17": 3,
+    "M18": 1,
+    "M19": 2,
+    "M20": 1,
+    "M21": 3,
+    "M22": 1
+  },
+  "unknownExodiaOutsideCount": 4,
+  "lastHandRevision": 10,
+  "lastIncrementalFingerprint": "10|M12|EXODIA_UNKNOWN,M08",
+  "processedLogEvents": [],
+  "notes": "Deck remaining = fixed card-library count - copies currently known outside Deck. Hand/field/GY/banished moves do not change outside count; draws/searches do; Kagari recovery does not; Magical Mallet returns do.",
+  "lastUpdatedAt": "2026-10-09T12:55:12.286Z",
+  "lastM13Draw": {
+    "fingerprint": "2026-10-09T12:48:36.378Z|2026-10-09T12:48:49.052Z|9|10|M13|PROCESSING_CARD:M20,PROCESSING_CARD:M02,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|EXODIA_UNKNOWN,M20|M06",
+    "drawnIds": [
+      "M20",
+      "EXODIA_UNKNOWN"
+    ],
+    "banishedId": "M06",
+    "beforeRevision": 9,
+    "afterRevision": 10
+  },
+  "processedDirectDeckExits": [
+    "T20_3_M19_DECK_TO_FIELD:2026-10-09T12:49:15.218Z"
+  ],
+  "lastKnownDirectDeckExit": {
+    "id": "M19",
+    "evidenceKey": "T20_3_M19_DECK_TO_FIELD:2026-10-09T12:49:15.218Z",
+    "reason": "T20_3_PROVED_M19_DECK_TO_FIELD",
+    "outsideBefore": 0,
+    "outsideAfter": 1,
+    "committedAt": "2026-10-09T12:49:24.484Z"
+  },
+  "processedKnownAtomicHandGains": [
+    "KNOWN_MULTI_GAIN:E10->M17+M19->M14:15->16"
+  ],
+  "lastKnownAtomicHandGains": {
+    "evidenceKey": "KNOWN_MULTI_GAIN:E10->M17+M19->M14:15->16",
+    "gains": [
+      {
+        "id": "M17",
+        "fromDeck": true,
+        "activationKey": "E10"
+      },
+      {
+        "id": "M14",
+        "fromDeck": true,
+        "activationKey": "M19"
+      }
+    ],
+    "beforeRevision": 15,
+    "afterRevision": 16,
+    "committedAt": "2026-10-09T12:51:09.077Z"
+  },
+  "lastMallet": {
+    "returned": [
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "EXODIA_UNKNOWN",
+      "M07",
+      "M08",
+      "M08",
+      "M11",
+      "M14"
+    ],
+    "drawn": [
+      "EXODIA_UNKNOWN",
+      "M09",
+      "M12",
+      "M12",
+      "M14",
+      "M15",
+      "M19",
+      "M21",
+      "M21"
+    ],
+    "returnedThenRedrawn": [
+      "EXODIA_UNKNOWN",
+      "M14"
+    ]
+  }
+}

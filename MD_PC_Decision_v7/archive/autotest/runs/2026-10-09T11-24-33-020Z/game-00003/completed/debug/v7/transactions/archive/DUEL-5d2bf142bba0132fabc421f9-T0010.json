@@ -1,0 +1,157 @@
+{
+  "version": 2,
+  "id": "DUEL-5d2bf142bba0132fabc421f9-T0010",
+  "duelId": "DUEL-5d2bf142bba0132fabc421f9",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-cc530f0653ab653d00e3b87763b1dd9d",
+  "intent": {
+    "cardId": "M15",
+    "slot": 8,
+    "decisionBasis": {
+      "snapshotKey": "aabd8c39858edc6287bad8ac8ad0f9c9e9e57d9c80a7ab9ff30d0339fd376881",
+      "handRevision": 10,
+      "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 10,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M07",
+        "M08",
+        "M08",
+        "M14",
+        "M14",
+        "M15"
+      ]
+    },
+    "ledger": {
+      "revision": 10,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 2,
+        "M09": 0,
+        "M10": 3,
+        "M11": 0,
+        "M12": 0,
+        "M13": 0,
+        "M14": 2,
+        "M15": 1,
+        "M16": 0,
+        "M17": 2,
+        "M18": 1,
+        "M19": 0,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "E01",
+        "signature": "E01|PROCESSING_CARD:M15",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M18",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M15",
+            "cardName": "无之炼狱"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": false,
+        "currentState": "KAGARI_RECOVERY_DONE",
+        "updatedAt": "2026-10-09T11:30:25.518Z",
+        "carrierId": "E02",
+        "source": "FORMAL_V5_H2"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M22": 1,
+        "M17": 2,
+        "M18": 1
+      }
+    },
+    "extra": {
+      "cardId": "M15",
+      "slot": 8,
+      "decisionBasis": {
+        "snapshotKey": "aabd8c39858edc6287bad8ac8ad0f9c9e9e57d9c80a7ab9ff30d0339fd376881",
+        "handRevision": 10,
+        "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T11:31:23.598Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M15",
+          "slot": 8,
+          "decisionBasis": {
+            "snapshotKey": "aabd8c39858edc6287bad8ac8ad0f9c9e9e57d9c80a7ab9ff30d0339fd376881",
+            "handRevision": 10,
+            "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T11:31:23.616Z",
+      "guardEvidence": {
+        "hwnd": 199696,
+        "title": "masterduel",
+        "client": {
+          "x": 500,
+          "y": 56,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-5d2bf142bba0132fabc421f9-T0010",
+        "handRevision": 11,
+        "handHash": "27340367fa16ec39d86816e17a4c54913fed70d3b923cb8e5eb21ec0358b66fe",
+        "ledgerHash": "75e17f96a4175b1da48ec11f982f0f454d63e6c8eef194212516387fad16e5e8",
+        "runtimeHash": "d601750c43e54f827f72e91fa25372ecb048e3613d53345eef65719b126883bd",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T11:31:34.147Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T11:31:34.151Z"
+    }
+  ],
+  "committedAt": "2026-10-09T11:31:34.156Z"
+}

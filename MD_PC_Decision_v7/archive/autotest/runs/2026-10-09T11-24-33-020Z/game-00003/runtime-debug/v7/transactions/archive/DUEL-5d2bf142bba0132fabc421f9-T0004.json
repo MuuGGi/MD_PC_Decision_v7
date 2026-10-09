@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "id": "DUEL-5d2bf142bba0132fabc421f9-T0004",
+  "duelId": "DUEL-5d2bf142bba0132fabc421f9",
+  "actionType": "UNIT:FIXED_FIELD_GAIN",
+  "instanceKey": "INST-ec32bdc0b70568ace19f2f22dfd5ee3e",
+  "intent": {
+    "kind": "KAGARI_LINK_BEFORE_TRUE",
+    "decisionBasis": {
+      "snapshotKey": "d58216418d3508149167184fae6ed5ef7292b8d499fa07368517c2894616c17a",
+      "handRevision": 5,
+      "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 5,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M07",
+        "M14",
+        "M17",
+        "M18"
+      ]
+    },
+    "ledger": {
+      "revision": 5,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 0,
+        "M07": 1,
+        "M08": 0,
+        "M09": 0,
+        "M10": 3,
+        "M11": 0,
+        "M12": 0,
+        "M13": 0,
+        "M14": 1,
+        "M15": 0,
+        "M16": 0,
+        "M17": 2,
+        "M18": 1,
+        "M19": 0,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M22",
+        "signature": "M22|PROCESSING_CARD:TOKEN_SKY_STRIKER",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M17",
+        "evidenceCards": [
+          {
+            "kind": "PROCESSING_CARD",
+            "cardKey": "TOKEN_SKY_STRIKER",
+            "cardName": "闪刀姬衍生物"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": true,
+        "currentState": "HORNET_TOKEN_READY",
+        "updatedAt": "2026-10-09T11:30:03.668Z",
+        "carrierId": "TOKEN_SKY_STRIKER",
+        "source": "V7_HORNET_CARRIER_RECEIPT"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M17": 1,
+        "M22": 1
+      }
+    },
+    "extra": {
+      "kind": "KAGARI_LINK_BEFORE_TRUE",
+      "decisionBasis": {
+        "snapshotKey": "d58216418d3508149167184fae6ed5ef7292b8d499fa07368517c2894616c17a",
+        "handRevision": 5,
+        "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T11:30:04.018Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "kind": "KAGARI_LINK_BEFORE_TRUE",
+          "decisionBasis": {
+            "snapshotKey": "d58216418d3508149167184fae6ed5ef7292b8d499fa07368517c2894616c17a",
+            "handRevision": 5,
+            "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T11:30:04.040Z",
+      "guardEvidence": {
+        "hwnd": 199696,
+        "title": "masterduel",
+        "client": {
+          "x": 500,
+          "y": 56,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIXED_FIELD_GAIN",
+        "transactionId": "DUEL-5d2bf142bba0132fabc421f9-T0004",
+        "handRevision": 5,
+        "handHash": "a7c1a647cbeb5a3051e5e67800ef180681a9a84328e63fa362609f61b34ff214",
+        "ledgerHash": "384f4d0ba7748bb483559e9e0c77159581b1f37f8221fd939617db72fbbb5a5c",
+        "runtimeHash": "dc10486d0a90d71b0f3478a587176c94cb39607bfda4da9a86837c838e2a39f5",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T11:30:13.303Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T11:30:13.308Z"
+    }
+  ],
+  "committedAt": "2026-10-09T11:30:13.312Z"
+}

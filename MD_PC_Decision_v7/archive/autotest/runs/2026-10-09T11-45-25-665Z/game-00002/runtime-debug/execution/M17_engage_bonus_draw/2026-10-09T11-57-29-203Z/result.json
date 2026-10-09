@@ -1,0 +1,976 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-09T11:57:48.369Z",
+  "target": {
+    "id": "M17",
+    "name": "闪刀起动－交闪"
+  },
+  "branch": "BONUS_DRAW",
+  "baselineHandCount": 6,
+  "baselineHand": [
+    {
+      "index": 1,
+      "x": 732,
+      "y": 1022,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.25299526498841174,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M02",
+          "name": "被封印的左足",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.25299526498841174,
+          "rmse": 0.3233132067382068,
+          "dhash": 34
+        },
+        {
+          "id": "M16",
+          "name": "暂时休战",
+          "count": 1,
+          "mad": 0.25913617514607423,
+          "rmse": 0.33712533142819295,
+          "dhash": 40
+        }
+      ],
+      "timingMs": {
+        "locateMs": 527.657,
+        "clickAndSettleMs": 294.273,
+        "recognizeMs": 18.257,
+        "usabilityMs": 0.237,
+        "resetMs": 183.028,
+        "totalMs": 1023.949
+      }
+    },
+    {
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M07"
+      ],
+      "index": 2
+    },
+    {
+      "index": 3,
+      "x": 869,
+      "y": 998,
+      "id": "M11",
+      "name": "万宝槌",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2310635293311859,
+      "usable": true,
+      "yellowPixels": 4972,
+      "yellowRatio": 0.15177045177045176,
+      "top3": [
+        {
+          "id": "M11",
+          "name": "万宝槌",
+          "count": 2,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E02",
+          "name": "闪刀姬－篝",
+          "count": 1,
+          "mad": 0.2310635293311859,
+          "rmse": 0.3035595610523306,
+          "dhash": 30
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "count": 3,
+          "mad": 0.24489407413450817,
+          "rmse": 0.3097596472406572,
+          "dhash": 37
+        }
+      ],
+      "timingMs": {
+        "locateMs": 522.403,
+        "clickAndSettleMs": 281.297,
+        "recognizeMs": 12.674,
+        "usabilityMs": 21.321,
+        "resetMs": 155.757,
+        "totalMs": 993.688
+      }
+    },
+    {
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "accepted": true,
+      "index": 4,
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    },
+    {
+      "id": "M20",
+      "name": "真刀竹光",
+      "accepted": true,
+      "index": 5,
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    },
+    {
+      "id": "M21",
+      "name": "试胆竞速",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M21"
+      ],
+      "index": 6
+    }
+  ],
+  "priorityPlan": {
+    "reason": "交闪目标按共享牌组账本与既定优先级排序：刀送墓及火刀回收已完成，当前未装备：检索零衣以保留双素材零梦交闪收益；有诱惑也先保留这个入口，结算后重新核对，再决定最后装刀。",
+    "targets": [
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣"
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P."
+      }
+    ],
+    "remaining": {
+      "M06": 2,
+      "M08": 2,
+      "M22": 0
+    },
+    "expectedCandidateCount": 4,
+    "totals": {
+      "M06": 2,
+      "M08": 2,
+      "M22": 1
+    },
+    "handCounts": {
+      "EXODIA_UNKNOWN": 1,
+      "M07": 1,
+      "M11": 1,
+      "M17": 1,
+      "M20": 1,
+      "M21": 1
+    },
+    "usedCounts": {
+      "M16": 1,
+      "M18": 1,
+      "M10": 3,
+      "M22": 1,
+      "M19": 1
+    },
+    "stateSource": "SHARED_DECISION_ENGINE_BUILD_DECK_STATE"
+  },
+  "selected": {
+    "slot": 4,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "mad": 0,
+      "margin": 0.2628304108410714
+    },
+    "clickReference": {
+      "x": 1073,
+      "y": 1000
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        667,
+        800,
+        936,
+        1073,
+        1210,
+        1364
+      ],
+      "currentCenter": {
+        "x": 1073,
+        "y": 1000
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1092,
+        "y": 832
+      },
+      "width": 88,
+      "height": 48,
+      "fillRatio": 0.39299242424242425,
+      "estimatedPixels": 1660,
+      "menuMode": "ACTIVATE_ONLY_CENTERED",
+      "expectedReference": {
+        "x": 1073,
+        "y": 840
+      },
+      "drift": 20.6155281280883,
+      "glyph": {
+        "iou": 0.905982905982906,
+        "darkBackgroundRatio": 0.9854014598540146,
+        "offsetX": 0,
+        "offsetY": -1,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 7812,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 4,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.042908444444444443,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.08315217391304348,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.11195652173913044,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.12282608695652174,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.12880434782608696,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.11793478260869565,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.1766304347826087,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.11521739130434783,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.11413043478260869,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.11684782608695653,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.11576086956521739,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.24728260869565216,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.08315217391304348,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.03928888888888889,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.046528,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.036503703703703705,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.0648421052631579,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 213
+    }
+  },
+  "searchProof": {
+    "promptProof": {
+      "dialog": {
+        "calibrated": true,
+        "signature": {
+          "roi": {
+            "x": 680,
+            "y": 725,
+            "width": 690,
+            "height": 70
+          },
+          "template": "templates/ui/toon_search_header.png",
+          "maxMad": 0.085
+        },
+        "candidateRoi": {
+          "x": 620,
+          "y": 830,
+          "width": 800,
+          "height": 200
+        },
+        "candidateY": 925,
+        "candidateClickYOffset": -22,
+        "candidatePoints": [],
+        "confirmPoint": {
+          "x": 1024,
+          "y": 1082
+        }
+      },
+      "signatureMad": 0.0025300477678994304
+    },
+    "priorityPlan": {
+      "reason": "交闪目标按共享牌组账本与既定优先级排序：刀送墓及火刀回收已完成，当前未装备：检索零衣以保留双素材零梦交闪收益；有诱惑也先保留这个入口，结算后重新核对，再决定最后装刀。",
+      "targets": [
+        {
+          "id": "M06",
+          "name": "闪刀姬－零衣"
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P."
+        }
+      ],
+      "remaining": {
+        "M06": 2,
+        "M08": 2,
+        "M22": 0
+      },
+      "expectedCandidateCount": 4,
+      "totals": {
+        "M06": 2,
+        "M08": 2,
+        "M22": 1
+      },
+      "handCounts": {
+        "EXODIA_UNKNOWN": 1,
+        "M07": 1,
+        "M11": 1,
+        "M17": 1,
+        "M20": 1,
+        "M21": 1
+      },
+      "usedCounts": {
+        "M16": 1,
+        "M18": 1,
+        "M10": 3,
+        "M22": 1,
+        "M19": 1
+      },
+      "stateSource": "SHARED_DECISION_ENGINE_BUILD_DECK_STATE"
+    },
+    "selected": {
+      "accepted": true,
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "mad": 0,
+      "margin": 0.21446641223911356
+    },
+    "candidateIndex": 3,
+    "clickReference": {
+      "x": 945,
+      "y": 903
+    },
+    "priorityRank": 1,
+    "seen": [
+      {
+        "candidateIndex": 1,
+        "clickReference": {
+          "x": 1261,
+          "y": 903
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0,
+          "margin": 0.1916140638204221
+        },
+        "priorityRank": 2
+      },
+      {
+        "candidateIndex": 2,
+        "clickReference": {
+          "x": 1103,
+          "y": 903
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "mad": 0,
+          "margin": 0.1916140638204221
+        },
+        "priorityRank": 2
+      },
+      {
+        "candidateIndex": 3,
+        "clickReference": {
+          "x": 945,
+          "y": 903
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "mad": 0,
+          "margin": 0.21446641223911356
+        },
+        "priorityRank": 1
+      }
+    ],
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "traversal": "RIGHT_TO_LEFT",
+    "positioning": "M17_DEDICATED_SEARCH_PROMPT"
+  },
+  "bonusProof": {
+    "detected": true,
+    "clicked": true,
+    "roi": {
+      "x": 1040,
+      "y": 590,
+      "width": 290,
+      "height": 80
+    },
+    "yesReference": {
+      "x": 1183,
+      "y": 630
+    },
+    "bestYellow": 3104,
+    "bestDarkRatio": 0.7565086206896552,
+    "finalYellow": 591,
+    "finalDarkRatio": 0.7411206896551724
+  },
+  "observerVerification": {
+    "beforeCount": 6,
+    "afterCount": 7,
+    "searched": {
+      "id": "M06",
+      "name": "闪刀姬－零衣"
+    },
+    "bonusDraw": {
+      "id": "M06",
+      "name": "闪刀姬－零衣"
+    },
+    "inserted": [
+      {
+        "slot": 2,
+        "card": {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ]
+        }
+      },
+      {
+        "slot": 3,
+        "card": {
+          "id": "M06",
+          "name": "闪刀姬－零衣",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M06"
+          ]
+        }
+      }
+    ],
+    "finalHand": [
+      {
+        "index": 1,
+        "x": 732,
+        "y": 1022,
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "persistentExodia": true,
+        "candidateIds": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05"
+        ],
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.25299526498841174,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M02",
+            "name": "被封印的左足",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.25299526498841174,
+            "rmse": 0.3233132067382068,
+            "dhash": 34
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.25913617514607423,
+            "rmse": 0.33712533142819295,
+            "dhash": 40
+          }
+        ],
+        "timingMs": {
+          "locateMs": 527.657,
+          "clickAndSettleMs": 294.273,
+          "recognizeMs": 18.257,
+          "usabilityMs": 0.237,
+          "resetMs": 183.028,
+          "totalMs": 1023.949
+        }
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 4
+      },
+      {
+        "index": 5,
+        "x": 869,
+        "y": 998,
+        "id": "M11",
+        "name": "万宝槌",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2310635293311859,
+        "usable": true,
+        "yellowPixels": 4972,
+        "yellowRatio": 0.15177045177045176,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "count": 1,
+            "mad": 0.2310635293311859,
+            "rmse": 0.3035595610523306,
+            "dhash": 30
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.24489407413450817,
+            "rmse": 0.3097596472406572,
+            "dhash": 37
+          }
+        ],
+        "timingMs": {
+          "locateMs": 522.403,
+          "clickAndSettleMs": 281.297,
+          "recognizeMs": 12.674,
+          "usabilityMs": 21.321,
+          "resetMs": 155.757,
+          "totalMs": 993.688
+        }
+      },
+      {
+        "id": "M20",
+        "name": "真刀竹光",
+        "accepted": true,
+        "index": 6,
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      },
+      {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 7
+      }
+    ],
+    "operation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M17",
+          "name": "闪刀起动－交闪",
+          "mad": 0.16124116652884707,
+          "rawMad": 0.11542771729331772,
+          "hsvDistance": 0.3817787436294112
+        },
+        "confidenceMargin": 0.22824793872002902,
+        "top3": [
+          {
+            "id": "M17",
+            "name": "闪刀起动－交闪",
+            "mad": 0.16124116652884707,
+            "rawMad": 0.11542771729331772,
+            "hsvDistance": 0.3817787436294112
+          },
+          {
+            "id": "M22",
+            "name": "闪刀机－大黄蜂无人机",
+            "mad": 0.3894891052488761,
+            "rawMad": 0.273047500193893,
+            "hsvDistance": 0.9703467087915255
+          },
+          {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.40447471642030985,
+            "rawMad": 0.2670240336335907,
+            "hsvDistance": 1.1454223565559936
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 515,
+          "mad": 0.06900718658504125
+        },
+        "box": {
+          "x": 1702,
+          "y": 672,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M17",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.25339088188599457,
+            "rawMad": 0.19873390564424326,
+            "hsvDistance": 0.4554748020145945
+          },
+          "confidenceMargin": 0.15667378924409536,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.25339088188599457,
+              "rawMad": 0.19873390564424326,
+              "hsvDistance": 0.4554748020145945
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.41006467113008993,
+              "rawMad": 0.20310762204917893,
+              "hsvDistance": 1.7246420756742582
+            },
+            {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.4294569060258073,
+              "rawMad": 0.25812390400244994,
+              "hsvDistance": 1.427775016861311
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1743,
+            "y": 838,
+            "width": 51,
+            "height": 73,
+            "area": 992
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        },
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M06",
+            "name": "闪刀姬－零衣",
+            "mad": 0.24952419779332,
+            "rawMad": 0.19521583534528442,
+            "hsvDistance": 0.45256968706696316
+          },
+          "confidenceMargin": 0.16161351774827018,
+          "top3": [
+            {
+              "id": "M06",
+              "name": "闪刀姬－零衣",
+              "mad": 0.24952419779332,
+              "rawMad": 0.19521583534528442,
+              "hsvDistance": 0.45256968706696316
+            },
+            {
+              "id": "E09",
+              "name": "闪刀姬－卡梅莉娅",
+              "mad": 0.4111377155415902,
+              "rawMad": 0.20265638078316625,
+              "hsvDistance": 1.7373444563201994
+            },
+            {
+              "id": "M17",
+              "name": "闪刀起动－交闪",
+              "mad": 0.42918009006246804,
+              "rawMad": 0.25894600918396893,
+              "hsvDistance": 1.4186173406541593
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1743,
+            "y": 953,
+            "width": 51,
+            "height": 73,
+            "area": 1004
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        }
+      ],
+      "startY": 672,
+      "endY": 1026,
+      "signature": "M17|PROCESSING_CARD:M06,PROCESSING_CARD:M06",
+      "relationship": {
+        "type": "INDEPENDENT_OR_ORIGIN_NOT_VISIBLE",
+        "parentActivationKey": null,
+        "evidenceCard": null
+      }
+    }
+  }
+}

@@ -1,0 +1,898 @@
+{
+  "version": 1,
+  "id": "24:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T12-00-48-957Z",
+  "before": {
+    "version": 2,
+    "capturedAt": "2026-10-09T12:00:48.231Z",
+    "revision": 24,
+    "handCount": 7,
+    "cards": [
+      {
+        "index": 1,
+        "x": 732,
+        "y": 1022,
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "persistentExodia": true,
+        "candidateIds": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05"
+        ],
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.25299526498841174,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M02",
+            "name": "被封印的左足",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.25299526498841174,
+            "rmse": 0.3233132067382068,
+            "dhash": 34
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.25913617514607423,
+            "rmse": 0.33712533142819295,
+            "dhash": 40
+          }
+        ],
+        "timingMs": {
+          "locateMs": 527.657,
+          "clickAndSettleMs": 294.273,
+          "recognizeMs": 18.257,
+          "usabilityMs": 0.237,
+          "resetMs": 183.028,
+          "totalMs": 1023.949
+        }
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 4
+      },
+      {
+        "index": 5,
+        "x": 869,
+        "y": 998,
+        "id": "M11",
+        "name": "万宝槌",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2310635293311859,
+        "usable": true,
+        "yellowPixels": 4972,
+        "yellowRatio": 0.15177045177045176,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "count": 1,
+            "mad": 0.2310635293311859,
+            "rmse": 0.3035595610523306,
+            "dhash": 30
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.24489407413450817,
+            "rmse": 0.3097596472406572,
+            "dhash": 37
+          }
+        ],
+        "timingMs": {
+          "locateMs": 522.403,
+          "clickAndSettleMs": 281.297,
+          "recognizeMs": 12.674,
+          "usabilityMs": 21.321,
+          "resetMs": 155.757,
+          "totalMs": 993.688
+        }
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 7
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_24\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M15",
+      "signature": "M15|PROCESSING_CARD:M14",
+      "activationOccurrence": 1
+    },
+    "lastIncremental": {
+      "consumed": {
+        "id": "M15",
+        "name": "无之炼狱",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M15"
+        ],
+        "index": 6
+      },
+      "costConsumed": [],
+      "predictedSlots": [
+        6
+      ],
+      "recognized": [
+        {
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "rightLogCertain": true,
+          "candidateIds": [
+            "M14"
+          ]
+        }
+      ],
+      "finalClicks": [
+        {
+          "slot": 6,
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "source": "RIGHT_LOG_EXACT_NO_CLICK",
+          "physicalClicksIssued": 0
+        }
+      ]
+    }
+  },
+  "decisionBefore": {
+    "graveSpellCount": 16,
+    "fieldSpell": "M21",
+    "chickenGameDrawUsed": true,
+    "chickenGameDrawPending": false,
+    "bambooSwordEquipped": true,
+    "equippedBambooId": "M19",
+    "equipSentToGraveCount": 2,
+    "engageBlockedByMainMonster": false,
+    "rayeNormalSummoned": false,
+    "normalSummonUsed": true,
+    "usedCounts": {
+      "M16": 1,
+      "M18": 1,
+      "M10": 3,
+      "M22": 1,
+      "M19": 1,
+      "M17": 2,
+      "M21": 2,
+      "M06": 2,
+      "M20": 1,
+      "M09": 3,
+      "M13": 1,
+      "M15": 1
+    },
+    "effectUsage": {
+      "M19_SEARCH": 1,
+      "KAGARI_RECOVERY": 1,
+      "E10_SUMMON": 1
+    },
+    "effectUsageMeta": {
+      "M19_SEARCH": {
+        "resolvedCount": 1,
+        "repeatable": true,
+        "source": "FORMAL_V5_ATOMIC_MAIN",
+        "updatedAt": "2026-10-09T11:57:28.704Z"
+      },
+      "M21_DRAW": {
+        "pending": false,
+        "fieldPlacementTransaction": "19:D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T12-00-01-431Z",
+        "source": "M21_VERIFIED_FIELD_PLACEMENT",
+        "updatedAt": "2026-10-09T12:00:16.648Z",
+        "resolved": true
+      }
+    },
+    "notes": "V5 runtime decision state",
+    "v5Branch": {
+      "active": false,
+      "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+      "updatedAt": "2026-10-09T12:00:48.489Z",
+      "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+      "carrierId": "E10",
+      "carrierEvidence": {
+        "cardId": "E10",
+        "kind": "EXTRA_LINK",
+        "proven": true,
+        "source": "CURRENT_TARGET_IDENTITY"
+      },
+      "postE10HornetBambooDraw2": false,
+      "hornetBambooDraw2": false,
+      "reservedYotoInHand": false,
+      "hornetYotoFixedSearch": false
+    },
+    "equippedBambooCounts": {
+      "M19": 1
+    },
+    "bambooEquipResources": {
+      "byId": {
+        "M19": {
+          "deck": 0,
+          "hand": 0,
+          "field": 1,
+          "total": 2,
+          "outsideHandField": 1
+        },
+        "M20": {
+          "deck": 0,
+          "hand": 0,
+          "field": 0,
+          "total": 1,
+          "outsideHandField": 1
+        }
+      },
+      "deckCount": 0,
+      "handCount": 0,
+      "fieldCount": 1,
+      "outsideHandFieldCount": 2,
+      "replacementCountAfterLink": 0,
+      "hasReplacementAfterLink": false,
+      "fieldIdentitySource": "COMMITTED_EQUIP"
+    },
+    "bambooContinuationPlan": {
+      "shouldLink": false,
+      "shouldContinue": false,
+      "routeKind": "PRESERVE",
+      "searchId": "M14",
+      "replacementId": null,
+      "carrierId": "E10",
+      "fieldId": "M19",
+      "prepareEquipId": null,
+      "goldenDrawReady": true,
+      "fixedContinuationReady": false,
+      "goldenDrawPreferred": true,
+      "twoYotoKagari": false,
+      "firstTrueGoldenSetup": false,
+      "replacementSource": null,
+      "canReplaceEquipDeterministically": false,
+      "deferredGoldenSearch": false,
+      "convertsTrue": false,
+      "steps": [],
+      "projectedEquipSentToGraveCount": 0,
+      "projectedFieldEquipId": "M19",
+      "reason": "ORDINARY_GOLDEN_DRAW_BEFORE_SPECULATIVE_DEPARTURE",
+      "equipResources": {
+        "byId": {
+          "M19": {
+            "deck": 0,
+            "hand": 0,
+            "field": 1,
+            "total": 2,
+            "outsideHandField": 1
+          },
+          "M20": {
+            "deck": 0,
+            "hand": 0,
+            "field": 0,
+            "total": 1,
+            "outsideHandField": 1
+          }
+        },
+        "deckCount": 0,
+        "handCount": 0,
+        "fieldCount": 1,
+        "outsideHandFieldCount": 2,
+        "replacementCountAfterLink": 0,
+        "hasReplacementAfterLink": false,
+        "fieldIdentitySource": "COMMITTED_EQUIP"
+      }
+    },
+    "lastE10Resolution": {
+      "targetId": "M17",
+      "targetSource": "DECK",
+      "handRevision": 15
+    },
+    "lastM13Accounting": {
+      "fingerprint": "2026-10-09T12:00:16.522Z|2026-10-09T12:00:29.648Z|21|22|M13|PROCESSING_CARD:M15,PROCESSING_CARD:M09,PROCESSING_CARD:M06,PROCESSING_CARD:M06|M13|M09,M15|M06",
+      "banishedId": "M06",
+      "beforeRevision": 21,
+      "afterRevision": 22
+    }
+  },
+  "selectedSlot": 7,
+  "attemptDir": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\execution\\M21_chicken_game\\2026-10-09T12-00-48-957Z",
+  "fieldOnly": false,
+  "drawOnly": false,
+  "observerBefore": {
+    "version": 1,
+    "capturedAt": "2026-10-09T12:00:47.146Z",
+    "checkpoint": {
+      "activationKey": "M15",
+      "signature": "M15|PROCESSING_CARD:M14",
+      "signatureOccurrence": 1,
+      "activationOccurrence": 1,
+      "previousActivationKey": "M09",
+      "evidenceCards": [
+        {
+          "kind": "HAND_GAIN",
+          "cardKey": "M14",
+          "cardName": "金黄色的竹光"
+        }
+      ]
+    },
+    "tailBlocks": [
+      {
+        "activationKey": "M09",
+        "signature": "M09|PROCESSING_CARD:M21",
+        "detailTokens": [
+          "HAND_GAIN:M21"
+        ]
+      },
+      {
+        "activationKey": "M15",
+        "signature": "M15|PROCESSING_CARD:M14",
+        "detailTokens": [
+          "HAND_GAIN:M14"
+        ]
+      }
+    ]
+  },
+  "recoveryPolicy": "SAVED_STAGE_ONLY_NO_HAND_REPLAY_NO_FULL_SCAN",
+  "stage": "COMPLETE",
+  "updatedAt": "2026-10-09T12:01:04.261Z",
+  "beforeDraw": {
+    "version": 2,
+    "capturedAt": "2026-10-09T12:00:54.441Z",
+    "revision": 25,
+    "handCount": 6,
+    "cards": [
+      {
+        "index": 1,
+        "x": 732,
+        "y": 1022,
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "persistentExodia": true,
+        "candidateIds": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05"
+        ],
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.25299526498841174,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M02",
+            "name": "被封印的左足",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.25299526498841174,
+            "rmse": 0.3233132067382068,
+            "dhash": 34
+          },
+          {
+            "id": "M16",
+            "name": "暂时休战",
+            "count": 1,
+            "mad": 0.25913617514607423,
+            "rmse": 0.33712533142819295,
+            "dhash": 40
+          }
+        ],
+        "timingMs": {
+          "locateMs": 527.657,
+          "clickAndSettleMs": 294.273,
+          "recognizeMs": 18.257,
+          "usabilityMs": 0.237,
+          "resetMs": 183.028,
+          "totalMs": 1023.949
+        }
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 2
+      },
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 3
+      },
+      {
+        "id": "M08",
+        "name": "闪术兵器－H.A.M.P.",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M08"
+        ],
+        "index": 4
+      },
+      {
+        "index": 5,
+        "x": 869,
+        "y": 998,
+        "id": "M11",
+        "name": "万宝槌",
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2310635293311859,
+        "usable": true,
+        "yellowPixels": 4972,
+        "yellowRatio": 0.15177045177045176,
+        "top3": [
+          {
+            "id": "M11",
+            "name": "万宝槌",
+            "count": 2,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E02",
+            "name": "闪刀姬－篝",
+            "count": 1,
+            "mad": 0.2310635293311859,
+            "rmse": 0.3035595610523306,
+            "dhash": 30
+          },
+          {
+            "id": "M21",
+            "name": "试胆竞速",
+            "count": 3,
+            "mad": 0.24489407413450817,
+            "rmse": 0.3097596472406572,
+            "dhash": 37
+          }
+        ],
+        "timingMs": {
+          "locateMs": 522.403,
+          "clickAndSettleMs": 281.297,
+          "recognizeMs": 12.674,
+          "usabilityMs": 21.321,
+          "resetMs": 155.757,
+          "totalMs": 993.688
+        }
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 6
+      }
+    ],
+    "handImagePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\hand-change-live\\revision_24\\passive_hand.png",
+    "lastOperation": {
+      "activationKey": "M21",
+      "signature": "M21|",
+      "activationOccurrence": null
+    },
+    "lastIncremental": {
+      "mode": "M21_FIELD_ACTIVATION_KNOWN_CONSUMPTION",
+      "consumed": {
+        "id": "M21",
+        "name": "试胆竞速",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M21"
+        ],
+        "index": 7
+      },
+      "costConsumed": [],
+      "predictedSlots": [],
+      "recognized": [],
+      "finalClicks": []
+    }
+  },
+  "fieldCardProof": {
+    "reference": {
+      "x": 476,
+      "y": 727
+    },
+    "recognized": {
+      "accepted": true,
+      "id": "M21",
+      "name": "试胆竞速",
+      "mad": 0,
+      "margin": 0.19835548746647166
+    }
+  },
+  "fieldEffectProof": {
+    "reference": {
+      "x": 555,
+      "y": 564
+    },
+    "glyphProof": {
+      "chosen": {
+        "estimatedPixels": 1648,
+        "x": 24,
+        "y": 36,
+        "width": 84,
+        "height": 48,
+        "aspect": 1.75,
+        "fillRatio": 0.4087301587301587,
+        "centerX": 65,
+        "centerY": 64,
+        "glyph": {
+          "iou": 0.9411764705882353,
+          "darkBackgroundRatio": 0.9708029197080292,
+          "offsetX": -1,
+          "offsetY": 0,
+          "pass": true,
+          "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+        },
+        "drift": 7
+      },
+      "candidates": [
+        {
+          "estimatedPixels": 1648,
+          "x": 24,
+          "y": 36,
+          "width": 84,
+          "height": 48,
+          "aspect": 1.75,
+          "fillRatio": 0.4087301587301587,
+          "centerX": 65,
+          "centerY": 64,
+          "glyph": {
+            "iou": 0.9411764705882353,
+            "darkBackgroundRatio": 0.9708029197080292,
+            "offsetX": -1,
+            "offsetY": 0,
+            "pass": true,
+            "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+          },
+          "drift": 7
+        }
+      ],
+      "expectedReference": {
+        "x": 555,
+        "y": 571
+      },
+      "detector": "FIELD_EXPECTED_LOCAL_ACTIVATE_GLYPH_V1"
+    },
+    "yellowPixels": 3472,
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 3,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.04327585185185185,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.057065217391304345,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.11141304347826086,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.11576086956521739,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.12771739130434784,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.09891304347826087,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.09184782608695652,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.08967391304347826,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.07717391304347826,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.14402173913043478,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.10054347826086957,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.21793478260869564,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.07989130434782608,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.0509037037037037,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.035648,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.0349037037037037,
+          "pass": false,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.05347368421052632,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 228
+    }
+  },
+  "drawConfirmProof": {
+    "darkRatio": 0.8146882699917868,
+    "okYellowPixels": 668,
+    "drawOneProof": {
+      "selected": true,
+      "selectedTab": 1,
+      "tabStripProven": true,
+      "underlineRatios": [
+        1,
+        1,
+        1
+      ],
+      "tabLimeRatios": [
+        0.9753246753246754,
+        0,
+        0
+      ],
+      "detector": "M21_FIRST_DRAW_TAB_SELECTED_V1"
+    },
+    "finalDrawOneProof": {
+      "selected": true,
+      "selectedTab": 1,
+      "tabStripProven": true,
+      "underlineRatios": [
+        1,
+        1,
+        1
+      ],
+      "tabLimeRatios": [
+        0.9753246753246754,
+        0,
+        0
+      ],
+      "detector": "M21_FIRST_DRAW_TAB_SELECTED_V1"
+    },
+    "confirmPoint": {
+      "x": 1024,
+      "y": 790
+    },
+    "policy": "DEFAULT_DRAW1_FIXED_OK"
+  },
+  "completedAt": "2026-10-09T12:01:04.260Z"
+}

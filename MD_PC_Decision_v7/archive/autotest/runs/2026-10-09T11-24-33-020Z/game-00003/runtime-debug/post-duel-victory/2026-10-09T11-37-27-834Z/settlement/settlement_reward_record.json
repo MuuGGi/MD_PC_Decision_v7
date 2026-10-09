@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "settlementId": "a648c30c-e38c-4ac5-97e9-600cd3522d21",
+  "capturedAt": "2026-10-09T11:37:41.705Z",
+  "policy": "record-first",
+  "rewardStatus": "VERIFIED",
+  "gems": 75,
+  "confirmedSubtotal": 75,
+  "pageStableReads": 2,
+  "digitStableReads": 2,
+  "fingerprint": "014d59ed009798b87d138af257045c789917ba173e8a3f9cc0f10abd0cc63b30",
+  "page": {
+    "pass": true,
+    "detector": "DUEL_SETTLEMENT_PAGE_AND_CONTINUE_V2",
+    "headerDarkRatio": 0.7823589743589744,
+    "headerWhiteRatio": 0.03476923076923077,
+    "buttonDarkRatio": 0.8753001715265866,
+    "buttonLimeRatio": 0.03241852487135506,
+    "reference": {
+      "x": 1824,
+      "y": 1052
+    }
+  },
+  "recognition": {
+    "pass": true,
+    "reason": "PASS",
+    "rewards": [
+      {
+        "match": {
+          "x": 52,
+          "y": 32,
+          "width": 96,
+          "height": 96,
+          "mad": 0.1070871722182849
+        },
+        "roi": {
+          "x": 84,
+          "y": 124,
+          "width": 70,
+          "height": 40
+        },
+        "count": {
+          "pass": true,
+          "reason": "PASS",
+          "value": 75,
+          "text": "75",
+          "digits": [
+            {
+              "digit": 7,
+              "confidence": 1,
+              "margin": 0.45039682539682535,
+              "source": "SETTLEMENT_VERIFIED",
+              "accepted": true,
+              "component": {
+                "pixels": 98,
+                "x": 14,
+                "y": 11,
+                "width": 13,
+                "height": 18
+              },
+              "ranked": [
+                {
+                  "digit": 7,
+                  "confidence": 1,
+                  "source": "duel-settlement-01-gems-79.png"
+                },
+                {
+                  "digit": 1,
+                  "confidence": 0.5496031746031746,
+                  "source": "duel-settlement-03-gems-106-plus-10.png"
+                },
+                {
+                  "digit": 9,
+                  "confidence": 0.4821428571428571,
+                  "source": "duel-settlement-01-gems-79.png"
+                }
+              ],
+              "legacyFallback": null,
+              "unsupportedCompetitor": null
+            },
+            {
+              "digit": 5,
+              "confidence": 0.9861111111111112,
+              "margin": 0.134920634920635,
+              "source": "SETTLEMENT_VERIFIED",
+              "accepted": true,
+              "component": {
+                "pixels": 148,
+                "x": 30,
+                "y": 11,
+                "width": 13,
+                "height": 18
+              },
+              "ranked": [
+                {
+                  "digit": 5,
+                  "confidence": 0.9861111111111112,
+                  "source": "duel-settlement-05-gems-115-plus-15.png"
+                },
+                {
+                  "digit": 6,
+                  "confidence": 0.8511904761904762,
+                  "source": "duel-settlement-03-gems-106-plus-10.png"
+                },
+                {
+                  "digit": 8,
+                  "confidence": 0.7896825396825397,
+                  "source": "duel-settlement-04-gems-108-plus-10.png"
+                }
+              ],
+              "legacyFallback": null,
+              "unsupportedCompetitor": null
+            }
+          ],
+          "components": [
+            {
+              "pixels": 98,
+              "x": 14,
+              "y": 11,
+              "width": 13,
+              "height": 18
+            },
+            {
+              "pixels": 148,
+              "x": 30,
+              "y": 11,
+              "width": 13,
+              "height": 18
+            }
+          ]
+        }
+      }
+    ],
+    "total": 75
+  },
+  "rewardPanelPath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-09T11-37-27-834Z\\settlement\\settlement_reward_panel.png"
+}

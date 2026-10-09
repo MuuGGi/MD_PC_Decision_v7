@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09T11:43:36Z",
+  "reviewStatus": "REVIEWED_NO_NEW_CONFIRMED_PUBLIC_BUG",
+  "skipFutureAnalysis": true,
+  "reopenOnlyOnExplicitUserRequest": true,
+  "sourceId": "27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+  "sourceFiles": 240,
+  "counts": {
+    "started": 3,
+    "completed": 3,
+    "wins": 1,
+    "losses": 2,
+    "surrenders": 2,
+    "interrupted": 0,
+    "unresolved": 0,
+    "errorGames": 0,
+    "errorSurrenders": 0,
+    "gems": 75,
+    "unknownGemGames": 0
+  },
+  "manifest": {
+    "checkedFiles": 485,
+    "mismatches": []
+  },
+  "actualEntryAudit": {
+    "decisions": 41,
+    "authority": "V7_SHARED_STRATEGY",
+    "publishedDecisionTransactions": 40,
+    "intentMismatches": 0,
+    "transactions": 43,
+    "ordinaryOrSurrenderCommits": 42,
+    "abandonedVictory": 1,
+    "alignedReceipts": 42,
+    "inputRequests": 743,
+    "inputCompletions": 743,
+    "inputErrors": 0,
+    "limitations": "Checks durable published selection and input/observer receipts; not synthetic all-card or all-opponent coverage."
+  },
+  "games": [
+    {
+      "id": 1,
+      "result": "NORMAL_LAST_RESORT_SURRENDER",
+      "reason": "Current pre-attempt hand components2/Trade1/Allure1/Golden1; no level8 fee, no equip or monster/search entry. All current ordinary gains exhausted, authorized last-resort Allure found only component dark candidates, refused sacrificing components, surrendered. New random identities not fully committed; pre-attempt hand is not a fabricated surrender hand."
+    },
+    {
+      "id": 2,
+      "result": "NORMAL_RESOURCE_DEADLOCK",
+      "reason": "Final components2/Trade1/Golden2, no fee/equip/monster or draw/search action. Earlier Allure paid actual Raye and Trade actual ToonDragon after three Table searches. No proven missed legal gain under current rules."
+    },
+    {
+      "id": 3,
+      "result": "STRICT_WIN",
+      "reason": "First Engage empty field fetched Hornet; current no sword made bare Kagari appropriate. Later Raye normal plus two-material Zero took Deck Engage with Deck legal targets1 and DeckEngage1/GYEngage2. Subsequent actual Raye used for Allure, actual ToonDragon/HAMP for Trade. Later True converted Yoto and retained equip. Endgame Deck3 current Goblin1+Golden2 guarantees3 so normal Goblin order retained; new snapshot Deck2 took Golden and current strict victory abandoned T0031.",
+      "endgameEvidence": {
+        "before": "T0030",
+        "remaining": 3,
+        "firstMoves": [
+          {
+            "id": "M09",
+            "reachableDraws": 3
+          },
+          {
+            "id": "M14",
+            "reachableDraws": 3
+          }
+        ],
+        "after": "T0031",
+        "remainingAfter": 2,
+        "selected": "M14"
+      },
+      "sourceEvidence": {
+        "transaction": "T0012",
+        "source": "DECK",
+        "legalDeckTargets": 1,
+        "deckEngage": 1,
+        "graveEngage": 2,
+        "physicalPolicyConsoleLine": 1114,
+        "policyLocked": true,
+        "limitation": "Hand+Deck total was3 at selection (4 before normal); old source rule also could select Deck here. This is field success of source binding, not the distinguishing total<=2 regression."
+      }
+    }
+  ],
+  "coverage": {
+    "singleDeckTargetSource": "LIVE_OBSERVED_DECK_AND_PUBLISHED_SOURCE_BINDING",
+    "threeCardDraw1Plus2": "LIVE_OBSERVED_COMBINATION_PRESERVED",
+    "fourCardDraw1Plus2Plus2": "NOT_TRIGGERED_THIS_BATCH",
+    "combinedYotoNormalRayeZero": "NOT_TRIGGERED_THIS_BATCH",
+    "dualYotoThreeEffects": "NOT_TRIGGERED_THIS_BATCH",
+    "strictTerminalClose": "LIVE_OBSERVED_ABANDONED_NO_ORDINARY_RECEIPT"
+  },
+  "imageRetention": {
+    "completedPngCounts": [
+      2,
+      2,
+      4
+    ],
+    "completedPngBytes": 3576563,
+    "policy": "Normal debug <=3 plus supervisor key frame; existing runtime-debug duplicates are retained key copies. No new screenshots from audit."
+  },
+  "productionChanges": [],
+  "next": "Continue same verified source after zero-input foreground/Starter proof.",
+  "V6Changed": false
+}

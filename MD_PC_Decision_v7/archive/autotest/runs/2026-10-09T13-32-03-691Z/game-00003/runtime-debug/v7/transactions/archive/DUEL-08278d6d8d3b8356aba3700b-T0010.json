@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "id": "DUEL-08278d6d8d3b8356aba3700b-T0010",
+  "duelId": "DUEL-08278d6d8d3b8356aba3700b",
+  "actionType": "UNIT:FIELD_INTERVAL",
+  "instanceKey": "INST-982782cb637959620577e8fac50d5b90",
+  "intent": {
+    "node": "M19_EQUIPPED",
+    "decisionBasis": {
+      "snapshotKey": "5dddb32eab95be4672108880ceda5e0ce9900f1ec884c8dcad0d9640d8235643",
+      "handRevision": 10,
+      "duelId": "DUEL-08278d6d8d3b8356aba3700b"
+    },
+    "fieldIntent": {
+      "branchDecision": true,
+      "node": "M19_EQUIPPED",
+      "fieldIntent": "EQUIPPED_BAMBOO_DEPARTURE",
+      "targetLinkId": "E02",
+      "materialCarrierId": "TOKEN_SKY_STRIKER",
+      "currentYotoCount": 1,
+      "m19EffectCount": 1,
+      "doubleWithRaye": false,
+      "bambooSearchTargetId": "M14",
+      "linkObjective": "BAMBOO_DEPARTURE",
+      "additionalHandCosts": {}
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 10,
+      "cards": [
+        "M06",
+        "M07",
+        "M08",
+        "M15",
+        "M17"
+      ]
+    },
+    "ledger": {
+      "revision": 10,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 1,
+        "M09": 1,
+        "M10": 3,
+        "M11": 0,
+        "M12": 0,
+        "M13": 0,
+        "M14": 1,
+        "M15": 1,
+        "M16": 0,
+        "M17": 2,
+        "M18": 0,
+        "M19": 1,
+        "M20": 1,
+        "M21": 1,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M14",
+        "signature": "M14|PROCESSING_CARD:M15,PROCESSING_CARD:M17",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "M21",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M15",
+            "cardName": "无之炼狱"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M17",
+            "cardName": "闪刀起动－交闪"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": true,
+        "currentState": "M19_EQUIPPED",
+        "updatedAt": "2026-10-09T13:38:17.932Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "carrierId": "TOKEN_SKY_STRIKER",
+        "carrierEvidence": {
+          "cardId": "TOKEN_SKY_STRIKER",
+          "kind": "CENTRAL_MAIN",
+          "proven": true,
+          "source": "SAME_ENTITY_EQUIP_ZONE_CONTINUITY"
+        },
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M10": 3,
+        "M09": 1,
+        "M17": 1,
+        "M22": 1,
+        "M20": 1,
+        "M21": 1,
+        "M14": 1
+      }
+    },
+    "extra": {
+      "node": "M19_EQUIPPED",
+      "decisionBasis": {
+        "snapshotKey": "5dddb32eab95be4672108880ceda5e0ce9900f1ec884c8dcad0d9640d8235643",
+        "handRevision": 10,
+        "duelId": "DUEL-08278d6d8d3b8356aba3700b"
+      },
+      "fieldIntent": {
+        "branchDecision": true,
+        "node": "M19_EQUIPPED",
+        "fieldIntent": "EQUIPPED_BAMBOO_DEPARTURE",
+        "targetLinkId": "E02",
+        "materialCarrierId": "TOKEN_SKY_STRIKER",
+        "currentYotoCount": 1,
+        "m19EffectCount": 1,
+        "doubleWithRaye": false,
+        "bambooSearchTargetId": "M14",
+        "linkObjective": "BAMBOO_DEPARTURE",
+        "additionalHandCosts": {}
+      }
+    }
+  },
+  "createdAt": "2026-10-09T13:38:18.202Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "node": "M19_EQUIPPED",
+          "decisionBasis": {
+            "snapshotKey": "5dddb32eab95be4672108880ceda5e0ce9900f1ec884c8dcad0d9640d8235643",
+            "handRevision": 10,
+            "duelId": "DUEL-08278d6d8d3b8356aba3700b"
+          },
+          "fieldIntent": {
+            "branchDecision": true,
+            "node": "M19_EQUIPPED",
+            "fieldIntent": "EQUIPPED_BAMBOO_DEPARTURE",
+            "targetLinkId": "E02",
+            "materialCarrierId": "TOKEN_SKY_STRIKER",
+            "currentYotoCount": 1,
+            "m19EffectCount": 1,
+            "doubleWithRaye": false,
+            "bambooSearchTargetId": "M14",
+            "linkObjective": "BAMBOO_DEPARTURE",
+            "additionalHandCosts": {}
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T13:38:18.220Z",
+      "guardEvidence": {
+        "hwnd": 199696,
+        "title": "masterduel",
+        "client": {
+          "x": 500,
+          "y": 56,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:FIELD_INTERVAL",
+        "transactionId": "DUEL-08278d6d8d3b8356aba3700b-T0010",
+        "handRevision": 11,
+        "handHash": "ebb7c5a9823fcacfee64dfa5f1d3ce2db4624597c756cf0846d28acc0fed113a",
+        "ledgerHash": "b07b4fa7414f390a6c2b0a652f0fc06ee1303cb1c2608b580a5c73ce2e24203f",
+        "runtimeHash": "d3bde5c336023044dacfd7411a8adfa43d761636b36a03495307711c817d0c3e",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T13:39:00.952Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T13:39:00.957Z"
+    }
+  ],
+  "committedAt": "2026-10-09T13:39:00.961Z"
+}

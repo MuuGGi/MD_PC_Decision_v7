@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "settlementId": "373ac133-1825-4a9e-88da-ebecf718c728",
+  "capturedAt": "2026-10-09T11:54:30.205Z",
+  "policy": "record-first",
+  "rewardStatus": "VERIFIED",
+  "gems": 80,
+  "confirmedSubtotal": 80,
+  "pageStableReads": 2,
+  "digitStableReads": 2,
+  "fingerprint": "f3b44218633517cee1451d4596cb4dbd121670936d06aba64e8292ff45019286",
+  "page": {
+    "pass": true,
+    "detector": "DUEL_SETTLEMENT_PAGE_AND_CONTINUE_V2",
+    "headerDarkRatio": 0.7823589743589744,
+    "headerWhiteRatio": 0.03476923076923077,
+    "buttonDarkRatio": 0.8776157804459691,
+    "buttonLimeRatio": 0.03241852487135506,
+    "reference": {
+      "x": 1824,
+      "y": 1052
+    }
+  },
+  "recognition": {
+    "pass": true,
+    "reason": "PASS",
+    "rewards": [
+      {
+        "match": {
+          "x": 52,
+          "y": 32,
+          "width": 96,
+          "height": 96,
+          "mad": 0.1070871722182849
+        },
+        "roi": {
+          "x": 84,
+          "y": 124,
+          "width": 70,
+          "height": 40
+        },
+        "count": {
+          "pass": true,
+          "reason": "PASS",
+          "value": 80,
+          "text": "80",
+          "digits": [
+            {
+              "digit": 8,
+              "confidence": 0.9444444444444444,
+              "margin": 0.10119047619047616,
+              "source": "SETTLEMENT_VERIFIED",
+              "accepted": true,
+              "component": {
+                "pixels": 149,
+                "x": 14,
+                "y": 11,
+                "width": 13,
+                "height": 18
+              },
+              "ranked": [
+                {
+                  "digit": 8,
+                  "confidence": 0.9444444444444444,
+                  "source": "duel-settlement-04-gems-108-plus-10.png"
+                },
+                {
+                  "digit": 6,
+                  "confidence": 0.8432539682539683,
+                  "source": "duel-settlement-03-gems-106-plus-10.png"
+                },
+                {
+                  "digit": 9,
+                  "confidence": 0.7996031746031746,
+                  "source": "duel-settlement-02-gems-94.png"
+                }
+              ],
+              "legacyFallback": null,
+              "unsupportedCompetitor": null
+            },
+            {
+              "digit": 0,
+              "confidence": 0.9742063492063492,
+              "margin": 0.15476190476190477,
+              "source": "SETTLEMENT_VERIFIED",
+              "accepted": true,
+              "component": {
+                "pixels": 139,
+                "x": 30,
+                "y": 11,
+                "width": 13,
+                "height": 18
+              },
+              "ranked": [
+                {
+                  "digit": 0,
+                  "confidence": 0.9742063492063492,
+                  "source": "duel-settlement-03-gems-106-plus-10.png"
+                },
+                {
+                  "digit": 9,
+                  "confidence": 0.8194444444444444,
+                  "source": "duel-settlement-02-gems-94.png"
+                },
+                {
+                  "digit": 6,
+                  "confidence": 0.8115079365079365,
+                  "source": "duel-settlement-03-gems-106-plus-10.png"
+                }
+              ],
+              "legacyFallback": null,
+              "unsupportedCompetitor": null
+            }
+          ],
+          "components": [
+            {
+              "pixels": 149,
+              "x": 14,
+              "y": 11,
+              "width": 13,
+              "height": 18
+            },
+            {
+              "pixels": 139,
+              "x": 30,
+              "y": 11,
+              "width": 13,
+              "height": 18
+            }
+          ]
+        }
+      }
+    ],
+    "total": 80
+  },
+  "rewardPanelPath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\post-duel-victory\\2026-10-09T11-54-17-620Z\\settlement\\settlement_reward_panel.png"
+}

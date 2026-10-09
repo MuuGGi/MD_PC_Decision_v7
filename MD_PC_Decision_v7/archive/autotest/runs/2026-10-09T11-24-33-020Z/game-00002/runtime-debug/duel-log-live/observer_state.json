@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-09T11:28:22.159Z",
+  "checkpoint": {
+    "activationKey": "M16",
+    "signature": "M16|PROCESSING_CARD:M12,PROCESSING_CARD:UNKNOWN",
+    "signatureOccurrence": 1,
+    "activationOccurrence": 1,
+    "previousActivationKey": "E01",
+    "evidenceCards": [
+      {
+        "kind": "HAND_GAIN",
+        "cardKey": "M12",
+        "cardName": "抵价交易"
+      },
+      {
+        "kind": "PROCESSING_CARD",
+        "cardKey": "UNKNOWN",
+        "cardName": "背面牌"
+      }
+    ]
+  },
+  "tailBlocks": [
+    {
+      "activationKey": "E01",
+      "signature": "E01|PROCESSING_CARD:M14",
+      "detailTokens": [
+        "HAND_GAIN:M14"
+      ]
+    },
+    {
+      "activationKey": "M16",
+      "signature": "M16|PROCESSING_CARD:M12,PROCESSING_CARD:UNKNOWN",
+      "detailTokens": [
+        "HAND_GAIN:M12",
+        "DRAW:UNKNOWN"
+      ]
+    }
+  ]
+}

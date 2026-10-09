@@ -1,0 +1,160 @@
+{
+  "version": 2,
+  "id": "DUEL-5d2bf142bba0132fabc421f9-T0008",
+  "duelId": "DUEL-5d2bf142bba0132fabc421f9",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-6d725204db20ab8af76612aadd14a228",
+  "intent": {
+    "cardId": "M17",
+    "slot": 6,
+    "decisionBasis": {
+      "snapshotKey": "67b3093bc27291e315206131ca68f40d2520ed49fd3a1b8cd32e7c0ccb1a964d",
+      "handRevision": 7,
+      "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 7,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "M06",
+        "M07",
+        "M14",
+        "M14",
+        "M17",
+        "M18"
+      ]
+    },
+    "ledger": {
+      "revision": 7,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 1,
+        "M07": 1,
+        "M08": 0,
+        "M09": 0,
+        "M10": 3,
+        "M11": 0,
+        "M12": 0,
+        "M13": 0,
+        "M14": 2,
+        "M15": 0,
+        "M16": 0,
+        "M17": 2,
+        "M18": 1,
+        "M19": 0,
+        "M20": 0,
+        "M21": 0,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M17",
+        "signature": "M17|PROCESSING_CARD:M06,PROCESSING_CARD:M14",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": "E02",
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M06",
+            "cardName": "闪刀姬－零衣"
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M14",
+            "cardName": "金黄色的竹光"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": null,
+      "branch": {
+        "active": false,
+        "currentState": "KAGARI_RECOVERY_DONE",
+        "updatedAt": "2026-10-09T11:30:25.518Z",
+        "carrierId": "E02",
+        "source": "FORMAL_V5_H2"
+      },
+      "normalSummonUsed": false,
+      "bambooSwordEquipped": false,
+      "usedCounts": {
+        "M10": 3,
+        "M22": 1,
+        "M17": 1
+      }
+    },
+    "extra": {
+      "cardId": "M17",
+      "slot": 6,
+      "decisionBasis": {
+        "snapshotKey": "67b3093bc27291e315206131ca68f40d2520ed49fd3a1b8cd32e7c0ccb1a964d",
+        "handRevision": 7,
+        "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T11:30:45.189Z",
+  "resumed": false,
+  "status": "COMMITTED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "COMMITTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M17",
+          "slot": 6,
+          "decisionBasis": {
+            "snapshotKey": "67b3093bc27291e315206131ca68f40d2520ed49fd3a1b8cd32e7c0ccb1a964d",
+            "handRevision": 7,
+            "duelId": "DUEL-5d2bf142bba0132fabc421f9"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T11:30:45.212Z",
+      "guardEvidence": {
+        "hwnd": 199696,
+        "title": "masterduel",
+        "client": {
+          "x": 500,
+          "y": 56,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "evidence": {
+        "proven": true,
+        "source": "MATURE_DRIVER_RETURN_AND_ALIGNED_STATE",
+        "capability": "UNIT:HAND_SELECTION",
+        "transactionId": "DUEL-5d2bf142bba0132fabc421f9-T0008",
+        "handRevision": 8,
+        "handHash": "8332f6e8fd34c5bfaf86a1be69b3f85e86d5fcbb6df919cb45708e57c7f10d81",
+        "ledgerHash": "13e479b2856e825c55597bbef5ab6c5d9a348c185a5a9cb8f30d7e8130924832",
+        "runtimeHash": "6d16b9ad088fc3b6e691aa91a36580419bbab3cd3f7a9bfce0bcaa16b88cae02",
+        "recoveryRuntimeOwner": null
+      },
+      "evidenceAt": "2026-10-09T11:31:03.586Z",
+      "legacyStateResult": {
+        "owner": "LEGACY",
+        "committed": true
+      },
+      "stateResult": {
+        "owner": "LEGACY"
+      },
+      "committedAt": "2026-10-09T11:31:03.591Z"
+    }
+  ],
+  "committedAt": "2026-10-09T11:31:03.596Z"
+}

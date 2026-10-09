@@ -15,7 +15,7 @@ function verify({ legacy = process.argv.includes('--legacy') } = {}) {
     }
     stage('syntax', { status: 'PASS', files: files.length });
     console.log('V7_SYNTAX_PASS; files=' + files.length);
-    for (const name of ['run', 'robustness', 'integration', 'field-gain-regression', 'strategy-shadow', 'unified-strategy', 'endgame-draw-source', 'link-selection-contract', 'observer-baseline-commit', 'field-identity-contract', 'info-overlay-read-contract', 'submitted-recovery', 'field-continuity', 'evidence-retention', 'evidence-copy-namespace', 'terminal-registration', 'terminal-transaction-close', 'terminal-hand-report']) {
+    for (const name of ['run', 'robustness', 'integration', 'field-gain-regression', 'strategy-shadow', 'unified-strategy', 'endgame-draw-source', 'settlement-alphabet', 'link-selection-contract', 'observer-baseline-commit', 'field-identity-contract', 'info-overlay-read-contract', 'submitted-recovery', 'field-continuity', 'evidence-retention', 'evidence-copy-namespace', 'terminal-registration', 'terminal-transaction-close', 'terminal-hand-report']) {
       const result = cp.spawnSync(process.execPath, [path.join(ROOT, 'archive/development/test', name + '.js')], { encoding: 'utf8', windowsHide: true, timeout: 120000 });
       process.stdout.write(result.stdout || ''); process.stderr.write(result.stderr || '');
       stage(name, { status: result.status === 0 ? 'PASS' : 'FAIL', output: String(result.stdout || '') + String(result.stderr || '') });

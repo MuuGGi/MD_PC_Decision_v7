@@ -18,7 +18,8 @@ function doctor() {
   const errors = [], requireFile = rel => { if (!fs.existsSync(path.join(ROOT, rel))) errors.push('MISSING:' + rel); };
   for (const rel of ['engine/runtime/main-v7.js', 'engine/runtime/mature-driver.js', 'engine/runtime/observer-entrypoints.js',
     'engine/scripts/md-common.ps1', 'engine/scripts/md-server.ps1', 'autotest/fixtures/starter-title.png',
-    'autotest/fixtures/start-button.png', 'autotest/fixtures/main1-text.png', 'node_modules/pngjs/package.json']) requireFile(rel);
+    'autotest/fixtures/start-button.png', 'autotest/fixtures/main1-text.png',
+    'engine/templates/ui/settlement-glyph-bank.json', 'node_modules/pngjs/package.json']) requireFile(rel);
   const library = JSON.parse(fs.readFileSync(path.join(ENGINE, 'card-library.json'), 'utf8'));
   for (const card of library.cards) requireFile('engine/' + card.template);
   for (const rel of Object.values(require('../engine/runtime/observer-entrypoints').OBSERVER_ENTRYPOINTS)) requireFile('engine/' + rel);

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T10:16:21.719Z",
+  "checkedAt": "2026-10-09T13:27:45.778Z",
   "node": "v20.11.1",
   "stages": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "syntax",
       "status": "PASS",
-      "files": 263
+      "files": 264
     },
     {
       "name": "run",
@@ -51,6 +51,11 @@
       "name": "endgame-draw-source",
       "status": "PASS",
       "output": "V7_ENDGAME_SOURCE PASS 4 cards with 1+2+2 chooses 2, while equal 1+1+2 keeps ordinary order\nV7_ENDGAME_SOURCE PASS 2 remaining protects draw2; 3 or 5 with exact odd coverage allows draw1\nV7_ENDGAME_SOURCE PASS ordinary non-endgame order and original priority numbers are preserved\nV7_ENDGAME_SOURCE PASS two Trade-Ins cannot spend the same HAMP twice\nV7_ENDGAME_SOURCE PASS Allure and Trade-In share actual cost holdings, never a hoped-for drawn partner\nV7_ENDGAME_SOURCE PASS unproven equipment, missing cost and protected Toon Dragon are not free draw2\nV7_ENDGAME_SOURCE PASS fixed search, field setup and explicit development intent remain barriers\nV7_ENDGAME_SOURCE PASS pending field draw is single-use and hand field replacement invalidates it\nV7_ENDGAME_SOURCE PASS unknown Deck facts do not change ordinary action or declare a deadlock\nV7_ENDGAME_SOURCE PASS Into Void hand-count qualification remains true only after actual current costs\nV7_ENDGAME_SOURCE PASS fresh decision snapshot reevaluates after draw2 without precommitting the old sequence\nV7_ENDGAME_SOURCE PASS real final Goblin baseline selects Bamboo in the actual final evaluator\nV7_ENDGAME_SOURCE PASS last Deck target prefers Deck regardless of hand holdings; two targets keep existing source rule\nV7_ENDGAME_SOURCE PASS source selector uses real GY-first Deck-second copies and never substitutes a stale source\nV7_ENDGAME_SOURCE PASS actual target-policy caller cannot restore the old forced-GRAVE route override\nV7_ENDGAME_SOURCE PASS exhaustive small independent draw pools agree with a subset-sum oracle\nV7_ENDGAME_SOURCE PASS bounded 12-card draw analysis remains cheap and never publishes a future sequence\nV7_ENDGAME_SOURCE PASS unproven future hand capability is not mislabeled as an illegal draw2\nV7_ENDGAME_DRAW_SOURCE_PASS; cases=18; actual final evaluator+source caller; inputs=0/businessWrites=0\n"
+    },
+    {
+      "name": "settlement-alphabet",
+      "status": "PASS",
+      "output": "V7_SETTLEMENT_ALPHABET PASS actual saved reward 82 is read only from verified settlement font\nV7_SETTLEMENT_ALPHABET PASS without the missing same-font class, actual 82 stays unknown rather than INFO fallback\nV7_SETTLEMENT_ALPHABET PASS alphabet reports actual supported classes and leaves 3 explicitly unsupported\nV7_SETTLEMENT_ALPHABET PASS existing calibrated same-font value unchanged: 79\nV7_SETTLEMENT_ALPHABET PASS existing calibrated same-font value unchanged: 94\nV7_SETTLEMENT_ALPHABET PASS existing calibrated same-font value unchanged: 106\nV7_SETTLEMENT_ALPHABET PASS existing calibrated same-font value unchanged: 10\nV7_SETTLEMENT_ALPHABET PASS existing calibrated same-font value unchanged: 108\nV7_SETTLEMENT_ALPHABET PASS existing calibrated same-font value unchanged: 115\nV7_SETTLEMENT_ALPHABET PASS existing calibrated same-font value unchanged: 15\nV7_SETTLEMENT_ALPHABET PASS shared classifier uses digit 2 outside its source number: 12\nV7_SETTLEMENT_ALPHABET PASS shared classifier uses digit 2 outside its source number: 24\nV7_SETTLEMENT_ALPHABET PASS shared classifier uses digit 2 outside its source number: 52\nV7_SETTLEMENT_ALPHABET PASS shared classifier uses digit 2 outside its source number: 82\nV7_SETTLEMENT_ALPHABET PASS shared classifier uses digit 2 outside its source number: 92\nV7_SETTLEMENT_ALPHABET PASS shared classifier uses digit 2 outside its source number: 222\nV7_SETTLEMENT_ALPHABET PASS nearby unsupported INFO glyph cannot authorize reward identity\nV7_SETTLEMENT_ALPHABET PASS unverified provenance, wrong font and corrupt feature data fail closed\nV7_SETTLEMENT_ALPHABET PASS no slot or count evidence remains unknown; historical evidence is unchanged\nV7_SETTLEMENT_ALPHABET_PASS; cases=19; inputs=0; businessWrites=0; evidenceUnchanged=true\n"
     },
     {
       "name": "link-selection-contract",

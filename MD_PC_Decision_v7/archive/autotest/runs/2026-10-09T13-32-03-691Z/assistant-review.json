@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09 13:47:34 UTC",
+  "reviewedBy": "ASSISTANT",
+  "reviewStatus": "REVIEWED_NO_NEW_CONFIRMED_GAMEPLAY_BUG_ARCHIVE_GAP_PENDING_USER_STOP",
+  "skipFutureAnalysis": true,
+  "reopenOnlyOnExplicitUserRequest": true,
+  "source": {
+    "version": 1,
+    "sourceId": "a624d3eed2b26d1f01607a474fd45ccfea5e24289fd107071512e3c23fa2e92b",
+    "path": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\source\\a624d3eed2b26d1f01607a474fd45ccfea5e24289fd107071512e3c23fa2e92b",
+    "sourceFiles": 240
+  },
+  "manifest": {
+    "checkedFiles": 341,
+    "mismatches": [],
+    "currentJsSourceMismatches": [],
+    "sourceSchema": "ARRAY_PATH_SHA256",
+    "jsChecked": 235,
+    "assetEvidence": {
+      "path": "asset-evidence/settlement-glyph-bank.json",
+      "sha256": "6956670ed17f31803a01b33226759efbdce054e38a237c776603923e92e82bf7",
+      "bytes": 2011,
+      "sharedInventoryCaptured": false
+    }
+  },
+  "totals": {
+    "started": 3,
+    "completed": 3,
+    "wins": 1,
+    "losses": 2,
+    "surrenders": 2,
+    "interrupted": 0,
+    "unresolved": 0,
+    "errorGames": 0,
+    "errorSurrenders": 0,
+    "gems": 77,
+    "unknownGemGames": 0
+  },
+  "actualEntry": {
+    "decisions": 29,
+    "publishedTransactions": 27,
+    "publishedCardSlotMismatches": 0,
+    "authority": "V7_SHARED_STRATEGY",
+    "transactions": 28,
+    "committed": 27,
+    "provenReceipts": 27,
+    "strictVictoryAbandoned": 1,
+    "inputRequests": 532,
+    "inputCompleted": 532,
+    "inputErrors": 0
+  },
+  "games": [
+    {
+      "id": 1,
+      "decisionCount": 6,
+      "published": 5,
+      "intentMismatches": [],
+      "transactions": 5,
+      "committed": 5,
+      "abandoned": [],
+      "receiptCount": 5,
+      "invalidReceipts": [],
+      "handRevision": 6,
+      "ledgerHandRevision": 6,
+      "costChecks": [],
+      "inputRequests": 106,
+      "inputComplete": 106,
+      "pngCount": 2,
+      "pngBytes": 1048844
+    },
+    {
+      "id": 2,
+      "decisionCount": 4,
+      "published": 3,
+      "intentMismatches": [],
+      "transactions": 3,
+      "committed": 3,
+      "abandoned": [],
+      "receiptCount": 3,
+      "invalidReceipts": [],
+      "handRevision": 5,
+      "ledgerHandRevision": 5,
+      "costChecks": [],
+      "inputRequests": 73,
+      "inputComplete": 73,
+      "pngCount": 2,
+      "pngBytes": 1042113
+    },
+    {
+      "id": 3,
+      "decisionCount": 19,
+      "published": 19,
+      "intentMismatches": [],
+      "transactions": 20,
+      "committed": 19,
+      "abandoned": [
+        {
+          "id": "DUEL-08278d6d8d3b8356aba3700b-T0020",
+          "closedAt": "2026-10-09T13:41:56.921Z",
+          "proven": true,
+          "receiptExists": false
+        }
+      ],
+      "receiptCount": 19,
+      "invalidReceipts": [],
+      "handRevision": 22,
+      "ledgerHandRevision": 22,
+      "costChecks": [
+        {
+          "id": "M13",
+          "fee": "M06",
+          "transaction": "DUEL-08278d6d8d3b8356aba3700b-T0020",
+          "present": true
+        }
+      ],
+      "inputRequests": 353,
+      "inputComplete": 353,
+      "pngCount": 4,
+      "pngBytes": 1703951
+    }
+  ],
+  "gameplay": [
+    {
+      "id": 1,
+      "status": "NORMAL_CURRENT_RESOURCE_DEADLOCK",
+      "reason": "Table/Void and actual no-sword Raye normal/effect direct Zero/Engage gains exhausted; final component/Raye/ToonDragon/HAMP/Table/Golden, normal summon and Zero effect used, no equip, Trade, reset or current Table target."
+    },
+    {
+      "id": 2,
+      "status": "NORMAL_CURRENT_RESOURCE_DEADLOCK",
+      "reason": "Table/Void/Burial exhausted; final component/ToonDragon/Table/Golden/Hornet, no actual sword or Deck/GY Engage activation/recovery. Hornet can produce body but has no currently productive sword or Kagari Engage gain; not a new random draw."
+    },
+    {
+      "id": 3,
+      "status": "STRICT_WIN_NO_CONFIRMED_GAMEPLAY_BUG",
+      "reason": "Empty-field Engage Hornet, True on token converts Yoto, current Golden before real departure; Kagari/Yoto chain gains and actual targets, then last held Yoto equips for Golden, actual Allure Raye fee draws fifth component. T0020 abandoned and no ordinary receipt; reward77 verified by new classifier (no digit2 seen)."
+    }
+  ],
+  "rewardClassifier": {
+    "postFixFlow77": "LIVE_PASS",
+    "newDigit2": "OFFLINE_VERIFIED_NOT_TRIGGERED_LIVE",
+    "missingDigit3": "UNSUPPORTED_UNKNOWN"
+  },
+  "pending": [
+    {
+      "id": "V7_RUNTIME_MODEL_SOURCE_INVENTORY_GAP_2026-10-09",
+      "category": "transaction/recovery",
+      "status": "DIAGNOSED_NOT_IMPLEMENTED_USER_STOP",
+      "description": "Shared source inventory omits templates directory modelJSON. Current batch has separate2011-byte hashverified asset copy. User stop overrides previous intent to modify after batch; do not implement or test without new authority."
+    }
+  ],
+  "productionChangesDuringBatch": [],
+  "V6Touched": false,
+  "noNewScreenshots": true,
+  "automation": "PAUSED",
+  "stop": {
+    "userRequest": "不要继续测试了，看一下所有的结果",
+    "requestedAt": "2026-10-09T13:43:15Z",
+    "publicStopSent": true,
+    "activeProcesses": 0,
+    "activeLock": false,
+    "batchHadAlreadyCompleted": true
+  },
+  "resumeSessionTotals": {
+    "batches": 6,
+    "completed": 18,
+    "wins": 8,
+    "normalSurrenders": 10,
+    "executionErrors": 0,
+    "interrupted": 0,
+    "verifiedGems": 535,
+    "unknownRewardGames": 2
+  }
+}

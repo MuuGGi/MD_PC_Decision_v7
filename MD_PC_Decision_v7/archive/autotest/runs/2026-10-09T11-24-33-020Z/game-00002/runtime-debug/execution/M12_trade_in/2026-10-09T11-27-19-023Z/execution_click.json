@@ -1,0 +1,517 @@
+{
+  "capturedAt": "2026-10-09T11:27:24.881Z",
+  "resumeCostPrompt": false,
+  "baselineHandCount": 5,
+  "baselineHand": [
+    {
+      "index": 1,
+      "x": 731,
+      "y": 1022,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.24609671268723238,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M03",
+          "name": "被封印的右腕",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M21",
+          "name": "试胆竞速",
+          "count": 3,
+          "mad": 0.24609671268723238,
+          "rmse": 0.31068570955901514,
+          "dhash": 27
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.2494728635790886,
+          "rmse": 0.31979133432050827,
+          "dhash": 31
+        }
+      ],
+      "timingMs": {
+        "locateMs": 504.103,
+        "clickAndSettleMs": 279.62,
+        "recognizeMs": 13.645,
+        "usabilityMs": 0.198,
+        "resetMs": 171.097,
+        "totalMs": 969.07
+      }
+    },
+    {
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M07"
+      ],
+      "index": 2
+    },
+    {
+      "id": "M12",
+      "name": "抵价交易",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M12"
+      ],
+      "index": 3
+    },
+    {
+      "index": 4,
+      "x": 1299,
+      "y": 1014,
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2627693724019633,
+      "usable": false,
+      "yellowPixels": 156,
+      "yellowRatio": 0.004761904761904762,
+      "top3": [
+        {
+          "id": "M14",
+          "name": "金黄色的竹光",
+          "count": 3,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E10",
+          "name": "闪刀姬－零梦",
+          "count": 1,
+          "mad": 0.2627693724019633,
+          "rmse": 0.32389383138370903,
+          "dhash": 32
+        },
+        {
+          "id": "M10",
+          "name": "卡通目录",
+          "count": 3,
+          "mad": 0.2923922535573021,
+          "rmse": 0.38025605091527026,
+          "dhash": 24
+        }
+      ],
+      "timingMs": {
+        "locateMs": 563.464,
+        "clickAndSettleMs": 292.617,
+        "recognizeMs": 8.956,
+        "usabilityMs": 10.636,
+        "resetMs": 168.045,
+        "totalMs": 1043.95
+      }
+    },
+    {
+      "id": "M16",
+      "name": "暂时休战",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M16"
+      ],
+      "index": 5
+    }
+  ],
+  "plan": {
+    "trade": {
+      "id": "M12",
+      "name": "抵价交易",
+      "slot": 3,
+      "duplicateCount": 1
+    },
+    "cost": {
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "preference": 1,
+      "originalSlot": 2
+    },
+    "eligibleCosts": [
+      {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M07"
+        ],
+        "index": 2,
+        "promptOrder": 1
+      }
+    ],
+    "costPolicy": {
+      "toonTablesInGrave": 3,
+      "protectToonDragon": false,
+      "priority": [
+        {
+          "id": "M07",
+          "name": "青眼卡通龙"
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P."
+        }
+      ],
+      "plannedCost": {
+        "id": "M07",
+        "name": "青眼卡通龙",
+        "preference": 1
+      },
+      "toonDragonStillProtected": false
+    }
+  },
+  "selected": {
+    "slot": 3,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M12",
+      "name": "抵价交易",
+      "mad": 0,
+      "margin": 0.2226831329439363
+    },
+    "clickReference": {
+      "x": 1006,
+      "y": 996
+    },
+    "positioning": {
+      "mode": "V5_CURRENT_MEASURED_TITLE_COMPONENT_BY_ORDINAL",
+      "source": "TITLE_COMPONENTS",
+      "centers": [
+        736,
+        869,
+        1006,
+        1143,
+        1298
+      ],
+      "currentCenter": {
+        "x": 1006,
+        "y": 996
+      }
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 937,
+        "y": 831
+      },
+      "width": 84,
+      "height": 46,
+      "fillRatio": 0.43478260869565216,
+      "estimatedPixels": 1680,
+      "menuMode": "ACTIVATE_LEFT_OF_SET",
+      "expectedReference": {
+        "x": 921,
+        "y": 836
+      },
+      "drift": 16.76305461424021,
+      "glyph": {
+        "iou": 0.9826086956521739,
+        "darkBackgroundRatio": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 6644,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 2,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.03781333333333334,
+      "outerEdgeAgreement": false,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 11,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 2,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.0125,
+            "pass": false,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.09565217391304348,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.16576086956521738,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.14945652173913043,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.125,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.08804347826086957,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.09782608695652174,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.10380434782608695,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.1331521739130435,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.11467391304347826,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.1733695652173913,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.09456521739130434,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.031822222222222224,
+          "pass": false,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.04096,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.034666666666666665,
+          "pass": false,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.05414736842105263,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 210
+    }
+  },
+  "costProof": {
+    "selected": {
+      "accepted": true,
+      "id": "M07",
+      "name": "青眼卡通龙",
+      "mad": 0.029920720535607268,
+      "margin": 0.25806286556334146
+    },
+    "candidateIndex": 1,
+    "candidateCount": 1,
+    "clickReference": {
+      "x": 1024,
+      "y": 925
+    },
+    "promptProof": {
+      "attempts": 9,
+      "titleDarkRatio": 0.9310077519379845,
+      "bodyDarkRatio": 0.8415308641975309,
+      "expectedCandidateCount": 1,
+      "references": [
+        {
+          "x": 1024,
+          "y": 925,
+          "width": 118
+        }
+      ]
+    },
+    "confirmProof": {
+      "yellowPixels": 716,
+      "point": {
+        "x": 1024,
+        "y": 1082
+      }
+    },
+    "scanned": [
+      {
+        "candidateIndex": 1,
+        "clickReference": {
+          "x": 1024,
+          "y": 925
+        },
+        "recognized": {
+          "accepted": true,
+          "id": "M07",
+          "name": "青眼卡通龙",
+          "mad": 0.029920720535607268,
+          "margin": 0.25806286556334146
+        }
+      }
+    ],
+    "traversal": "LEFT_TO_RIGHT",
+    "positioning": "M12_DEDICATED_COST_PROMPT"
+  }
+}

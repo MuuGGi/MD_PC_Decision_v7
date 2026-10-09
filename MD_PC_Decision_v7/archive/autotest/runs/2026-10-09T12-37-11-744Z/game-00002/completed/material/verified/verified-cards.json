@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "cards": {
+    "M09": {
+      "name": "暴发户哥布林",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-09-07T12:15:23.576Z",
+      "testEntry": "execution\\live\\run-m09-upstart.cmd",
+      "evidenceDir": "material\\verified\\evidence\\M09_upstart_goblin\\2026-09-07T12-15-23-576Z",
+      "scope": "1~12张手牌；1~7 TITLE_COMPONENTS，8~12 DENSE；发动后由正式 observer 验证抽1且手牌数不变"
+    },
+    "M15": {
+      "name": "无之炼狱",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:54:02.272Z",
+      "testEntry": "execution\\live\\run-m15-into-the-void.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M15_into_the_void\\2026-10-09T12-53-51-910Z",
+      "scope": "1~12张手牌；复用observer TITLE_COMPONENTS/DENSE；无之炼狱发动后抽1；正式observer验证M15离手+新增1张+手牌数不变"
+    },
+    "M13": {
+      "name": "暗之诱惑",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:48:49.253Z",
+      "testEntry": "execution\\live\\run-m13-allure-of-darkness.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M13_allure_of_darkness\\2026-10-09T12-48-37-170Z",
+      "scope": "1~12张手牌；普通发动复用已封板M09/M15 observer真实定位；暗之诱惑专用除外窗口逐候选精确认；M06优先、M08后备；正式observer验证抽2+除外1+M13离手且最终手牌数不变"
+    },
+    "M12": {
+      "name": "抵价交易",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:55:12.444Z",
+      "testEntry": "execution\\live\\run-m12-trade-in.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M12_trade_in\\2026-10-09T12-54-55-448Z",
+      "scope": "1~12手牌；发动定位复用封板公共执行；M12专用费用窗口左->右逐候选精确认；费用动态优先：3张卡通目录未全部入墓时M08>M07，全部入墓后M07>M08；正式observer验证M12+费用离手、抽2、最终手牌净变化0"
+    },
+    "M10": {
+      "name": "卡通目录",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:53:40.270Z",
+      "testEntry": "execution\\live\\run-m10-toon-table.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M10_toon_table\\2026-10-09T12-53-27-873Z",
+      "scope": "1~12手牌；普通发动复用已封板M09/M15真实定位；卡通目录专用检索窗口左->右逐候选精确认；检索优先M10>M07；候选确认后延迟600ms再提交；正式observer验证M10离手+检索1且手牌数不变"
+    },
+    "M18": {
+      "name": "愚蠢的重葬",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:51:49.077Z",
+      "testEntry": "execution\\live\\run-m18-foolish-burial.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M18_foolish_burial\\2026-10-09T12-51-29-972Z",
+      "scope": "1~12手牌；普通发动复用封板手牌执行；旧M18实战固定额外第1张E01并精确认；点卡后延迟600ms再选择；迦楼拉单效果窗口精确认；动画零输入；最终observer验证M18->E01送墓+E01抽1，手牌n->n-1->n"
+    },
+    "M16": {
+      "name": "暂时休战",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:47:14.363Z",
+      "testEntry": "execution\\live\\run-m16-one-day-of-peace.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M16_one_day_of_peace\\2026-10-09T12-47-04-815Z",
+      "scope": "1~12张手牌；完全复用封板M09/M15的observer TITLE_COMPONENTS/DENSE真实定位；暂时休战发动后动画纯等待；正式observer验证M16离手+我方抽1+最终手牌数不变"
+    },
+    "M21": {
+      "name": "试胆竞速",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:54:54.858Z",
+      "testEntry": "execution\\live\\run-m21-chicken-game.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M21_chicken_game\\2026-10-09T12-54-37-783Z",
+      "scope": "成熟落场/场上抽1；分阶段保存；共享增量提交手牌与账本；无新手牌点击"
+    },
+    "M17": {
+      "name": "闪刀起动－交闪",
+      "status": "PASS_LIVE",
+      "sealed": true,
+      "verifiedAt": "2026-10-09T12:51:29.359Z",
+      "verifiedBranches": [
+        "NO_BONUS_DRAW",
+        "BONUS_DRAW"
+      ],
+      "testEntry": "execution\\live\\run-m17-engage-bonus-draw.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M17_engage_bonus_draw\\2026-10-09T12-51-09-637Z",
+      "scope": "M17两个现场分支均PASS：NO_BONUS_DRAW=检索1/净0；BONUS_DRAW=检索1+追加抽1/净+1；普通发动和检索逻辑共用，整卡可封板"
+    },
+    "M11": {
+      "name": "万宝槌",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:53:27.250Z",
+      "testEntry": "execution\\live\\run-m11-mallet-keep-weapon.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M11_mallet_keep_weapon\\2026-10-09T12-52-13-826Z",
+      "scope": "DYNAMIC_KEEP_IDS_RETURN_ALL_OTHERS + RIGHT_LOG_RETURN_DRAW_TAIL + FULL_RESYNC"
+    },
+    "M14": {
+      "name": "金黄色的竹光",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:50:08.432Z",
+      "testEntry": "execution\\live\\run-m14-golden-bamboo-sword.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M14_golden_bamboo_sword\\2026-10-09T12-49-54-865Z",
+      "scope": "1~11张发动前手牌；复用封板observer TITLE_COMPONENTS/DENSE真实定位；M14发动后纯等待抽2；正式observer验证M14离手1张、两张HAND_GAIN与两张新增手牌一致、最终手牌净+1"
+    },
+    "M22": {
+      "name": "闪刀机－大黄蜂无人机",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:47:45.491Z",
+      "testEntry": "execution\\live\\run-m22-hornet-drones.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M22_hornet_drones\\2026-10-09T12-47-35-948Z",
+      "scope": "1~12张手牌；复用封板observer TITLE_COMPONENTS/DENSE真实定位；大黄蜂只直接发动，发动后零输入；正式observer验证M22离手1张、SPECIAL_SUMMON闪刀姬衍生物、无新增手牌、最终手牌N->N-1"
+    },
+    "M06": {
+      "name": "闪刀姬－零衣",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-09-11T09:09:26.049Z",
+      "testEntry": "execution\\live\\run-m06-raye-normal-summon.cmd",
+      "evidenceDir": "material\\verified\\evidence\\M06_raye_normal_summon\\2026-09-11T09-09-13-490Z",
+      "scope": "1~12张手牌；复用observer TITLE_COMPONENTS/DENSE真实位置；真实蓝色召唤按钮组件点击；动画零输入；正式observer验证M06离手、手牌N->N-1及RAYE_NORMAL_SUMMON素材事件"
+    }
+  },
+  "branches": {
+    "M17:NO_BONUS_DRAW": {
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "branch": "NO_BONUS_DRAW",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T08:06:29.405Z",
+      "testEntry": "execution\\live\\run-m17-engage-no-bonus-draw.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M17_engage_no_bonus_draw\\2026-10-09T08-06-11-646Z",
+      "scope": "1~12手牌；普通发动复用封板TITLE_COMPONENTS/DENSE实测位置；交闪专用检索窗口左->右逐候选精确认；非最终候选同点取消；点卡后延迟600ms再提交；若追加抽1确认框出现则零输入安全停止；正式observer验证M17离手+仅检索1张+手牌数不变"
+    },
+    "M17:BONUS_DRAW": {
+      "id": "M17",
+      "name": "闪刀起动－交闪",
+      "branch": "BONUS_DRAW",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-09T12:51:29.347Z",
+      "testEntry": "execution\\live\\run-m17-engage-bonus-draw.cmd",
+      "evidenceDir": "..\\archive\\verified-evidence\\M17_engage_bonus_draw\\2026-10-09T12-51-09-637Z",
+      "scope": "1~12手牌；前半段完全复用M17:NO_BONUS_DRAW已现场PASS的发动/检索；追加抽1确认沿用旧M17成熟ROI=(1040,590,290,80)、YES=(1183,630)，稳定3帧+650ms复核后才点击；按钮未响应只补点YES一次；正式observer验证M17离手+检索1+追加抽1+最终手牌净+1"
+    },
+    "M13:LAST_RESORT_RESUME_NO_RAYE_SURRENDER": {
+      "id": "M13",
+      "name": "暗之诱惑",
+      "branch": "LAST_RESORT_RESUME_NO_RAYE_SURRENDER",
+      "status": "PASS_LIVE",
+      "verifiedAt": "2026-10-01T01:40:45.997Z",
+      "testEntry": "execution\\live\\run-m13-allure-of-darkness.cmd",
+      "arguments": [
+        "--last-resort-raye",
+        "--resume-last-resort"
+      ],
+      "evidenceDir": "material\\verified\\evidence\\M13_last_resort\\2026-10-01T01-40-24-904Z",
+      "scope": "仅SURRENDER_READY恢复：真实暗之诱惑除外窗口无零衣，由本人终端回车，复用齿轮/投降/是/纯等待4000ms/败北确认；TERMINAL_SURRENDER后退出且零普通observer；此前无零衣证明来自用户现场，未重扫候选"
+    }
+  }
+}

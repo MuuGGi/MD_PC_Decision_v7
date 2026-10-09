@@ -1,0 +1,555 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09 13:06:15 UTC",
+  "reviewedBy": "ASSISTANT",
+  "reviewStatus": "REVIEWED_NO_NEW_CONFIRMED_PUBLIC_BUG",
+  "skipFutureAnalysis": true,
+  "reopenOnlyOnExplicitUserRequest": true,
+  "source": {
+    "version": 1,
+    "sourceId": "27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+    "path": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\archive\\source\\27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+    "sourceFiles": 240
+  },
+  "manifest": {
+    "checkedFiles": 701,
+    "mismatches": [],
+    "currentJsSourceMismatches": []
+  },
+  "totals": {
+    "started": 3,
+    "completed": 3,
+    "wins": 2,
+    "losses": 1,
+    "surrenders": 1,
+    "interrupted": 0,
+    "unresolved": 0,
+    "errorGames": 0,
+    "errorSurrenders": 0,
+    "gems": 88,
+    "unknownGemGames": 1
+  },
+  "actualEntry": {
+    "decisions": 67,
+    "publishedTransactions": 66,
+    "publishedCardSlotMismatches": 0,
+    "authority": "V7_SHARED_STRATEGY",
+    "transactions": 69,
+    "committed": 67,
+    "provenReceipts": 67,
+    "strictVictoryAbandoned": 2,
+    "inputRequests": 1270,
+    "inputCompleted": 1270,
+    "inputErrors": 0
+  },
+  "games": [
+    {
+      "id": 1,
+      "decisionCount": 27,
+      "published": 27,
+      "intentMismatches": [],
+      "transactions": 27,
+      "committed": 26,
+      "abandoned": [
+        {
+          "id": "DUEL-ed81bf51a74f4f3b99f9f80b-T0027",
+          "closedAt": "2026-10-09T12:46:01.763Z",
+          "proven": true,
+          "receiptExists": false
+        }
+      ],
+      "receiptCount": 26,
+      "invalidReceipts": [],
+      "handRevision": 32,
+      "ledgerHandRevision": 32,
+      "costChecks": [
+        {
+          "id": "M12",
+          "fee": "M07",
+          "transaction": "DUEL-ed81bf51a74f4f3b99f9f80b-T0017",
+          "present": true,
+          "protectedBlue": false
+        },
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-ed81bf51a74f4f3b99f9f80b-T0019",
+          "present": true,
+          "protectedBlue": false
+        },
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-ed81bf51a74f4f3b99f9f80b-T0020",
+          "present": true,
+          "protectedBlue": false
+        }
+      ],
+      "inputRequests": 488,
+      "inputComplete": 488,
+      "pngCount": 4,
+      "pngBytes": 1436133,
+      "endgame": [
+        {
+          "basis": {
+            "snapshotKey": "02750e5a10f6d75a714c6674bef92c408d7cdaa1909603ecff22cf757b0a10df",
+            "handRevision": 31,
+            "duelId": "DUEL-ed81bf51a74f4f3b99f9f80b"
+          },
+          "id": "M15",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 4,
+            "maximumGuaranteedDraws": 4,
+            "canEmptyDeck": true,
+            "statesVisited": 6,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M15",
+                "slot": 8,
+                "drawCount": 1,
+                "reachableDraws": 4
+              },
+              {
+                "id": "M14",
+                "slot": 7,
+                "drawCount": 2,
+                "reachableDraws": 4
+              },
+              {
+                "id": "M16",
+                "slot": 9,
+                "drawCount": 1,
+                "reachableDraws": 4
+              }
+            ]
+          }
+        },
+        {
+          "basis": {
+            "snapshotKey": "b6c0949cf8ec02b27c6fdb44fa4d94d33933c075814da241c22c9fdd71672a60",
+            "handRevision": 32,
+            "duelId": "DUEL-ed81bf51a74f4f3b99f9f80b"
+          },
+          "id": "M14",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 3,
+            "maximumGuaranteedDraws": 3,
+            "canEmptyDeck": true,
+            "statesVisited": 3,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M14",
+                "slot": 7,
+                "drawCount": 2,
+                "reachableDraws": 3
+              },
+              {
+                "id": "M14",
+                "slot": 8,
+                "drawCount": 2,
+                "reachableDraws": 3
+              },
+              {
+                "id": "M16",
+                "slot": 9,
+                "drawCount": 1,
+                "reachableDraws": 3
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "decisionCount": 29,
+      "published": 29,
+      "intentMismatches": [],
+      "transactions": 32,
+      "committed": 31,
+      "abandoned": [
+        {
+          "id": "DUEL-dc5eec37a9d6adf8986b7116-T0032",
+          "closedAt": "2026-10-09T12:55:49.484Z",
+          "proven": true,
+          "receiptExists": false
+        }
+      ],
+      "receiptCount": 31,
+      "invalidReceipts": [],
+      "handRevision": 10,
+      "ledgerHandRevision": 10,
+      "costChecks": [
+        {
+          "id": "M13",
+          "fee": "M06",
+          "transaction": "DUEL-dc5eec37a9d6adf8986b7116-T0011",
+          "present": true
+        },
+        {
+          "id": "M12",
+          "fee": "M07",
+          "transaction": "DUEL-dc5eec37a9d6adf8986b7116-T0031",
+          "present": true,
+          "protectedBlue": false
+        },
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-dc5eec37a9d6adf8986b7116-T0032",
+          "present": true,
+          "protectedBlue": false
+        }
+      ],
+      "inputRequests": 599,
+      "inputComplete": 599,
+      "pngCount": 4,
+      "pngBytes": 1594764,
+      "endgame": [
+        {
+          "basis": {
+            "snapshotKey": "45850e46c604282a030f0d2b0e807e048a7367c764c0312ec4edd2b7b1640487",
+            "handRevision": 2,
+            "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+          },
+          "id": "M15",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 8,
+            "maximumGuaranteedDraws": 6,
+            "canEmptyDeck": false,
+            "statesVisited": 47,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M15",
+                "slot": 6,
+                "drawCount": 1,
+                "reachableDraws": 6
+              },
+              {
+                "id": "M21",
+                "slot": 8,
+                "drawCount": 1,
+                "reachableDraws": 6
+              },
+              {
+                "id": "M21",
+                "slot": 9,
+                "drawCount": 1,
+                "reachableDraws": 6
+              },
+              {
+                "id": "M21",
+                "slot": 10,
+                "drawCount": 1,
+                "reachableDraws": 6
+              },
+              {
+                "id": "M12",
+                "slot": 3,
+                "drawCount": 2,
+                "reachableDraws": 6
+              },
+              {
+                "id": "M12",
+                "slot": 4,
+                "drawCount": 2,
+                "reachableDraws": 6
+              }
+            ]
+          }
+        },
+        {
+          "basis": {
+            "snapshotKey": "5462f98c96a6cfac62fa8abc579cb271f27e370a4735ba86334caf5f83c32514",
+            "handRevision": 3,
+            "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+          },
+          "id": "M21",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 7,
+            "maximumGuaranteedDraws": 5,
+            "canEmptyDeck": false,
+            "statesVisited": 31,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M21",
+                "slot": 8,
+                "drawCount": 1,
+                "reachableDraws": 5
+              },
+              {
+                "id": "M21",
+                "slot": 9,
+                "drawCount": 1,
+                "reachableDraws": 5
+              },
+              {
+                "id": "M21",
+                "slot": 10,
+                "drawCount": 1,
+                "reachableDraws": 5
+              },
+              {
+                "id": "M12",
+                "slot": 3,
+                "drawCount": 2,
+                "reachableDraws": 5
+              },
+              {
+                "id": "M12",
+                "slot": 4,
+                "drawCount": 2,
+                "reachableDraws": 5
+              },
+              {
+                "id": "M12",
+                "slot": 5,
+                "drawCount": 2,
+                "reachableDraws": 5
+              }
+            ]
+          }
+        },
+        {
+          "basis": {
+            "snapshotKey": "1666476eaacf200e3aeda3397ffee9e0c4f1501cb7ed6619cd4b76403ad003ed",
+            "handRevision": 5,
+            "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+          },
+          "id": "M21",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 6,
+            "maximumGuaranteedDraws": 4,
+            "canEmptyDeck": false,
+            "statesVisited": 15,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M21",
+                "slot": 9,
+                "drawCount": 1,
+                "reachableDraws": 4
+              },
+              {
+                "id": "M21",
+                "slot": 10,
+                "drawCount": 1,
+                "reachableDraws": 4
+              },
+              {
+                "id": "M12",
+                "slot": 4,
+                "drawCount": 2,
+                "reachableDraws": 4
+              },
+              {
+                "id": "M12",
+                "slot": 5,
+                "drawCount": 2,
+                "reachableDraws": 4
+              },
+              {
+                "id": "M12",
+                "slot": 6,
+                "drawCount": 2,
+                "reachableDraws": 4
+              }
+            ]
+          }
+        },
+        {
+          "basis": {
+            "snapshotKey": "bbaae2eeeee90cb164cec280edf7ecc405c31872d88a6c239308feb064b88d0c",
+            "handRevision": 7,
+            "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+          },
+          "id": "M21",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 5,
+            "maximumGuaranteedDraws": 3,
+            "canEmptyDeck": false,
+            "statesVisited": 7,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M21",
+                "slot": 10,
+                "drawCount": 1,
+                "reachableDraws": 3
+              },
+              {
+                "id": "M12",
+                "slot": 5,
+                "drawCount": 2,
+                "reachableDraws": 3
+              },
+              {
+                "id": "M12",
+                "slot": 6,
+                "drawCount": 2,
+                "reachableDraws": 3
+              },
+              {
+                "id": "M12",
+                "slot": 7,
+                "drawCount": 2,
+                "reachableDraws": 3
+              }
+            ]
+          }
+        },
+        {
+          "basis": {
+            "snapshotKey": "2c906790c0399e2c5bfd63ebe883a8f0bdf84be7d6b5790d141c5d4aba4476bc",
+            "handRevision": 9,
+            "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+          },
+          "id": "M12",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 4,
+            "maximumGuaranteedDraws": 2,
+            "canEmptyDeck": false,
+            "statesVisited": 3,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M12",
+                "slot": 6,
+                "drawCount": 2,
+                "reachableDraws": 2
+              },
+              {
+                "id": "M12",
+                "slot": 7,
+                "drawCount": 2,
+                "reachableDraws": 2
+              },
+              {
+                "id": "M12",
+                "slot": 8,
+                "drawCount": 2,
+                "reachableDraws": 2
+              }
+            ]
+          }
+        },
+        {
+          "basis": {
+            "snapshotKey": "65ad27ca3c0cbcc0576356cc15db5be353399db8be181fdaae32bb4c0dbe3868",
+            "handRevision": 10,
+            "duelId": "DUEL-dc5eec37a9d6adf8986b7116"
+          },
+          "id": "M12",
+          "trace": {
+            "applied": false,
+            "reason": "NORMAL_FIRST_MOVE_PRESERVES_COMBINATION",
+            "remaining": 2,
+            "maximumGuaranteedDraws": 2,
+            "canEmptyDeck": true,
+            "statesVisited": 0,
+            "noFutureDrawIdentities": true,
+            "firstMoves": [
+              {
+                "id": "M12",
+                "slot": 7,
+                "drawCount": 2,
+                "reachableDraws": 2
+              },
+              {
+                "id": "M12",
+                "slot": 8,
+                "drawCount": 2,
+                "reachableDraws": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "decisionCount": 11,
+      "published": 10,
+      "intentMismatches": [],
+      "transactions": 10,
+      "committed": 10,
+      "abandoned": [],
+      "receiptCount": 10,
+      "invalidReceipts": [],
+      "handRevision": 8,
+      "ledgerHandRevision": 8,
+      "costChecks": [
+        {
+          "id": "M12",
+          "fee": "M08",
+          "transaction": "DUEL-631bfc7c87e3e11819edd721-T0005",
+          "present": true,
+          "protectedBlue": false
+        }
+      ],
+      "inputRequests": 183,
+      "inputComplete": 183,
+      "pngCount": 2,
+      "pngBytes": 1047548,
+      "endgame": []
+    }
+  ],
+  "findings": [
+    {
+      "id": 1,
+      "status": "NO_CONFIRMED_GAMEPLAY_BUG",
+      "description": "Hornet opener then sword/Kagari gains; newly drawn second Yoto joins actual Raye for one double Zero and inverse Yoto/Zero resolution. After both Yoto depart, final True equipped solely for Golden with no fictitious conversion. Deck4 current Void1/Golden2/OneDay1 all guarantee4, ordinary Void preserved; subsequent Deck3 recalculates Golden, strict win T0027 abandoned. Reward count UNKNOWN, not zero or guessed."
+    },
+    {
+      "id": 2,
+      "status": "NO_CONFIRMED_GAMEPLAY_BUG",
+      "description": "No-sword naked Kagari, real Allure Raye fee, True converts Yoto, available Golden drawn before equipped Yoto/Raye double Zero. After last equip departure, no future Golden counted. Mallet resets actual fixed targets; three Trade copies shared only one actual ToonDragon, bounded planner correctly guarantees only2 rather than6 on Deck4. Actual Trade draws two HAMP; new snapshot then permits next real HAMP fee and strict win T0032 abandoned."
+    },
+    {
+      "id": 3,
+      "status": "NORMAL_RESOURCE_DEADLOCK_AFTER_PROVEN_RAYE_FALLBACK",
+      "description": "No sword was low-priority preference, not deadlock: actual held Raye normal, effect direct Zero, Deck Engage, actual search/HAMP and Burial gains exhausted first. Final components2/ToonDragon/HAMP/Table, no Trade or actual Table target (ToonDragon and all Table copies out of Deck), no draw/reset; normal surrender."
+    }
+  ],
+  "coverage": {
+    "fourRemainingDraw1Plus1Plus2": "LIVE_PASS_ALL_FIRST_MOVES_REACH4_ORDINARY_VOID_PRESERVED",
+    "combinedYotoRayeZero": "LIVE_PASS_SECOND_OBSERVATION_SINGLE_YOTO",
+    "actualSharedTradeFees": "LIVE_POOL_ONE_TOON_DRAGON_FOR_THREE_TRADE_NOT_REUSED",
+    "noSwordRayeFallback": "LIVE_PROVEN_ENTRY_USED_BEFORE_DEADLOCK",
+    "singleTargetHandPlusDeckLessEqual2": "NOT_TRIGGERED_THIS_BATCH",
+    "forcedReorderGoblinFirstFourRemaining": "NOT_TRIGGERED_THIS_BATCH",
+    "dualYotoThreeEffects": "NOT_TRIGGERED_THIS_BATCH"
+  },
+  "productionChanges": [],
+  "noNewAuditScreenshots": true,
+  "V6Touched": false,
+  "automation": "ACTIVE",
+  "resumeSessionTotals": {
+    "completed": 12,
+    "wins": 6,
+    "normalSurrenders": 6,
+    "executionErrors": 0,
+    "interrupted": 0,
+    "verifiedGems": 458,
+    "unknownRewardGames": 1
+  },
+  "next": "Continue same verified source only after fresh read-only foreground/Starter proof."
+}

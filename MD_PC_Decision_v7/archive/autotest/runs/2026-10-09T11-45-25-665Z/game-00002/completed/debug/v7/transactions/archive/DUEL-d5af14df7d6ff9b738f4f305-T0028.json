@@ -1,0 +1,395 @@
+{
+  "version": 2,
+  "id": "DUEL-d5af14df7d6ff9b738f4f305-T0028",
+  "duelId": "DUEL-d5af14df7d6ff9b738f4f305",
+  "actionType": "UNIT:HAND_SELECTION",
+  "instanceKey": "INST-8c58ef59d2b399fb53a1027d5863313e",
+  "intent": {
+    "cardId": "M12",
+    "slot": 7,
+    "decisionBasis": {
+      "snapshotKey": "2508eb6c7703cd7d25d0efacc281adbff3fb6a22be90b74e39e395aa25a80f73",
+      "handRevision": 1,
+      "duelId": "DUEL-d5af14df7d6ff9b738f4f305"
+    }
+  },
+  "baseline": {
+    "hand": {
+      "revision": 1,
+      "cards": [
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "EXODIA_UNKNOWN",
+        "M08",
+        "M08",
+        "M12",
+        "M12",
+        "M14"
+      ]
+    },
+    "ledger": {
+      "revision": 1,
+      "counts": {
+        "M01": 0,
+        "M02": 0,
+        "M03": 0,
+        "M04": 0,
+        "M05": 0,
+        "M06": 2,
+        "M07": 1,
+        "M08": 2,
+        "M09": 3,
+        "M10": 3,
+        "M11": 1,
+        "M12": 3,
+        "M13": 1,
+        "M14": 3,
+        "M15": 1,
+        "M16": 1,
+        "M17": 3,
+        "M18": 1,
+        "M19": 2,
+        "M20": 1,
+        "M21": 3,
+        "M22": 1
+      }
+    },
+    "observer": {
+      "checkpoint": {
+        "activationKey": "M17",
+        "signature": "M17|PROCESSING_CARD:M08,PROCESSING_CARD:M05",
+        "signatureOccurrence": 1,
+        "activationOccurrence": 1,
+        "previousActivationKey": null,
+        "evidenceCards": [
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M08",
+            "cardName": "闪术兵器－H.A.M.P."
+          },
+          {
+            "kind": "HAND_GAIN",
+            "cardKey": "M05",
+            "cardName": "被封印的艾克佐迪亚"
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "fieldSpell": "M21",
+      "branch": {
+        "active": false,
+        "currentState": "GOLDEN_BAMBOO_DRAW_READY",
+        "updatedAt": "2026-10-09T12:02:52.065Z",
+        "source": "FORMAL_V6_CURRENT_BAMBOO_CONTINUATION_PLAN",
+        "carrierId": "E10",
+        "carrierEvidence": {
+          "cardId": "E10",
+          "kind": "EXTRA_LINK",
+          "proven": true,
+          "source": "CURRENT_TARGET_IDENTITY"
+        },
+        "postE10HornetBambooDraw2": false,
+        "hornetBambooDraw2": false,
+        "reservedYotoInHand": false,
+        "hornetYotoFixedSearch": false
+      },
+      "normalSummonUsed": true,
+      "bambooSwordEquipped": true,
+      "usedCounts": {
+        "M16": 1,
+        "M18": 1,
+        "M10": 3,
+        "M22": 1,
+        "M19": 1,
+        "M17": 3,
+        "M21": 3,
+        "M06": 2,
+        "M20": 1,
+        "M09": 3,
+        "M13": 1,
+        "M15": 1,
+        "M14": 2,
+        "M12": 1,
+        "M07": 1,
+        "M11": 1
+      }
+    },
+    "extra": {
+      "cardId": "M12",
+      "slot": 7,
+      "decisionBasis": {
+        "snapshotKey": "2508eb6c7703cd7d25d0efacc281adbff3fb6a22be90b74e39e395aa25a80f73",
+        "handRevision": 1,
+        "duelId": "DUEL-d5af14df7d6ff9b738f4f305"
+      }
+    }
+  },
+  "createdAt": "2026-10-09T12:03:11.513Z",
+  "resumed": false,
+  "status": "ABANDONED",
+  "currentStep": 0,
+  "steps": [
+    {
+      "id": "MATURE_VERIFIED_UNIT",
+      "state": "NO_REPLAY_PERSISTED",
+      "stateOwner": "LEGACY",
+      "mode": "LEGACY_MONOLITH",
+      "irreversible": true,
+      "prepared": {
+        "intent": {
+          "cardId": "M12",
+          "slot": 7,
+          "decisionBasis": {
+            "snapshotKey": "2508eb6c7703cd7d25d0efacc281adbff3fb6a22be90b74e39e395aa25a80f73",
+            "handRevision": 1,
+            "duelId": "DUEL-d5af14df7d6ff9b738f4f305"
+          }
+        }
+      },
+      "noReplayAt": "2026-10-09T12:03:11.533Z",
+      "guardEvidence": {
+        "hwnd": 199696,
+        "title": "masterduel",
+        "client": {
+          "x": 500,
+          "y": 56,
+          "width": 2048,
+          "height": 1152
+        }
+      },
+      "inputUncertain": true,
+      "lastError": {
+        "phase": "NO_REPLAY_PERSISTED",
+        "code": null,
+        "message": "V5_DUEL_TERMINAL_VICTORY",
+        "at": "2026-10-09T12:03:36.912Z"
+      }
+    }
+  ],
+  "terminalProof": {
+    "proven": true,
+    "type": "VICTORY",
+    "duelId": "DUEL-d5af14df7d6ff9b738f4f305",
+    "source": "V7_STRICT_CURRENT_DUEL_VICTORY",
+    "sessionStartedAt": "2026-10-09T11:54:35.147Z",
+    "checkedAt": "2026-10-09T12:03:36.774Z",
+    "outcome": {
+      "terminal": true,
+      "type": "VICTORY",
+      "materialId": "DUEL_VICTORY",
+      "materialName": "胜利界面 / VICTORY",
+      "checkedAt": "2026-10-09T12:03:36.774Z",
+      "roi": {
+        "x": 170,
+        "y": 420,
+        "width": 1680,
+        "height": 315
+      },
+      "metrics": {
+        "score": 0.9987051714666876,
+        "recall": 0.9987051714666876,
+        "precision": 1,
+        "iou": 0.9987051714666876,
+        "dxCells": 0,
+        "dyCells": 0,
+        "matched": true,
+        "referenceBrightRatio": 0.3840566606389391,
+        "currentBrightRatio": 0.38355937311633514,
+        "shiftPx": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "strictEvidence": {
+        "matched": true,
+        "reason": "VICTORY_BASE_PLUS_REASON_TEXT_PLUS_RIGHT_LOG_LAST_FIVE_EXODIA",
+        "reasonText": {
+          "score": 0.999800290486565,
+          "matchedRatio": 1,
+          "meanDistance": 0.20370370370370372,
+          "x": 738,
+          "y": 758,
+          "samples": 72,
+          "matched": true,
+          "reason": "STRICT_TEMPLATE_MATCH"
+        },
+        "confirmButton": {
+          "score": 0.9827124183006536,
+          "matchedRatio": 1,
+          "meanDistance": 17.633333333333333,
+          "x": 755,
+          "y": 1007,
+          "samples": 30,
+          "matched": true,
+          "reason": "STRICT_TEMPLATE_MATCH"
+        },
+        "exodiaLastFive": {
+          "matched": true,
+          "reason": "RIGHT_LOG_LAST_FIVE_ARE_EXODIA_COMPONENTS",
+          "lastFiveIds": [
+            "M05",
+            "M03",
+            "M01",
+            "M02",
+            "M04"
+          ],
+          "expectedIds": [
+            "M01",
+            "M02",
+            "M03",
+            "M04",
+            "M05"
+          ],
+          "rows": [
+            {
+              "id": "M05",
+              "name": "被封印的艾克佐迪亚",
+              "mad": 0.2534334110483848,
+              "x": 1702,
+              "y": 484
+            },
+            {
+              "id": "M03",
+              "name": "被封印的右腕",
+              "mad": 0.26187530766406775,
+              "x": 1703,
+              "y": 602
+            },
+            {
+              "id": "M01",
+              "name": "被封印的右足",
+              "mad": 0.24968311439435076,
+              "x": 1702,
+              "y": 719
+            },
+            {
+              "id": "M02",
+              "name": "被封印的左足",
+              "mad": 0.23974101129969314,
+              "x": 1702,
+              "y": 836
+            },
+            {
+              "id": "M04",
+              "name": "被封印的左腕",
+              "mad": 0.2491326416856201,
+              "x": 1703,
+              "y": 954
+            }
+          ],
+          "panelOpenedForCheck": true
+        }
+      },
+      "samplePath": "D:\\02_Entertainment\\md脚本\\MD_PC_Decision_v7\\MD_PC_Decision_v7\\engine\\debug\\duel-outcome-live\\victory_matched.png",
+      "checks": [
+        {
+          "materialId": "DUEL_VICTORY",
+          "materialName": "胜利界面 / VICTORY",
+          "type": "VICTORY",
+          "terminal": true,
+          "metrics": {
+            "score": 0.9987051714666876,
+            "recall": 0.9987051714666876,
+            "precision": 1,
+            "iou": 0.9987051714666876,
+            "dxCells": 0,
+            "dyCells": 0,
+            "matched": true,
+            "referenceBrightRatio": 0.3840566606389391,
+            "currentBrightRatio": 0.38355937311633514,
+            "shiftPx": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "strictEvidence": {
+            "matched": true,
+            "reason": "VICTORY_BASE_PLUS_REASON_TEXT_PLUS_RIGHT_LOG_LAST_FIVE_EXODIA",
+            "reasonText": {
+              "score": 0.999800290486565,
+              "matchedRatio": 1,
+              "meanDistance": 0.20370370370370372,
+              "x": 738,
+              "y": 758,
+              "samples": 72,
+              "matched": true,
+              "reason": "STRICT_TEMPLATE_MATCH"
+            },
+            "confirmButton": {
+              "score": 0.9827124183006536,
+              "matchedRatio": 1,
+              "meanDistance": 17.633333333333333,
+              "x": 755,
+              "y": 1007,
+              "samples": 30,
+              "matched": true,
+              "reason": "STRICT_TEMPLATE_MATCH"
+            },
+            "exodiaLastFive": {
+              "matched": true,
+              "reason": "RIGHT_LOG_LAST_FIVE_ARE_EXODIA_COMPONENTS",
+              "lastFiveIds": [
+                "M05",
+                "M03",
+                "M01",
+                "M02",
+                "M04"
+              ],
+              "expectedIds": [
+                "M01",
+                "M02",
+                "M03",
+                "M04",
+                "M05"
+              ],
+              "rows": [
+                {
+                  "id": "M05",
+                  "name": "被封印的艾克佐迪亚",
+                  "mad": 0.2534334110483848,
+                  "x": 1702,
+                  "y": 484
+                },
+                {
+                  "id": "M03",
+                  "name": "被封印的右腕",
+                  "mad": 0.26187530766406775,
+                  "x": 1703,
+                  "y": 602
+                },
+                {
+                  "id": "M01",
+                  "name": "被封印的右足",
+                  "mad": 0.24968311439435076,
+                  "x": 1702,
+                  "y": 719
+                },
+                {
+                  "id": "M02",
+                  "name": "被封印的左足",
+                  "mad": 0.23974101129969314,
+                  "x": 1702,
+                  "y": 836
+                },
+                {
+                  "id": "M04",
+                  "name": "被封印的左腕",
+                  "mad": 0.2491326416856201,
+                  "x": 1703,
+                  "y": 954
+                }
+              ],
+              "panelOpenedForCheck": true
+            }
+          }
+        }
+      ]
+    },
+    "ordinarySettlementDisposition": "VOID_AFTER_CONFIRMED_VICTORY",
+    "countsAsExecutionPass": false,
+    "canCommitHandDelta": false
+  },
+  "closedAt": "2026-10-09T12:03:51.522Z"
+}

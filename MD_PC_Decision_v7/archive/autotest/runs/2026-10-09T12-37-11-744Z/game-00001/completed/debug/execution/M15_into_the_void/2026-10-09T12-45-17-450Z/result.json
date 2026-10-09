@@ -1,0 +1,700 @@
+{
+  "status": "PASS",
+  "completedAt": "2026-10-09T12:45:27.671Z",
+  "target": {
+    "id": "M15",
+    "name": "无之炼狱"
+  },
+  "baselineHandCount": 9,
+  "baselineHand": [
+    {
+      "index": 1,
+      "x": 732,
+      "y": 1022,
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "persistentExodia": true,
+      "candidateIds": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "accepted": true,
+      "confidence": 1,
+      "mad": 0,
+      "rmse": 0,
+      "dhash": 0,
+      "margin": 0.2432980096029782,
+      "usable": null,
+      "yellowPixels": null,
+      "yellowRatio": null,
+      "top3": [
+        {
+          "id": "M01",
+          "name": "被封印的右足",
+          "count": 1,
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "E07",
+          "name": "闪刀姬－泽克",
+          "count": 1,
+          "mad": 0.2432980096029782,
+          "rmse": 0.30784869079048205,
+          "dhash": 30
+        },
+        {
+          "id": "M08",
+          "name": "闪术兵器－H.A.M.P.",
+          "count": 2,
+          "mad": 0.24906009868888224,
+          "rmse": 0.3138535837044201,
+          "dhash": 29
+        }
+      ],
+      "timingMs": {
+        "locateMs": 494.819,
+        "clickAndSettleMs": 311.43,
+        "recognizeMs": 14.956,
+        "usabilityMs": 0.192,
+        "resetMs": 171.684,
+        "totalMs": 993.609
+      }
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 2
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 3
+    },
+    {
+      "id": "EXODIA_UNKNOWN",
+      "name": "被封印组件（身份无需区分）",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "EXODIA_UNKNOWN"
+      ],
+      "index": 4
+    },
+    {
+      "id": "M06",
+      "name": "闪刀姬－零衣",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M06"
+      ],
+      "index": 5
+    },
+    {
+      "id": "M11",
+      "name": "万宝槌",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M11"
+      ],
+      "index": 6
+    },
+    {
+      "id": "M14",
+      "name": "金黄色的竹光",
+      "accepted": true,
+      "index": 7,
+      "source": "RIGHT_LOG_EXACT_NO_CLICK",
+      "physicalClicksIssued": 0
+    },
+    {
+      "id": "M15",
+      "name": "无之炼狱",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M15"
+      ],
+      "index": 8
+    },
+    {
+      "id": "M16",
+      "name": "暂时休战",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M16"
+      ],
+      "index": 9
+    }
+  ],
+  "selected": {
+    "slot": 8,
+    "duplicateCount": 1,
+    "selected": {
+      "accepted": true,
+      "id": "M15",
+      "name": "无之炼狱",
+      "mad": 0,
+      "rmse": 0,
+      "margin": 0.1485291851368379,
+      "top3": [
+        {
+          "id": "M15",
+          "name": "无之炼狱",
+          "mad": 0,
+          "rmse": 0,
+          "dhash": 0
+        },
+        {
+          "id": "M13",
+          "name": "暗之诱惑",
+          "mad": 0.1485291851368379,
+          "rmse": 0.22331028111151638,
+          "dhash": 23
+        },
+        {
+          "id": "E09",
+          "name": "闪刀姬－卡梅莉娅",
+          "mad": 0.18439934046254244,
+          "rmse": 0.24600890357714622,
+          "dhash": 35
+        }
+      ]
+    },
+    "clickReference": {
+      "x": 1234,
+      "y": 1008
+    },
+    "positioning": {
+      "mode": "V5_DENSE_CURRENT_SLOT_TARGET",
+      "window": "RIGHT_EDGE",
+      "currentCenter": {
+        "x": 1234,
+        "y": 1008
+      },
+      "finalKnownWindow": "RIGHT_EDGE"
+    }
+  },
+  "actionProof": {
+    "activationButton": {
+      "reference": {
+        "x": 1251,
+        "y": 841
+      },
+      "width": 84,
+      "height": 46,
+      "fillRatio": 0.432712215320911,
+      "estimatedPixels": 1672,
+      "menuMode": "ACTIVATE_ONLY_CENTERED",
+      "expectedReference": {
+        "x": 1234,
+        "y": 848
+      },
+      "drift": 18.38477631085024,
+      "glyph": {
+        "iou": 0.9827586206896551,
+        "darkBackgroundRatio": 0.9927007299270073,
+        "offsetX": 0,
+        "offsetY": 0,
+        "pass": true,
+        "detector": "ACTIVATE_STAR_TRAY_STENCIL_V1"
+      }
+    },
+    "yellowPixels": 8008,
+    "probeAttempts": 1,
+    "detector": "HAND_EXPECTED_LOCAL_ACTIVATE_GLYPH_V3",
+    "selectionPolicy": "ONE_TARGET_CLICK_ONLY",
+    "responseBoundaryPriority": {
+      "state": "SELF_PRIORITY_BLUE",
+      "detector": "BOTTOM_BLUE_GLOW_DISTRIBUTED_V2",
+      "safeForRecognitionAndControl": true,
+      "votes": 4,
+      "requiredVotes": 3,
+      "medianBlueRatio": 0.07976757894736841,
+      "outerEdgeAgreement": true,
+      "glowBackedOuterEdgeAgreement": true,
+      "broadBlueAgreement": true,
+      "bottomGlow": {
+        "pass": true,
+        "passingColumns": 12,
+        "requiredPassingColumns": 6,
+        "leftEdgePassing": 3,
+        "rightEdgePassing": 3,
+        "requiredEdgeColumns": 2,
+        "minColumnRatio": 0.025,
+        "columnSamples": [
+          {
+            "index": 0,
+            "ratio": 0.1451086956521739,
+            "pass": true,
+            "roi": {
+              "x": 0,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 1,
+            "ratio": 0.12880434782608696,
+            "pass": true,
+            "roi": {
+              "x": 91,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 2,
+            "ratio": 0.38858695652173914,
+            "pass": true,
+            "roi": {
+              "x": 183,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 3,
+            "ratio": 0.18641304347826088,
+            "pass": true,
+            "roi": {
+              "x": 275,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 4,
+            "ratio": 0.3125,
+            "pass": true,
+            "roi": {
+              "x": 366,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 5,
+            "ratio": 0.16630434782608697,
+            "pass": true,
+            "roi": {
+              "x": 458,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 6,
+            "ratio": 0.14347826086956522,
+            "pass": true,
+            "roi": {
+              "x": 550,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 7,
+            "ratio": 0.10815217391304348,
+            "pass": true,
+            "roi": {
+              "x": 641,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 8,
+            "ratio": 0.23043478260869565,
+            "pass": true,
+            "roi": {
+              "x": 733,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 9,
+            "ratio": 0.13043478260869565,
+            "pass": true,
+            "roi": {
+              "x": 825,
+              "y": 170,
+              "width": 91,
+              "height": 80
+            }
+          },
+          {
+            "index": 10,
+            "ratio": 0.2847826086956522,
+            "pass": true,
+            "roi": {
+              "x": 916,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          },
+          {
+            "index": 11,
+            "ratio": 0.17880434782608695,
+            "pass": true,
+            "roi": {
+              "x": 1008,
+              "y": 170,
+              "width": 92,
+              "height": 80
+            }
+          }
+        ],
+        "roi": {
+          "x": 0,
+          "y": 170,
+          "width": 1100,
+          "height": 80,
+          "columns": 12
+        }
+      },
+      "samples": [
+        {
+          "id": "OWN_LEFT",
+          "ratio": 0.09013333333333333,
+          "pass": true,
+          "roi": {
+            "id": "OWN_LEFT",
+            "x": 0,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_LEFT",
+          "ratio": 0.073472,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_LEFT",
+            "x": 270,
+            "y": 0,
+            "width": 250,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_MID_RIGHT",
+          "ratio": 0.049837037037037034,
+          "pass": true,
+          "roi": {
+            "id": "OWN_MID_RIGHT",
+            "x": 640,
+            "y": 0,
+            "width": 270,
+            "height": 250
+          }
+        },
+        {
+          "id": "OWN_RIGHT",
+          "ratio": 0.08606315789473684,
+          "pass": true,
+          "roi": {
+            "id": "OWN_RIGHT",
+            "x": 910,
+            "y": 0,
+            "width": 190,
+            "height": 250
+          }
+        }
+      ],
+      "redOpponentPriority": "UNCALIBRATED_NO_MATERIAL",
+      "attempts": 2,
+      "stableFrames": 2,
+      "foregroundRecoveries": 0,
+      "elapsedMs": 204
+    }
+  },
+  "observerVerification": {
+    "logOperation": {
+      "activation": {
+        "type": "ACTIVATE",
+        "side": "SELF",
+        "card": {
+          "id": "M15",
+          "name": "无之炼狱",
+          "mad": 0.11354113535313284,
+          "rawMad": 0.08120731212297932,
+          "hsvDistance": 0.2694485269179461
+        },
+        "confidenceMargin": 0.23086963241376715,
+        "top3": [
+          {
+            "id": "M15",
+            "name": "无之炼狱",
+            "mad": 0.11354113535313284,
+            "rawMad": 0.08120731212297932,
+            "hsvDistance": 0.2694485269179461
+          },
+          {
+            "id": "E09",
+            "name": "闪刀姬－卡梅莉娅",
+            "mad": 0.3444107677669,
+            "rawMad": 0.1742445989542886,
+            "hsvDistance": 1.4180514067717618
+          },
+          {
+            "id": "M13",
+            "name": "暗之诱惑",
+            "mad": 0.38923900805505607,
+            "rawMad": 0.1482040496889156,
+            "hsvDistance": 2.0086246530511707
+          }
+        ],
+        "source": "SEMANTIC_LABEL",
+        "label": {
+          "x": 138,
+          "y": 630,
+          "mad": 0.016147635524798153
+        },
+        "box": {
+          "x": 1702,
+          "y": 787,
+          "width": 47,
+          "height": 67,
+          "area": null
+        }
+      },
+      "activationKey": "M15",
+      "details": [
+        {
+          "type": "PROCESSING_CARD",
+          "side": "SELF",
+          "card": {
+            "id": "M14",
+            "name": "金黄色的竹光",
+            "mad": 0.12320571074511824,
+            "rawMad": 0.09911453973894511,
+            "hsvDistance": 0.20075975838477605
+          },
+          "confidenceMargin": 0.40083502896774226,
+          "top3": [
+            {
+              "id": "M14",
+              "name": "金黄色的竹光",
+              "mad": 0.12320571074511824,
+              "rawMad": 0.09911453973894511,
+              "hsvDistance": 0.20075975838477605
+            },
+            {
+              "id": "M10",
+              "name": "卡通目录",
+              "mad": 0.5240407397128605,
+              "rawMad": 0.29358320818438877,
+              "hsvDistance": 1.9204794294039311
+            },
+            {
+              "id": "E10",
+              "name": "闪刀姬－零梦",
+              "mad": 0.5840752986442008,
+              "rawMad": 0.25933812575731485,
+              "hsvDistance": 2.706143107390717
+            }
+          ],
+          "visibility": "FACE_UP",
+          "sideEvidence": "FACE_UP_RECOGNIZED",
+          "actionEvidence": null,
+          "handGainIconMad": null,
+          "box": {
+            "x": 1745,
+            "y": 953,
+            "width": 47,
+            "height": 67,
+            "area": 709
+          },
+          "rawType": "HAND_GAIN",
+          "role": "HAND_GAIN_CANDIDATE"
+        }
+      ],
+      "startY": 787,
+      "endY": 1020,
+      "signature": "M15|PROCESSING_CARD:M14",
+      "relationship": {
+        "type": "INDEPENDENT_ACTIVATION_AFTER_HAND_GAIN",
+        "parentActivationKey": null,
+        "evidenceCard": {
+          "id": "M15",
+          "name": "无之炼狱",
+          "mad": 0.20391564104825116,
+          "rawMad": 0.16062255178950385,
+          "hsvDistance": 0.3607757438228942
+        }
+      }
+    },
+    "consumed": {
+      "id": "M15",
+      "name": "无之炼狱",
+      "rightLogCertain": true,
+      "candidateIds": [
+        "M15"
+      ],
+      "index": 8
+    },
+    "inserted": {
+      "slot": 8,
+      "card": {
+        "id": "M14",
+        "name": "金黄色的竹光"
+      }
+    },
+    "beforeCount": 9,
+    "afterCount": 9,
+    "finalHand": [
+      {
+        "index": 1,
+        "x": 732,
+        "y": 1022,
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "persistentExodia": true,
+        "candidateIds": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05"
+        ],
+        "accepted": true,
+        "confidence": 1,
+        "mad": 0,
+        "rmse": 0,
+        "dhash": 0,
+        "margin": 0.2432980096029782,
+        "usable": null,
+        "yellowPixels": null,
+        "yellowRatio": null,
+        "top3": [
+          {
+            "id": "M01",
+            "name": "被封印的右足",
+            "count": 1,
+            "mad": 0,
+            "rmse": 0,
+            "dhash": 0
+          },
+          {
+            "id": "E07",
+            "name": "闪刀姬－泽克",
+            "count": 1,
+            "mad": 0.2432980096029782,
+            "rmse": 0.30784869079048205,
+            "dhash": 30
+          },
+          {
+            "id": "M08",
+            "name": "闪术兵器－H.A.M.P.",
+            "count": 2,
+            "mad": 0.24906009868888224,
+            "rmse": 0.3138535837044201,
+            "dhash": 29
+          }
+        ],
+        "timingMs": {
+          "locateMs": 494.819,
+          "clickAndSettleMs": 311.43,
+          "recognizeMs": 14.956,
+          "usabilityMs": 0.192,
+          "resetMs": 171.684,
+          "totalMs": 993.609
+        }
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 2
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 3
+      },
+      {
+        "id": "EXODIA_UNKNOWN",
+        "name": "被封印组件（身份无需区分）",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "EXODIA_UNKNOWN"
+        ],
+        "index": 4
+      },
+      {
+        "id": "M06",
+        "name": "闪刀姬－零衣",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M06"
+        ],
+        "index": 5
+      },
+      {
+        "id": "M11",
+        "name": "万宝槌",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M11"
+        ],
+        "index": 6
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "accepted": true,
+        "index": 7,
+        "source": "RIGHT_LOG_EXACT_NO_CLICK",
+        "physicalClicksIssued": 0
+      },
+      {
+        "id": "M14",
+        "name": "金黄色的竹光",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M14"
+        ],
+        "index": 8
+      },
+      {
+        "id": "M16",
+        "name": "暂时休战",
+        "rightLogCertain": true,
+        "candidateIds": [
+          "M16"
+        ],
+        "index": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "reason": "Read-only audit helper initially assumed source manifest.files was an object, but actual shared inventory uses array rows. That check skipped JS and yielded vacuous sourceMismatches=[]. Completed-game manifest hash checks use objects and are unaffected.",
+  "correction": "Cached read-only helper now normalizes array/object schema, rejects missing JS and compares path/sha256 rows. No gameplay re-analysis of skipFutureAnalysis runs.",
+  "verifiedCurrentSource": {
+    "sourceId": "a624d3eed2b26d1f01607a474fd45ccfea5e24289fd107071512e3c23fa2e92b",
+    "checkedJs": 235,
+    "mismatches": []
+  },
+  "previousSharedSourceVerification": {
+    "sourceId": "27d09676e9bab0df9f3aea9b45ce4a007c90d447a7160bffadb89980c72b90e5",
+    "differenceToCurrent": ["engine/execution/core/duel-settlement.js"],
+    "changedFileMatchesPreFixBackup": true,
+    "scope": "Technical hash verification only; not replayed games or retroactively changed original evidence."
+  },
+  "pendingPublicArchiveGap": "New verified settlement feature JSON under templates is omitted by source inventory. Current active run has separately hashed asset-evidence copy; add declared runtime model JSON to inventory and regression after batch ends. No production modifications while active."
+}

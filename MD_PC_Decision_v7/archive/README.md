@@ -1,5 +1,9 @@
 # 开发资料唯一根目录
 
+2026-10-09 21:43最新用户停止并只要求全部结果：automation v7已PAUSED，公共--stop发送，无活动runner/engine/PID/锁，不开新局、不执行新验证/代码修复。第六批21:41自然完成，恢复19:22后六批18完成局=8胜10普通投降0执行异常/中断，全部回Starter，已验535奖励另2局UNKNOWN。全结果V7_RESUMED_LOOP_RESULTS_AND_STOP_2026-10-09.md，第六批341manifest/29最终决策/27回执/532输入对齐已审阅并记review-index跳过。奖励字形2能力已离线19专项/完整264JS通过，新版本77现场成功但含2字形新现场未遇，3仍未知；模型JSON归档清单遗漏只留证未实现，本次停止覆盖先前批末修改计划，未经新授权不得改/测试。下文ACTIVE/续批是历史。
+
+2026-10-09 19:22 最新人工续测授权：用户明确“你开始自己测试，自己找问题修复的循环吧，我已经给你调配好了”，恢复每批最多3局的自主审计修复闭环，覆盖此前PAUSED/仅手动限制。automation v7已ACTIVE；固定Node20.11.1完整主离线263JS/18末段专项/47最终策略复验PASS。首次直接激活masterduel HWND199696/PID18124，2048×1152全可见、人机Starter标题/按钮均1.0，游戏输入0；无活动runner/锁。交闪单目标来源和末段抽牌组合仍待本轮实测，不沿用17:18旧三胜。详见archive/development/docs/V7_RESUME_ENDGAME_2026-10-09.md；运行期间只观察、不并发、不改已加载源码；每批审计后安全续批，已审阅历史默认跳过，用户停止及安全中断仍需新人工授权。下文PAUSED/仅手动为历史。
+
 2026-10-09 18:18 最新代码修复：用户要求改两条strategy，已在共同来源政策区分牌组仅1个合法交闪目标优先DECK，并把目标窗口旧固定GRAVE覆写改成已发布来源绑定；唯一最终仲裁新增当前普通抽牌段有界组合，4张1+2+2选2、1+1+2保留正常顺序，费用/装备/数量共用事实，不预支随机新牌、不跨固定资源屏障。18专项含实际最终入口/真实T0030/实际source caller、47原决策及完整非legacy263JS通过，未知能力保留排序不判死局。详见archive/development/docs/V7_ENDGAME_DRAW_SOURCE_2026-10-09.md；本次无GUI输入或新实战，FIXED_OFFLINE_VERIFIED_LIVE_PENDING。识别、扫描速度、物理点击与V6未改。17:18批review-index保持跳过，finding-resolution记录修复；automation仍PAUSED，仅用户手动测。
 
 2026-10-09 17:13 最新修复：用户要求改胜后ACTIVE残留，已在公共duel-loop/journal/transaction-engine统一补齐严格当前终局证明→封闭普通动作→ABANDONED归档，保留普通手牌/账本，不伪造单卡PASS；归档失败可重试且无重放。18专项、13真实接入、47决策及完整非legacy复验262JS通过，原历史故障证据不篡改。详见archive/development/docs/V7_TERMINAL_TRANSACTION_CLOSE_2026-10-09.md及16:22批finding-resolution.json；状态FIXED_OFFLINE_VERIFIED_LIVE_PENDING，没有新实战。刀支线/成熟识别/点击/V6未动。review-index仍默认跳过已审阅局；自动跟进PAUSED，用户手动测。下文OPEN仅诊断状态为修复前历史。
